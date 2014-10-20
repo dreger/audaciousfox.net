@@ -20,7 +20,7 @@ This document serves as the living styleguide for [audaciousfox.com](http://auda
 
 Basic rule: italicize major publications.
 
-"Major" publications:
+### "Major" publications:
 
 - _Daring Fireball_
 - [_FiveThirtyEight_](http://fivethirtyeight.com)
@@ -29,7 +29,7 @@ Basic rule: italicize major publications.
 - _The Verge_
 - _Time_
 
-"Minor" publications:
+### "Minor" publications:
 
 - Pixel Envy
 - The Newsprint

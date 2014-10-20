@@ -5,15 +5,15 @@
 
 $color: #f38b31;
 $color-copy: #222;
-$color-faded: #ccc;
+$color-faded: #d7d7d7;
 
-$sans: Verdana, "Avenir Next", Arial;
+$sans: 'Whitney SSm A', 'Whitney SSm B', "Avenir Next", Verdana;
 
-html { font-size: 15px; }
+html { font-size: 16px; }
 
 body {
   font-family: $sans;
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 h1,
@@ -31,15 +31,7 @@ h5 {
   }
 }
 
-.title {
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
-  margin-top: 0;
-  color: $color-copy;
-  &:hover { color: darken($color-copy, 20%); }
-  &:active { color: lighten($color-copy, 20%); }
-}
+
 h1 {
   font-size: 1.5rem;
   line-height: 1.1em;
@@ -49,9 +41,10 @@ h2 {
   font-style: italic;
 }
 h3 {
-  font-size: 1rem;
+  font-size: .9rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: 700;
   margin: 1.5rem 0 .5rem;
   + p { margin-top: 0; }
 }
@@ -63,40 +56,34 @@ h3 {
 
 .content {
   margin: 5rem auto;
-  width: 55rem;
+  max-width: 40rem;
   padding: 1rem;
-  // border: solid 1px blue;
   overflow: auto;
 }
 
-.words {
-  width: 40rem;
-  float: left;
-  padding-right: 3rem;
+.header {
+  margin: 0 0 7rem;
+  border-bottom: 1px solid $color-faded;
+  padding: .5rem 0;
 }
-
-.links {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+.title {
+  text-transform: uppercase;
+  display: inline;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1rem;
+  color: $color-copy;
+  &:hover { color: darken($color-copy, 20%); }
+  &:active { color: lighten($color-copy, 20%); }
+}
+.nav {
+  float: right;
+  margin: 0;
+  padding: 0;
   li {
-    list-style: none;
+    display: inline;
+    margin-left: 1rem;
   }
-  width: 12rem;
-  float: left;
-  // font-size: 13px;
-  line-height: 1.4em;
-   -ms-word-break: break-all;
-     word-break: break-all;
-
-     /* Non standard for webkit */
-     word-break: break-word;
-
--webkit-hyphens: auto;
-   -moz-hyphens: auto;
-    -ms-hyphens: auto;
-        hyphens: auto;
 }
 
 .footer {
@@ -128,22 +115,22 @@ hr {
   height: 1px;
   background-color: $color-faded;
   border: none;
-  width: 50%;
+  width: 80%;
 }
 .article-break {
-  // width: 140%;
   background-color: #fff;
   margin: 3rem 0;
-  // margin-left: -20%;
   height: 2px;
 }
 
 
-@media screen and (max-device-width: 480px) {
-  body {
-    font-size: 22px;
+@media screen and (max-width: 600px) {
+  .content {
+    margin: 0;
+    padding: 0 1rem;
   }
-  h1 { font-size: 1.6em; }
-  h2 { font-size: 1.3em; }
-  h3 { font-size: 1em; }
+  .header {
+    margin: 0 0 3rem;
+    padding: .75rem 0;
+  }
 }
