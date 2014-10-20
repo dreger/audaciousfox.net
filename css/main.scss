@@ -1,0 +1,149 @@
+---
+---
+@charset "utf-8";
+@import 'normalize';
+
+$color: #f38b31;
+$color-copy: #222;
+$color-faded: #ccc;
+
+$sans: Verdana, "Avenir Next", Arial;
+
+html { font-size: 15px; }
+
+body {
+  font-family: $sans;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  font-family: $sans;
+  line-height: 1.1em;
+  a {
+    border: none;
+    color: $color-copy;
+    &:hover { color: lighten($color-copy, 40%); }
+  }
+}
+
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 0;
+  color: $color-copy;
+  &:hover { color: darken($color-copy, 20%); }
+  &:active { color: lighten($color-copy, 20%); }
+}
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.1em;
+}
+h2 {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+h3 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 1.5rem 0 .5rem;
+  + p { margin-top: 0; }
+}
+
+.post-meta {
+  color: $color-faded;
+  font-weight: bold;
+}
+
+.content {
+  margin: 5rem auto;
+  width: 55rem;
+  padding: 1rem;
+  // border: solid 1px blue;
+  overflow: auto;
+}
+
+.words {
+  width: 40rem;
+  float: left;
+  padding-right: 3rem;
+}
+
+.links {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  width: 12rem;
+  float: left;
+  // font-size: 13px;
+  line-height: 1.4em;
+   -ms-word-break: break-all;
+     word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-family: $sans;
+}
+
+a {
+  color: $color;
+  text-decoration: none;
+  border-bottom: dotted 1px $color;
+  &:hover {
+    color: $color-copy;
+  }
+  &:active { color: $color; }
+}
+
+li {
+  list-style: square;
+  margin: .5rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  height: 1px;
+  background-color: $color-faded;
+  border: none;
+  width: 50%;
+}
+.article-break {
+  // width: 140%;
+  background-color: #fff;
+  margin: 3rem 0;
+  // margin-left: -20%;
+  height: 2px;
+}
+
+
+@media screen and (max-device-width: 480px) {
+  body {
+    font-size: 22px;
+  }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.3em; }
+  h3 { font-size: 1em; }
+}

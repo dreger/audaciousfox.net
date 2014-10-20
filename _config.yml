@@ -1,0 +1,19 @@
+# Site settings
+title: Audacious Fox
+email: "comments@dreger.me"
+description: "Words"
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: dreger
+github_username:  kyledreger
+permalink: /:short_year/:month/:title.html
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
