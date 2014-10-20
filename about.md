@@ -9,6 +9,6 @@ Audacious Fox is a web column, written and produced by Kyle Dreger.
 
 Please send all correspondence to:
 
-<comments@audaciousfox.com>
+<comments@dreger.me>
 
 You can also [follow Kyle on Twitter here](http://twitter.com/dreger).
