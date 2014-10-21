@@ -1,10 +1,8 @@
 # Site settings
 title: Audacious Fox
 email: "comments@dreger.me"
-description: "Words"
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: dreger
-github_username:  kyledreger
+description: "Writing the web column I want to read."
+url: "http://audaciousfox.com" # the base hostname & protocol for your site
 permalink: /:short_year/:month/:title.html
 
 # Build settings

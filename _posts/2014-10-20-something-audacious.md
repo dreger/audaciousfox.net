@@ -1,16 +1,27 @@
 ---
 title: Something Audacious
 date: 2014-10-20 12:51
-published: false
 ---
-For the longest time, I've wanted to break away from my site at kyledreger.com. This isn't because I don't like the site, I very much do. However, over time, I have felt that in order to grow the brand, I needed to break away from it being tied to my name. Now, there isn't anything wrog with using an eponomous named blog or website, certainly others have done so. But, for me, I feel akward whever I try to market the site, under my name. "Oh, you should go subscribe to kyledreger.com" **just doesn't** feel classy to me.
+For a while now, I have been wanting to stop writing at [kyledreger.com](http://kyledreger.com). 
 
-So I wanted to do something different. Something bold. Something that I would admit is adventurous. Something _audacious_. And why a fox? Because foxes are clever. Plus, the two together just sound cool.
+Why? For the most readers, they come to my site, read my words, and (most of the time) closed the tab happy. But for me, there was a growing issue. 
 
-Now, meta-blogging is incredibly dull, so I'm not going to do that. However, I do want to lay out the expectations I have for this web column:
+It's awkward as hell to promote an eponymously [take out named]-named website. 
 
-1. It will feature things that interest me, mostly at the intersection of art and technology.
-2. I have a deep interest in the growing field of electric vehicles.
-3. There will be memberships available, which you can use to support my writing.
+This website is something that I want to turn into a real thing. I love writing, and I think I do it pretty well. I'm not a seasoned journalist or essayist, but with practice[,] I believe I could be, and I know that it won't happen for me if everything I create online falls under the banner of my own name.
 
-Simple enough for me.
+And saying things like, "oh, you should go read kyle dreger dot com, I write things like the liberal arts and tech," was beginning to feel...just awkward. 
+
+I don't mind my name in the byline, I quite like it there. However, I want this brand to grow beyond Kyle Dreger. I want to be the only author of my site, and I want to write until the day I die, but, I don't want the site to _be_ me.
+
+They say that the [two hardest things in Computer Science](http://martinfowler.com/bliki/TwoHardThings.html) are cache invalidation and naming things. The latter I know to be true. Picking a name for this site was incredibly difficult; I have a history of terrible name picking. And, with something like this, I wanted to find the perfect fit. 
+
+I wanted it to be something different. Something bold. Something adventurous. Something _audacious_. And why a fox? Because foxes are clever, and the juxtaposition of "fox" and "audacious" just looks cool. 
+
+Because this meta-blogging may seem dull, let's close out with a few final points: 
+
+1. This is the web column I want to read. It will feature articles and musings at the intersection of art and technology. 
+2. I want this site to be profitable, which won't take too much. However, goals are good, and I want to make enough to support the site's costs for a year _within_ a year. I'll do this in a way that I'll tell you about later.
+3. I love reader feedback, and I strongly encourage you to send me any of your thoughts (or counter arguments) with the [email on this page](/about). 
+
+Simple and audacious. Thanks for reading. 
