@@ -6,9 +6,9 @@ For a while now, I have been wanting to stop writing at [kyledreger.com](http://
 
 Why? For the most readers, they come to my site, read my words, and (most of the time) closed the tab happy. But for me, there was a growing issue. 
 
-It's awkward as hell to promote an eponymously [take out named]-named website. 
+It's awkward as hell to promote an eponymous website. 
 
-This website is something that I want to turn into a real thing. I love writing, and I think I do it pretty well. I'm not a seasoned journalist or essayist, but with practice[,] I believe I could be, and I know that it won't happen for me if everything I create online falls under the banner of my own name.
+This website is something that I want to turn into a real thing. I love writing, and I think I do it pretty well. I'm not a seasoned journalist or essayist, but with practice, I believe I could be, and I know that it won't happen for me if everything I create online falls under the banner of my own name.
 
 And saying things like, "oh, you should go read kyle dreger dot com, I write things like the liberal arts and tech," was beginning to feel...just awkward. 
 
