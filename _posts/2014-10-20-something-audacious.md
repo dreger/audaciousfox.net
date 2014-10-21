@@ -2,9 +2,9 @@
 title: Something Audacious
 date: 2014-10-20 12:51
 ---
-For a while now, I have been wanting to stop writing at [kyledreger.com](http://kyledreger.com). 
+For a while now, I have wanted to stop writing at [kyledreger.com](http://kyledreger.com). 
 
-Why? For the most readers, they come to my site, read my words, and (most of the time) closed the tab happy. But for me, there was a growing issue. 
+Why? For most readers, they've come to my site, read my words, and (probably) closed the tab happy. But for me, there was a growing issue. 
 
 It's awkward as hell to promote an eponymous website. 
 
