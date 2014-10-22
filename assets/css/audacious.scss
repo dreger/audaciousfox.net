@@ -9,11 +9,13 @@ $color-faded: #d7d7d7;
 
 $sans: 'Whitney SSm A', 'Whitney SSm B', "Avenir Next", Verdana;
 
+$line-height: 1.7em;
+
 html { font-size: 16px; }
 
 body {
   font-family: $sans;
-  line-height: 1.7em;
+  line-height: $line-height;
 }
 
 h1,
@@ -39,13 +41,14 @@ h1 {
 h2 {
   font-size: 1.3rem;
   font-style: italic;
+  margin: 2rem 0 1rem;
 }
 h3 {
-  font-size: .9rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-weight: 700;
-  margin: 1.5rem 0 .5rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
   + p { margin-top: 0; }
 }
 
@@ -110,6 +113,14 @@ ul li {
 img {
   max-width: 100%;
   height: auto;
+}
+
+blockquote {
+  border-left: 1px solid $color-faded;
+  margin-left: 1rem;
+  font-size: .9rem;
+  padding-left: 1rem;
+  line-height: $line-height;
 }
 
 hr {
