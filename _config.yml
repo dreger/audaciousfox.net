@@ -8,6 +8,9 @@ permalink: /:short_year/:month/:title.html
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-sitemap
+
 defaults:
   -
     scope:

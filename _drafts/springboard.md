@@ -4,17 +4,21 @@ date: 2014-10-21 19:30
 ---
 I like the iPhone 6. I like that it's big. I like iOS. But I don't like Reachability, Apple's mechanism that allows you to double-tap the home button and slide the entire interface down.  I think Reachability fails in an area where Apple is particularly skilled: using software design to make hardware tradeoffs feel less so. 
 
+Design is about tradeoffs. Better camera? The iPhone has to be a certain thickness to allow for a bigger image sensor. Bigger screen? Users' thumbs won't magically grow to meet the new display size. Better battery? More thickness and size. Tradeoffs. However, tradeoffs are typically worth it, and, eventually, users' will stop complaining that [the camera lens protrudes from the back of their new iPhone 6](https://brooksreview.net/2014/09/the-bump/). 
+
+iOS 7 saw Apple implement their own flavor of multitasking. From the (now defunct) iOS 7 developer portal: 
+
+> Keep the content of your app up-to-date by adopting the new multitasking APIs in iOS 7. The new services allow your app to update information and download content in the background without draining the battery unnecessarily. The updates can happen at opportunistic times and are intelligently scheduled according to usage, so your app can update content in the background just when your users need it.
+
+Apple knew that constantly running background applications would devour your battery, so they waited until the software design could mitigate the limitations of the iPhone hardware. 
+
+Reachability is different. 
+
 Here Android wins out. It may not seem aparent when we were all using smaller phones, but now that thumb reachability has become an issue worth considering, things are different. Android mitigates this in two ways: letting users put homescreen icons wherever they want and the persistant back button on the bottom of the screen. I don't have 
 
 Apple even has a section of its iPhone 6 webpage, titled "Everything within reach," that is dedicated to [Reachability](https://www.apple.com/iphone-6/design/)
 
 > With new features like Reachability you can interact with the larger screen in different ways, too. Simply double touch the Home button and the entire screen shifts down closer to your thumb. [...] With the new continuous surface of iPhone, all your gestures now feel smoother than ever.
-
-Let's put aside that I think a soft double tap on the home button should launch the multi-tasking window. 
-
-Hardware design is all about tradeoffs. Better camera? The iPhone has to be a certain thickness to allow for a bigger image sensor. Bigger screen? Users' thumbs won't magically grow to meet the new display size. Better battery? More thickness and size. Tradeoffs. However, tradeoffs are typically worth it, and, eventually, users' will stop complaining that [the camera lens protrudes from the back of their new iPhone 6](https://brooksreview.net/2014/09/the-bump/). 
-
-Reachability is different. But to understand reachability, you have to understand the mechanism behind your home screen: the Springboard. 
 
 Back in October 2012, when Apple released their "big" iPhone 5, Dustin Curtis [wrote about the new size](http://dcurt.is/4-inches): 
 
