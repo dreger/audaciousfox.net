@@ -2,50 +2,52 @@
 title: Designing from the Bottom Up
 date: 2014-10-21 19:30
 ---
-I like the iPhone 6. I like that it's big. I like iOS. But I don't like Reachability, Apple's mechanism that allows you to double-tap the home button and slide the entire interface down.  I think Reachability fails in an area where Apple is particularly skilled: using software design to make hardware tradeoffs feel less so. 
+I want to sidestep the praise that the bigger iPhones and iOS 8 are getting to focus on Reachability (Apple's mechanism that allows you to double-tap the home button and slide the entire interface down) and the iOS home screen. I think that both of these interfaces fail in an area where Apple is particularly skilled: using design to make software and hardware tradeoffs feel less so.
 
-Design is about tradeoffs. Better camera? The iPhone has to be a certain thickness to allow for a bigger image sensor. Bigger screen? Users' thumbs won't magically grow to meet the new display size. Better battery? More thickness and size. Tradeoffs. However, tradeoffs are typically worth it, and, eventually, users' will stop complaining that [the camera lens protrudes from the back of their new iPhone 6](https://brooksreview.net/2014/09/the-bump/). 
+Design is about tradeoffs. Better camera? The iPhone has to be thick enough to allow for a larger image sensor. Faster OS? A more powerful processor, which consumes more battery. Bigger, better screen? Users' thumbs won't magically grow to meet the new display size. Tradeoffs.
 
-iOS 7 saw Apple implement their own flavor of multitasking. From the (now defunct) iOS 7 developer portal: 
+Take background multitasking, for example. Although true background multitasking didn't come until iOS 7, Apple implemented the service in a way that didn't completely devour your battery. Even though it took longer, Apple waited until the software could mitigate the limitations of the hardware.
 
-> Keep the content of your app up-to-date by adopting the new multitasking APIs in iOS 7. The new services allow your app to update information and download content in the background without draining the battery unnecessarily. The updates can happen at opportunistic times and are intelligently scheduled according to usage, so your app can update content in the background just when your users need it.
+The home screen and Reachability are different.
 
-Apple knew that constantly running background applications would devour your battery, so they waited until the software design could mitigate the limitations of the iPhone hardware. 
+Think about the iOS home screen. Since its inception, and aside from small cosmetic tweaks, the iOS Springboard has remained largely unchanged: apps arrange themselves in a top-left-to-bottom-right configuration. But should they still? 
 
-Reachability is different. 
-
-Here Android wins out. It may not seem aparent when we were all using smaller phones, but now that thumb reachability has become an issue worth considering, things are different. Android mitigates this in two ways: letting users put homescreen icons wherever they want and the persistant back button on the bottom of the screen. I don't have 
-
-Apple even has a section of its iPhone 6 webpage, titled "Everything within reach," that is dedicated to [Reachability](https://www.apple.com/iphone-6/design/)
-
-> With new features like Reachability you can interact with the larger screen in different ways, too. Simply double touch the Home button and the entire screen shifts down closer to your thumb. [...] With the new continuous surface of iPhone, all your gestures now feel smoother than ever.
-
-Back in October 2012, when Apple released their "big" iPhone 5, Dustin Curtis [wrote about the new size](http://dcurt.is/4-inches): 
-
-> After using the iPhone 5 for more than a week, I stand by my original thoughts: four inches is too big for my thumb to comfortably reach to all areas of the screen while holding the phone one-handed. In my left hand, it’s just a little bit too uncomfortable to reach the far upper right corner of the screen, especially in situations where I need to touch the “cancel” or “add new item” button. 
-
-Tradeoff. However, the iPhone 5 _felt_ lighter and easier to hold than the iPhone 4s due to the reduction in thickness and weight (4.9 ounces, .37 inches thick to 3.95 ounces, .3 inches thick). 
-
-First David Smith [wrote about it](http://david-smith.org): 
+For most users, apps in the top two rows now take three taps to open; two for Reachability, one for the app itself. Users are noticing. David Smith wrote about how he [gets around the extra space](http://david-smith.org/blog/2014/10/15/blank-icon-slots/):
 
 > Since getting my iPhone 6 a few weeks ago I’ve been continuously trying to optimize the configuration of my home screen. The larger screen means that I now have an extra row of icons to fit onto the screen, but the physical size of device means that I can’t actually comfortably reach them.
 
 > Since you can’t arbitrarily place icons on your home screen this means the situation is actually worse. I now have to fill in the top row of icons with ‘stuff’ just so that I can easily reach my main icons without stretching.
 
-Then Ben Brooks [commented](https://brooksreview.net/2014/10/invisible-ios-home-screen-icons/): 
+Smith's 'stuff' is really just Safari bookmarks, cleverly given a black icon and no title. So long as you have a completely black background, it appears like your apps have been moved down a row. Interesting, but it's a hacky thing to do, and you can bet most typical users won't go to the same lengths. 
 
-> Pretty clever move. I reserve my top row on the iPhone 6 for things that I rarely use. Smith has a clever solution too, but it looks too off-putting to me.
+However, what if iOS, instead of forcing the top-down layout, allowed you to arrange your icons anywhere, but restricted to an invisible grid:
 
-Brooks is right. Although Mr. Smith's approach is interesting, what's the point of having a big screen, if you have to use #000 as the wallpaper? 
+![iphone apps](http://cl.ly/image/0A0q1I0h3715/iphone-6.png)
+{: .small-image}
 
-This is an area that I think Android does well. Look at and Android 5.0 home screen: 
+_Would this be so bad? ([iOS 8 UI kit](https://github.com/rafaelconde/ios8-ui-kit))_
+{: .caption}
+
+That image may seem weird at first &mdash; or you, like my wife, might not even notice the icons are bottom-aligned &mdash; but it makes a lot of sense with the bigger screens. Android has been doing this for years, and it was one of my favorite things about their OS: 
 
 ![lolipop](http://cdn2.vox-cdn.com/entry_photo_images/12887594/DSCF9613_verge_super_wide.jpg)
 
-Apple's pin-it-to-the-top mentality makes it difficult, especially with the bigger screens. 
+_Android 5.0 "Lolipop." Image credit: [The Verge](http://www.theverge.com/2014/10/21/7025853/google-nexus-6-hands-on-photos-video-android-phablet)._
+{: .caption}
 
-Android lets you icons be placed anywhere, allowing you to stack them at the bottom. And, if we're talking about one handed use, isn't h
+### Tradeoffs 
 
-Is reachability a better implementation? I don't think so. This would change one of the most fundamental things about the Springboard, but I think it makes it better. 
+Back in October 2012, when Apple released their first "big" iPhone (the iPhone 5), Dustin Curtis [wrote about his experience with the bigger size](http://dcurt.is/4-inches):
 
-The other option is even simpler: don't get a big iPhone, if you don't want to have to reach. 
+> After using the iPhone 5 for more than a week, I stand by my original thoughts: four inches is too big for my thumb to comfortably reach to all areas of the screen while holding the phone one-handed. In my left hand, it’s just a little bit too uncomfortable to reach the far upper right corner of the screen, especially in situations where I need to touch the “cancel” or “add new item” button.
+
+The iPhone 5 was big, but it was also lighter and felt easier to hold, due to the reduction in thickness (4.9 to 3.95 ounces) and weight (.37 to .3 inches), from the iPhone 4s. 
+
+The iPhones 6 are just big. And despite (remarkably) being thinner and lighter than the iPhone 5s, these new 4.7' and 5.5' screens can't be mitigated with reductions in weight and thickness. 
+
+_Note: It's worth pointing out that pushing quality software year after year is hard. Episode 97 of "The Talk Show" with John Gruber and guest Guy English talked about this very thing, and I found it really informative. You can [jump right into that point in the conversation here](https://overcast.fm/podcasts/episode/120650842508113#t=2040)._
+
+Usually, Apple is able to use design to make their tradeoffs feel less so, but I don't think Reachability is a .... not sold that the iOS home screen on an iPhone 6 is worse for the users than the same on an iPhone 5s. 
+
+
+

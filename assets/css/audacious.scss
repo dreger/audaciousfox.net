@@ -4,8 +4,14 @@
 @import 'normalize';
 
 $color: #f38b31;
+$color-copy: #eee;
+$color-faded: #777;
+$color-bg: #3A3F43;
+
+$color: #f38b31;
 $color-copy: #222;
 $color-faded: #d7d7d7;
+$color-bg: #fff;
 
 $sans: 'Whitney SSm A', 'Whitney SSm B', "Avenir Next", Verdana;
 
@@ -15,6 +21,8 @@ html { font-size: 16px; }
 
 body {
   font-family: $sans;
+  color: $color-copy;
+  background-color: $color-bg;
   line-height: $line-height;
 }
 
@@ -61,7 +69,6 @@ h3 {
   margin: 0 auto 5rem;
   max-width: 40rem;
   padding: 1rem;
-  overflow: auto;
 }
 
 .header {
@@ -130,11 +137,22 @@ hr {
   width: 80%;
 }
 .article-break {
-  background-color: #fff;
+  background-color: $color-bg;
   margin: 3rem 0;
   height: 2px;
 }
 
+.small-image {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.caption {
+  font-size: .9rem;
+  margin-top: 0;
+  text-align: center;
+}
 
 @media screen and (max-width: 600px) {
   .content {
