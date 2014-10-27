@@ -3,13 +3,14 @@ title: Audacious Fox
 email: "comments@dreger.me"
 description: "Writing the web column I want to read."
 url: "http://audaciousfox.com" # the base hostname & protocol for your site
-permalink: /archives/:short_year:month:day-:title.html
+permalink: /:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
 
 gems:
   - jekyll-sitemap
+  # - jekyll-archives
 
 defaults:
   -
@@ -18,3 +19,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+jekyll-archives:
+  enabled: [year, month, day]
+  layout: 'default' #'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
