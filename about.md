@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About
 
-Audacious Fox is a web column, written and produced by Kyle Dreger.
+Audacious Fox is a web column, written daily by Kyle Dreger.
 
 Please send all correspondence to:
 
