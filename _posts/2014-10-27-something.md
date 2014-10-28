@@ -2,7 +2,7 @@
 title: Today Was One of the Last Beautiful Fall Days
 date: 2014-10-27 19:35
 ---
-_Editor's note: More links than yesterday. Still debating about whether the actual links should be numbers (ala Tab Dump) or text, as seen in this post._
+_Editor's note: More links than yesterday. Still debating about whether the actual links should be numbers (a la Tab Dump) or text, as seen in this post._
 
 [Don't buy drugs that way](http://bits.blogs.nytimes.com/2014/10/27/daily-report-cvs-and-rite-aid-disable-apple-pay/) &mdash; CVS and Rite Aid: we're partnering with a new mobile payment solution, so we've disabled Apple Pay from our stores nationwide.
 
