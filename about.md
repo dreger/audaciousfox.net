@@ -7,7 +7,7 @@ permalink: /about/
 
 Written daily by Kyle Dreger.
 
-Please send correspondence to [@kyledreger](http://twitter.com/kyledreger) or:
+Correspondence: [@kyledreger](http://twitter.com/kyledreger) or:
 
 <comments@dreger.me>
 
