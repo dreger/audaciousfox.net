@@ -24,4 +24,4 @@ _Editor's note: More links than yesterday. Still debating about whether the actu
 
 [Another nail in the flash drive's coffin](https://blog.onedrive.com/office-365-onedrive-unlimited-storage/) — Microsoft: If you're subscribed to Office 365 ($6.99/mo), get ready for unlimited OneDrive storage. There's a digital waiting list, but this could be a good deal for students who are already on their university's subscription.  
 
-[5G](http://recode.net/2014/10/27/the-race-to-5g-is-on/) &mdash; Re/Code: Plans for 5G cellular service are already underway. What's I find remarkable is twofold: 1.) within a half decade, 10 gigabits per second _cellular_ data will be here; and 2.) we're already referring to the current spectrum as "traditional 4G frequencies."
+[5G](http://recode.net/2014/10/27/the-race-to-5g-is-on/) &mdash; Re/Code: Plans for 5G cellular service are already underway. What I find remarkable is twofold: 1.) within a half decade, 10 gigabits per second _cellular_ data will be here; and 2.) we're already referring to the current spectrum as "traditional 4G frequencies."
