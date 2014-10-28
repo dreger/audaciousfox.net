@@ -13,4 +13,4 @@ Please send all correspondence to:
 
 You can also [follow KD on Twitter here](http://twitter.com/kyledreger).
 
-Check out the [AF Manual of Style](/styleguide). Type is set in [H&Co's](http://typography.com) Whitney.
+Check out the [AF Manual of Style](/style-guide). Type is set in [H&Co's](http://typography.com) Whitney.
