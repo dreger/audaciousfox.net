@@ -5,12 +5,12 @@ permalink: /about/
 ---
 # About
 
-Audacious Fox is a web column, written daily by Kyle Dreger.
+Written daily by Kyle Dreger.
 
-Please send all correspondence to:
+Please send correspondence to [@kyledreger](http://twitter.com/kyledreger) or:
 
 <comments@dreger.me>
 
-You can also [follow KD on Twitter here](http://twitter.com/kyledreger).
+Read the [AF Manual of Style](/style-guide).
 
-Check out the [AF Manual of Style](/style-guide). Type is set in [H&Co's](http://typography.com) Whitney.
+Type is set in Avenir Next.

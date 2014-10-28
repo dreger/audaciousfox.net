@@ -1,5 +1,5 @@
 ---
-title: Today Was One of the Last Beautiful Fall Days
+title: Today Was A Beautiful Fall Day
 date: 2014-10-27 19:35
 ---
 _Editor's note: More links than yesterday. Still debating about whether the actual links should be numbers (ala Tab Dump) or text, as seen in this post._
@@ -14,7 +14,7 @@ _Editor's note: More links than yesterday. Still debating about whether the actu
 
 [Education is a fundamental human right](http://www.apple.com/education/connectED/) &mdash; Apple: We're partnering with ConnectED to give technology grants to 114 schools in 29 states. "A lack of equal access to technology and knowledge puts entire communities and populations of students at a disadvantage, especially minorities. [...] We want to do our part to change this." Nice.
 
-[Delicious kerning](http://discover.typography.com/theme/whats-cooking/font/Surveyor/) &mdash; H&amp;Co: Want to see restaurant menus that don't look like 💩?  
+[Delicious kerning](http://discover.typography.com/theme/whats-cooking/font/Surveyor/) &mdash; H&amp;Co: Want to see restaurant menus that don't look terrible?  
 
 [OS X details](http://www.subtraction.com/2014/10/21/thoughts-on-yosemites-look-and-feel/) &mdash; Khoi Vinh: OS X Yosemite lacks polish, but it opens up the door for a truly robust UI in the coming years. Changing the system font to Helvetica is skating to where the puck is going to be (Retina), but the Swiss font family doesn't work great on non-Retina screens.
 
