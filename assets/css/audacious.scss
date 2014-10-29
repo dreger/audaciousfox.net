@@ -15,11 +15,12 @@ $color-faded: #d7d7d7;
 $color-hover: #eee;
 $color-bg: #fff;
 
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
 $sans: "Avenir Next", "Helvetica Neue", Verdana;
 
 $line-height: 1.4em;
 
-html { font-size: 14px; }
+html { font-size: 13px; }
 
 body {
   font-family: $sans;
@@ -46,7 +47,7 @@ h5 {
 h1 {
   font-size: 1.3rem;
   line-height: 1.2em;
-  font-weight: 500;
+  font-weight: 600;
 }
 h2 {
   font-size: 1.15rem;
@@ -71,8 +72,19 @@ h3 {
 
 .content {
   margin: 0 auto 5rem;
-  max-width: 25rem;
+  max-width: 30rem;
   padding: 1rem;
+}
+
+.sponsor {
+  margin-bottom: 3rem;
+  font-style: italic;
+  line-height: 1.4em;
+  background-color: #fff5d8;
+  border-radius: 5px;
+  padding: .5rem;
+  font-size: .9rem;
+  display: none;
 }
 
 .header {
@@ -107,7 +119,7 @@ h3 {
 a {
   color: $color;
   text-decoration: none;
-  // border-bottom: dotted 1px $color;
+  border-bottom: dotted 1px $color;
   &:hover {
     // text-decoration: underline;
     background-color: $color-hover;
@@ -164,10 +176,11 @@ hr {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .content {
     margin: 0;
     padding: 0 1rem;
+    max-width: 100%;
   }
   .header {
     margin: 0 0 1.5rem;
