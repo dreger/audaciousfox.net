@@ -3,20 +3,20 @@
 @charset "utf-8";
 @import 'normalize';
 
-$color: #f38b31;
 $color-copy: #eee;
-$color-faded: #777;
-$color-bg: #3A3F43;
-$color: #f38b31;
+$color-faded: #555;
+$color-bg: #2a2e31;
+$color-hover: #444;
+$color: #42ab83;
 
-$color: #3384cc;
+$color: #42ab83;
 $color-copy: #222;
-$color-faded: #d7d7d7;
+$color-faded: #ccc;
 $color-hover: #eee;
-$color-bg: #fff;
+$color-bg: #fafafa;
 
-// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
-$sans: "Avenir Next", "Helvetica Neue", Verdana;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
+$sans: "Open Sans", "Avenir Next", "Helvetica Neue", Verdana;
 
 $line-height: 1.4em;
 
