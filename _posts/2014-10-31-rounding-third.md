@@ -2,7 +2,7 @@
 title: I Lived on a Hilly Street, so We Trick-or-Treated at a Friend's Neighborhood
 date: 2014-10-31 22:41
 ---
-_Editor's note: Now that I have some practice picking stories, writing about them, and publishing these posts, I'm working on refining my news sources. I currently go through about 700 articles each day, but I have a feeling That number could be cut in half with higher quality outlets. Happy weekend, and see you Monday._
+_Editor's note: Now that I have some practice picking stories, writing about them, and publishing these posts, I'm working on refining my news sources. I currently go through about 700 articles each day, but I have a feeling that number could be cut in half with higher quality outlets. Happy weekend, and see you Monday._
 
 [A happy font family](http://www.frerejones.com/about/press/2014-10-30/) &mdash; Jonathan Hoefler and Tobias Frere-Jones have resolved their legal dispute, which started [back in January](http://kyledreger.com/archives/14017-frere-jones-sues-hoefler.html). Hoefler will continue to lead H&Co., and Frere-Jones looks to "return to design work and to launch my own type design practice in the new year."
 
