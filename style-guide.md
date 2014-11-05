@@ -38,6 +38,7 @@ Basic rule: italicize major publications.
 
 ## Spelling
 
+- Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time). 
+- Style guide: this thing. 
 - Website: a collection of pages on the Internet
 - Weblog: an online blog
-- Style guide: this thing. 

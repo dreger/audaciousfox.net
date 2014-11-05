@@ -20,7 +20,7 @@ _Editor's note: Welcome back. How did you spend your [extra hour](https://en.wik
 
 [Growing Google](http://www.theguardian.com/technology/2014/nov/03/larry-page-google-dont-be-evil-sergey-brin) &mdash; Chief Executive Larry Page feels that Google has 'outgrown' its original mission statement of “organise the world’s information and make it universally accessible and useful.” I agree; Google's scope has expanded far beyond just cataloging links and webpages. 
 
-[Skype Translator demo](http://techcrunch.com/2014/11/03/skype-translator-preview/) &mdash; Microsoft is demoing a realtime speech translation (via on-screen captions) for video chats over Skype. Nothing is available for the public yet, unless you get approved for the trial, but this is downright impressive technology.     
+[Skype Translator demo](http://techcrunch.com/2014/11/03/skype-translator-preview/) &mdash; Microsoft is demoing a real time speech translation (via on-screen captions) for video chats over Skype. Nothing is available for the public yet, unless you get approved for the trial, but this is downright impressive technology.     
 
 [Polling and cell phones](http://www.washingtonpost.com/blogs/the-switch/wp/2014/11/03/pollsters-used-to-worry-that-cellphone-users-would-skew-results-these-days-not-so-much/) &mdash; An interesting look at how the rise of cell phones, and subsequent decrease in home phone owners, almost threw political pollsters for a loop. 
 
