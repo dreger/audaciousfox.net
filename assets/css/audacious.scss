@@ -3,17 +3,20 @@
 @charset "utf-8";
 @import 'normalize';
 
+
+
+$color: #42ab83;
+$color: #5890FF;
+$color-copy: #222;
+$color-faded: #ccc;
+$color-hover: #eee;
+$color-bg: #fafafa;
+
 $color-copy: #eee;
 $color-faded: #555;
 $color-bg: #2a2e31;
 $color-hover: #444;
 $color: #42ab83;
-
-$color: #42ab83;
-$color-copy: #222;
-$color-faded: #ccc;
-$color-hover: #eee;
-$color-bg: #fafafa;
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
 $sans: "Open Sans", "Avenir Next", "Helvetica Neue", Verdana;
