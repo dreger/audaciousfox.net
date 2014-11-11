@@ -4,7 +4,7 @@ date: 2014-11-10 18:43
 ---
 _Editor's note: Another Monday, another edition of AF. Not much on docket this evening, as I'm trying to be ruthless in what I cut from my list of "maybe publishables" that grows throughout the day._
 
-[Against Productivity](https://medium.com/message/against-productivity-b19f56b67da6) &mdash; This essay took four years for Ms. Norton to write, and you need to take twenty minutes to sit down and read it. I may not agree with all her conclusions, but this is the type of discourse that keeps our creativity alive. 
+[Against Productivity](https://medium.com/message/against-productivity-b19f56b67da6) &mdash; This essay took four years for Quinn Norton to write, and you need to take twenty minutes to sit down and read it. I may not agree with all Ms. Norton's conclusions, but this is the type of discourse that keeps our creativity alive. 
 
 [Apple's Visa](http://store.apple.com/us/browse/finance/instant_credit) &mdash; Interesting that this exists, considering Apple Pay. Wouldn't mind my Visa purchases adding up towards free apps, though. 
 
