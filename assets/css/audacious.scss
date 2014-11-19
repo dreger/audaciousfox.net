@@ -180,6 +180,14 @@ hr {
   text-align: center;
 }
 
+iframe {
+  display: block;
+  margin: 1rem 0;
+}
+.soundcloud {
+  height: 140px; 
+}
+
 @media screen and (max-width: 500px) {
   html {
     font-size: 16px;
