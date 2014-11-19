@@ -3,8 +3,6 @@
 @charset "utf-8";
 @import 'normalize';
 
-
-
 $color: #42ab83;
 $color: #5890FF;
 $color-copy: #222;
@@ -18,12 +16,14 @@ $color-bg: #2a2e31;
 $color-hover: #444;
 $color: #42ab83;
 
+
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
-$sans: "Open Sans", "Avenir Next", "Helvetica Neue", Verdana;
+$sans: "San Francisco Text", "Open Sans", "Helvetica Neue", "Segoe UI", Verdana;
 
 $line-height: 1.4em;
 
-html { font-size: 13px; }
+html { font-size: 16px; }
 
 body {
   font-family: $sans;
@@ -98,8 +98,9 @@ h3 {
 }
 .title {
   text-transform: uppercase;
+  font-variant: small-caps;
   display: inline;
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
   font-size: 1rem;
   color: $color-copy;
   &:hover { color: darken($color-copy, 20%); }
@@ -185,7 +186,7 @@ iframe {
   margin: 1rem 0;
 }
 .soundcloud {
-  height: 140px; 
+  height: 140px;
 }
 
 @media screen and (max-width: 500px) {
