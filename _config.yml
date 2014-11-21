@@ -4,6 +4,7 @@ email: "comments@dreger.me"
 description: "Writing the web column I want to read."
 url: "http://audaciousfox.com" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title.html
+timezone: America/New_York
 
 # Build settings
 markdown: kramdown
