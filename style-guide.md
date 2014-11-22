@@ -14,7 +14,7 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 ## People
 
-- First reference: Firstname Lastname
+- First reference: ; Lastname
 - Subsequent references: Mr./Ms. Lastname
 
 ## Publications
@@ -38,6 +38,8 @@ Basic rule: italicize major publications.
 
 ## Spelling
 
+- Lock in: being forced to use a certain type of product. 
+- Pull quote: a block of text, taken from another source. 
 - Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time). 
 - Style guide: this thing. 
 - Website: a collection of pages on the Internet
