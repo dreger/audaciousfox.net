@@ -5,10 +5,12 @@
 $color: #42ab83;
 $color-copy: #222;
 $color-faded: #ccc;
+$color-sponsor: #fff5d8;
 $color-hover: #eee;
 $color-bg: #fafafa;
 
 $color-copy: #eee;
+$color-sponsor: #fff5d8;
 $color-faded: #555;
 $color-bg: #2a2e31;
 $color-hover: #444;
@@ -74,11 +76,10 @@ h3 {
   margin-bottom: 2rem;
   font-style: italic;
   line-height: 1.4em;
-  background-color: #fff5d8;
+  background-color: #4d4b47;
   border-radius: 5px;
   padding: .5rem;
   font-size: .9rem;
-  display: none;
 }
 
 .content {
