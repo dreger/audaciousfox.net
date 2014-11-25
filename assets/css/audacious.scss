@@ -2,23 +2,25 @@
 ---
 @charset "utf-8";
 @import 'normalize';
-$color: #42ab83;
-$color-copy: #222;
-$color-faded: #ccc;
-$color-sponsor: #fff5d8;
-$color-hover: #eee;
-$color-bg: #fafafa;
+
 
 $color-copy: #eee;
-$color-sponsor: #fff5d8;
+$color-sponsor: #4d4b47;
 $color-faded: #555;
 $color-bg: #2a2e31;
 $color-hover: #444;
 $color: #bf1238;
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
-$sans: "San Francisco Text", "Open Sans", "Helvetica Neue", "Segoe UI", Verdana;
+$color: #42ab83;
+$color: #bf1238;
+$color-copy: #222;
+$color-faded: #ccc;
+$color-sponsor: #fff5d8;
+$color-hover: #eee;
+$color-bg: #fafafa;
+
+$sans: "San Francisco Text", "Helvetica Neue", "Segoe UI", Verdana;
 
 $line-height: 1.4em;
 
@@ -47,12 +49,12 @@ h5 {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.2em;
-  font-weight: 600;
+  font-weight: normal;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-style: italic;
   margin: 2rem 0 1rem;
   font-weight: normal;
@@ -74,9 +76,11 @@ h3 {
 
 .sponsor {
   margin-bottom: 2rem;
+  margin-top: -.25rem;
   font-style: italic;
   line-height: 1.4em;
-  background-color: #4d4b47;
+  border: dotted 1px darken($color-sponsor, 25%);
+  background-color: $color-sponsor;
   border-radius: 5px;
   padding: .5rem;
   font-size: .9rem;
@@ -91,12 +95,13 @@ h3 {
 .header {
   max-width: 30rem;
   margin: 7rem auto 1rem;
-  border-bottom: 1px solid $color-faded;
+  border-bottom: 1px dotted $color-faded;
   padding: .5rem 0;
 }
 .title {
   text-transform: uppercase;
   font-variant: small-caps;
+  font-weight: normal;
   display: inline;
   // letter-spacing: 1px;
   font-size: 1rem;
