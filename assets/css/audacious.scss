@@ -2,6 +2,7 @@
 ---
 @charset "utf-8";
 @import 'normalize';
+@import 'clear-sans'; 
 
 
 $color-copy: #eee;
@@ -20,7 +21,7 @@ $color-sponsor: #fff5d8;
 $color-hover: #eee;
 $color-bg: #fafafa;
 
-$sans: "San Francisco Text", "Helvetica Neue", "Segoe UI", Verdana;
+$sans: "Clear Sans", "San Francisco Text", "Helvetica Neue", "Segoe UI", Verdana;
 
 $line-height: 1.4em;
 

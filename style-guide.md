@@ -14,7 +14,7 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 ## People
 
-- First reference: ; Lastname
+- First reference: Firstname Lastname
 - Subsequent references: Mr./Ms. Lastname
 
 ## Publications
@@ -34,13 +34,13 @@ Basic rule: italicize major publications.
 
 - The [OWL overview on commas](https://owl.english.purdue.edu/owl/owlprint/607/).
 - Possessive plural: If the word / name ends in an "s," attach only an apostrophe: _The Moss' house._
-- Colons: Capitalize the first letter of a complete sentence that follows a colon. 
+- Colons: Capitalize the first letter of a complete sentence that follows a colon.
 
 ## Spelling
 
-- Lock in: being forced to use a certain type of product. 
-- Pull quote: a block of text, taken from another source. 
-- Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time). 
-- Style guide: this thing. 
+- Lock in: being forced to use a certain type of product.
+- Pull quote: a block of text, taken from another source.
+- Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time).
+- Style guide: this thing.
 - Website: a collection of pages on the Internet
 - Weblog: an online blog
