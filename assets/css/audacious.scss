@@ -11,10 +11,10 @@ $color-faded: #555;
 $color-bg: #2a2e31;
 $color-hover: #444;
 
-$color: #42ab83;
-$color: #bf1238;
+$color: #1cd283;
+$color: #f96329;
 $color-copy: #222;
-$color-faded: #ccc;
+$color-faded: #bbb;
 $color-sponsor: #fff5d8;
 $color-hover: #eee;
 $color-bg: #fafafa;
@@ -27,7 +27,7 @@ $sans:'Whitney SSm A', 'Whitney SSm B', "Helvetica Neue", Helvetica, Arial, Verd
 
 $line-height: 1.4em;
 
-html { font-size: 14px; }
+html { font-size: 18px; }
 
 body {
   font-family: $sans;
@@ -63,12 +63,14 @@ h2 {
   font-weight: normal;
 }
 h3 {
-  font-size: .9rem;
-  letter-spacing: 1px;
+  font-size: 1rem;
+  font-variant: small-caps;
+  color: $color-faded;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
+  padding-bottom: .25rem;
   margin: 2rem 0 .5rem;
-  font-weight: normal;
+  border-bottom: dotted 1px $color-faded;
   + p { margin-top: 0; }
 }
 
@@ -105,10 +107,11 @@ h3 {
   text-transform: uppercase;
   font-variant: small-caps;
   font-weight: normal;
+  font-weight: bold;
   display: inline;
   // letter-spacing: 1px;
   font-size: 1rem;
-  color: $color-copy;
+  a { color: $color; }
   &:hover { color: darken($color-copy, 20%); }
   &:active { color: lighten($color-copy, 20%); }
 }
@@ -144,7 +147,7 @@ ul {
   padding-left: 1rem;
   li {
     list-style: square;
-    margin: 1rem 0;
+    margin: .25rem 0;
     padding-left: 0;
   }
 }
@@ -152,6 +155,11 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+em img {
+  max-width: 160%;
+  margin-left: -30%;
 }
 
 blockquote {
