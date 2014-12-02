@@ -5,28 +5,29 @@
 @import 'clear-sans';
 
 
-$color: #bf1238;
+$color-copy: #eee;
+$color-sponsor: #4d4b47;
+$color-faded: #555;
+$color-bg: #2a2e31;
+$color-hover: #444;
+
 $color: #42ab83;
+$color: #bf1238;
 $color-copy: #222;
 $color-faded: #ccc;
 $color-sponsor: #fff5d8;
 $color-hover: #eee;
 $color-bg: #fafafa;
 
-$color-copy: #eee;
-$color-sponsor: #4d4b47;
-$color-faded: #555;
-$color-bg: #2a2e31;
-$color-hover: #444;
-$color: #bf1238;
+/* \$color: #bf1238; */
 
 
 
-$sans: "Helvetica Neue", Helvetica, Arial, Verdana;
+$sans:'Whitney SSm A', 'Whitney SSm B', "Helvetica Neue", Helvetica, Arial, Verdana;
 
 $line-height: 1.4em;
 
-html { font-size: 16px; }
+html { font-size: 14px; }
 
 body {
   font-family: $sans;
@@ -40,7 +41,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: normal;
+  font-weight: 500;
   font-family: $sans;
   line-height: 1.1em;
   a {
@@ -51,9 +52,9 @@ h5 {
 }
 
 h1 {
-  font-size: 1.45rem;
+  font-size: 1.3rem;
   line-height: 1.2em;
-  font-weight: normal;
+  font-weight: 500;
 }
 h2 {
   font-size: 1.2rem;
@@ -73,7 +74,7 @@ h3 {
 
 .post-meta {
   color: $color-faded;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .sponsor {
@@ -90,12 +91,12 @@ h3 {
 
 .content {
   margin: 0 auto 5rem;
-  max-width: 30rem;
+  max-width: 32rem;
   padding: 1rem;
 }
 
 .header {
-  max-width: 30rem;
+  max-width: 38rem;
   margin: 7rem auto 1rem;
   border-bottom: 1px dotted $color-faded;
   padding: .5rem 0;
