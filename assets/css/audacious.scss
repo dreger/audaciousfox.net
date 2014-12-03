@@ -25,9 +25,9 @@ $color-bg: #fafafa;
 
 $sans:'Whitney SSm A', 'Whitney SSm B', "Helvetica Neue", Helvetica, Arial, Verdana;
 
-$line-height: 1.4em;
+$line-height: 1.6em;
 
-html { font-size: 18px; }
+html { font-size: 15px; }
 
 body {
   font-family: $sans;
@@ -158,8 +158,8 @@ img {
 }
 
 em img {
-  max-width: 160%;
-  margin-left: -30%;
+  max-width: 140%;
+  margin-left: -20%;
 }
 
 blockquote {
@@ -203,7 +203,19 @@ iframe {
   height: 140px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 740px) {
+  em img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .header {
+    margin: 0 0 2rem;
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
   html {
     font-size: 16px;
   }
@@ -211,9 +223,5 @@ iframe {
     margin: 0;
     padding: 0 1rem;
     max-width: 100%;
-  }
-  .header {
-    margin: 0 0 2rem;
-    padding: 1rem;
   }
 }

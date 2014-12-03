@@ -39,6 +39,7 @@ Basic rule: italicize major publications.
 ## Spelling
 
 - Lock in: being forced to use a certain type of product.
+- Long-form: lots of words. 
 - Pull quote: a block of text, taken from another source.
 - Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time).
 - Style guide: this thing.
