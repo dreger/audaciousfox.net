@@ -5,7 +5,7 @@ date: 2014-12-02 23:18
 
 Does OS X need another Markdown text editor? No.
 
-In fact, Macs already ships with the purest Markdown experience available: TextEdit in plain text mode. However, there are a number of alternatives that can make writing Markdown more convenient: iA Writer (and Pro), Byword, WriteRoom, Markdown Pro, Ulysses, LightPaper, and Mou to name a few. 
+In fact, Macs already ship with the purest Markdown experience available: TextEdit in plain text mode. However, there are a number of alternatives that can make writing Markdown more convenient: iA Writer (and Pro), Byword, WriteRoom, Markdown Pro, Ulysses, LightPaper, and Mou to name a few. 
 
 Today, add Realmac Software’s [Typed](http://realmacsoftware.com/typed) to the list. 
 
