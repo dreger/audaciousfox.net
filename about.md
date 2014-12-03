@@ -7,7 +7,7 @@ permalink: /about/
 
 Written daily by Kyle Dreger.
 
-Correspondence: [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>. You can follow the [@audaciousfoxcom](http://twitter.com/audaciousfoxcom) feed on Twitter, too. 
+**Correspondence**: [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>. You can follow the [@audaciousfoxcom](http://twitter.com/audaciousfoxcom) feed on Twitter, too. 
 
 **Software I like**: (Mac) TextEdit, iTerm2, Webkit; (iPhone) 1Password, Mailbox, Tweetbot, Unread, Vesper, YNAB.
 
