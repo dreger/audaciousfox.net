@@ -1,11 +1,10 @@
 ---
 title: Old Field Notes Notebooks Make Great Coasters for Morning Coffee
-date:
-category: signals 2014-11-18 21:14
+date: 2014-11-18 21:14
 ---
 _Editor's note: This is the first post that includes both the text and audio version of today's report, let me know what you think. Regarding the audio: I spent some time practicing how to vary the pitch and tone of my voice, so things should sound a lot less monotone this time around. Sorry for the [Bueller-esque](http://youtu.be/KS6f1MKpLGM) delivery last time._
 
-[Link to SoundCloud audio of this post](https://soundcloud.com/audaciousfox/audacious-fox-tuesday-18-november-2014). 
+[Link to SoundCloud audio of this post](https://soundcloud.com/audaciousfox/audacious-fox-tuesday-18-november-2014).
 
 [Apple releases WatchKit](https://developer.apple.com/watchkit/) &mdash; Apple has released WatchKit, the framework that will help power Apple Watch. Inside the WatchKit documentation, developers have found previous-unknown specifics about the Apple Watch. Two notable specifics: there are two separate screen resolutions for the different sizes, and Apple has released "San Fransisco;" a custom-made typeface for the smaller UI.
 

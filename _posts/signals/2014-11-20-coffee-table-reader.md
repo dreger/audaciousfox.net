@@ -1,7 +1,6 @@
 ---
 title: I Didn't Catch the Name of the Cashier I Had Today, but They Were Particularly Delightful
-date:
-category: signals 2014-11-20 21:20
+date: 2014-11-20 21:20
 ---
 _Editor's note: Hope you all are staying warm; temperatures have reached the holy-heck-it's-cold range here. Another night without audio, so I think I'll set expectations the same way your schools did for snow days: if it comes, it comes. Stay warm out there, and guys: now's a great time to learn how to properly [tie a scarf](http://www.artofmanliness.com/2012/02/23/mans-guide-scarf/)._
 
