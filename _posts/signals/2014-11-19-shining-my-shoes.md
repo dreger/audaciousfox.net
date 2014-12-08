@@ -1,6 +1,7 @@
 ---
 title: From atop His Balcony, the King Overlooked His Kingdom and Smiled, for All Was Well
-date: 2014-11-19 21:14
+date:
+category: signals 2014-11-19 21:14
 ---
 _Editor's note: No audio tonight, since my first-year-teacher wife is trying to grab a little extra sleep before the early morning. She works hard, and I'm happy to oblige. Site news &mdash; I've pushed a few small design tweaks to AF, including some typographic changes. Kind of. If you happen to have Apple's lovely new San Francisco Text typeface installed, like I do, you'll be in for a pleasant surprise._
 

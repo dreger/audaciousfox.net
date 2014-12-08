@@ -1,0 +1,16 @@
+---
+layout: default
+title: Signals
+permalink: /signals/
+---
+
+{% for post in site.categories.signals %}
+<section class="post">
+<h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+<article class="post-content">
+{{ post.content }}
+</article>
+<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+</section>
+<hr class="article-break">
+{% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: Swinging Back and Forth
-date: 2014-10-29 22:00
+date:
+category: signals 2014-10-29 22:00
 ---
 _Editor's note: Less news today, but more variety. Some of the stories that I didn't post were quite boring, but I guess that's Wednesday for you._
 

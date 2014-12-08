@@ -1,6 +1,7 @@
 ---
 title: Conceptually, A Good Idea
-date: 2014-11-10 18:43
+date:
+category: signals 2014-11-10 18:43
 ---
 _Editor's note: Another Monday, another edition of AF. Not much on docket this evening, as I'm trying to be ruthless in what I cut from my list of "maybe publishables" that grows throughout the day._
 

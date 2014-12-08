@@ -1,6 +1,7 @@
 ---
 title: There and Back Again
-date: 2014-10-28 21:15
+date:
+category: signals 2014-10-28 21:15
 ---
 _Editor's note: Trying numbers-as-links this time around. I feel it helps keep the list simple and easier to scan, but that could be just me._
 
