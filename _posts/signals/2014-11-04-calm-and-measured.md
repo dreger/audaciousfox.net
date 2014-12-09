@@ -1,6 +1,7 @@
 ---
 title: It Rained This Evening, but the Afternoon Breeze Was Delightful
 date: 2014-11-04 21:52
+category: signals
 ---
 _Editor's note: If any of you were wondering, the AF workflow makes heavy use of the following: [Unread](http://supertop.co/unread/), [ReadKit](http://readkitapp.com/), [Feedbin](https://feedbin.com/), [Pinboard](https://pinboard.in/), and [Byword](http://bywordapp.com/)._
 

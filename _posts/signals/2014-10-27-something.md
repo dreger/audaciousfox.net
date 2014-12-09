@@ -1,6 +1,7 @@
 ---
 title: Today Was A Beautiful Fall Day
 date: 2014-10-27 19:35
+category: signals
 ---
 _Editor's note: More links than yesterday. Still debating about whether the actual links should be numbers (a la Tab Dump) or text, as seen in this post._
 

@@ -1,6 +1,7 @@
 ---
 title: Twinkle Lights Now Adorn the Bannister of Our Upstairs Loft, and They Look Lovely
 date: 2014-12-01 22:02
+category: signals
 ---
 _Editor's note: Welcome back, dear readers. I hope the holiday break treated you well. Our Thanksgiving was lovely; filled with plenty of family, lots of great food, and a few quiet evenings. No heavy snow here yet, but I imagine it will be coming soon (Ohio has such odd weather, particularly if you are just outside the reach of Lake Erie). Enjoy the issue, and please bear with me as I get back into the swing of putting these together._
 

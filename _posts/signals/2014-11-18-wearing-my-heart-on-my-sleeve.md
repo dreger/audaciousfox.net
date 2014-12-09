@@ -1,6 +1,7 @@
 ---
 title: Old Field Notes Notebooks Make Great Coasters for Morning Coffee
 date: 2014-11-18 21:14
+category: signals
 ---
 _Editor's note: This is the first post that includes both the text and audio version of today's report, let me know what you think. Regarding the audio: I spent some time practicing how to vary the pitch and tone of my voice, so things should sound a lot less monotone this time around. Sorry for the [Bueller-esque](http://youtu.be/KS6f1MKpLGM) delivery last time._
 

@@ -1,6 +1,7 @@
 ---
 title: You Know, That Was Fun, But This Time Let's Try Something Else
 date: 2014-11-14 19:49
+category: signals
 ---
 _Editor's note: The first episode of The Show may very well be its last. I enjoyed doing it, but I got some good feedback from readers that pointed out the written variant of the daily news would be missed. I agree. So, what I think I'll try to do next week is something like this: continue to do the daily news in a written format, and then include a 5-10 minute "director's commentary," in audio form._
 

@@ -42,6 +42,8 @@ Basic rule: italicize major publications.
 - Long-form: lots of words. 
 - Pull quote: a block of text, taken from another source.
 - Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time).
+- Roundup
 - Style guide: this thing.
 - Website: a collection of pages on the Internet
 - Weblog: an online blog
+- Well-deserved

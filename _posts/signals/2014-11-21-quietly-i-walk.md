@@ -1,6 +1,7 @@
 ---
 date: 2014-11-21 23:40
 title: And Then All Was Quiet and Still, for It Was Time to Sleep
+category: signals
 ---
 _Editor's note: this issue of AF is getting out late because [none of my raffle tickets were winners](https://twitter.com/kyledreger/status/535995346359685120). Nonetheless, the show goes on. As we round the last weekend before American Thanksgiving, I wish you all a lovely weekend, and I'll keep you updated regarding the upcoming holiday publishing schedule. Enjoy._
 

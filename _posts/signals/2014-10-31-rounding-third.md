@@ -1,6 +1,7 @@
 ---
 title: I Lived on a Hilly Street, so We Trick-or-Treated at a Friend's Neighborhood
 date: 2014-10-31 22:41
+category: signals
 ---
 _Editor's note: Now that I have some practice picking stories, writing about them, and publishing these posts, I'm working on refining my news sources. I currently go through about 700 articles each day, but I have a feeling that number could be cut in half with higher quality outlets. Happy weekend, and see you Monday._
 

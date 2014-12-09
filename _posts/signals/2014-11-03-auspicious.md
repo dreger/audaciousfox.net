@@ -1,6 +1,7 @@
 ---
 title: Drilling Holes in My Apartment Walls Makes Me Cringe, But Our New Pictures Look Nice
 date: 2014-11-03 21:37
+category: signals
 ---
 _Editor's note: Welcome back. How did you spend your [extra hour](https://en.wikipedia.org/wiki/Daylight_saving_time) this weekend?_
 
