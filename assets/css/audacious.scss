@@ -17,6 +17,8 @@ $color-sponsor: #fff5d8;
 $color-hover: #eee;
 $color-bg: #fafafa;
 
+$max-width: 37rem;
+
 /* \$color: #bf1238; */
 
 
@@ -90,12 +92,12 @@ h3 {
 
 .content {
   margin: 0 auto 5rem;
-  max-width: 32rem;
+  max-width: $max-width;
   padding: 1rem;
 }
 
 .header {
-  max-width: 38rem;
+  max-width: $max-width + 4rem;
   margin: 7rem auto 1rem;
   border-bottom: 1px dotted $color-faded;
   padding: .5rem 0;
@@ -200,7 +202,7 @@ iframe {
   height: 140px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: $max-width + 12rem) {
   em img {
     max-width: 100%;
     margin-left: 0;
