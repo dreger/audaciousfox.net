@@ -72,15 +72,15 @@ h3 {
   font-weight: 500;
 }
 
-.sponsor {
+.announcement {
   margin-bottom: 2rem;
   margin-top: -.25rem;
-  font-style: italic;
+  /* font-style: italic; */
   line-height: 1.4em;
   border: dotted 1px darken($color-sponsor, 25%);
   background-color: $color-sponsor;
   border-radius: 5px;
-  padding: .5rem;
+  padding: .5rem .75rem;
   font-size: .9rem;
 }
 
@@ -152,6 +152,7 @@ img {
 
 em img {
   max-width: 140%;
+  margin: 1rem inherit;
   margin-left: -20%;
 }
 
