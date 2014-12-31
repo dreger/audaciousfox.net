@@ -11,10 +11,10 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 - [How to capitalize your titles](http://titlecapitalization.com).
 - Italicize major publications.
-- First reference: Firstname Lastname; Subsequent references: Mr./Ms. Lastname.
+- Firstname Lastname; Subsequent references: Mr./Ms. Lastname.
 - The [OWL overview on commas](https://owl.english.purdue.edu/owl/owlprint/607/).
-- Possessive plural: If the word / name ends in an "s," attach only an apostrophe: _The Moss' house._
-- Colons: Capitalize the first letter of a complete sentence that follows a colon.
+- Possessive plural: Ends in an "s," attach only an apostrophe: _The Moss' house._
+- Colons: Capitalize the first letter of a complete sentence after a colon.
 
 ### Reference (A-Z)
 
