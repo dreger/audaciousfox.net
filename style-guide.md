@@ -20,19 +20,19 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 - Daring Fireball (italicize)
 - FiveThirtyEight (italicize)
-- Lock in: being forced to use a certain type of product.
-- Long-form: lots of words.
+- Lock in: being forced to use a certain type of product
+- Long-form: lots of words
 - National Geographic (italicize)
 - New York Times, the Times (italicize)
 - Pixel Envy
 - Pull quote: a block of text, taken from another source.
-- Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time).
+- Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time)
 - Retina &mdash; as in Retina screens
-- Roundup
-- Style guide: this thing.
+- Roundup: a collection of things
+- Style guide: this thing
 - The Newsprint
 - The Verge (italicize)
 - Time (italicize)
-- Weblog: an online blog
+- Weblog: one word, an online blog
 - Website: a collection of pages on the Internet
 - Well-deserved
