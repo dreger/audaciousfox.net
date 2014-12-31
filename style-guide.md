@@ -7,43 +7,32 @@ permalink: /style-guide/
 
 This document serves as the living style guide for [audaciousfox.com](http://audaciousfox.com). The goal of this document is to bring a consistent voice to all my writing.
 
-## Capitalization
+### Basic rules
 
 - [How to capitalize your titles](http://titlecapitalization.com).
-- Retina, as in Retina screens
-
-## People
-
-- First reference: Firstname Lastname
-- Subsequent references: Mr./Ms. Lastname
-
-## Publications
-
-Basic rule: italicize major publications.
-
-- _Daring Fireball_
-- [_FiveThirtyEight_](http://fivethirtyeight.com)
-- _National Geographic_
--  _New York Times_, _the Times_
-- _The Verge_
-- _Time_
-- Pixel Envy
-- The Newsprint
-
-## Punctuation
-
+- Italicize major publications.
+- First reference: Firstname Lastname; Subsequent references: Mr./Ms. Lastname.
 - The [OWL overview on commas](https://owl.english.purdue.edu/owl/owlprint/607/).
 - Possessive plural: If the word / name ends in an "s," attach only an apostrophe: _The Moss' house._
 - Colons: Capitalize the first letter of a complete sentence that follows a colon.
 
-## Spelling
+### Reference (A-Z)
 
+- Daring Fireball (italicize)
+- FiveThirtyEight (italicize)
 - Lock in: being forced to use a certain type of product.
-- Long-form: lots of words. 
+- Long-form: lots of words.
+- National Geographic (italicize)
+- New York Times, the Times (italicize)
+- Pixel Envy
 - Pull quote: a block of text, taken from another source.
 - Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time).
+- Retina &mdash; as in Retina screens
 - Roundup
 - Style guide: this thing.
-- Website: a collection of pages on the Internet
+- The Newsprint
+- The Verge (italicize)
+- Time (italicize)
 - Weblog: an online blog
+- Website: a collection of pages on the Internet
 - Well-deserved
