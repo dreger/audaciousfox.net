@@ -2,7 +2,7 @@
 title: Budgeting
 layout: post
 ---
-As a junior in college, **I had no earthly idea how to manage my money**.
+As a junior in college, I had no earthly idea how to manage my money.
 
 I was working part-time at some of the offices on campus, and I made a small amount of money working as a writing center tutor. However, by the time the next paycheck would roll around, I would be broke.
 
