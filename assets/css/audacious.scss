@@ -9,19 +9,19 @@ $color-faded: #555;
 $color-bg: #2a2e31;
 $color-hover: #444;
 
-$color: #f96329;
 $color: #51af69;
+$color: #f96329;
 $color-copy: #222;
 $color-faded: #bbb;
 $color-sponsor: #fff5d8;
 $color-hover: #eee;
 $color-bg: white;
 
-$max-width: 37rem;
-$sans: 'Whitney SSm A', 'Whitney SSm B', "Helvetica Neue", Helvetica, Arial, Verdana;
-$line-height: 1.6em;
+$max-width: 35rem;
+$sans: 'Open Sans', "Helvetica Neue", Helvetica, Arial, Verdana;
+$line-height: 1.5em;
 
-html { font-size: 15px; }
+html { font-size: 14px; }
 
 body {
   font-family: $sans;
@@ -46,12 +46,12 @@ h5 {
 }
 
 h1 {
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   line-height: 1.2em;
   font-weight: 500;
 }
 h2 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 2rem 0 1rem;
   font-weight: 600;
 }
@@ -195,6 +195,16 @@ iframe {
 }
 .soundcloud {
   height: 140px;
+}
+
+@media print {
+  body {
+    font-size: 14px;
+  }
+  a {
+    color: $color-copy;
+    border-bottom: 1px solid $color-copy;
+  }
 }
 
 @media screen and (max-width: $max-width + 12rem) {
