@@ -20,6 +20,7 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 - Daring Fireball (italicize)
 - FiveThirtyEight (italicize)
+- Go-to: "my go-to song is 'Shake it Off'"
 - Lock in: being forced to use a certain type of product
 - Long-form: lots of words
 - National Geographic (italicize)

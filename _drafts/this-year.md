@@ -2,28 +2,29 @@
 title: Unboxing Harry's   
 layout: post
 ---
-There was a lot of blood. 
+There was a lot of blood, relatively speaking. 
 
-My first shave was far from perfect. I remember being terrified of ending up in a crumpled heap on my bathroom floor, soaked in my own mix of red blood cells and Barbasol. None of that happened, but I still remember the fear from that morning. 
+My first shave was far from perfect. I remember being terrified of ending up in a crumpled heap on my bathroom floor, soaked in my own mix of red blood cells and Barbasol. Thankfully, I avoided death; however, I ended up with enough nicks and cuts that I still clearly remember the fear from that morning. 
 
-Four years later, shaving is my most consistently followed routine. Shower, get the facial hairs nice and soft, and then wet the bade and begin. My proficiency with the untiensilsx has matured to the point where I can complete the whole process in less than a minute, without a single cut. 
+Four years later, things are much easier. My proficiency with the blade has matured to the point where I can complete the whole shaving process in less than a minute, without a single cut to my face.
 
-I think that I'm drawn to shaving because of how simple it is to do. All you need is water, some shaving cream (optional, really) and a blade. And once you've got to a level comfortablitiy with the tools and the process, it doesn't matter if you shave with a single blade BIC from a 25-pack at Walgreens or a Mach-5 Gillete Fushion; you can get the job done. 
+Throughout my morning routine, I listen to podcasts. Over the past few months, amidst the regular show sponsors of this past year, a new company name kept coming up: [Harry's](http://harrys.com). Harry's makes shaving stuff. They even own their [own barbershop](https://www.harrys.com/cornershop) in NYC, and they also purchased a [factory in Germany](https://www.harrys.com/our-factory), so they can produce their own blades. 
 
-I listen to a lot of podcasts, and many of them have a number of sponsors per show. Amidst the regulars of this past year, a new one came up: Harry's. Harry's makes shaving stuff, and they price it low. They even own their own barbershop in NYC, where you can get an authentic shave. 
+After hearing their sponsor spot for the umpteenth time, I spent exactly $15 (shipping included) to get what, for me, would amount to about a month of shaving supplies.
 
-They also purchased a plant in Germany, where they produce their own blades. 
-
-So, with a $5 coupon, I spent $10 at Harry's (shipping included) to get what, for me, would amount to about a month of 2-3 day shaving supplies.
-
-### On electric shaving
-
-In high school, my first "shave" was with an electric razor. I think the device must have intimidated me, because I ended up pulling out more hairs than actually cutting. 
+_A quick aside, on electric shaving: In high school, my first "shave" was with an electric razor. I think the device must have intimidated me, because I ended up pulling out more hairs than I actually cut. I still own and occasionally use an electric shaver, but only if it's absolutely necessary._ 
 
 ### Packaging and brand
 
+_![harrys packaging](https://farm4.staticflickr.com/3935/15304522599_8a95e15811_k_d.jpg)_
+
+When you first open a box from Harry's, the first things that strikes you is that this thing has character. From the small mammoth insignia, to the 
+
+$15 worth of Harry's gear. It doesn't look like a lot, but compared to what that same amount will get you at your local CVS or Walgreens, this was a bargain.   
+
 _![harrys](https://farm4.staticflickr.com/3936/15304730620_e720574cb2_k_d.jpg)_
 
+Although the cardboard box looked cheap, it was surprisingly sturdy. 
 
 ### Blades
 _![blades box](https://farm4.staticflickr.com/3935/15304721510_47f4d4ad01_k_d.jpg)_
