@@ -1,7 +1,9 @@
 ---
-title: For the Third Consecutive Morning, My Car Doors Have Been Frozen Shut
+title: Signals for January 7, 2015
 date: 2015-01-07 22:00
 ---
+_Alternative headline: For the Third Consecutive Morning, My Car Doors Have Been Frozen Shut._
+
 _Editor's note: This week, the Signals are going to follow a MWF publishing schedule, so I have more time to work on longer pieces. Signals are a great way to build the narrative of AF; however, care must be taken to keep a healthy balance between curation of the conversation and contribution to it. With that, here are the things I read that you should too._
 
 [There's a poop joke in here, somewhere](http://www.gatesnotes.com/Development/Omniprocessor-From-Poop-to-Potable) &mdash; Bill Gates demonstrates the Omniprocessor, a project that can take human waste and turn it into clean drinking water. A pilot program is scheduled for later this year, in Dakar, Senegal. The things we can do. 
