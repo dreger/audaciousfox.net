@@ -3,7 +3,7 @@
 @charset "utf-8";
 @import 'normalize';
 
-$night-color: #47AA84;
+$night-color: #48aafc;
 $night-color-copy: #eee;
 $night-color-sponsor: #4d4b47;
 $night-color-faded: #999;
@@ -21,7 +21,7 @@ $sans: 'Open Sans', "Helvetica Neue", Helvetica, Arial, Verdana;
 $line-height: 1.5em;
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -196,7 +196,10 @@ iframe {
   height: 140px;
 }
 
-.js-toggle-lights { border-bottom: none; }
+.js-toggle-lights {
+  border-bottom: none;
+  &:hover { background-color: inherit; }
+}
 
 @media print {
   body {
@@ -268,5 +271,8 @@ iframe {
   blockquote { border-left: 1px solid $night-color-faded; }
   hr { background-color: $night-color-faded; }
   .article-break { background-color: $night-color-bg; }
-  .js-toggle-lights { border-bottom: none; }
+  .js-toggle-lights {
+    border-bottom: none;
+    &:hover { background-color: inherit; }
+  }
 }
