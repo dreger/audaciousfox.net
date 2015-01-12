@@ -3,25 +3,26 @@
 @charset "utf-8";
 @import 'normalize';
 
-$night-color: #48aafc;
+$night-color: #66CCCC;
 $night-color-copy: #eee;
 $night-color-sponsor: #4d4b47;
-$night-color-faded: #999;
+$night-color-faded: #c3c3c3;
 $night-color-bg: #2a2e31;
 $night-color-hover: #444;
 
 $color: #f96329;
+$color: #F2777A;
 $color-copy: #222;
-$color-faded: #bbb;
+$color-faded: #8e8e8e;
 $color-sponsor: #fff5d8;
-$color-hover: #eee;
-$color-bg: white;
+$color-hover: #e0dfdd;
+$color-bg: #F2F0EC;
 $max-width: 35rem;
-$sans: 'Open Sans', "Helvetica Neue", Helvetica, Arial, Verdana;
+$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
 $line-height: 1.5em;
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -38,18 +39,18 @@ h4,
 h5 {
   font-weight: 500;
   font-family: $sans;
-  line-height: 1.1em;
+  line-height: 1.2em;
+
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
   a {
     border: none;
     color: $color-copy;
     &:hover { color: lighten($color-copy, 20%); }
   }
-}
-
-h1 {
-  font-size: 1.3rem;
-  line-height: 1.2em;
-  font-weight: 500;
 }
 h2 {
   font-size: 1.15rem;
@@ -58,13 +59,14 @@ h2 {
 }
 h3 {
   font-size: 1rem;
-  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 1px;
   color: $color-faded;
   text-transform: uppercase;
-  font-weight: 500;
   padding-bottom: .25rem;
   margin: 2rem 0 .5rem;
   border-bottom: dotted 1px $color-faded;
+  a { border: none; }
   + p { margin-top: 0; }
 }
 
@@ -96,13 +98,13 @@ h3 {
   border-bottom: 1px dotted $color-faded;
   padding: .5rem 0;
 }
+
 .title {
   text-transform: uppercase;
   font-variant: small-caps;
   font-weight: normal;
   font-weight: bold;
   display: inline;
-  // letter-spacing: 1px;
   font-size: 1rem;
   a { color: $color; }
   &:hover { color: darken($color-copy, 20%); }
@@ -135,7 +137,7 @@ a {
 
 ul {
   margin-left: 0;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   li {
     list-style: square;
     margin: .25rem 0;
@@ -217,16 +219,18 @@ iframe {
     margin-left: 0;
   }
   .header {
-    margin: 0 0 2rem;
-    max-width: 100%;
+    margin: 2rem auto;
     padding: 1rem;
   }
 }
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
+  .header { margin: 0 0 1.25rem; }
+  .nav { font-size: .8rem; }
+  .nav li { margin-left: .75rem; }
   .content {
     margin: 0;
     padding: 0 1rem;
@@ -250,7 +254,10 @@ iframe {
       &:hover { color: lighten($night-color-copy, 20%); }
     }
   }
-  h3 { color: $night-color-faded; }
+  h3 {
+    color: $night-color-faded;
+    a { color: $night-color; }
+  }
   .post-meta { color: $night-color-faded; }
   .announcement {
     border: dotted 1px darken($night-color-sponsor, 25%);

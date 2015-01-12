@@ -1,0 +1,17 @@
+---
+title: Signals
+layout: default
+permalink: /signals/
+---
+<h1>Signals</h1>
+<p>Things I've read that you should. Published MWF.</p>
+
+{% for post in site.categories.signals %}
+<section class="signals-post">
+  <h3 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.date | date: "%A, %-d %B %Y" }}</a></h3>
+  <article class="signals-post-content">
+    {{ post.content }}
+  </article>
+</section>
+<hr class="article-break">
+{% endfor %}

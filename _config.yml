@@ -20,6 +20,13 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      category: post
+  -
+    scope:
+      path: "signals"
+      type: "posts"
+    values:
+      category: signals
 
 jekyll-archives:
   enabled: [year, month, day]
