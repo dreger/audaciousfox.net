@@ -68,7 +68,6 @@ h3 {
   padding-bottom: .25rem;
   margin: 2rem 0 .5rem;
   border-bottom: dotted 1px $color-faded;
-  a { border: none; }
   + p { margin-top: 0; }
 }
 
@@ -168,7 +167,7 @@ blockquote {
 
 .signals-post-title {
   font-weight: bold;
-  font-size: 1rem; 
+  font-size: 1rem;
 }
 
 hr {
@@ -181,7 +180,7 @@ hr {
 
 .article-break {
   background-color: $color-hover;
-  margin: 3.5rem auto;
+  margin: 3.25rem auto;
   height: 2px;
   width: $big-width;
   margin-left: -$big-width-offset;
@@ -257,11 +256,7 @@ iframe {
     color: $night-color-copy;
     background-color: $night-color-bg;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+  h1 {
     a {
       color: $night-color-copy;
       border: none;
