@@ -166,6 +166,11 @@ blockquote {
   line-height: $line-height;
 }
 
+.signals-post-title {
+  font-weight: bold;
+  font-size: 1rem; 
+}
+
 hr {
   height: 1px;
   background-color: $color-hover;
@@ -176,7 +181,7 @@ hr {
 
 .article-break {
   background-color: $color-hover;
-  margin: 5rem auto;
+  margin: 3.5rem auto;
   height: 2px;
   width: $big-width;
   margin-left: -$big-width-offset;

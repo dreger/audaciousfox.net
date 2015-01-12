@@ -7,11 +7,11 @@ permalink: /signals/
 <p>Things I've read that you should. Published MWF.</p>
 
 {% for post in site.categories.signals %}
+<hr class="article-break">
 <section class="signals-post">
-  <h3 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.date | date: "%A, %-d %B %Y" }}</a></h3>
+  <h2 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.date | date: "%A, %-d %B %Y" }}</a></h2>
   <article class="signals-post-content">
     {{ post.content }}
   </article>
 </section>
-<hr class="article-break">
 {% endfor %}
