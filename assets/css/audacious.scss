@@ -18,11 +18,13 @@ $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
 $color-bg: #F2F0EC;
 $max-width: 35rem;
+$big-width: 140%;
+$big-width-offset: 20%;
 $sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
 $line-height: 1.5em;
 
 html {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 body {
@@ -58,7 +60,7 @@ h2 {
   font-weight: 600;
 }
 h3 {
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: bold;
   letter-spacing: 1px;
   color: $color-faded;
@@ -151,9 +153,9 @@ img {
 }
 
 em img {
-  max-width: 140%;
+  max-width: $big-width;
   margin: 1rem inherit;
-  margin-left: -20%;
+  margin-left: -$big-width-offset;
 }
 
 blockquote {
@@ -166,15 +168,21 @@ blockquote {
 
 hr {
   height: 1px;
-  background-color: $color-faded;
+  background-color: $color-hover;
   border: none;
   margin: 2rem auto;
   width: 80%;
 }
+
 .article-break {
-  background-color: $color-bg;
-  margin: 3rem 0;
+  background-color: $color-hover;
+  margin: 5rem auto;
   height: 2px;
+  width: $big-width;
+  margin-left: -$big-width-offset;
+  &:last-child {
+    display: none;
+  }
 }
 
 .small-image {
@@ -214,7 +222,8 @@ iframe {
 }
 
 @media screen and (max-width: $max-width + 12rem) {
-  em img {
+  em img,
+  .article-break {
     max-width: 100%;
     margin-left: 0;
   }
@@ -277,7 +286,7 @@ iframe {
   }
   blockquote { border-left: 1px solid $night-color-faded; }
   hr { background-color: $night-color-faded; }
-  .article-break { background-color: $night-color-bg; }
+  .article-break { background-color: $night-color-hover; }
   .js-toggle-lights {
     border-bottom: none;
     &:hover { background-color: inherit; }
