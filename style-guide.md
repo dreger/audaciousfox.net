@@ -18,6 +18,8 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 ### Reference (A-Z)
 
+- Backup (noun)
+- Back up (verb)
 - Built-in
 - Daring Fireball (italicize)
 - FiveThirtyEight (italicize)
