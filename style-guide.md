@@ -18,8 +18,10 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 
 ### Reference (A-Z)
 
+- Built-in
 - Daring Fireball (italicize)
 - FiveThirtyEight (italicize)
+- Full-time
 - Go-to: "my go-to song is 'Shake it Off'"
 - Lock in: being forced to use a certain type of product
 - Long-form: lots of words
