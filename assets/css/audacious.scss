@@ -20,11 +20,11 @@ $color-bg: #F2F0EC;
 $max-width: 35rem;
 $big-width: 140%;
 $big-width-offset: 20%;
-$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
-$line-height: 1.5em;
+$sans: Verdana, "Helvetica Neue", Helvetica, Arial, Verdana;
+$line-height: 1.45em;
 
 html {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 body {
@@ -158,7 +158,7 @@ em img {
 }
 
 blockquote {
-  border-left: 1px solid $color-faded;
+  border-left: 2px solid $color-hover;
   margin-left: 1rem;
   font-size: .9rem;
   padding-left: 1rem;
