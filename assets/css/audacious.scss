@@ -20,11 +20,13 @@ $color-bg: #F2F0EC;
 $max-width: 35rem;
 $big-width: 140%;
 $big-width-offset: 20%;
-$sans: Verdana, "Helvetica Neue", Helvetica, Arial, Verdana;
 $line-height: 1.45em;
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400);
+$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
+
 html {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 body {
@@ -231,6 +233,9 @@ iframe {
     max-width: 100%;
     margin-left: 0;
   }
+  .article-break {
+    margin: 2.5rem 0; 
+  }
   .header {
     margin: 2rem auto;
     padding: 1rem;
@@ -242,9 +247,9 @@ iframe {
     font-size: 15px;
   }
   .header { margin: 0 0 1.25rem; }
-  .nav { font-size: .8rem; }
-  .nav li { margin-left: .75rem; }
-  .title { font-size: .8rem; }
+  // .nav { font-size: .8rem; }
+  // .nav li { margin-left: .75rem; }
+  // .title { font-size: .8rem; }
   .content {
     margin: 0;
     padding: 0 1rem;
