@@ -17,16 +17,15 @@ $color-faded: #8e8e8e;
 $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
 $color-bg: #F2F0EC;
-$max-width: 35rem;
+$max-width: 30rem;
 $big-width: 140%;
 $big-width-offset: 20%;
-$line-height: 1.45em;
+$line-height: 1.4em;
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400);
-$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
+$sans: "Helvetica Neue", Helvetica, Arial, Verdana;
 
 html {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 body {
