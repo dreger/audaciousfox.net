@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About
 
-Written daily by Kyle Dreger.
+Audacious Fox is written and produced by Kyle Dreger.
 
 **Correspondence**: [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>. You can follow the [@audaciousfoxcom](http://twitter.com/audaciousfoxcom) feed on Twitter, too.
 
