@@ -7,7 +7,7 @@ $night-color: #83fd31;
 $night-color-copy: #eee;
 $night-color-sponsor: #4d4b47;
 $night-color-faded: #c3c3c3;
-$night-color-bg: #232323;
+$night-color-bg: #2b2b2b;
 $night-color-hover: #444;
 
 $color: #f96329;
@@ -20,12 +20,12 @@ $color-bg: #f8f7f5;
 $max-width: 30rem;
 $big-width: 140%;
 $big-width-offset: 20%;
-$line-height: 1.4em;
+$line-height: 1.5em;
 
 $sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -205,6 +205,10 @@ hr {
   font-size: .9rem;
   margin-top: 0;
   text-align: center;
+}
+
+.code {
+  font-size: .8rem;
 }
 
 iframe {

@@ -34,7 +34,9 @@ This document serves as the living style guide for [audaciousfox.com](http://aud
 - Real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time)
 - Retina &mdash; as in Retina screens
 - Roundup: a collection of things
+- Start-up
 - Style guide: this thing
+- Tail end 
 - The Newsprint
 - The Verge (italicize)
 - Time (italicize)
