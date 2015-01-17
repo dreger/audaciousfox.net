@@ -3,29 +3,29 @@
 @charset "utf-8";
 @import 'normalize';
 
-$night-color: #66CCCC;
+$night-color: #83fd31;
 $night-color-copy: #eee;
 $night-color-sponsor: #4d4b47;
 $night-color-faded: #c3c3c3;
-$night-color-bg: #2a2e31;
+$night-color-bg: #232323;
 $night-color-hover: #444;
 
 $color: #f96329;
-$color: #ff0050;
+$color: #1da4fc;
 $color-copy: #222;
 $color-faded: #8e8e8e;
 $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
-$color-bg: #F2F0EC;
+$color-bg: #f8f7f5;
 $max-width: 30rem;
 $big-width: 140%;
 $big-width-offset: 20%;
 $line-height: 1.4em;
 
-$sans: "Helvetica Neue", Helvetica, Arial, Verdana;
+$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
@@ -97,7 +97,7 @@ h3 {
 .header {
   max-width: $max-width + 4rem;
   margin: 7rem auto 1rem;
-  border-bottom: 1px dotted $color-faded;
+  border-bottom: 1px solid $color-hover;
   padding: .5rem 0;
 }
 
@@ -114,6 +114,11 @@ h3 {
 }
 .nav {
   float: right;
+  // text-transform: uppercase;
+  // font-family: Gill Sans;
+  font-size: 1rem;
+  // letter-spacing: 1px;
+  // text-transform: uppercase;
   margin: 0;
   padding: 0;
   li {
@@ -277,7 +282,7 @@ iframe {
     border: dotted 1px darken($night-color-sponsor, 25%);
     background-color: $night-color-sponsor;
   }
-  .header { border-bottom: 1px dotted $night-color-faded; }
+  .header { border-bottom: 1px solid $night-color-hover; }
   .title {
     a { color: $night-color; }
     &:hover { color: darken($night-color-copy, 20%); }
