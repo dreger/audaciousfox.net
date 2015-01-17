@@ -11,4 +11,4 @@ Audacious Fox is written and produced by Kyle Dreger.
 
 **Software I like**: (OS X) Byword, iTerm2, Webkit; (iOS) 1Password, OmniFocus, Twitter, Reeder, Vesper, YNAB.
 
-**Colophon**: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover](http://hover.com). Type is set in classic Neue Helvetica. Check out the [AF Manual of Style](/style-guide).
+**Colophon**: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover](http://hover.com). Type is set in Open Sans. Check out the [AF Manual of Style](/style-guide).
