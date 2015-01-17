@@ -34,4 +34,4 @@ Incredibly cool. Using the app, a blind user can request assistance from a netwo
 
 [A lot, actually](https://github.com/alex/what-happens-when) &mdash; "What happens when you type google.com into your browser and press enter?"
 
-[Progress](http://daringfireball.net/2015/01/siri_improvements) &mdash John Gruber did an experiment, comparing the speed of Siri to Google Voice Search. The speed of each service appear to be very comparable, which is a heck of an improvement for Siri. 
+[Progress](http://daringfireball.net/2015/01/siri_improvements) &mdash; John Gruber did an experiment, comparing the speed of Siri to Google Voice Search. The speed of each service appear to be very comparable, which is a heck of an improvement for Siri. 
