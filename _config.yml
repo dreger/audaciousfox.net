@@ -9,6 +9,8 @@ timezone: America/New_York
 # Build settings
 markdown: kramdown
 
+highlighter: pygments
+
 gems:
   - jekyll-sitemap
   # - jekyll-archives

@@ -18,8 +18,8 @@ $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
 $color-bg: #f8f7f5;
 $max-width: 30rem;
-$big-width: 140%;
-$big-width-offset: 20%;
+$big-width: 150%;
+$big-width-offset: 25%;
 $line-height: 1.5em;
 
 $sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
@@ -207,9 +207,25 @@ hr {
   text-align: center;
 }
 
-.code {
-  font-size: .8rem;
+
+pre {
+  font-family: Menlo, Monaco, ProFont, "Bitstream Vera Sans Mono", "American Typewriter", "Andale Mono", monospace;
+  border-radius: 3px;
+  border: solid 1px $color-hover;
+  padding: 1rem;
+  code {
+    border: none;
+    padding: 0;
+  }
 }
+
+code {
+  font-size: .9rem;
+  border: solid 1px $color-hover;
+  padding: .25rem;
+  border-radius: 3px;
+}
+
 
 iframe {
   display: block;
