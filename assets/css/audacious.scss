@@ -17,7 +17,7 @@ $color-faded: #8e8e8e;
 $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
 $color-bg: #f8f7f5;
-$max-width: 30rem;
+$max-width: 34rem;
 $big-width: 150%;
 $big-width-offset: 25%;
 $line-height: 1.5em;
@@ -25,7 +25,7 @@ $line-height: 1.5em;
 $sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
 
 html {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 body {
@@ -121,6 +121,7 @@ h3 {
   // text-transform: uppercase;
   margin: 0;
   padding: 0;
+  a { border: none; }
   li {
     display: inline;
     margin-left: 1rem;
@@ -302,7 +303,9 @@ iframe {
     border: dotted 1px darken($night-color-sponsor, 25%);
     background-color: $night-color-sponsor;
   }
-  .header { border-bottom: 1px solid $night-color-hover; }
+  .header {
+    border-bottom: 1px solid $night-color-hover;
+  }
   .title {
     a { color: $night-color; }
     &:hover { color: darken($night-color-copy, 20%); }
