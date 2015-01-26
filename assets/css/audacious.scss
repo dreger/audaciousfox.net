@@ -49,7 +49,7 @@ h5 {
 
 h1 {
   // font-size: 1.3rem;
-  margin: 1rem 0; 
+  margin: 1rem 0;
   font-weight: bold;
   a {
     border: none;
@@ -280,47 +280,47 @@ iframe {
     max-width: 100%;
   }
 }
-
-.night-mode {
-  body {
-    color: $night-color-copy;
-    background-color: $night-color-bg;
-  }
-  h1 {
-    a {
-      color: $night-color-copy;
-      border: none;
-      &:hover { color: lighten($night-color-copy, 20%); }
-    }
-  }
-  h3 {
-    color: $night-color-faded;
-    a { color: $night-color; }
-  }
-  .post-meta { color: $night-color-faded; }
-  .announcement {
-    border: dotted 1px darken($night-color-sponsor, 25%);
-    background-color: $night-color-sponsor;
-  }
-  .header {
-    border-bottom: 1px solid $night-color-hover;
-  }
-  .title {
-    a { color: $night-color; }
-    &:hover { color: darken($night-color-copy, 20%); }
-    &:active { color: lighten($night-color-copy, 20%); }
-  }
-  a {
-    color: $night-color;
-    border-bottom: dotted 1px $night-color;
-    &:hover { background-color: $night-color-hover; }
-    &:active { color: $night-color; }
-  }
-  blockquote { border-left: 1px solid $night-color-faded; }
-  hr { background-color: $night-color-faded; }
-  .article-break { background-color: $night-color-hover; }
-  .js-toggle-lights {
-    border-bottom: none;
-    &:hover { background-color: inherit; }
-  }
-}
+//
+// .night-mode {
+//   body {
+//     color: $night-color-copy;
+//     background-color: $night-color-bg;
+//   }
+//   h1 {
+//     a {
+//       color: $night-color-copy;
+//       border: none;
+//       &:hover { color: lighten($night-color-copy, 20%); }
+//     }
+//   }
+//   h3 {
+//     color: $night-color-faded;
+//     a { color: $night-color; }
+//   }
+//   .post-meta { color: $night-color-faded; }
+//   .announcement {
+//     border: dotted 1px darken($night-color-sponsor, 25%);
+//     background-color: $night-color-sponsor;
+//   }
+//   .header {
+//     border-bottom: 1px solid $night-color-hover;
+//   }
+//   .title {
+//     a { color: $night-color; }
+//     &:hover { color: darken($night-color-copy, 20%); }
+//     &:active { color: lighten($night-color-copy, 20%); }
+//   }
+//   a {
+//     color: $night-color;
+//     border-bottom: dotted 1px $night-color;
+//     &:hover { background-color: $night-color-hover; }
+//     &:active { color: $night-color; }
+//   }
+//   blockquote { border-left: 1px solid $night-color-faded; }
+//   hr { background-color: $night-color-faded; }
+//   .article-break { background-color: $night-color-hover; }
+//   .js-toggle-lights {
+//     border-bottom: none;
+//     &:hover { background-color: inherit; }
+//   }
+// }
