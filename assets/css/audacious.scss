@@ -18,15 +18,15 @@ $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
 $color-bg: #f8f7f5;
 $color-bg: white;
-$max-width: 34rem;
+$max-width: 36rem;
 $big-width: 150%;
 $big-width-offset: 25%;
 $line-height: 1.4em;
 
-$sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana;
+$sans: "Open Sans", Verdana;
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -48,23 +48,19 @@ h5 {
 }
 
 h1 {
-  // font-size: 1.3rem;
   margin: 1rem 0;
-  font-weight: bold;
+  font-weight: normal;
   a {
-    border: none;
     color: $color-copy;
     &:hover { color: lighten($color-copy, 20%); }
   }
 }
 h2 {
-  // font-size: 1.15rem;
   margin: 2rem 0 1rem;
-  // font-weight: 600;
 }
 h3 {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 1px;
   color: $color-faded;
   text-transform: uppercase;
@@ -104,9 +100,6 @@ h3 {
 }
 
 .title {
-  // text-transform: uppercase;
-  // font-variant: small-caps;
-  // font-weight: normal;
   font-weight: bold;
   display: inline;
   font-size: 1rem;
@@ -116,11 +109,7 @@ h3 {
 }
 .nav {
   float: right;
-  // text-transform: uppercase;
-  // font-family: Gill Sans;
   font-size: 1rem;
-  // letter-spacing: 1px;
-  // text-transform: uppercase;
   margin: 0;
   padding: 0;
   a { border: none; }
@@ -137,8 +126,6 @@ h3 {
 
 a {
   color: $color;
-  // text-decoration: none;
-  // border-bottom: dotted 1px $color-hover;
   &:hover {
     background-color: $color-hover;
   }
@@ -246,7 +233,7 @@ iframe {
 
 @media print {
   body {
-    font-size: 14px;
+    font-size: 15px;
   }
   a {
     color: $color-copy;
@@ -271,7 +258,7 @@ iframe {
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
   .header { margin: 0 0 1.25rem; }
   .content {
@@ -280,47 +267,3 @@ iframe {
     max-width: 100%;
   }
 }
-//
-// .night-mode {
-//   body {
-//     color: $night-color-copy;
-//     background-color: $night-color-bg;
-//   }
-//   h1 {
-//     a {
-//       color: $night-color-copy;
-//       border: none;
-//       &:hover { color: lighten($night-color-copy, 20%); }
-//     }
-//   }
-//   h3 {
-//     color: $night-color-faded;
-//     a { color: $night-color; }
-//   }
-//   .post-meta { color: $night-color-faded; }
-//   .announcement {
-//     border: dotted 1px darken($night-color-sponsor, 25%);
-//     background-color: $night-color-sponsor;
-//   }
-//   .header {
-//     border-bottom: 1px solid $night-color-hover;
-//   }
-//   .title {
-//     a { color: $night-color; }
-//     &:hover { color: darken($night-color-copy, 20%); }
-//     &:active { color: lighten($night-color-copy, 20%); }
-//   }
-//   a {
-//     color: $night-color;
-//     border-bottom: dotted 1px $night-color;
-//     &:hover { background-color: $night-color-hover; }
-//     &:active { color: $night-color; }
-//   }
-//   blockquote { border-left: 1px solid $night-color-faded; }
-//   hr { background-color: $night-color-faded; }
-//   .article-break { background-color: $night-color-hover; }
-//   .js-toggle-lights {
-//     border-bottom: none;
-//     &:hover { background-color: inherit; }
-//   }
-// }
