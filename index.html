@@ -2,7 +2,15 @@
 layout: default
 ---
 
-{% for post in site.categories.post %}
+{% for post in site.posts %}
+{% if post.categories contains 'signals' %}
+  <section class="signals-post">
+    <h2 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">Signals for {{  post.date | date: "%A, %-d %B %Y" }}</a></h2>
+    <article class="signals-post-content">
+      {{ post.content }}
+    </article>
+  </section>
+{% else %}
   <section class="post">
     <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
     <article class="post-content">
@@ -10,5 +18,7 @@ layout: default
     </article>
     <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </section>
-  <hr class="article-break">
+{% endif %}
+
+<hr class="article-break">
 {% endfor %}
