@@ -18,7 +18,7 @@ $color-sponsor: #fff5d8;
 $color-hover: #e0dfdd;
 $color-bg: #f8f7f5;
 $color-bg: white;
-$max-width: 36rem;
+$max-width: 35rem;
 $big-width: 150%;
 $big-width-offset: 25%;
 $line-height: 1.4em;
@@ -49,7 +49,7 @@ h5 {
 
 h1 {
   margin: 1rem 0;
-  font-weight: normal;
+  font-weight: bold;
   a {
     color: $color-copy;
     &:hover { color: lighten($color-copy, 20%); }
