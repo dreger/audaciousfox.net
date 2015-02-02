@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Styleguide
+title: Manual of Style
 permalink: /style-guide/
 ---
 # The AF Manual of Style
