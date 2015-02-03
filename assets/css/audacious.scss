@@ -3,7 +3,7 @@
 @charset "utf-8";
 @import 'normalize';
 
-$night-color: #83fd31;
+$night-color: white;
 $night-color-copy: #eee;
 $night-color-sponsor: #4d4b47;
 $night-color-faded: #c3c3c3;
@@ -268,5 +268,48 @@ iframe {
     margin: 0;
     padding: 0 1rem;
     max-width: 100%;
+  }
+}
+
+
+.night-mode {
+  body {
+    color: $night-color-copy;
+    background-color: $night-color-bg;
+  }
+  h1 {
+    a {
+      color: $night-color-copy;
+      &:hover { color: lighten($night-color-copy, 20%); }
+    }
+  }
+  h3 {
+    color: $night-color-faded;
+    a { color: $night-color; }
+  }
+  .post-meta { color: $night-color-faded; }
+  .announcement {
+    border: dotted 1px darken($night-color-sponsor, 25%);
+    background-color: $night-color-sponsor;
+  }
+  .header {
+    border-bottom: 1px solid $night-color-hover;
+  }
+  .title {
+    a { color: $night-color; }
+    &:hover { color: darken($night-color-copy, 20%); }
+    &:active { color: lighten($night-color-copy, 20%); }
+  }
+  a {
+    color: $night-color;
+    &:hover { background-color: $night-color-hover; }
+    &:active { color: $night-color; }
+  }
+  blockquote { border-left: 1px solid $night-color-faded; }
+  hr { background-color: $night-color-faded; }
+  .article-break { background-color: $night-color-hover; }
+  .js-toggle-lights {
+    border-bottom: none;
+    &:hover { background-color: inherit; }
   }
 }
