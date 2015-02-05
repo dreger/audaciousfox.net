@@ -179,7 +179,7 @@ blockquote {
 }
 .archive-list-date {
   color: $color-faded;
-  font-size: .8rem; 
+  font-size: .8rem;
 }
 
 hr {
@@ -274,56 +274,13 @@ iframe {
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
   .header { margin: 0 0 1.25rem; }
-  .nav li { margin-left: .5rem; }
+  .nav li { margin-left: .25rem; }
   .content {
     margin: 0;
     padding: 0 1rem;
     max-width: 100%;
   }
 }
-
-
-// .night-mode {
-//   body {
-//     color: $night-color-copy;
-//     background-color: $night-color-bg;
-//   }
-//   h1 {
-//     a {
-//       color: $night-color-copy;
-//       &:hover { color: lighten($night-color-copy, 20%); }
-//     }
-//   }
-//   h3 {
-//     color: $night-color-faded;
-//     a { color: $night-color; }
-//   }
-//   .post-meta { color: $night-color-faded; }
-//   .announcement {
-//     border: dotted 1px darken($night-color-sponsor, 25%);
-//     background-color: $night-color-sponsor;
-//   }
-//   .header {
-//     border-bottom: 1px solid $night-color-hover;
-//   }
-//   .title {
-//     a { color: $night-color; }
-//     &:hover { color: darken($night-color-copy, 20%); }
-//     &:active { color: lighten($night-color-copy, 20%); }
-//   }
-//   a {
-//     color: $night-color;
-//     &:hover { background-color: $night-color-hover; }
-//     &:active { color: $night-color; }
-//   }
-//   blockquote { border-left: 1px solid $night-color-faded; }
-//   hr { background-color: $night-color-faded; }
-//   .article-break { background-color: $night-color-hover; }
-//   .js-toggle-lights {
-//     border-bottom: none;
-//     &:hover { background-color: inherit; }
-//   }
-// }
