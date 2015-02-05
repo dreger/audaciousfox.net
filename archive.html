@@ -1,0 +1,17 @@
+---
+title: Archive
+layout: default
+permalink: /archive/
+---
+<h1>Archive</h1>
+<p>Last time, on Audacious Fox.</p>
+<hr class="article-break">
+
+<ul class="archive-list">
+{% for post in site.categories.post %}
+  <li>
+    <span class="archive-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.title }}</a></span>
+    <span class="archive-list-date">{{ post.date | date: "%b %d, %Y"}}</span>
+  </li>
+{% endfor %}
+</ul>

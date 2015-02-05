@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit: 25 %}
 {% if post.categories contains 'signals' %}
   <section class="signals-post">
     <h2 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">Signals for {{  post.date | date: "%a. %-d %B %Y" }}</a></h2>
@@ -22,3 +22,5 @@ layout: default
 
 <hr class="article-break">
 {% endfor %}
+
+<p><strong>You've reached the end of the front page. Check out the <a href="/archive">archive</a> for more.</p>
