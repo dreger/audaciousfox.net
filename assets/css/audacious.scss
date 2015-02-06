@@ -23,7 +23,7 @@ $big-width: 140%;
 $big-width-offset: 20%;
 $line-height: 1.4em;
 
-$sans: Verdana;
+$sans: "Open Sans",  Verdana;
 
 html {
   font-size: 13px;
@@ -55,11 +55,12 @@ h5 {
 
 h1 {
   margin: 1rem 0;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1.4rem;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   margin: 2rem 0 1rem;
 }
 h3 {
