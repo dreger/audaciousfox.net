@@ -4,23 +4,19 @@ layout: default
 
 {% for post in site.posts limit: 25 %}
 {% if post.categories contains 'signals' %}
-  <section class="signals-post">
-    <h2 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">Signals for {{  post.date | date: "%a. %-d %B %Y" }}</a></h2>
-    <article class="signals-post-content">
+    <article class="signals-post">
+      <h2 class="signals-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
       {{ post.content }}
     </article>
-  </section>
 {% else %}
-  <section class="post">
-    <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-    <article class="post-content">
-      {{ post.content }}
+    <article class="post">
+      <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
     </article>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </section>
 {% endif %}
+<p class="post-meta"><a class="post-date" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a></p>
 
 <hr class="article-break">
 {% endfor %}
 
-<p><strong>You've reached the end of the front page. Check out the <a href="/archive">archive</a> for more.</p>
+{% include archive-link.html %}

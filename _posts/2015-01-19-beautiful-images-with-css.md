@@ -5,6 +5,8 @@ date: 2015-01-19 11:30
 
 _Note: This isn't a critique of The Newsprint's design, which I very much like; rather, Mr. Ginter's latest post just happened to be the reminder I needed to finish writing about this technique (sorry, Josh!)._
 
+<!-- more -->
+
 If you love art-directed posts with great photography, check out Josh Ginter's [The Newsprint](http://thenewsprint.co). It has been fun to watch him develop as a photographer, and his accompanying articles keep getting better. Here's how Mr. Ginter's latest post, a [photo review of the Hobonichi Techo planner](http://thenewsprint.co/2015/01/19/hobonichi-techo/), looks in Safari:
 
 _![the newsprint](https://farm9.staticflickr.com/8655/16293073066_bec0012532_o_d.png)_

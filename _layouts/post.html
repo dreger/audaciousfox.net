@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<section class="post">
+<article class="post-content">
 {% if page.categories contains 'signals' %}
-<h1 class="post-title"><a href="/signals">Signals</a> for<br>{{ page.date | date: "%A, %-d %B %Y" }}</h1>
+<h1 class="signals-post-title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
 {% else %}
 <h1 class="post-title">{{ page.title }}</h1>
 {% endif %}
 
-<article class="post-content">
 {{ content }}
+<p class="post-meta"><a class="post-date" href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a></p>
 </article>
-<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-</section>

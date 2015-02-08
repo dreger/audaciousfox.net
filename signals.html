@@ -6,12 +6,13 @@ permalink: /signals/
 <h1>Signals</h1>
 <p>Things I've read that you should.</p>
 
-{% for post in site.categories.signals %}
-<hr class="article-break">
-<section class="signals-post">
-  <h2 class="signals-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.date | date: "%A, %-d %B %Y" }}</a></h2>
-  <article class="signals-post-content">
+{% for post in site.categories.signals limit:25 %}
+  <article class="signals-post">
+  <h2 class="signals-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
     {{ post.content }}
   </article>
-</section>
+  <p class="post-meta"><a class="post-date" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a></p>
+<hr class="article-break">
 {% endfor %}
+
+{% include archive-link.html %}
