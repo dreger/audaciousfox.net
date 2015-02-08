@@ -5,9 +5,10 @@ permalink: /signals/
 ---
 <h1>Signals</h1>
 <p>Things I've read that you should.</p>
+<p><strong>Tip:</strong> Click the date to see that particular Signal's permalink.</p>
 
 {% for post in site.categories.signals limit:25 %}
-<hr class="article-break">
+<hr class="large-break">
   <article class="signals-post">
   <h2 class="signals-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
     {{ post.content }}

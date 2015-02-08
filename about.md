@@ -7,6 +7,8 @@ permalink: /about/
 
 Audacious Fox is a web column, writen by Kyle Dreger.
 
+<hr class="large-break">
+
 **Reference**: [AF Manual of Style](/style-guide).
 
 **Correspondence**: [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>.
