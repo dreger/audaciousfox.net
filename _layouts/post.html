@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<article class="post-content">
+<article class="post">
+  <header class="post-header">
 {% if page.categories contains 'signals' %}
-<h1 class="signals-post-title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
+    <h2 class="signals-post-title"><a href="{{ page.link }}">{{ page.title }}</a></h2>
 {% else %}
-<h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-title"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
 {% endif %}
-
-{{ content }}
-<p class="post-meta"><a class="post-date" href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a></p>
+  </header>
+  {{ content }}
+  <p><a class="post-date" href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
 </article>

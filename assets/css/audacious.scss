@@ -44,6 +44,9 @@ h5 {
   font-weight: 500;
   font-family: $sans;
   line-height: 1.1em;
+  a {
+    text-decoration: none;
+  }
 }
 
 h1,
@@ -51,7 +54,7 @@ h1,
   margin: 1rem 0;
   font-weight: bold;
   font-size: 1.5rem;
-  line-height: 1.3em;
+  display: inline;
 }
 h2 {
   font-size: 1.1rem;
@@ -71,8 +74,12 @@ h3 {
 }
 
 .post-date {
-  color: $color-faded;
-  font-weight: 500;
+  color: #AAA;
+  display: inline;
+  font-size: .85rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .announcement {
@@ -94,7 +101,7 @@ h3 {
 
 .header {
   max-width: $max-width + 4rem;
-  margin: 7rem auto 1rem;
+  margin: 7rem auto 2rem;
   border-bottom: 2px solid $color-hover;
   padding: .5rem 0;
   a { text-decoration: none; }
@@ -162,9 +169,14 @@ blockquote {
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 1px;
+  display: inline;
   font-size: 1rem;
   line-height: 1.4em;
-  & + p { margin-top: .5rem; }
+  text-decoration: underline;
+}
+
+.post-header + p {
+  margin-top: .75rem;
 }
 
 .archive-list  {
@@ -278,7 +290,7 @@ iframe {
   .nav li { margin-left: .75rem; }
   .content {
     margin: 0;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
     padding: 0 1rem;
     max-width: 100%;
   }
