@@ -1,5 +1,5 @@
 ---
-title: Homeschooled before it was cool
+title: Homeschooled, before It Was Cool
 link: http://www.wired.com/2015/02/silicon-valley-home-schooling
 date: 2015-02-08 15:32
 ---
