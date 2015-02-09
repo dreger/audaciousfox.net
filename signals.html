@@ -13,7 +13,9 @@ permalink: /signals/
   <h2 class="signals-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
     {{ post.content }}
   </article>
-  <p class="post-meta"><a class="post-date" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a></p>
+  <p class="post-meta"><a class="post-date" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %d" }}</a></p>
 {% endfor %}
+
+<hr class="large-break">
 
 {% include archive-link.html %}

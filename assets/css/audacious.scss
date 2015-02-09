@@ -14,7 +14,6 @@ $color-faded: #8a8a8a;
 $color-sponsor: #fff5d8;
 $color-hover: #e9ebe4;
 $color-bg: #f8f7f5;
-$color-bg: white;
 $max-width: 36rem;
 $big-width: 140%;
 $big-width-offset: 20%;
@@ -100,7 +99,7 @@ h3 {
 a {
   color: $color;
   &:hover {
-    color: #ff0050;
+    color: #97197c;
   }
 }
 
@@ -231,6 +230,7 @@ hr {
 .title {
   font-weight: bold;
   display: inline;
+  text-transform: uppercase;
   font-size: 1rem;
 }
 
@@ -247,7 +247,7 @@ hr {
 
 .large-break {
   background-color: $color-hover;
-  margin: 2.75rem auto;
+  margin: 2rem auto;
   border-radius: 100px;
   border: solid 1px $color-hover;
   height: 1px;
@@ -306,10 +306,10 @@ hr {
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
-  .header { margin: 0 0 1.25rem; }
-  .nav li { margin-left: .75rem; }
+  .header { margin: 0 0 2rem; }
+  .nav li { margin-left: .5rem; }
   .content {
     margin: 0;
     margin-bottom: 2rem;
