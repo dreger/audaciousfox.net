@@ -9,11 +9,13 @@ permalink: /signals/
 
 {% for post in site.categories.signals limit:25 %}
 <hr class="large-break">
-  <article class="signals-post">
-  <h2 class="signals-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
+  <article class="post">
+    <header class="post-header">
+      <h2 class="signals-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
+      <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%-d %B %Y" }}</a>
+    </header>
     {{ post.content }}
   </article>
-  <p class="post-meta"><a class="post-date" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %d" }}</a></p>
 {% endfor %}
 
 <hr class="large-break">

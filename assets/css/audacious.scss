@@ -8,7 +8,7 @@
 // ===============
 
 $color: #242424;
-$color: #222;
+$color: #23d0a8;
 $color-copy: #222;
 $color-faded: #8a8a8a;
 $color-sponsor: #fff5d8;
@@ -41,7 +41,10 @@ body {
   margin: 7rem auto 2rem;
   border-bottom: 3px solid $color-hover;
   padding: .5rem 0;
-  a { text-decoration: none; }
+  a {
+    text-decoration: none;
+    border: none;
+  }
 }
 .content {
   margin: 0 auto 5rem;
@@ -67,22 +70,24 @@ h5 {
   font-weight: 500;
   font-family: $sans;
   line-height: 1.1em;
-  a {
-    text-decoration: none;
-  }
 }
 
 h1 {
   margin: 1rem 0;
   font-weight: bold;
   font-size: 1.5rem;
-  display: inline;
+  a {
+    text-decoration: none;
+    border-bottom: none;
+  }
 }
+
 h2 {
   font-size: 1.1rem;
   font-weight: bold;
   margin: 2rem 0 1rem;
 }
+
 h3 {
   font-size: 1rem;
   font-weight: normal;
@@ -97,9 +102,11 @@ h3 {
 
 
 a {
-  color: $color;
+  color: $color-copy;
+  border-bottom: 2px solid $color;
+  text-decoration: none;
   &:hover {
-    color: #5f9df0;
+    color: $color;
   }
 }
 
@@ -170,31 +177,31 @@ hr {
 // Post styles
 // ===============
 
+.post-header {
+  margin: 0;
+}
+
 .post-title {
   @extend h1;
+  margin-bottom: 0;
 }
 
 .signals-post-title {
   font-weight: bold;
   margin-bottom: 0;
-  display: inline;
-  font-size: 1rem;
   line-height: 1.4em;
-  text-decoration: underline;
+  &:first-child { margin-top: 0; }
 }
 
-
-.post-date {
-  color: #AAA;
-  text-transform: uppercase;
-  font-weight: bold;
+.post-meta {
+  margin: .5rem 0 0;
+  display: inline-block;
+  color: #aaa;
+  border: none;
   text-decoration: none;
-}
-
-
-
-.post-header + p {
-  // margin-top: .75rem;
+  &:hover {
+    color: $color;
+  }
 }
 
 .archive-list  {
@@ -303,7 +310,7 @@ hr {
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
   .header { margin: 0 0 2rem; }
   .nav li { margin-left: .5rem; }

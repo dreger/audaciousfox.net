@@ -10,9 +10,9 @@ layout: default
 {% else %}
     <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 {% endif %}
+    <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%-d %B %Y" }}</a>
   </header>
   {{ post.excerpt }}
-  <p><a class="post-date" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a></p>
 </article>
 <hr class="large-break">
 
