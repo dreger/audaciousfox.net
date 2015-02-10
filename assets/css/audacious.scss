@@ -251,8 +251,7 @@ hr {
   border-radius: 100px;
   border: solid 1px $color-hover;
   height: 1px;
-  width: $big-width;
-  margin-left: -$big-width-offset;
+  width: $max-width;
   &:last-child {
     display: none;
   }
