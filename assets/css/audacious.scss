@@ -248,9 +248,7 @@ hr {
 .large-break {
   background-color: $color-hover;
   margin: 2rem auto;
-  border-radius: 100px;
-  border: solid 1px $color-hover;
-  height: 1px;
+  height: 2px;
   width: $max-width;
   &:last-child {
     display: none;
