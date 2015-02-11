@@ -1,5 +1,5 @@
 ---
-title: "China to launch $6.5B venture fund"
+title: "China to Launch $6.5B Venture Fund"
 date: 2015-01-17
 link: http://www.reuters.com/article/2015/01/15/china-venturecapital-idUSL3N0UU04V20150115
 ---

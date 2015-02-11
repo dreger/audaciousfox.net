@@ -1,5 +1,5 @@
 ---
-title: "Parsing the language"
+title: "Parsing the Language"
 date: 2015-01-29
 link: http://nlp.stanford.edu:8080/parser/index.jsp
 ---

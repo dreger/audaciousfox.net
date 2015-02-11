@@ -1,5 +1,5 @@
 ---
-title: "Partners at Teehan+Lax join Facebook "
+title: "Partners at Teehan+Lax Join Facebook "
 date: 2015-01-17
 link: http://techcrunch.com/2015/01/16/partners-at-teehanlax-the-design-firm-behind-medium-join-facebook/
 ---

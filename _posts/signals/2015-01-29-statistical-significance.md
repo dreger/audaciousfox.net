@@ -1,5 +1,5 @@
 ---
-title: "Hard drive durability"
+title: "Hard Drive Durability"
 date: 2015-01-29
 link: https://www.backblaze.com/blog/best-hard-drive/
 ---

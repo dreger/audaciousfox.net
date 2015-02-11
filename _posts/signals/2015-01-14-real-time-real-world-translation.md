@@ -1,5 +1,5 @@
 ---
-title: "Real time, real world translation"
+title: "Real Time, Real World Translation"
 date: 2015-01-14
 link: http://googletranslate.blogspot.com/2015/01/hallo-hola-ola-to-new-more-powerful_14.html
 ---

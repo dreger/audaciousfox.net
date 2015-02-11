@@ -1,5 +1,5 @@
 ---
-title: "Capital One acquires Level Money"
+title: "Capital One Acquires Level Money"
 date: 2015-01-12
 link: http://www.theverge.com/2015/1/12/7523071/capital-one-buys-level-money-an-excellent-spending-tracker
 ---

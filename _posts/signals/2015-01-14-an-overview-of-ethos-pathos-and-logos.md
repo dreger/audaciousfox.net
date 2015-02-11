@@ -1,5 +1,5 @@
 ---
-title: "An overview of Ethos, Pathos, and Logos"
+title: "An Overview of Ethos, Pathos, and Logos"
 date: 2015-01-14
 link: http://courses.durhamtech.edu/perkins/aris.html
 ---

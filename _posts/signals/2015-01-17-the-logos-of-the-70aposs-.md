@@ -1,5 +1,5 @@
 ---
-title: "The logos of the 70&apos;s "
+title: "The Logos of the 70&apos;s"
 date: 2015-01-17
 link: https://m.flickr.com/#/photos/mr_carl/sets/72157604144345854/
 ---

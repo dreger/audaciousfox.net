@@ -1,5 +1,5 @@
 ---
-title: "Meanwhile, videobloggers continue to attain an unshakable ethos with their audience"
+title: "Meanwhile, Videobloggers Continue to Attain an Unshakable Ethos with Their Audience"
 date: 2015-01-29
 link: https://medium.com/@hankgreen/holy-shit-i-interviewed-the-president-fa3e8fb44d16
 ---

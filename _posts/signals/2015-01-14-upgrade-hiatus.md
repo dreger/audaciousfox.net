@@ -1,5 +1,5 @@
 ---
-title: "Upgrade hiatus"
+title: "Upgrade Hiatus"
 date: 2015-01-14
 link: http://mattgemmell.com/a-final-laptop/
 ---

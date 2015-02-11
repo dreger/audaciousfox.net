@@ -1,5 +1,5 @@
 ---
-title: "Tony Fadell to take over Google Glass project"
+title: "Tony Fadell to Take over Google Glass Project"
 date: 2015-01-17
 link: http://bits.blogs.nytimes.com/2015/01/15/google-glass-to-leave-research-lab-as-new-boss-takes-over-project/
 ---

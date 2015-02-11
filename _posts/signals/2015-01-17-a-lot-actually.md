@@ -1,5 +1,5 @@
 ---
-title: "A lot, actually"
+title: "A Lot, Actually"
 date: 2015-01-17
 link: https://github.com/alex/what-happens-when
 ---

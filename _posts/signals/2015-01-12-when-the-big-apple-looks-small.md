@@ -1,5 +1,5 @@
 ---
-title: "When the Big Apple looks small"
+title: "When the Big Apple Looks Small"
 date: 2015-01-12
 link: https://www.storehouse.co/stories/r3rcy-gotham-7-5k
 ---

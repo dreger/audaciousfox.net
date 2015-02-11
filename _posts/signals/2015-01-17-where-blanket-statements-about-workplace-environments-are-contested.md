@@ -1,5 +1,5 @@
 ---
-title: "Where blanket statements about workplace environments are contested"
+title: "Where Blanket Statements about Workplace Environments Are Contested"
 date: 2015-01-17
 link: http://www.leancrew.com/all-this/2015/01/open-and-shut/
 ---

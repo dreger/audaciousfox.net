@@ -1,5 +1,5 @@
 ---
-title: "Obama pushes for municipal broadband"
+title: "Obama Pushes for Municipal Broadband"
 date: 2015-01-14
 link: http://www.vox.com/2015/1/14/7546865/obama-municipal-broadband-fcc
 ---

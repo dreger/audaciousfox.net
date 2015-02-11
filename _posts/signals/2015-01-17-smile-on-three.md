@@ -1,5 +1,5 @@
 ---
-title: "Smile on three"
+title: "Smile on Three"
 date: 2015-01-17
 link: http://thehairpin.com/2015/01/the-truth-about-your-smile/
 ---
