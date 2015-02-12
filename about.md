@@ -11,7 +11,7 @@ Audacious Fox is a web column, writen by Kyle Dreger.
 
 **Reference**: [AF Manual of Style](/style-guide).
 
-**Correspondence**: [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>.
+**Correspondence**: [@dreger](http://twitter.com/dreger) or <comments@dreger.me>.
 
 **Software I like**: OS X &rarr; iA Writer, iTerm2, Webkit; iOS &rarr; 1Password, OmniFocus, Tweetbot, YNAB.
 
