@@ -1,5 +1,5 @@
 ---
-title: Gender Breakdown of the Front Page for The New York Times
+title: Gender Breakdown of the The New York Times's Front Page
 link: http://www.whowritesfor.com/
 date: 2015-02-21 10:41
 ---
