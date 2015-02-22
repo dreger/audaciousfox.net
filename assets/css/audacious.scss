@@ -39,7 +39,7 @@ body {
 .header {
   max-width: $max-width + 4rem;
   margin: 7rem auto 2rem;
-  border-bottom: 3px solid $color-hover;
+  border-bottom: 1px solid $color-hover;
   padding: .5rem 0;
   a {
     text-decoration: none;
@@ -132,7 +132,7 @@ em img {
 }
 
 blockquote {
-  border-left: 2px solid $color-hover;
+  border-left: 1px solid $color-hover;
   margin-left: 1rem;
   font-size: .9rem;
   padding-left: 1rem;
