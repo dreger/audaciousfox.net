@@ -7,10 +7,11 @@
 // VARIABLES
 // ===============
 
-$color: #242424;
-$color: #23d0a8;
-$color-copy: #222;
-$color-faded: #8a8a8a;
+$color: #005ea5;
+$color: #f7811b;
+$color: #3fc2a4;
+$color-copy: #242424;
+$color-faded: #7a7a7a;
 $color-sponsor: #fff5d8;
 $color-hover: #e9ebe4;
 $color-bg: white;
@@ -37,13 +38,15 @@ body {
 }
 
 .header {
-  max-width: $max-width + 4rem;
-  margin: 7rem auto 2rem;
-  border-bottom: 1px solid $color-hover;
-  padding: .5rem 0;
+  max-width: $max-width + 8rem;
+  margin: 2rem auto 6rem;
+  /* border-bottom: 1px solid $color-hover; */
+  padding: 0 1rem;
+  text-align: center;
+  color: $color-faded;
   a {
-    text-decoration: none;
-    border: none;
+    /* text-decoration: none; */
+    /* border: none; */
   }
 }
 .content {
@@ -75,22 +78,22 @@ h5 {
 h1 {
   margin: 1rem 0;
   font-weight: bold;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   a {
     text-decoration: none;
-    border-bottom: none;
+    &:hover { text-decoration: underline; }
   }
 }
 
 h2 {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   font-weight: bold;
   margin: 2rem 0 1rem;
 }
 
 h3 {
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 1px;
   color: $color-faded;
   text-transform: uppercase;
@@ -102,11 +105,16 @@ h3 {
 
 
 a {
-  color: $color-copy;
-  border-bottom: 1px solid $color;
-  text-decoration: none;
+  color: $color;
+  /* border-bottom: 2px solid $color; */
+  /* text-decoration: none; */
+/*   &:visited {
+  color: #4c2c92;
+  border-bottom-color: #4c2c92;
+} */
   &:hover {
-    color: $color;
+    color: lighten($color, 10%);
+    border-bottom-color: lighten($color, 10%)
   }
 }
 
@@ -132,7 +140,7 @@ em img {
 }
 
 blockquote {
-  border-left: 1px solid $color-hover;
+  border-left: 2px solid $color-hover;
   margin-left: 1rem;
   font-size: .9rem;
   padding-left: 1rem;
@@ -242,6 +250,7 @@ hr {
   display: inline;
   text-transform: uppercase;
   font-size: 1rem;
+  a { color: $color; }
 }
 
 .nav {
@@ -313,9 +322,16 @@ hr {
 
 @media screen and (max-width: 550px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
-  .header { margin: 0 0 2rem; }
+  .visible-desktop { display: none; }
+  .header {
+    margin: 0 0 2rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid $color-hover;
+  }
   .nav li { margin-left: .5rem; }
   .large-break { margin: 1.5rem auto; }
   .content {

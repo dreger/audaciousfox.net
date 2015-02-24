@@ -14,11 +14,24 @@ permalink: /feeds/main.xml
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <title>{{ post.title | xml_escape }}</title>
+          <description>
+            <![CDATA[
+            {{ post.content }}
+            {% if post.categories contains 'signals' %}
+            <div>
+              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">&#8251; AF</a>
+            </div>
+            {% endif %}
+            ]]>
+          </description>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% if post.categories contains 'signals' %}
+          <link>{{ post.link }}</link>
+        {% else %}
+          <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        {% endif %}
       </item>
     {% endfor %}
   </channel>

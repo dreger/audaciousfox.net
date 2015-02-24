@@ -3,16 +3,24 @@ title: About
 layout: default
 permalink: /about/
 ---
-# About
+# About 
 
-Audacious Fox is a web column, writen by Kyle Dreger.
+Audacious Fox is written and painstakingly produced by Kyle Dreger.
+
+
+[**Archive**](/archive)  
+Browse everything I've written. 
+
+[**AF Manual of Style**](/style-guide)  
+An A-Z reference of usage and style. 
+
+[**RSS feeds**](/feeds)  
+Read AF in your favorite feed reader. 
 
 <hr class="large-break">
 
-**Reference**: [AF Manual of Style](/style-guide).
+**Correspondence**: [@dreger](http://twitter.com/dreger) (preferred) or <comments@dreger.me>.
 
-**Correspondence**: [@dreger](http://twitter.com/dreger) or <comments@dreger.me>.
+**Software I like**: OS X &rarr; iA Writer, Terminal, Webkit; iOS &rarr; 1Password, OmniFocus, Twitterrific, YNAB.
 
-**Software I like**: OS X &rarr; iA Writer, iTerm2, Webkit; iOS &rarr; 1Password, OmniFocus, Tweetbot, YNAB.
-
-**Colophon**: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover](http://hover.com). Type is set in Open Sans.
+**Colophon**: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover.com](http://hover.com). Type is set in Open Sans.

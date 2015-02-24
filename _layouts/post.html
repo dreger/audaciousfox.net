@@ -6,7 +6,7 @@ layout: default
 {% if page.categories contains 'signals' %}
     <h2 class="signals-post-title"><a href="{{ page.link }}">{{ page.title }}</a></h2>
 {% else %}
-    <h2 class="post-title"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+    <h2 class="post-title">{{ page.title }}</h2>
 {% endif %}
     <a class="post-meta" href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%-d %B %Y" }}</a>
   </header>
