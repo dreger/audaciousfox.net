@@ -8,8 +8,8 @@
 // ===============
 
 $color: #005ea5;
-$color: #f7811b;
 $color: #3fc2a4;
+$color: #f7811b;
 $color-copy: #242424;
 $color-faded: #7a7a7a;
 $color-sponsor: #fff5d8;
@@ -18,7 +18,7 @@ $color-bg: white;
 $max-width: 36rem;
 $big-width: 140%;
 $big-width-offset: 20%;
-$line-height: 1.4em;
+$line-height: 1.6em;
 $sans: "Open Sans", "Helvetica Neue", "Segoe UI", Verdana;
 
 // ===============
@@ -40,7 +40,7 @@ body {
 .header {
   max-width: $max-width + 8rem;
   margin: 2rem auto 6rem;
-  /* border-bottom: 1px solid $color-hover; */
+  border-bottom: 1px solid $color-hover;
   padding: 0 1rem;
   text-align: center;
   color: $color-faded;
