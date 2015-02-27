@@ -3,7 +3,7 @@ title: "Audacious Fox"
 email: "comments@dreger.me"
 description: "Writing the web column I want to read."
 url: "http://audaciousfox.com" # the base hostname & protocol for your site
-permalink: posts/:short_year:month:day-:title.html
+permalink: /:year/:month/:day/:title.html
 timezone: America/New_York
 
 # Build settings
