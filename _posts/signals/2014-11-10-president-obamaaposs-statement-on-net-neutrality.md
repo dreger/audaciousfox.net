@@ -1,6 +1,7 @@
 ---
 title: "President Obama&apos;s statement on net neutrality"
-date: 2014-11-10
+date: 2014-11-10T00:00:00+00:00
 link: http://www.washingtonpost.com/blogs/the-switch/wp/2014/11/10/obama-to-the-fcc-adopt-the-strongest-possible-rules-on-net-neutrality-including-title-ii/
 ---
+[President Obama&apos;s statement on net neutrality](http://www.washingtonpost.com/blogs/the-switch/wp/2014/11/10/obama-to-the-fcc-adopt-the-strongest-possible-rules-on-net-neutrality-including-title-ii/) &mdash; 
  Mr. Obama urged the FCC and chairman, Tom Wheeler, to reclassify the internet as a utility. A win for supporters of net neutrality, but ultimately could do little to sway the independently-run FCC.

@@ -1,7 +1,8 @@
 ---
-title: My next Three Books
-date: 2015-01-29 22:00
+title: "My next Three Books"
+date: 2015-01-29T22:00:00+00:00
 ---
+
 
 I recently had the opportunity to pick up three books that I had been meaning to buy. I've rented and borrowed copies of these titles before, but I'm happy to finally own them for myself:
 

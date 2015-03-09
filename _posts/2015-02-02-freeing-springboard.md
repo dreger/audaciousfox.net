@@ -1,7 +1,8 @@
 ---
-title: Freeing Springboard
-date: 2015-02-02 11:45
+title: "Freeing Springboard"
+date: 2015-02-02T11:45:00+00:00
 ---
+
 
 [Would this work]({{ site.root }}/assets/images/iphone-6-springboard.png)? It's a simple change, but the perceived value is immediate. You can put icons anywhere on the existing grid, eliminating the need to [implement hackery](http://david-smith.org/blog/2014/10/15/blank-icon-slots/) just to make apps easier to launch. In fact, the current (forced) top-to-bottom, left-to-right layout of the iOS Springboard is one of the reasons I find less appeal in the larger iPhone 6 and iPhone 6 Plus screens.
 

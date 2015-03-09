@@ -1,8 +1,9 @@
 ---
-title: New York times 'Page One' Morning Meetings Shift Focus to Digital Content
+title: "New York times 'Page One' Morning Meetings Shift Focus to Digital Content"
+date: 2015-02-21T11:19:00+00:00
 link: http://www.poynter.org/news/mediawire/321637/dean-baquet-nyt-will-retire-system-of-pitching-stories-for-the-print-page-1/
-date: 2015-02-21 11:19
 ---
+[New York times 'Page One' Morning Meetings Shift Focus to Digital Content](http://www.poynter.org/news/mediawire/321637/dean-baquet-nyt-will-retire-system-of-pitching-stories-for-the-print-page-1/) &mdash; 
 _New York Times_ Executive Editor Dean Baquet, in a memo to staff last week:
 
 > These changes are intended to ensure that our digital platforms are much less tethered to print deadlines. We need to be posting more of our best stories not in the late evening, but when The Times’s digital readership is at its height:between 7 a.m. and 7 p.m.

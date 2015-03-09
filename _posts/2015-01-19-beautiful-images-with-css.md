@@ -1,7 +1,8 @@
 ---
-title: Big, Beautiful Images with CSS
-date: 2015-01-19 11:30
+title: "Big, Beautiful Images with CSS"
+date: 2015-01-19T11:30:00+00:00
 ---
+
 
 _Note: This isn't a critique of The Newsprint's design, which I very much like; rather, Mr. Ginter's latest post just happened to be the reminder I needed to finish writing about this technique (sorry, Josh!)._
 

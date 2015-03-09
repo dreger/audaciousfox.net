@@ -1,7 +1,8 @@
 ---
-title: Typed for Mac
-date: 2014-12-02 23:18
+title: "Typed for Mac"
+date: 2014-12-02T23:18:00+00:00
 ---
+
 
 OS X does not need another Markdown text editor. 
 

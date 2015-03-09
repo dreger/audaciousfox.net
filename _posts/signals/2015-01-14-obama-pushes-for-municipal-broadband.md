@@ -1,6 +1,7 @@
 ---
 title: "Obama Pushes for Municipal Broadband"
-date: 2015-01-14
+date: 2015-01-14T00:00:00+00:00
 link: http://www.vox.com/2015/1/14/7546865/obama-municipal-broadband-fcc
 ---
+[Obama Pushes for Municipal Broadband](http://www.vox.com/2015/1/14/7546865/obama-municipal-broadband-fcc) &mdash; 
  Having the cable companies compete with local governments is a good thing, at least in the context of broadband. I'd much rather pay $70 for 100 Mbps, instead of the 15 Mbps I get now.

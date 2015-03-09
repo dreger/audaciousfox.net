@@ -1,26 +1,8 @@
 ---
-title: Budgeting
-layout: post
+title: "Budgeting"
+date: 2014-12-12
 ---
-As a junior in college, I had no earthly idea how to manage my money.
 
-I was working part-time at some of the offices on campus, and I made a small amount of money working as a writing center tutor. However, by the time the next paycheck would roll around, I would be broke.
-
-Sadly, this was something that had plagued me most of my life. Since I lived and worked in an industry where the newest app or software could be bought for mere pennies, I don't think I ever felt the sting of poor money management like I should have.
-
-Thankfully, things changed. Engaged and going into my senior year, I decided to get serious about saving and being responsible with my money. Fast-forward to today, and my wife and I are on very stable financial footing. We're working towards our end-of-year savings goals, and we are keeping an eye on the areas that we're prone to overspend (spoiler: Starbucks and eating out).
-
-One thing that I want to share, but isn't necessarily the One True Way&trade;, is that my wife and I share our money. It's a collective "our" income and "our" debts. This, in my opinion, is the best way to approach money in marriage. Sharing all the finances not only keeps you accountable, but also allows us to keep the dialogue of our financial goals open and frequent. It's been a great, albeit long, learning experience for the both of us.
-
-I've had a lot of help throughout this process, and I want to especially thank Dr. Gwen Schwartz, Dr. Rodney Dick, and Christopher Durr for their advice. And a special thanks to my wife, for reading over drafts of this post.
-
-## Getting started: what is budgeting?
-
-Initially, budgeting may sound like a nerdy, oh-so-you-majored-in-accounting word, but it's not. I've found budgeting to be _freeing_. I spend money on things I like, and I never worry about having enough to pay our bills each month. Part of this is the blessing of having a solid job with a good income; however, budgeting has helped create a lifestyle where, if I were to lose 3/4 of my income, my wife and I wouldn't have to change a single thing about our lives.
-
-That is an incredibly freeing place to be.
-
----
 
 At its core, budgeting is setting aside money from each paycheck to go towards a specific goal or _category_ of expenses. That's it. You get paid, you give those dollars a job, and then you only spend whatever you have saved for a particular category. To give you an idea of what this looks like, here are some of the categories that my wife and I have set up for our budget:
 

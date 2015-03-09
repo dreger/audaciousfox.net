@@ -1,7 +1,8 @@
 ---
-title: Printing San Franscisco
-date: 2014-11-20 7:30
+title: "Printing San Franscisco"
+date: 2014-11-20T07:30:00+00:00
 ---
+
 John Gruber [tweeted](https://twitter.com/gruber/status/535298550213906434) that the new Apple typeface, San Francisco, may be unprintable, since the company only wants the font used in Apple Watch products. Indeed, printing from any text editor yields terrible results, but I found a way in the most unlikely of heroes: Google Chrome. 
 
 Set your CSS `font-family` to "San Francisco Text," and then open up your site in Chrome. Click on File/Print, notice the non-standard printing dialogue, and then click on the "Open PDF in Preview" link. Bingo.

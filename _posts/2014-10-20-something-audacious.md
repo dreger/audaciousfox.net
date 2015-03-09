@@ -1,7 +1,8 @@
 ---
-title: Something Audacious
-date: 2014-10-20 12:51
+title: "Something Audacious"
+date: 2014-10-20T12:51:00+00:00
 ---
+
 For a while now, I have wanted to stop writing at [kyledreger.com](http://kyledreger.com).
 
 I love writing, and I think it helps me work through my own thoughts. However, I have always wanted to write in a place that didn't scream "me." I wanted a place where I could grow the brand beyond myself. 

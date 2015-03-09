@@ -7,18 +7,12 @@
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="{{ content | strip_html | truncatewords: 30 }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ "/assets/css/audacious.css" | prepend: site.baseurl }}">
 </head>
 
 <body>
-  <header class="header">
-    <p><span class="visible-desktop">You're reading</span> <a href="/"><strong>Audacious Fox</strong></a><span class="visible-desktop">, a web column</span> by <a href="/about">Kyle Dreger</a><span class="visible-desktop">.</span></p>
-  </header>
   <section class="content">
-    <section class="words">
-      {{ content }}
-    </section>
+    {{ content }}
   </section>
 
   <script type="text/javascript">

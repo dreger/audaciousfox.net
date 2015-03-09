@@ -1,8 +1,9 @@
 ---
-title: Five Versions
+title: "Five Versions"
+date: 2015-02-26T21:55:00+00:00
 link: https://signalvnoise.com/posts/2647-the-class-id-like-to-teach
-date: 2015-02-26 21:55
 ---
+[Five Versions](https://signalvnoise.com/posts/2647-the-class-id-like-to-teach) &mdash; 
 Jason Fried, explaining a college class he'd like to teach: 
 
 > It would be a writing course. Every assignment would be delivered in five versions: A three page version, a one page version, a three paragraph version, a one paragraph version, and a one sentence version.

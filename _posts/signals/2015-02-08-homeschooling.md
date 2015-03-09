@@ -1,8 +1,9 @@
 ---
-title: Homeschooled, before It Was Cool
+title: "Homeschooled, before It Was Cool"
+date: 2015-02-08T15:32:00+00:00
 link: http://www.wired.com/2015/02/silicon-valley-home-schooling
-date: 2015-02-08 15:32
 ---
+[Homeschooled, before It Was Cool](http://www.wired.com/2015/02/silicon-valley-home-schooling) &mdash; 
 Jason Tanz, writing for Wired: 
 
 > And yet, as I talked to more of these homeschoolers, I found it harder to dismiss what they were saying. My son is in kindergarten, and I fear that his natural curiosity won’t withstand 12 years of standardized tests, underfunded and overcrowded classrooms, and constant performance anxiety. The Internet has already overturned the way we connect with friends, meet potential paramours, buy and sell products, produce and consume media, and manufacture and deliver goods. Every one of those processes has become more intimate, more personal, and more meaningful. Maybe education can work the same way.

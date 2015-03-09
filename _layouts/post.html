@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
-  <header class="post-header">
-{% if page.categories contains 'signals' %}
-    <h2 class="signals-post-title"><a href="{{ page.link }}">{{ page.title }}</a></h2>
-{% else %}
-    <h2 class="post-title">{{ page.title }}</h2>
-{% endif %}
-    <a class="post-meta" href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%-d %B %Y" }}</a>
-  </header>
+<article>
+  <h1>{{ page.title }}</h1>
   {{ content }}
+  <hr>
+  <p class="faded">Published on {{ page.date | date: "%-d %B %Y" }} by <a href="/">Kyle Dreger</a></p>
 </article>
