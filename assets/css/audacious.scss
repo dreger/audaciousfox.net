@@ -101,7 +101,7 @@ a {
   color: $color;
   /* font-weight: bold; */
   &:visited {
-    color: $color-faded;
+    color: #777;
   }
   &:hover {
     color: lighten($color, 10%);
