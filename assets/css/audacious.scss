@@ -287,6 +287,14 @@ label { cursor: pointer; }
 // Misc.
 // ===============
 
+.index-date {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: .9rem;
+  letter-spacing: 1px;
+  text-align: center; 
+}
+
 .title {
   font-size: .9rem;
   text-transform: uppercase;
