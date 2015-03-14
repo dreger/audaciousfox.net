@@ -19,19 +19,10 @@ permalink: /feed.xml
           <description>
             <![CDATA[
             {{ post.content }}
-            {% if post.categories contains 'signals' %}
-            <div>
-              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">&#8251; AF</a>
-            </div>
-            {% endif %}
             ]]>
           </description>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% if post.categories contains 'signals' %}
-          <link>{{ post.link }}</link>
-        {% else %}
-          <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        {% endif %}
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       </item>
     {% endfor %}
   </channel>
