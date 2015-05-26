@@ -8,24 +8,27 @@
 // VARIABLES
 // ===============
 
-$color: #f7811b;
-$color: #3497d0;
 $color: #2dae76;
+$color: #3497d0;
+$color: #f7811b;
 $color-copy: #242424;
 $color-faded: #b6c0c3;
 $color-sponsor: #fff5d8;
 $color-hover: #d0d9dd;
-$color-bg: white;
-$max-width: 30rem;
+$color-bg: #eee;
+$max-width: 32rem;
 $big-width: 140%;
 $big-width-offset: -20%;
 $line-height: 1.5em;
-$sans: Georgia, Helvetica Neue;
+$sans: "San Francisco Text", "Open Sans", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana;
 
 // ===============
 // Layouts
 // ===============
 
+* {
+  box-sizing: border-box; 
+}
 
 html {
   font-size: 16px;
@@ -35,12 +38,14 @@ body {
   font-family: $sans;
   color: $color-copy;
   background-color: $color-bg;
+  margin: 0; 
+  padding: 0;
   line-height: $line-height;
 }
 
 .header {
   max-width: $max-width + 8rem;
-  margin: 2rem auto 6rem;
+  margin: 0 auto 6rem;
   padding: 0 1rem;
   text-align: center;
   color: $color-faded;
@@ -48,9 +53,12 @@ body {
   }
 }
 .content {
-  margin: 5rem auto 5rem;
   max-width: $max-width;
+  margin: 0;
+  background: white; 
   padding: 1rem;
+  max-width: $max-width; 
+  min-height: 100vh; 
 }
 .footer {
   margin-top: 3rem;
@@ -382,11 +390,5 @@ article {
 @media screen and (max-width: 550px) {
   html {
     font-size: 15px;
-  }
-  .content {
-    margin: 0;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
-    max-width: 100%;
   }
 }

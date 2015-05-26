@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About 
 
-Audacious Fox is written and painstakingly produced by Kyle Dreger.
+Audacious Fox is written and painstakingly produced by [Kyle Dreger](http://kyledreger.com).
 
 
 [**Archive**](/archive)  
