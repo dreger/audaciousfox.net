@@ -1,7 +1,7 @@
 # Site settings
 title: "Audacious Fox"
 email: "comments@dreger.me"
-description: "Writing the web column I want to read."
+description: "Liberal arts, in your browser."
 url: "http://audaciousfox.com" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title.html
 timezone: America/New_York

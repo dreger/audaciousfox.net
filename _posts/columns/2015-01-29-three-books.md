@@ -1,6 +1,6 @@
 ---
 title: "My next Three Books"
-date: 2015-01-29T22:00:00+00:00
+date: 2015-01-29
 ---
 
 

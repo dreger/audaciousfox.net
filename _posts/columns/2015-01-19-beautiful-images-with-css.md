@@ -1,6 +1,6 @@
 ---
 title: "Big, Beautiful Images with CSS"
-date: 2015-01-19T11:30:00+00:00
+date: 2015-01-19
 ---
 
 

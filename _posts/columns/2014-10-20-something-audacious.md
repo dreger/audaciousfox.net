@@ -1,6 +1,6 @@
 ---
 title: "Something Audacious"
-date: 2014-10-20T12:51:00+00:00
+date: 2014-10-20
 ---
 
 For a while now, I have wanted to stop writing at [kyledreger.com](http://kyledreger.com).
