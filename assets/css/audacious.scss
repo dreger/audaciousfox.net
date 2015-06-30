@@ -24,15 +24,18 @@ $color-faded: #9fa4a8;
 $color-hover: #ccc;
 $serif: Georgia, serif;
 $sans: "San Francisco Text", "Avenir Next", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
-$max-width: 600px;
+$max-width: 840px;
 
-* {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
+/* apply a natural box layout model to all elements, but allowing components to change */
 html {
+  box-sizing: border-box;
   font-size: 16px;
+
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
@@ -71,108 +74,126 @@ h3 {
   & + p { margin-top: .5rem; }
 }
 
-.header {
-  margin: 0 0 1rem;
-  padding: .5rem 0;
-  font-family: $sans;
-  border-bottom: double #ccc;
-}
-
-.header-title {
-  font-size: 1rem;
-  line-height: 1em;
-  font-weight: normal;
-  margin: 0;
-  display: inline;
-}
-
-.header-nav {
-  float: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline;
-  }
-  input {
-    display: inline-block;
-    border-radius: 2px;
-    font-size: .85rem;
-    padding: 4px 10px;
-    width: 120px;
-    cursor: pointer;
-    background: #eaeaea;
-    outline: none;
-    border: solid 1px $color-hover;
-    &:hover {
-      background: #fafafa;
-    }
-    &:focus {
-      cursor: text;
-    }
-  }
-}
-
-
-.issue-header-text {
-  color: white;
-  border-radius: 3px;
-  min-height: 100px;
-  font-family: $sans;
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.3em;
-  box-sizing: border-box;
-  padding: 1.5rem;
-  margin: 0;
-  margin-left: -16px;
-  width: $max-width + 32px;
-}
-
-.issue-meta, .issue-header-meta {
-  font-family: $sans;
-  margin: 1rem 0 2rem;
-  font-size: .8rem;
-  font-weight: bold;
-  border: none;
-  // text-align: right;
-  color: #bbb;
-  line-height: 1em;
-}
-
-
-
-.date {
-  display: block;
-  color: #ccc;
-}
-
 .wrapper {
   max-width: $max-width;
-  min-width: 300px;
-  margin: 4rem auto;
+  min-width: 700px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
+.header {
+  border-bottom: double #ccc; 
+}
 
+.header-title {
+  margin: 1.5rem 0; 
+  font-size: 1.5rem; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: normal;
+  line-height: 1em;
+}
+
+
+.section-header {
+  margin: 1em 0; 
+  font-size: .9rem;
+  line-height: 1em; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+
+.column {
+  width: 45%;
+  float: left; 
+  padding: 0 1rem;
+    border-right: 1px solid #ccc; 
+
+}
+
+// 
+// SIGNALS 
+// 
+
+.signals {
+  width: 30%; 
+  min-height: 100vh; 
+  border-right: 1px solid #ccc; 
+  float: left; 
+  padding: 0 1rem; 
+  font-size: .8rem; 
+  font-family: $sans;
+  line-height: 1.4em; 
+}
+.signals-list {
+  padding: 0; 
+  margin: 1rem 0; 
+  li {
+  	border-bottom: 1px solid #ccc; 
+  	list-style: none; 
+		padding: 1rem 0; 
+		&:first-child { padding-top: 0; }
+  }
+}
+.signals-meta {
+  color: #aaa; 
+  text-decoration: none; 
+}
+
+
+// 
+// NAVIGATION
+// 
+
+.navigation {
+  float: left; 
+  padding: 0 1rem; 
+  font-size: .8rem; 
+  font-family: $sans;
+  line-height: 1.4em; 
+	width: 25%;
+  ul {
+    padding: 0; 
+  }
+  li {
+  	list-style: none; 
+  }
+}
+
+
+// 
+// FOOTER
+// 
+
+.footer {
+  border-top: double #ccc; 
+  padding: 0; 
+  font-family: $sans;
+  color: #aaa; 
+  font-size: .8rem; 
+}
 
 img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
   display: block;
-  margin: 1.5rem 0 1.5rem;
+  margin: 1rem 0;
 }
-
 
 figure {
   margin: 1rem 0;
   padding: 0;
-  img {
-    margin: 0;
-    margin-left: -16px;
-    width: $max-width + 32px;
-  }
+	padding: 0 1rem;
+}
+
+.header-image {
+	margin: 0;
+  max-width: $max-width;
+}
+
+.clearfix {
+  clear: both; 
 }
 
 figcaption {
@@ -210,12 +231,12 @@ ul {
 
 
 blockquote {
-  margin: 1rem 0;
-  padding-left: 2rem;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: left;
+  margin: 1em 0 1em .5em; 
+  padding-left: .5em; 
+  font-style: italic; 
+  //border-left: 1px solid #ccc; 
 }
+
 
 hr {
   // background-color: $color-hover;
