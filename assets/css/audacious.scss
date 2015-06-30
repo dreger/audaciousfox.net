@@ -78,6 +78,7 @@ h3 {
   max-width: $max-width;
   min-width: 700px;
   margin: 0 auto;
+  border-top: solid 20px #ff0050; 
   padding: 0 1rem;
 }
 
@@ -92,6 +93,7 @@ h3 {
   letter-spacing: 1px; 
   font-weight: normal;
   line-height: 1em;
+  a { text-decoration: none; }
 }
 
 
@@ -108,8 +110,11 @@ h3 {
   width: 45%;
   float: left; 
   padding: 0 1rem;
-    border-right: 1px solid #ccc; 
+}
 
+.column-single {
+	width: 70%; 
+	border-right: solid 1px #ccc;
 }
 
 // 
@@ -117,11 +122,12 @@ h3 {
 // 
 
 .signals {
-  width: 30%; 
+  width: 35%; 
   min-height: 100vh; 
-  border-right: 1px solid #ccc; 
   float: left; 
-  padding: 0 1rem; 
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+  padding: 0; 
   font-size: .8rem; 
   font-family: $sans;
   line-height: 1.4em; 
@@ -132,8 +138,9 @@ h3 {
   li {
   	border-bottom: 1px solid #ccc; 
   	list-style: none; 
-		padding: 1rem 0; 
+		padding: 1rem; 
 		&:first-child { padding-top: 0; }
+		&:last-child { border-bottom: none; }
   }
 }
 .signals-meta {
@@ -146,13 +153,13 @@ h3 {
 // NAVIGATION
 // 
 
-.navigation {
+.meta {
   float: left; 
   padding: 0 1rem; 
   font-size: .8rem; 
   font-family: $sans;
   line-height: 1.4em; 
-	width: 25%;
+	width: 20%;
   ul {
     padding: 0; 
   }
@@ -161,6 +168,9 @@ h3 {
   }
 }
 
+.meta-single {
+  width: 30%;
+}
 
 // 
 // FOOTER
@@ -194,6 +204,10 @@ figure {
 
 .clearfix {
   clear: both; 
+}
+
+.left-border {
+  border-left: solid 1px #ccc; 
 }
 
 figcaption {

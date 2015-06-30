@@ -30,6 +30,13 @@ defaults:
       type: "posts"
     values:
       category: signals
+  -
+    scope:
+      path: "columns"
+      type: "posts"
+    values:
+      category: columns
+
 
 jekyll-archives:
   enabled: [year, month, day]
