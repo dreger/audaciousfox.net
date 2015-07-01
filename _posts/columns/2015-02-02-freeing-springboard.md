@@ -1,7 +1,7 @@
 ---
 title: "Freeing Springboard"
 date: 2015-02-02
-author: kd
+author: KD
 ---
 Would this work? 
 

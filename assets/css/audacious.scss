@@ -152,7 +152,6 @@ h3 {
 .signals-meta {
   color: #aaa; 
   text-decoration: none; 
-  text-transform: lowercase; 
 }
 
 
@@ -220,6 +219,7 @@ figure {
 .post-meta {
   font-family: $sans; 
   color: #aaa; 
+  a { color: #aaa; }
 }
 
 .archive-list-date {

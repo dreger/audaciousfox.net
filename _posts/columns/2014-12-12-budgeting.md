@@ -1,7 +1,7 @@
 ---
 title: "Budgeting"
 date: 2014-12-12
-author: kd
+author: KD
 ---
 
 
