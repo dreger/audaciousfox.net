@@ -1,6 +1,7 @@
 ---
 title: "My next Three Books"
 date: 2015-01-29
+author: kd
 ---
 
 

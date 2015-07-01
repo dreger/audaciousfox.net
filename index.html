@@ -16,8 +16,8 @@ layout: null
 	<ul class="signals-list">
 		<li><h2 class="section-header">Signals</h2><em>Things we've read that you should too.</em></li>
 		{% for post in site.categories.signals limit:10 %}
-			 <li>{{ post.content | remove: '<p>' | remove: '</p>' }} <a class="signals-meta" href="{{ post.url | prepend: site.baseurl }}"> {{ post.date | date: "%b %d" }}</a></li>
-	 {% endfor %}
+			 <li><a class="signals-meta" href="{{ post.url | prepend: site.baseurl }}"> {{ post.author}} {{ post.date | date: "%b.%d" }}</a> &mdash; {{ post.content | remove: '<p>' | remove: '</p>' }} </li>
+	 	{% endfor %}
 	 
 	 <li>Snag the <a href="/">RSS feeds</a>, they're fun.</li>
 	</ul>

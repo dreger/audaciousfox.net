@@ -1,6 +1,7 @@
 ---
 title: "Freeing Springboard"
 date: 2015-02-02
+author: kd
 ---
 Would this work? 
 

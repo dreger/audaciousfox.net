@@ -1,6 +1,7 @@
 ---
 title: "Big, Beautiful Images with CSS"
 date: 2015-01-19
+author: kd
 ---
 
 
