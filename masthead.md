@@ -7,7 +7,7 @@ Audacious Fox was started by Kyle Dreger in 2014. Topics include liberal arts, t
 
 Editor in Chief, Kyle Dreger (KD)
 
-Senior Editor, Christopher B. Durr (CD)
+Senior Editor, Dr. Christopher B. Durr (CD)
 
 <hr class="large-break">
 
