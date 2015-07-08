@@ -32,7 +32,7 @@ $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #bbb;
 $serif: Georgia, serif;
-$sans: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
+$sans: "San Francisco Text", -apple-system-font, "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
 $max-width: 840px;
 
 /* apply a natural box layout model to all elements, but allowing components to change */
