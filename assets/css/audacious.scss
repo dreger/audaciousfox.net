@@ -157,6 +157,7 @@ h3 {
 
 .column-page {
 	width: 80%; 
+  min-height: 100vh;
 	border-left: solid 1px $color-hover;
 }
 
