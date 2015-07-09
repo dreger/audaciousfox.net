@@ -27,4 +27,4 @@ The accent color changes each week. The Message of the Week (MOTW, found in the 
 
 Colophon: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover.com](http://hover.com). 
 
-Typography: San Francisco Display and San Francisco Text for headings and menus. Georgia for body copy. 
+Typography: An ever-changing mixture of San Francisco, Verdana, and Futura for headings and menus. Georgia for body copy. 
