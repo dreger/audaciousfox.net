@@ -5,8 +5,7 @@
 
 <section class="column column-page">  	
 	<p class="post-meta">
-		Published {{ page.date | date: "%-d %B %Y" }}
-		{% if author %} by {{ author.name }}{% endif %}.
+		{{ page.date | date: "%-d %B %Y" }} {% if author %} by {{ author.name }}{% endif %}
 	</p>
 	<header>
 		<h1>{{ page.title }}</h1>
