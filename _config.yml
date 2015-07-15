@@ -10,7 +10,7 @@ timezone: America/New_York
 markdown: kramdown
 
 highlighter: pygments
-excerpt_separator: "\n\n"
+excerpt_separator: "<!-- more -->"
 
 
 gems:
