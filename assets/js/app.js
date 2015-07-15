@@ -18,3 +18,5 @@ t.addEventListener("click", function(){
     localStorage.setItem("nightPreference", "true");
   }
 });
+
+$.bigfoot();

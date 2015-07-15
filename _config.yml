@@ -10,7 +10,8 @@ timezone: America/New_York
 markdown: kramdown
 
 highlighter: pygments
-excerpt_separator: "<!-- more -->"
+excerpt_separator: "\n\n"
+
 
 gems:
   - jekyll-sitemap

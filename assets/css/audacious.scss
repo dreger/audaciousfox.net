@@ -2,7 +2,6 @@
 ---
 @charset "utf-8";
 @import 'normalize';
-@import 'fonts'; 
 
 
 /*
@@ -317,6 +316,19 @@ blockquote {
   padding-left: .5em; 
   font-style: italic; 
   //border-left: 1px solid #ccc; 
+}
+
+.footnotes {
+  font-size: .85rem; 
+  ol { 
+  	margin: 1rem 0; 
+  	padding: 0 0 0 1.5rem; 
+  }
+  li {
+    margin: .5rem 0; 
+		padding: 0; 
+  }
+  p { margin: 0; }
 }
 
 
