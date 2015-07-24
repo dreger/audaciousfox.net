@@ -79,7 +79,7 @@ h1 {
   font-size: 1.65rem;
   margin: 1rem 0;
   font-weight: normal;
-  line-height: 1em;
+  line-height: 1.2em;
   a { text-decoration: none; }
 }
 h2 {
@@ -262,9 +262,14 @@ img {
 }
 
 figure {
-  margin: 1rem 0;
+  margin: 0;
   padding: 0;
-	padding: 0 1rem;
+	padding: 0;
+}
+
+figcaption {
+  border-bottom: 3px solid $color-bg; 
+	padding: 1rem;
 }
 
 .header-image {
