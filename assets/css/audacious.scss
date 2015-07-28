@@ -26,12 +26,12 @@ $night-color-light: lighten($night-color, 15%);
 $night-color-dark: darken($night-color, 15%);
 
 $color: #5E92D7; // classic blue
-$color: #79BD9A; // teal
 $color: #4990c0; // light blue
 $color: #FFC600; // yellow
 $color: #ff0050; // pink
 $color: #663366; // purple
-$color: #FC7E0F; // orange 
+$color: #79BD9A; // teal
+$color: #ED7B54; // orange 
 $color-danger: #d54242;
 $color-toggle: #28af40;
 $color-light: lighten($color, 15%);
@@ -40,15 +40,14 @@ $color-copy: #2a2a2a;
 $color-bg:  #F7F8FC;
 $color-faded: #9fa4a8;
 $color-hover: #bbb;
-$serif: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", times, serif;
-$sans: "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
-$max-width: 840px;
+$sans: "proxima-nova", "Helvetica Neue", "Segoe UI", Verdana;
+$serif: $sans, "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", times, serif;
+$max-width: 800px;
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
-  font-size: 16px;
-
+  font-size: 15px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -130,13 +129,12 @@ h3 {
   padding: 0; 
   font-family: $sans; 
   color: #aaa;
-  font-size: 13px; 
+  font-size: .85rem;  
   letter-spacing: 1.5px; 
   line-height: 1em;
   text-transform: uppercase; 
   margin-left: 1rem; 
   font-family: $sans; 
-  font-size: 13px; 
 }
 
 .toggle-lights {
@@ -194,7 +192,7 @@ h3 {
   min-height: 100vh; 
   float: left; 
   padding: 0; 
-  font-size: .8rem; 
+  font-size: .85rem; 
   font-family: $sans;
   line-height: 1.5em; 
 }
@@ -224,7 +222,7 @@ h3 {
   text-align: right;
   padding: 0 1.75rem 0 0; 
   font-family: $sans; 
-  font-size: 13px; 
+  font-size: .85rem; 
   line-height: 1.5em; 
 	width: 20%;
   margin-top: 10rem;

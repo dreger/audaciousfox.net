@@ -35,7 +35,7 @@ Waffles are the best breakfast food ever. Period.
 
 Colophon: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover.com](http://hover.com). 
 
-Typography: Palatino Linotype and Helvetica Neue. 
+Typography: Proxima Nova. 
 
 <hr class="large-break">
 
@@ -43,4 +43,6 @@ Typography: Palatino Linotype and Helvetica Neue.
 
 Here is the collection of messages we post in the sidebar. 
 
+- 2015-07-20: I can't stop playing Rocket League, and I feel that I'm only getting worse. 
+- 2015-07-13: A jack of all trades is a master of none, but stick around and we'll help you become one. 
 - 2015-07-6: Waffles are, quite simply, the most perfect breakfast food. (No seriously, waffles are amazing. Christopher and I actually have a literal 'award winning' waffle recipe. Granted, the award was won during our local church cook off, but hey - award winning nonetheless.) 
