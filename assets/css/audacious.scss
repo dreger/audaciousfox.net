@@ -398,11 +398,11 @@ hr {
 }
 
 .night {
-  body {
+  body, .notice-wrapper {
     background: #3A3F43; 
     color: $night-copy; 
   }
-  .wrapper, .content { 
+  .wrapper, .content, .notice-wrapper { 
 	  border-color: $night-color; 
 	}
 	.content {
