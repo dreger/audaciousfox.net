@@ -161,6 +161,13 @@ h3 {
   letter-spacing: 1.5px; 
 }
 
+.notice-wrapper {
+  background: $color-bg; 
+  padding: 1rem; 
+  font-size: .9rem; 
+  line-height: 1.5em; 
+}
+
 .content {
   width: 80%; 
   float: left; 
