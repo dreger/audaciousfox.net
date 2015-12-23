@@ -46,6 +46,8 @@ I had reached the Mün in a spacecraft I had designed, launched and flown. And i
 
 Kerbal Space Program is a great game and you should choose to play it; not because it is easy, but because it is hard.
 
+---
+
 [^1]: I hope you remember your calculous. 
 [^2]: I wish it were that easy in real life.
 [^3]: Because, you know, science.

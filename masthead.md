@@ -5,7 +5,7 @@ permalink: /masthead/
 ---
 Audacious Fox was started by Kyle Dreger in 2014. Topics include liberal arts, technology, design, and science. 
 
-Founder &amp; Executive Editor, Kyle Dreger (KD)
+Executive Editor, Kyle Dreger (KD)
 
 Senior Editor, Dr. Christopher B. Durr (CD)
 
@@ -35,7 +35,7 @@ Waffles are the best breakfast food ever. Period.
 
 Colophon: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.com/mojombo/jekyll). The domain lives on [Hover.com](http://hover.com). 
 
-Typography: Proxima Nova. 
+Typography: system fonts that don't suck. 
 
 <hr class="large-break">
 

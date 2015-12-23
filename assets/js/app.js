@@ -5,8 +5,8 @@ var d = document.documentElement,
 t = document.querySelectorAll(".toggle-lights")[0],
 m = localStorage.getItem("nightPreference");
 
-if(m == "true") {
-  d.classList.add("night");
+if(m == "false") {
+  d.classList.remove("night");
 }
 
 t.addEventListener("click", function(){
