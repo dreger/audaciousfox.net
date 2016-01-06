@@ -16,7 +16,7 @@ permalink: /feeds/main.xml
         <link>{{ post.link }}</link>
         <guid isPermaLink="false">{{ post.link }}</guid>
       {% else %}
-        <title>{{ site.url_icon }} {{ post.title | xml_escape }}</title>
+        <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="false">{{ post.url }}</guid>
       {% endif %}

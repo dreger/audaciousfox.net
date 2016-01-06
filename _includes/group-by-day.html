@@ -1,0 +1,10 @@
+{% for post in site.posts limit:25 %}
+  {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+  {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+
+  {% if day != nday %}
+    <span class="index-date">{{ post.date | date: "%A, %e %B %Y" }}</span>
+  {% endif %}
+
+  {% include post-template.html data=post %}
+{% endfor %}

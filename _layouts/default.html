@@ -22,18 +22,22 @@
     </header> -->
     <section class="wrapper">
       <nav class="sidebar">
-        <h1 class="index-date"><strong><a href="/">Audacious Fox</a></strong></h1>
-        <p class="byline">By <span class="small-caps">Kyle Dreger</span></p>
-        <ul class="sidebar-links small-caps">
+        <h1><a class="site-title caps" href="/">Audacious Fox</a></h1>
+        <p class="byline">By <span class="caps">Kyle Dreger</span></p>
+        <ul class="sidebar-links caps">
           <li><a href="/archive/">Archive</a></li>
           <li><a href="/masthead/">Masthead</a></li>
-          <li><a href="/feeds/">RSS Feeds</a></li>
+          <li><a href="/feeds/">RSS Feed</a></li>
           <li><a href="https://twitter.com/dreger">Twitter</a></li>
-          <li><a href="mailto:comments@audaciousfox.net">Email</a></li>
-          <!-- <li><span class="toggle-lights">☼</span></li> -->
         </ul>
       </nav>
-      <section class="content">{{ content }}</section> 
+      <section class="content">
+        {{ content }}
+        
+        <footer>
+          <p>Comments or response? Tweet <a href="https://twitter.com/dreger">@Dreger</a>.</p>
+        </footer>
+      </section> 
     </section>
   </body>
 </html>

@@ -1,8 +1,9 @@
 ---
-title: "Kerbal Space Program: To the Moon (regardless how you spell it)"
+title: "Kerbal Space Program: To the Moon"
 date: 2015-07-17 09:15
 author: CD
 ---
+_By guest author, Christopher B. Durr._
 
 > We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard &mdash;John F. Kennedy
 

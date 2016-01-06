@@ -13,11 +13,11 @@ If you run a journalistic web column, please feel free to remix or copy the cont
 
 If you do any sort of writing, particularly online, you should be using a style guide. Having some sort of reference for how _you_ write will help you make consistent editorial decisions, and it will help bring a level of polish to your work that many miss out on.
 
-### Style & Tone
+## Style & Tone
 
 Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose. 
 
-### Reference (A-Z)
+## Reference (A-Z)
 
 - Apostrophes
 
