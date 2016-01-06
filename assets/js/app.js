@@ -2,14 +2,16 @@
 // https://github.com/daneden/daneden.me/blob/master/_assets/js/light-switch.js
 // Toggle night theme
 var d = document.documentElement,
-t = document.querySelectorAll(".toggle-lights")[0],
-m = localStorage.getItem("nightPreference");
+lightSwitch = document.querySelectorAll(".toggle-lights")[0],
+lightOff = localStorage.getItem("nightPreference");
 
-if(m == "false") {
+if(lightOff == "true") {
+  d.classList.add("night");
+} else {
   d.classList.remove("night");
 }
 
-t.addEventListener("click", function(){
+lightSwitch.addEventListener("click", function(){
   if(d.classList.contains("night")) {
     d.classList.remove("night");
     localStorage.setItem("nightPreference", "false");

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Archives
+permalink: /archive/
+---
+<h1>Archives</h1>
+
+<p>Previously, on Audacious Fox.</p>
+
+<ul class="index">
+{% for post in site.categories.columns %}  
+  {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+  {% capture next_month %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+  {% if month != next_month %}
+  <li class="index-date">{{ post.date | date: "%B %Y" }}</li>
+  {% endif %}
+  
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>

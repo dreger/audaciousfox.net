@@ -1,25 +1,23 @@
 ---
 title: Masthead
-layout: page
+layout: default
 permalink: /masthead/
 ---
+# Masthead
+
 Audacious Fox was started by Kyle Dreger in 2014. Topics include liberal arts, technology, design, and science. 
 
 Executive Editor, Kyle Dreger (KD)
 
 Senior Editor, Dr. Christopher B. Durr (CD)
 
-<hr class="large-break">
-
 ## Correspondence
 
-Please send all emails to <comments@dreger.me>.
+Please send all emails to <comments@audaciousfox.net>.
 
 KD's Twitter: [@dreger](http://twitter.com/dreger)
 
 CD's Twitter: [@cbdurr](http://twitter.com/cbdurr)
-
-<hr class="large-break">
 
 ## Miscellany  
 
@@ -37,12 +35,3 @@ Colophon: [GitHub pages](https://pages.github.com/) and [Jekyll](https://github.
 
 Typography: system fonts that don't suck. 
 
-<hr class="large-break">
-
-## Previous sidebar messages
-
-Here is the collection of messages we post in the sidebar. 
-
-- 2015-07-20: I can't stop playing Rocket League, and I feel that I'm only getting worse. 
-- 2015-07-13: A jack of all trades is a master of none, but stick around and we'll help you become one. 
-- 2015-07-6: Waffles are, quite simply, the most perfect breakfast food. (No seriously, waffles are amazing. Christopher and I actually have a literal 'award winning' waffle recipe. Granted, the award was won during our local church cook off, but hey - award winning nonetheless.) 

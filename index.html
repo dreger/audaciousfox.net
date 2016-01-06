@@ -1,53 +1,17 @@
 ---
-layout: null
+layout: default
 ---
+<section class="front-page">
+{% for post in site.posts limit:25 %}
+  {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+  {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
 
-{% include head.html %} 
-{% include navigation.html %}
+  {% if day != nday %}
+    <span class="index-date">{{ post.date | date: "%A, %e %B %Y" }}</span>
+  {% endif %}
 
-<section class="content">
-{% include header.html %} 
-
-<figure style="display: none;">
-	<img class="header-image">
-	<figcaption></figcaption>
-</figure>
-
-<section class="signals">
-	<ul class="signals-list">
-		<li><h2 class="section-header">Signals</h2><em>Things we've read that you should too.</em></li>
-		{% for post in site.categories.signals limit:15 %}
-			 <li><a class="signals-meta" href="{{ post.url | prepend: site.baseurl }}"> {{ post.author}} {{ post.date | date: "%b %d" }}</a> &middot; {{ post.content | remove: '<p>' | remove: '</p>' }} </li>
-	 	{% endfor %}
-	 
-	 <li>Snag the <a href="/feeds">RSS feeds</a>, they're fun.</li>
-	</ul>
-</section>
-
-<section class="column">  	
-	{% for post in site.categories.columns limit:1 %}
-		<h2 class="section-header">{{ post.author }}'s Column</h2> 	
-		<article>
-			<header class="issue-header">
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			</header>
-			{{ post.excerpt }}
-			<p><a class="read-more" href="{{ post.url }}">Continued on A2...</a></p>
-		</article>
-	{% endfor %}
-	
-	<hr class="large-break">
-
-	<p>Previously: </p>
-	<ul>
-	{% for post in site.categories.columns offset:1 limit: 10 %}
-		<li class="archive-list-item">
-			<span class="archive-list-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-			<span class="archive-list-date">{{ post.date | date: "%-d %B %Y" }}</span>
-		</li>
-	{% endfor %}
-	</ul>
+  {% include post-template.html data=post %}
+{% endfor %}
 </section> 
 
-
-{% include footer.html %}
+<h2>To the <a href="/archive">Archive &rarr; </a></h2>

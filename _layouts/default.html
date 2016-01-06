@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" class="night">
+  <head>
+    <title>
+    {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
+    </title>
+    <meta charset="utf-8">
+    <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=500, initial-scale=0.5, minimum-scale=0.45">
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+    <link rel="apple-touch-icon" href="/assets/images/icon.png" />
+    <link rel="stylesheet" href="/assets/css/audacious.css">
+  </head>
+  <body>
+    <!-- <header class="header">
+        <h1><a class="site-title" href="/">Audacious Fox</a></h1>
+    </header> -->
+    <section class="wrapper">
+      <nav class="sidebar">
+        <h1 class="index-date"><strong><a href="/">Audacious Fox</a></strong></h1>
+        <p class="byline">By <span class="small-caps">Kyle Dreger</span></p>
+        <ul class="sidebar-links small-caps">
+          <li><a href="/archive/">Archive</a></li>
+          <li><a href="/masthead/">Masthead</a></li>
+          <li><a href="/feeds/">RSS Feeds</a></li>
+          <li><a href="https://twitter.com/dreger">Twitter</a></li>
+          <li><a href="mailto:comments@audaciousfox.net">Email</a></li>
+          <!-- <li><span class="toggle-lights">☼</span></li> -->
+        </ul>
+      </nav>
+      <section class="content">{{ content }}</section> 
+    </section>
+  </body>
+</html>

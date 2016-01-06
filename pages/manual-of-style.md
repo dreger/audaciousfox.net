@@ -1,13 +1,15 @@
 ---
-layout: page
+layout: default
 title: AF Manual of Style
-permalink: /style-guide/
+permalink: /manual-of-style/
 ---
+# AF Manual of Style
+
 This document serves as the living style guide for [Audacious Fox](http://audaciousfox.com), and I consider it a personalized list of rules that are a superset of those found in the New York Times Manual of Style. The goal of this document is to bring a consistent voice to all the writing on this site.
 
 If you run a journalistic web column, please feel free to remix or copy the contents here for your own personal use. If you feel so obliged, a link back to this page is appreciated, but not required. This document will continue to evolve over time, so please check back occasionally.
 
-### Ideology
+## Ideology
 
 If you do any sort of writing, particularly online, you should be using a style guide. Having some sort of reference for how _you_ write will help you make consistent editorial decisions, and it will help bring a level of polish to your work that many miss out on.
 

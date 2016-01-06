@@ -1,6 +1,6 @@
 ---
 title: About
-layout: page
+layout: default
 permalink: /about/
 ---
 Audacious Fox was started by Kyle Dreger in 2014. Topics include liberal arts, technology, design, and science. 
