@@ -3,14 +3,14 @@ title: "Audacious Fox"
 email: "comments@dreger.me"
 description: "Liberal arts, in your browser."
 url: "http://audaciousfox.com" 
-permalink: /:year/:month/:title.html
+permalink: /:year/:month/:day/:title.html
 timezone: America/New_York
 url_icon: '&#8984;'
 url_icon: '&#9650;'
 
 # Build settings
 markdown: kramdown
-
+ 
 highlighter: pygments
 excerpt_separator: "<!-- more -->"
 
@@ -20,20 +20,15 @@ gems:
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
+      path: "_posts/links"
     values:
+      permalink: /linked/:year/:month/:day/:title
       layout: "post"
-      category: post
-  -
-    scope:
-      path: "links"
-      type: "posts"
-    values:
       category: links
   -
     scope:
-      path: "columns"
-      type: "posts"
+      path: "_posts/articles"
     values:
-      category: columns
+      permalink: /:year/:month/:title
+      layout: "post"
+      category: articles

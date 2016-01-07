@@ -3,6 +3,13 @@ layout: default
 ---
 <section class="front-page">
   {% for post in site.posts limit:25 %}
+    {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+    {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+
+    {% if day != nday %}
+      <h2 class="dateline">{{ post.date | date: "%A, %e %B %Y" }}</h2>
+    {% endif %}
+
     {% include post-template.html data=post %}
   {% endfor %}
 </section> 
