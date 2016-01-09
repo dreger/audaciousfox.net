@@ -1,43 +1,37 @@
 <!doctype html>
-<html lang="en" class="night">
+<html lang="en">
   <head>
     <title>
     {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
     </title>
     <meta charset="utf-8">
     <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=500, initial-scale=0.5, minimum-scale=0.45">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:url" content="{{ page.url }}"/>
     <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
     <link rel="apple-touch-icon" href="/assets/images/icon.png" />
-    <link rel="stylesheet" href="/assets/css/audacious.css">
+    <link rel="stylesheet" href="/assets/css/audacious.css?v=1">
   </head>
   <body>
-    <!-- <header class="header">
-        <h1><a class="site-title" href="/">Audacious Fox</a></h1>
-    </header> -->
+    <section class="header-wrapper">
+      <header class="header">
+        <h1 class="site-title"><a class="caps" href="/">Audacious Fox</a></h1>        
+        <span class="byline">By&nbsp;&nbsp;<a href="/masthead" class="caps">Kyle Dreger</a></span> 
+      </header>
+    </section> 
     <section class="wrapper">
-      <nav class="sidebar">
-        <h1><a class="site-title caps" href="/">Audacious Fox</a></h1>
-        <p class="byline">By&nbsp;&nbsp;<span class="caps">Kyle Dreger</span></p>
-        <ul class="sidebar-links caps">
-          <li><a href="/archive/">Archive</a></li>
-          <li><a href="/masthead/">Masthead</a></li>
-          <li><a href="/feeds/">RSS Feed</a></li>
-          <li><a href="https://twitter.com/dreger">Twitter</a></li>
-        </ul>
-      </nav>
-      <section class="content">
-        {{ content }}
-        
-        <footer>
-          <p>Comments or response? Tweet <a href="https://twitter.com/dreger">@Dreger</a>.</p>
-        </footer>
-      </section> 
+      {{ content }}
     </section>
+    
+    <section class="footer-wrapper">
+      <footer class="footer">
+        <a href="/archive">Archive</a> &middot; <a href="/masthead">Masthead</a>  &middot; <a href="/feeds">RSS Feeds</a><br>
+        Comments or response? Tweet <a href="https://twitter.com/dreger">@Dreger</a>.
+      </footer>
+    </section> 
+    <script src="/assets/js/app.js"></script>
   </body>
 </html>

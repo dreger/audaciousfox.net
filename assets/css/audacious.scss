@@ -16,7 +16,7 @@
   On the shoulders of giants, so they say. 
 */
 
-$max-width: 42rem;
+$max-width: 30rem;
 $line-height: 1.5em;
 $font-size-small: .875rem; 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
@@ -27,20 +27,13 @@ $color-copy: #222;
 $color-faded: #aaa;
 $color-really-faded: #dedede; 
 
-$color: #77BE99; 
-$color-bg: #2E3337; 
-$color-copy: #ddd; 
-$color-faded: #8896A6;
-$color-really-faded: #3A3F43; 
-
-
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 13px;
+  font-size: 14px; 
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -52,9 +45,6 @@ body {
     font-weight: normal;
     font-style: normal;
     line-height: $line-height;
-    width: $max-width;
-    margin: 4rem auto;
-    padding: 1rem;
 }
 
 h1,
@@ -67,9 +57,9 @@ h6 {
 }
 
 h1 {
-  line-height: 1.2em;
-  font-size: 1.1875rem;
-  font-weight: 700;
+  line-height: 1.1875em;
+  font-size: 1.3875rem;
+  font-weight: 900;
 }
 h2 {
   font-size: 1rem; 
@@ -81,7 +71,7 @@ h2 {
 h3 {
   font-weight: normal;
   font-size: $font-size-small;
-  font-weight: 600;
+  font-weight: 900;
   display: block; 
   padding: 0 0 .25rem;
   line-height: 1.2em;
@@ -92,7 +82,7 @@ h3 {
 
 a {
   color: $color; 
-  &:hover { color: lighten($color, 15%); }
+  &:hover { color: lighten($color, 20%); }
 }
 
 p {
@@ -103,28 +93,33 @@ blockquote {
   margin: 0 0 1rem 0;
   border-left: solid 1px $color;
   padding: .25rem .75rem; 
-  margin-left: .75rem;
   + blockquote { margin-top: -1rem ;}
 }
 
 blockquote p:last-child { margin-bottom: 0; }
 
 hr {
-  margin: 1.25rem auto;
+  margin: 1.25rem 0;
   border: none;
-  width: 100%; 
+  width: 50%; 
   height: 0px;
-  border-bottom: 2px solid $color-really-faded; 
-}
-
-del, del a {
-  color: #aaa;
+  border-bottom: 1px solid $color-really-faded; 
 }
 
 img {
   width: 100%; 
   display: block; 
-  border-radius: 3px; 
+}
+
+em img {
+  width: 140%; 
+  margin-left: -20%; 
+}
+
+code {
+  font-size: $font-size-small; 
+  line-height: $line-height; 
+  overflow: scroll;
 }
 
 ul, ol {
@@ -136,20 +131,10 @@ ul { list-style: square; }
 li { margin-bottom: .15rem; }
 
 article {
-  margin-bottom: 3rem; 
-  padding-top: 0;
   position: relative; 
+  margin: 0 0 4rem; 
   box-sizing: border-box;
   &:last-of-type { margin-bottom: 0; }
-}
-
-footer {
-  border-top: 2px solid $color-really-faded; 
-  margin-top: 2rem; 
-  padding-top: 2rem; 
-  font-size: $font-size-small;
-  color: $color-faded; 
-  a { color: #aaa; }
 }
 
 hr + ol {
@@ -160,72 +145,51 @@ hr + ol {
   }
 }
 
-
 .wrapper {
-  display: flex; 
+  max-width: $max-width;
+  margin: 3rem auto;
+  padding: 0;
 }
 
-.sidebar {
-	flex: 0 1 auto; 
-  margin-right: 3.5rem; 
-	font-size: $font-size-small; 
-	text-align: right; 	
-  line-height: 1.4em; 
+.header-wrapper {
+  margin: 4rem 0;
+  border-bottom: solid 1px $color-really-faded; 
 }
 
-.sidebar-links {
-  list-style: none; 
-  margin: 0; 
-  padding: 0; 
-  li { margin-bottom: .75rem; }
-  a { text-decoration: none; }
+.header {
+  padding: 1rem;
+  margin: 0 auto; 
+  max-width: $max-width; 
+  overflow: auto;
+  line-height: 1em; 
+}
+
+.footer-wrapper {
+  border-top: solid 1px $color-really-faded; 
+}
+
+.footer {
+  padding:  1rem 0 2rem;
+  margin: 0 auto; 
+  max-width: $max-width; 
+  font-size: $font-size-small;
+  color: $color-faded; 
+  line-height: 2em; 
+  a { color: $color-faded; }
 }
 
 .site-title {
-  display: block; 
-  text-decoration: none; 
-  padding: .5rem 1rem; 
-  color: white; 
-  background: darken($color, 20%); 
-  margin: 0 0 1rem; 
-  font-weight: bold; 
+  font-weight: normal;
+  display: inline-block;
+  margin: 0; 
   font-size: $font-size-small;
-  &:hover { 
-    color: white; 
-    // background: darken($color, 15%); 
-  }
-}
-
-.byline { 
-  line-height: 1em; 
-  margin: 2.5rem 0;
-}
-.content { flex: 1; }
-
-.caps {
-  text-transform: uppercase; 
-  letter-spacing: .15em; 
-}
-
-.post-title {
-  margin-bottom: .5rem;
+  padding: 0; 
+  float: left; 
   a {
-    color: $color-copy; 
+    font-weight: bold; 
     text-decoration: none; 
-    &:hover { color: lighten($color-copy, 20%); }
   }
 }
-
-.link-title {
-  @extend .caps; 
-  font-size: $font-size-small; 
-  display: inline-block; 
-  margin-bottom: .5rem; 
-  font-weight: bold; 
-  line-height: 1.4em;
-}
-
-.link-url { text-decoration: none; }
 
 .dateline {
   @extend .caps;
@@ -233,7 +197,94 @@ hr + ol {
   font-size: $font-size-small; 
   color: $color-faded; 	
   line-height: 1em;
-	margin: 5rem 0 1.5rem;
-  &:first-of-type { margin-top: 0; }
+  margin: 0; 
+	margin: 4rem 0; 
+	padding: 0; 
+  &:first-of-type { 
+    margin-top: 0; 
+    border: none;
+  }
 }
 
+.byline {
+  display: inline-block; 
+  font-size: $font-size-small;
+  float: right; 
+  color: $color-faded; 
+  a {
+    color: $color-faded; 
+  }
+}
+
+.caps {
+  letter-spacing: .125em; 
+  text-transform: uppercase; 
+}
+
+.post-header {
+  margin-bottom: 1rem; 
+}
+
+.post-title {
+  padding: 0; 
+  display: inline; 
+}
+
+.post-date {
+  margin-bottom: .5rem; 
+}
+
+.link-title {  
+  font-size: 1rem; 
+  display: inline; 
+  font-weight: 700;
+}
+
+.post-link {
+  flex: 0 auto; 
+  padding: 0; 
+  line-height: 1em;
+  text-decoration: none; 
+}
+
+
+$night-color: #77BE99; 
+$night-bg: #2E3337; 
+$night-copy: #ddd; 
+$night-faded: #8896A6;
+$night-really-faded: #3A3F43; 
+
+.night {
+  body {
+    background: $night-bg; 
+    color: $night-copy; 
+  }
+  .byline a { color: $night-faded; }
+  a {
+    color: $night-color; 
+    &:hover { color: lighten($night-color, 20%); }
+  }
+  blockquote { border-color: $night-color; }
+  .dateline,
+  .content,
+  .header-wrapper,
+  .footer-wrapper { border-color: $night-really-faded; }
+}
+
+@media (max-width: $max-width + 8rem) {
+  em img {
+    max-width: 100%; 
+    margin-left: 0; 
+  }
+}
+
+@media (max-width: $max-width) {
+  html { font-size: 16px; }
+  .wrapper { 
+    padding: 1rem;
+    margin: 0;  
+  }
+  .header-wrapper {
+    margin: 0 ;
+  }
+}

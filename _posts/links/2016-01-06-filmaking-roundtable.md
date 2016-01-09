@@ -1,5 +1,5 @@
 ---
-title: Roundtable with Ridley Scott, Tarantino, and More 
+title: Roundtable with Ridley Scott, Tarantino, and More You Know
 date: 2016-01-06 09:51
 link: https://www.youtube.com/watch?v=SQ7qKKQrSBY
 ---

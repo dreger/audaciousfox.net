@@ -20,15 +20,13 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts/links"
+      path: "links"
     values:
-      permalink: /linked/:year/:month/:day/:title
       layout: "post"
       category: links
   -
     scope:
-      path: "_posts/articles"
+      path: "articles"
     values:
-      permalink: /:year/:month/:title
       layout: "post"
       category: articles
