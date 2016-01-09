@@ -1,7 +1,7 @@
 ---
 title: A Small Makeover for The Newsprint
 date: 2016-01-06 09:53
-link: http://thenewsprint.co/2016/01/06/a-small-makeover/
+link: http://thenewsprint.co/2016/01/05/a-small-makeover/
 ---
 
 Joshua Ginter: 
@@ -10,4 +10,4 @@ Joshua Ginter:
 
 > That’s life. I apologize for pulling back. On the other hand, I’m proud to say I’m moving forward in so many other areas.
 
-The only thing I miss from "old" The Newsprint are the Field Note reviews. I understand where he's coming from, but I think Josh has done a great job. 
+As he says, "that's life." Writing is hard, editing is hard, and when these things don't directly pay the bills, it's hard. I understand where he's coming from, but I think Joshua has done, and is doing, a great job with The Newsprint. The typeface tweaks look great, too.

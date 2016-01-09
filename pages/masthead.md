@@ -13,7 +13,7 @@ _![Dreger's headshot](https://dl.dropboxusercontent.com/u/418570/audaciousfox/dr
 
 ## Contact
 
-Correspondence cheerfully received at<br><comments@audaciousfox.net> or [@Dreger](https://twitter.com/dreger). 
+Correspondence cheerfully received at<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
 
 ## Mac Software
 
@@ -33,3 +33,5 @@ Waffles are the best breakfast food ever. Period.
 This site is hosted on [GitHub pages](https://pages.github.com/), and the domain is registered through [Hover.com](http://hover.com). 
 
 Typography: system fonts that don't suck. 
+
+_Hard things are hard._
