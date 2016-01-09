@@ -28,3 +28,12 @@ function switchLights(){
 };
 
 
+
+document.querySelector('.header').addEventListener('touchend', function (e) {
+    var self = this
+    this.addEventListener('touchend', secondTap)
+    setTimeout(function () {
+        self.removeEventListner('touchend', secondTap);
+        switchLights();
+    }, 100)
+})

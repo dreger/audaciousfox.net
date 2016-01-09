@@ -169,7 +169,7 @@ hr + ol {
 }
 
 .footer {
-  padding:  1rem 0 2rem;
+  padding:  1rem 1rem 2rem;
   margin: 0 auto; 
   max-width: $max-width; 
   font-size: $font-size-small;
@@ -247,6 +247,20 @@ hr + ol {
   text-decoration: none; 
 }
 
+.interview {
+  position: relative; 
+  display: block; 
+  margin-left: 1.75rem;	
+  h3 { margin-left: -1.75rem; }	
+}
+
+.name {
+  display: inline-block; 
+  font-size: .875rem; 
+  text-transform: uppercase; 
+  letter-spacing: .135em; 
+  margin-left: -1.75rem; 	
+}
 
 $night-color: #77BE99; 
 $night-bg: #2E3337; 
@@ -268,21 +282,22 @@ $night-really-faded: #3A3F43;
   .dateline,
   .content,
   .header-wrapper,
-  .footer-wrapper { border-color: $night-really-faded; }
+  .footer-wrapper,
+  hr { border-color: $night-really-faded; }
 }
 
-@media (max-width: $max-width + 8rem) {
+@media (max-width: $max-width + 10rem) {
   em img {
-    max-width: 100%; 
+    width: 100%; 
     margin-left: 0; 
   }
 }
 
-@media (max-width: $max-width) {
+@media (max-width: $max-width + 4rem) {
   html { font-size: 16px; }
   .wrapper { 
     padding: 1rem;
-    margin: 0;  
+    margin: 0 auto;  
   }
   .header-wrapper {
     margin: 0 ;
