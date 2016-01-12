@@ -6,10 +6,10 @@
 var d = document.documentElement,
 nightTime = localStorage.getItem("nightTime");
 
-if(nightTime == "true") {
-  d.classList.add("night");
-} else {
+if(nightTime == "false") {
   d.classList.remove("night");
+} else {
+  d.classList.add("night");
 }
 
 window.onkeyup = function(e) {
@@ -26,14 +26,3 @@ function switchLights(){
     localStorage.setItem("nightTime", "true");
   }
 };
-
-
-
-document.querySelector('.header').addEventListener('touchend', function (e) {
-    var self = this
-    this.addEventListener('touchend', secondTap)
-    setTimeout(function () {
-        self.removeEventListner('touchend', secondTap);
-        switchLights();
-    }, 100)
-})

@@ -262,6 +262,13 @@ hr + ol {
   margin-left: -1.75rem; 	
 }
 
+.caption {
+  display: block; 
+  margin: .25rem 0 1rem;
+  font-size: $font-size-small;
+  line-height: 1.25em; 
+}
+
 $night-color: #77BE99; 
 $night-bg: #2E3337; 
 $night-copy: #ddd; 

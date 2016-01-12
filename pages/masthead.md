@@ -7,10 +7,6 @@ permalink: /masthead/
 
 Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include liberal arts, technology, design, and science. 
 
-_![Dreger's headshot](https://dl.dropboxusercontent.com/u/418570/audaciousfox/dregers-face.jpg)_
-
-<small>Portrait by Savanna Dreger.</small>
-
 ## Contact
 
 Correspondence cheerfully received at<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
