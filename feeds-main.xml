@@ -7,8 +7,7 @@ permalink: /feeds/main.xml
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    
+    <link>{{ site.url }}</link>    
     {% for post in site.posts limit:25 %}
     <item>
       {% if post.link %}
@@ -20,7 +19,10 @@ permalink: /feeds/main.xml
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="false">{{ post.url }}</guid>
       {% endif %}
-      
+      <author>
+        <name>Kyle Dreger</name>
+        <uri>http://audaciousfox.com/</uri>
+      </author>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>
           <![CDATA[
