@@ -6,10 +6,10 @@
 var d = document.documentElement,
 nightTime = localStorage.getItem("nightTime");
 
-if(nightTime == "false") {
-  d.classList.remove("night");
-} else {
+if(nightTime == "true") {
   d.classList.add("night");
+} else {
+  d.classList.remove("night");
 }
 
 window.onkeyup = function(e) {
