@@ -4,7 +4,7 @@ date: 2016-01-14 17:01
 link: http://www.nytimes.com/2016/01/15/obituaries/alan-rickman-dies-at-69.html
 ---
 
-After "Harry Potter and the Sorcerer's Stone" hit theaters, my imaginary, book-based version of Severus Snape was replaced with Rickman. As I read, and reread, my way through _Harry Potter_, I remember Snape's dialogue taking on Rickman's permeating, apathetic tone. For me, Rickman made the books better. 
+After "Harry Potter" hit theaters, my imaginary, book-based version of Severus Snape was replaced with Alan Rickman. As I read, and reread, my way through _Harry Potter_, I remember Snape's dialogue taking on Rickman's permeating, apathetic tone. For me, Rickman made the books better. 
 
 Many people will remember Rickman for his role in _Die Hard_ or his stage performances, but I, and I suspect many of my peers, will remember him as one of the "[best damn antagonists][new-yorker]" our generation could ask for. 
 
