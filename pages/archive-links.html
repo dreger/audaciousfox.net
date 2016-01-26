@@ -1,0 +1,14 @@
+---
+layout: default
+title: Archives
+permalink: /archive/links.html
+---
+<h1>Archive / Links</h1>
+
+<p>Links of note, found by Audacious Fox.</p>
+
+<ul>
+{% for post in site.categories.links %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
