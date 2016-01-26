@@ -2,24 +2,26 @@
 layout: default
 ---
 
-<p>Latest articles, updated {% for post in site.categories.articles limit:1 %}{{ post.date | date: "%A, %e %B %Y" }}{% endfor %}</p>
+<!-- <p>Latest stories<br>Updated {% for post in site.categories.articles limit:1 %}{{ post.date | date: "%A, %e %B %Y" }}{% endfor %}</p> -->
+
+<p>Latest stories<br>Updated {% for post in site.categories.articles limit:1 %}{{ post.date | date: "%B %e, %Y" }}{% endfor %}</p>
 
 <ul>
-{% for post in site.categories.articles limit:10 %}
+{% for post in site.posts limit:30 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 <li>See <a href="/archive/articles.html">all the articles</a></li>
 
 </ul>
-
-<p>Links worth noting, updated {% for post in site.categories.links limit:1 %}{{ post.date | date: "%A, %e %B %Y" }}{% endfor %}</p>
+<!-- 
+<p>Notes<br>Updated {% for post in site.categories.links limit:1 %}{{ post.date | date: "%A, %e %B %Y" }}{% endfor %}</p>
 <ul>
 {% for post in site.categories.links limit:10 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
   <li>See <a href="/archive/links.html">all the links</a></li>
 </ul>
-
+ -->
 
 <!-- {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
 {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}

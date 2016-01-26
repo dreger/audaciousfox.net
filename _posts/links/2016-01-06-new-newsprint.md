@@ -1,10 +1,9 @@
 ---
 title: A Small Makeover for The Newsprint
 date: 2016-01-06 09:53
-link: http://thenewsprint.co/2016/01/05/a-small-makeover/
 ---
 
-Joshua Ginter: 
+[Joshua Ginter](http://thenewsprint.co/2016/01/05/a-small-makeover/): 
 
 > In general, I took a major step back from The Newsprint in 2015. This wasn’t planned. If anything, I’m disappointed it turned out the way it did. 2015 marked the first year of my career, but it also marked the busiest year of school and the entrance of a creative avenue of work. These three responsibilities grabbed ahold of my time and wouldn’t — heck, won’t — let go. And The Newsprint took the brunt of it.
 
