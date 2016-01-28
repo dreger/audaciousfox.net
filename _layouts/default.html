@@ -17,22 +17,28 @@
     <link rel="stylesheet" href="/assets/css/audacious.css?v=1">
   </head>
   <body>
-    <section class="header-wrapper">
+    <section class="wrapper">
       <header class="header">
         <h1 class="site-title"><a href="/">Audacious Fox</a></h1>        
-        <span class="byline">By <a href="/masthead">Kyle Dreger</a></span> 
+        <p class="byline">By <a href="/masthead">Kyle Dreger</a></p> 
       </header>
-    </section> 
-    <section class="wrapper">
-      {{ content }}
     </section>
-    
-    <section class="footer-wrapper">
+      
+    <section class="wrapper">
+      <section class="content">
+        {{ content }}
+      </section> 
+    </section>
+
+    <section class="wrapper">
       <footer class="footer">
         <a href="/masthead">Masthead</a>  &middot; <a href="/feeds">RSS Feeds</a><br>
         Comments or response? Tweet <a href="https://twitter.com/dreger">@Dreger</a>.
       </footer>
-    </section> 
-    <script src="/assets/js/app.js"></script>
+    </section>
+    
+
+
+
   </body>
 </html>
