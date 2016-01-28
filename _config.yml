@@ -20,10 +20,10 @@ gems:
 defaults:
   -
     scope:
-      path: "links"
+      path: "briefings"
     values:
+      category: briefings
       layout: "post"
-      category: links
   -
     scope:
       path: "articles"

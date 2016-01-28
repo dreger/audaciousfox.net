@@ -1,0 +1,15 @@
+---
+layout: default
+title: Archives
+permalink: /briefings/
+---
+<h1>Briefings</h1>
+
+<p>Things I've read that you should too. Or, an easy way to dick around for a couple minutes on the Internet.</p>
+
+{% for post in site.categories.briefings limit:5 %}
+  <div class="briefing">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="briefing-date">{{ post.date | date: "%A, %B %d"}}</span> 
+  </div>
+{% endfor %}
