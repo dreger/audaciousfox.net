@@ -1,20 +1,24 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts limit:5 %}
-  <article class="story">
-    <a class="story-link" href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
-      {{ post.content | strip_html | truncate: 100 }}
-    </a>
-  </article>
+<div class="briefings">
+  <a href="/briefings" class="briefings-tag">Briefings</a>
+{% for post in site.categories.briefings limit:5 %}
+  <div class="briefing">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="briefing-date">{{ post.date | date: "%A, %B %d"}}</span> 
+  </div>
 {% endfor %}
-
-{% for post in site.posts offset:5 limit:30 %}
-  <article class="story">
-    <a class="story-link" href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
-    </a>
-  </article>
+</div>
+<br>
+<div class="briefings articles">
+  <a href="/articles" class="briefings-tag">Articles</a>
+{% for post in site.categories.articles limit:20 %}
+  <div class="briefing">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="briefing-date">{{ post.date | date: "%B %Y"}}</span> 
+  </div>
 {% endfor %}
+</div>
+
+
