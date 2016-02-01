@@ -7,12 +7,18 @@ permalink: /feeds/main.xml
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
+    <link>{{ site.url }}</link>    
     {% for post in site.posts limit:25 %}
     <item>
+      {% if post.link %}
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.link }}</link>
+        <guid isPermaLink="false">{{ post.link }}</guid>
+      {% else %}
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="false">{{ post.url }}</guid>
+      {% endif %}
       <author>
         <name>Kyle Dreger</name>
         <uri>http://audaciousfox.com/</uri>
@@ -21,9 +27,14 @@ permalink: /feeds/main.xml
         <description>
           <![CDATA[
           {{ post.content }}
+          
+          {% if post.link %}
+          <p><a href="{{ post.url | prepend: site.url }}">{{ site.url_icon }}</a></p>
+          {% endif %}
           ]]>
         </description>
     </item>
     {% endfor %}
+    
   </channel>
 </rss>
