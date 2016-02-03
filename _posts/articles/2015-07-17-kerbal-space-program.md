@@ -2,6 +2,8 @@
 title: "Kerbal Space Program: To the Moon"
 date: 2015-07-17 09:15
 author: CD
+redirect_from: 
+  - 2015/07/17/kerbal-space-program.html
 ---
 _By guest editor, Christopher B. Durr._
 

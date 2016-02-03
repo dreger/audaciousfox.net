@@ -15,6 +15,7 @@ excerpt_separator: "<!-- more -->"
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 defaults:
   -
