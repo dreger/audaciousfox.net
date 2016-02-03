@@ -2,6 +2,8 @@
 title: "Big, Beautiful Images with CSS"
 date: 2015-01-19
 author: KD
+redirect_from: 
+  - 2015/01/19/beautiful-images-with-css.html
 ---
 
 

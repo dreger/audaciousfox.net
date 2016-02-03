@@ -2,6 +2,8 @@
 title: "Budgeting"
 date: 2014-12-12
 author: KD
+redirect_from: 
+  - 2014/12/12/budgeting.html
 ---
 
 

@@ -2,6 +2,8 @@
 title: "Something Audacious"
 date: 2014-10-20
 author: KD
+redirect_from: 
+  - 2014/10/20/something-audacious.html
 ---
 
 For a while now, I have wanted to stop writing at [kyledreger.com](http://kyledreger.com).

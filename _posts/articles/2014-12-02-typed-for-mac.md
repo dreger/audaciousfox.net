@@ -2,6 +2,8 @@
 title: "Typed for Mac"
 date: 2014-12-02
 author: KD
+redirect_from: 
+  - 2014/12/02/typed-for-mac.html
 ---
 
 
