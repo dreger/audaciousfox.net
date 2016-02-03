@@ -3,7 +3,6 @@ title: "Audacious Fox"
 email: "comments@dreger.me"
 description: "Liberal arts, in your browser."
 url: "http://audaciousfox.com" 
-permalink: /:year/:month/:day/:title.html
 timezone: America/New_York
 url_icon: '&#9650;'
 
@@ -20,13 +19,15 @@ gems:
 defaults:
   -
     scope:
-      path: "briefings"
+      path: "_posts/briefings"
     values:
       category: briefings
       layout: "post"
+      permalink: /linked/:year/:month/:day/:title
   -
     scope:
-      path: "articles"
+      path: "_posts/articles"
     values:
       layout: "post"
       category: articles
+      permalink: /:year/:month/:title
