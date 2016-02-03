@@ -1,18 +1,15 @@
 ---
 layout: default
-title: Archives
-permalink: /articles/
+title: Archive
+permalink: /archive
 ---
-<h1>Archive</h1>
-
-<p>Last time, on Audacious Fox.</p>
-
-
-<div class="articles">
+<div class="briefings articles">
+  <a href="/articles" class="briefings-tag">Articles</a>
+  <p>Last time, on Audacious Fox.</p>
 {% for post in site.categories.articles limit:20 %}
   <div class="briefing">
     <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="briefing-date">{{ post.date | date: "%B %Y"}}</span> 
+    <span class="briefing-date">{{ post.date | date: "%B %Y"}}</span>
   </div>
 {% endfor %}
 </div>

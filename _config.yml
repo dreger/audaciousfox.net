@@ -24,7 +24,7 @@ defaults:
     values:
       category: briefings
       layout: "post"
-      permalink: /linked/:year/:month/:day/:title
+      permalink: /brief/:year/:month/:day/:title
   -
     scope:
       path: "_posts/articles"

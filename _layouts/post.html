@@ -5,7 +5,7 @@ layout: default
   <header class="article-header">
     
     <h1 class="headline">{{ page.title }}</h1>
-    <h2 class="date">{% if page.categories contains 'briefings' %}<a href="/briefings">Briefing</a> for {% endif %}{{ page.date | date: "%A, %-d %B %Y" }}</h2>
+    <h2 class="date">{% if page.categories contains 'briefings' %}<span class="caps">Link</span> for {% endif %}{{ page.date | date: "%A, %-d %B %Y" }}</h2>
   </header>
   {{ content }}
 </article>
