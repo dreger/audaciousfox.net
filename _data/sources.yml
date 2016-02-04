@@ -1,0 +1,18 @@
+amazon:
+  name: Amazon
+  domain: amazon.com
+bloombergbw:
+  name: Bloomberg Businessweek
+  domain: bloomberg.com  
+daringfireball:
+  name: Daring Fireball
+  domain: daringfireball.net
+medium: 
+  name: Medium
+  domain: medium.com
+nytimes:
+  name: The New York Times
+  domain: nytimes.com
+webkit: 
+  name: WebKit
+  domain: webkit.org

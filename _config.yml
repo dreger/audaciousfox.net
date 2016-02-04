@@ -8,9 +8,9 @@ url_icon: '&#9650;'
 
 # Build settings
 sass:
-    style: compressed
+  style: compressed
 markdown: kramdown 
-highlighter: pygments
+highlighter: rouge
 excerpt_separator: "<!-- more -->"
 
 gems:

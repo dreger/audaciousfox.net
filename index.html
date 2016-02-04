@@ -3,13 +3,20 @@ layout: default
 ---
 
 {% for post in site.posts limit:25 %}
+{% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+  {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+
+  {% if day != nday %}
+  <span class="dateline">{{ post.date | date: "%A, %e %B %Y" }}</span>
+  {% endif %}
+  
   <header class="article-header">  
     {% if post.categories contains 'links' %}
-    <h1 class="headline linked"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <h1 class="headline linked small-caps"><a href="{{ post.link }}">{{ post.title }}&nbsp;&rarr;</a></h1>
     {% else %}
     <h1 class="headline"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     {% endif %}
-    <h2 class="date">{{ post.date | date: "%A, %-d %B %Y" }}</h2>
+    <h2 class="date">{% if post.link %}via <span class="small-caps">{{ site.data.sources[post.source].name }}</span> &middot; <a class="post-url" href="{{ post.url }}">{{ site.url_icon }}</a>{% endif %}</h2>
   </header>
   <article class="article">
     {{ post.content }}
