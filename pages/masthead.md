@@ -1,6 +1,6 @@
 ---
 title: Masthead
-layout: default
+layout: page
 permalink: /masthead/
 ---
 # Masthead

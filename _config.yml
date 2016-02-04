@@ -20,11 +20,11 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts/briefings"
+      path: "_posts/links"
     values:
-      category: briefings
+      category: links
       layout: "post"
-      permalink: /brief/:year/:month/:day/:title
+      permalink: /linked/:year/:month/:day/:title
   -
     scope:
       path: "_posts/articles"

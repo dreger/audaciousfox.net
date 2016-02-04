@@ -2,6 +2,7 @@
 layout: null
 permalink: /feeds/main.xml
 ---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -13,10 +14,9 @@ permalink: /feeds/main.xml
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="false">{{ post.url }}</guid>
-      <author>
-        <name>Kyle Dreger</name>
-        <uri>http://audaciousfox.com/</uri>
-      </author>
+        <author>
+          <name>Kyle Dreger</name>
+        </author>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>
           <![CDATA[
