@@ -15,7 +15,6 @@ permalink: /feeds/main.xml
         <guid isPermaLink="false">{{ post.url }}</guid>
       <author>
         <name>Kyle Dreger</name>
-        <uri>http://audaciousfox.com/</uri>
       </author>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>
