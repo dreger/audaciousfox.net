@@ -2,10 +2,13 @@
 layout: default
 ---
 <article class="article">
-  <header class="article-header">
-    
+  <header class="article-header">  
+    {% if page.categories contains 'briefings' %}
+    <h1 class="headline headline-briefing">{{ page.title }}</h1>
+    {% else %}
     <h1 class="headline">{{ page.title }}</h1>
-    <h2 class="date">{% if page.categories contains 'briefings' %}<a href="/briefings">Briefing</a> for {% endif %}{{ page.date | date: "%A, %-d %B %Y" }}</h2>
+    {% endif %}
+    <p class="date">{{ page.date | date: "%A, %-d %B %Y" }}</p>
   </header>
   {{ content }}
 </article>

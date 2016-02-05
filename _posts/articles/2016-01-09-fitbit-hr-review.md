@@ -12,7 +12,7 @@ Dr. Christopher B. Durr and I wanted to record a review of our Fitbit HRs, but w
 
 <div class="interview" markdown="1">
 
-### August 2015
+## August 2015
 
 <span class="name">Christopher B. Durr:</span> I guess we should start with a pretty simple question: Why did you want a FitBit? Aside from your susceptibility to 21st century marketing. 
 
@@ -79,7 +79,7 @@ The heart rate monitor is excellent and definitely worth the upgrade (from the r
 (_Editor's note: Fitbit has since released a software update that lets you drill down into a 24 hour period for heart rate data._)
 
 
-### 48 hours later
+## 48 hours later
 
 <span class="name">Dreger:</span> So, this “Workweek Hustle” competition we’re in is intense. I could not go to bed last night knowing that you were ahead of me in steps, so I went out and ran a 1.5 miles at 10:45pm. Not the best idea with a stomach full of lasagna, but totally worth it for the “Dreger takes the lead!” notification.
 
@@ -87,7 +87,7 @@ The heart rate monitor is excellent and definitely worth the upgrade (from the r
 
 One of these weeks I will be victorious though. On a totally separate note, do you have any major surgeries planned?
 
-### 72 hours later
+## 72 hours later
 
 <span class="name">Dreger:</span> So, we left this for a while.
 
@@ -139,7 +139,7 @@ However, I know some companies give employees better insurance premiums for wear
 
 <span class="name">Dreger:</span> Just throw it on the delicate cycle, and you'll be fine. 
 
-### Five months later
+## Five months later
 
 <span class="name">Dreger:</span> So wait, we never actually gave a recommendation for this thing.
 

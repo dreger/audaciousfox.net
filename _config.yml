@@ -4,13 +4,13 @@ email: "comments@dreger.me"
 description: "Liberal arts, in your browser."
 url: "http://audaciousfox.com" 
 timezone: America/New_York
-url_icon: '&#9650;'
+icon: '&#9650;'
 
 # Build settings
 sass:
-    style: compressed
+  style: compressed
 markdown: kramdown 
-highlighter: pygments
+highlighter: rouge
 excerpt_separator: "<!-- more -->"
 
 gems:
@@ -24,7 +24,7 @@ defaults:
     values:
       category: briefings
       layout: "post"
-      permalink: /linked/:year/:month/:day/:title
+      permalink: /briefings/:year/:month/:day/:title
   -
     scope:
       path: "_posts/articles"

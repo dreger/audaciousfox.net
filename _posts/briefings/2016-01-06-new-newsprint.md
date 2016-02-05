@@ -1,6 +1,7 @@
 ---
 title: A Small Makeover for The Newsprint
 date: 2016-01-06 09:53
+source: thenewsprint
 ---
 
 [Joshua Ginter](http://thenewsprint.co/2016/01/05/a-small-makeover/): 
