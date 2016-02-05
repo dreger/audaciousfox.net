@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<header class="article-header">  
-  {% if page.categories contains 'links' %}
-  <h1 class="headline linked"><a href="{{ page.url }}">{{ page.title }}  &rarr;</a></h1>
-  {% else %}
-  <h1 class="headline">{{ page.title }}</h1>
-  {% endif %}
-  <h2 class="date">{{ page.date | date: "%A, %B %-d" }} {% if page.link %}&middot; <span class="small-caps">{{ site.data.sources[page.source].name }}</span>{% endif %}</h2>
-</header>
 <article class="article">
+  <header class="article-header">  
+    {% if page.categories contains 'briefings' %}
+    <h1 class="headline headline-briefing">{{ page.title }}</h1>
+    {% else %}
+    <h1 class="headline">{{ page.title }}</h1>
+    {% endif %}
+    <p class="date">{{ page.date | date: "%A, %-d %B %Y" }}</p>
+  </header>
   {{ content }}
 </article>
 

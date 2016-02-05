@@ -13,6 +13,12 @@ medium:
 nytimes:
   name: The New York Times
   domain: nytimes.com
+thenewsprint:
+  name: The Newsprint
+  domain: thenewsprint.co
 webkit: 
   name: WebKit
   domain: webkit.org
+youtube: 
+  name: YouTube
+  domain: youtube.com
