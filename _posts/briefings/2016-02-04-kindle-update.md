@@ -1,8 +1,6 @@
 ---
-title: New Kindle User Interface Rolling Out
-date: 2016-02-04 18:00
+title: Amazon Kindle Update
+date: 2016-02-04 23:30
 source: amazon
-published: false
 ---
-
-Free for all post-2014 Kindles, [a new UI and software update](http://smile.amazon.com/b?ie=UTF8&node=13550053011&ref_=pe_2405760_166011780_deveng_ku16). I like the new icon to quickly get to settings, but I dislike that Amazon is beefing up the social side of Kindle. What makes the Kindle so great is it stays away from all that crap. It's just you and the book. 
+[Looks like a solid improvement](http://smile.amazon.com/b?ie=UTF8&node=13550053011&ref_=pe_2405760_166011780_deveng_ku16), particularly when it comes to navigating the UI via touch. However, the increased focus on social media and "Sharing Made Easy" is concerning. My Kindle is one of few devices where I can consume media without distraction. In this regard, I'm OK with new social channels through which to send content, but if the Kindle ever starts _receiving_ notifications, I'll be in a personal hell. 
