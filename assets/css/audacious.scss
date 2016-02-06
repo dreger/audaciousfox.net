@@ -235,7 +235,7 @@ a {
 
 .dateline {
   @extend .small-caps; 
-  border-top: solid 3px $color-header-bg;
+  border-top: solid 2px $color-header-bg;
   color: $color-faded;
   position: relative;  
   font-weight: bold; 
@@ -250,7 +250,9 @@ a {
 
 .dateline-date {
   position: absolute; 
+  font-size: .8rem; 
   left: 0; 
+  font-weight: normal; 
   padding: 0 1rem; 
   background: white; 
   display: block; 
@@ -280,6 +282,10 @@ a {
   text-transform: uppercase; 
   letter-spacing: .1em;
   font-size: $font-size-small; 
+}
+
+strong {
+  @extend .small-caps; 
 }
 
 @media (max-width: 500px) {
