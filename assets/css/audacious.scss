@@ -87,10 +87,10 @@ h2,
 h3 { font-family: $sans; }
 
 h1 {
-  font-size: 1.3875rem;
+  font-size: 1.2875rem;
   line-height: 1.1em;
   font-weight: 900;
-  font-weight: 700;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -118,6 +118,11 @@ img {
 blockquote {
   padding: 1.5rem;
   background: $color-header-bg; 
+  blockquote {
+    background: darken($color-header-bg, 5%); 
+    margin: 1rem 0; 
+    padding: 1rem; 
+  }
   > p { margin-bottom: 0; }
   + blockquote {
     margin-top: -1rem;
@@ -167,7 +172,6 @@ a {
   color: $color;
   &:hover {
     text-decoration: underline; 
-    // color: lighten($color, 20%);
   }
 }
 
@@ -189,7 +193,7 @@ a {
   font-size: $font-size-small;
   font-family: $sans;
   border-top: solid 4px $color-header-bg;
-  line-height: 1.5em;
+  line-height: 1.75em;
   a {
     color: $color-faded;
     text-decoration: underline;
@@ -216,7 +220,7 @@ a {
   a {
     color: $color-copy;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
     &:hover {
       color: $color; 
     }
