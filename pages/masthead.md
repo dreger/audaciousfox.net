@@ -9,16 +9,15 @@ Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest e
 
 ## Contact
 
-Correspondence cheerfully received at<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+Correspondence is cheerfully received at either<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
 
 ## Mac Software
 
 - BBEdit
 - Webkit
-- Things
-- iTerm
+- OmniFocus
 - Tweetbot
-- NetNewsWire
+- Feedbin
 
 ## Miscellany  
 
@@ -30,4 +29,4 @@ This site is hosted on [GitHub pages](https://pages.github.com/), and the domain
 
 Typography: system fonts that don't suck. 
 
-_Hard things are hard._
+Remember: Hard things are hard.
