@@ -4,7 +4,7 @@ title: Archive — Articles
 permalink: /archive
 ---
 <h1>Archive / Articles</h1>
-<p>Last time, on Audacious Fox. These are longer, more substantiative pieces. There is also a index <a href="/briefings">for just the Briefings </a>.</p>
+<p>Last time, on Audacious Fox. These are longer, more substantiative pieces. There is also a index <a href="/briefings">for just the Briefings</a>.</p>
 <ul class="archive">
 {% for post in site.categories.articles limit:20 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%B %Y"}}</small></li>
