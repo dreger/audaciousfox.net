@@ -21,7 +21,7 @@ $max-width: 32rem;
 $line-height: 1.4em;
 $font-size-small: .9rem;
 $sans: "Proxima Nova", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif: Charter, Georgia, serif;
+$serif: "Proxima Nova", Charter, Georgia, serif;
 
 $night-color: #79BD9A; 
 $night-hover: #444; 
@@ -58,7 +58,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: $sans;
+    font-family: $serif;
     background: $color-header-bg;
     background: white; 
     color: $color-copy;
