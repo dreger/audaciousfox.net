@@ -7,7 +7,7 @@ layout: default
   {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
 
   {% if day != nday %}
-  <div class="dateline"><span class="dateline-date">{{ post.date | date: "%A, %e %B %Y" }}</span></div>
+  <div class="dateline">{{ post.date | date: "%A, %e %B %Y" }}</div>
   {% endif %}
   
   <article class="article">
