@@ -8,7 +8,7 @@ layout: default
     {% else %}
     <h1 class="headline">{{ page.title }}</h1>
     {% endif %}
-    <p class="date">{{ page.date | date: "%A, %-d %B %Y" }}</p>
+    <p class="date">{% if page.categories contains 'briefings' %}<a href='/briefings'>Briefing</a> for {% endif %}{{ page.date | date: "%A, %-d %B %Y" }}</p>
   </header>
   {{ content }}
 </article>

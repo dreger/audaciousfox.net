@@ -277,6 +277,15 @@ a {
   color: $color-faded; 
 }
 
+.archive {
+  li { margin-bottom: 1rem; }
+  small {
+    display: block; 
+    font-size: $font-size-small; 
+    color: $color-faded; 
+  }
+}
+
 .interview {
   margin-left: 1.5rem; 
   h1,
