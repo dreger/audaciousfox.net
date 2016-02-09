@@ -1,13 +1,22 @@
 ---
-title: Rock Paper Shotgun's Review of Firewatch
+title: Some final reviews of Firewatch 
 date: 2016-02-08 19:53
 ---
-John Walker, [writing for Rock Paper Shotgun][rps]: 
-<!-- 
-> A game about characters in their 40s is rare enough. To be about despondent, struggling people, without resorting to cartoonish crap about mid-life crises or outlandish unrealism, is a truly special thing. Henry’s specific situation is something with which almost no one in the game’s audience will immediately sympathise, but surely all will quickly empathise. That’s a huge part of the achievement here – to not aim to create a sympathetic analogue for the player, but like most great fiction, to allow the player to experience someone else’s life distinct from their own. 
+Let's wrap a few of these into one post, for brevity. 
 
-> A surprise detail in the game that was not mentioned at all in advance is the photography. At a certain point you find a disposable cardboard camera with most of its film still available, and are encouraged by Delilah to take some snaps of anything you find interesting. And it’s worth doing so, because as well as a nice little surprise toward the end, once you’ve filled your film a menu option becomes available to have them processed and delivered to your real-world house as glossy photographs. It’s about $20, via a website to which the game’s menu will link. (It also allows you to download the photos, and you could print them out yourself if you’ve such a set up with your own printer.) It’s a daft and lovely idea, letting you have an album of memories (good and bad) of your Summer in Wyoming.-->
+John Walker, [writing for Rock Paper Shotgun][rps]: 
 
 > Firewatch is a rare and beautiful creation, that expands the possibilities for how a narrative game can be presented, without bombast or gimmick. It’s delicate, lovely, melancholy and wistful. And very, very funny. A masterful and entrancing experience.
 
+Hayden Dingman, [in PCWorld's review (3/5 stars)][pcworld]: 
+
+> Firewatch is beautiful. Firewatch is intriguing. But ultimately I don't think Firewatch is very good. At its best, this is a quiet game about two characters struggling with real-life insecurities. But when that's sidelined to make room for a main plot, Firewatch suffers. It's a game perfect for trailers, a game full of excellent dialogue and breathtaking moments and stunning vistas that ultimately amounts to nothing much at all.
+
+Both [Metacritic] and [OpenCritic], sites that aggregate reviews, peg Firewatch at 82/100. I don't expect Firewatch to set the world on fire, but I feel it's going to be one of those games that raises the bar. Knockout graphics, great voice acting. Expect to hear about this one for the next couple of weeks. 
+
+
 [rps]: https://www.rockpapershotgun.com/2016/02/08/wot-i-think-firewatch/
+[pcworld]: http://www.pcworld.com/article/3030271/software/firewatch-review-lots-of-smoke-but-no-spark.html
+
+[metacritic]: http://www.metacritic.com/game/pc/firewatch/critic-reviews
+[opencritic]: http://opencritic.com/game/2129/firewatch
