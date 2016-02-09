@@ -3,7 +3,7 @@ title: "Letterpress now owned by Solebon LLC"
 date: 2016-02-08 12:45
 ---
 
-In non-Firewatch related news, it appears that Letterpress, a critically-acclaimed iOS word game from Loren Brichter's Atebits, is now under the ownership of [Solebon LLC]. 
+In non-_Firewatch_ related news, it appears that Letterpress, a critically-acclaimed iOS word game from Loren Brichter's Atebits, is now under the ownership of [Solebon LLC]. 
 
 Letterpress, [which got updated to version 1.6 today][letterpress ios], now lists Solebon LLC as the seller, and the [official Letterpress website][letterpress] has been updated to reflect this change in ownership:
 
