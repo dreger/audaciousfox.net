@@ -2,7 +2,7 @@
 title: "The Guardian's Review of Firewatch: 4/5"
 date: 2016-02-08 12:30
 ---
-**Notes on spoilers:** _Although my comments and pull-quotes below are spolier-free, the Guardian's review reveals a number of plot details for _Firewatch_. If you want to go into the game completely fresh, save the full piece for later this week._
+**Notes on spoilers:** _Although my comments and pull-quotes below are spolier-free, the Guardian's review reveals a number of plot details for Firewatch. If you want to go into the game completely fresh, save the full piece for later this week._
 
 The Guardian's Nathan Ditum, [in his review][guardian] of _Firewatch_: 
 
