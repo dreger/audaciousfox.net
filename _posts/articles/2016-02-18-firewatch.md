@@ -9,7 +9,9 @@ _Firewatch_ is a short game. It only takes a couple of hours to play through, an
 
 We purchased and played _Firewatch_ on our PS4. At times, I noticed small performance dips, particularly in areas with an overabundance of trees (_sigh_, foliage), but those moments were few and far between, and I've read that a future patch will address performance issues. 
 
-I believe reviews should be upfront about their recommendations, so here it is: you should buy and play _Firewatch_. It's $20 well spent. I'd say the same thing at $30. So, if you truly need convincing, pretend it's a $30 title, with a $10 AF coupon. If that logic doesn't work for you, perhaps the next couple paragraphs will. 
+I believe reviews should be upfront about their recommendations, so here it is: you should buy and play _Firewatch_. Even if walkabout adventure games don't interest you, Panic and Campo Santo have produced a combination of gameplay and presentation that you've likely never seen before in any other game. 
+
+In a world of Triple-A titles and blockbuster marketing campaigns, _Firewatch_, which seems to relish its normalcy, isn't just rare, it's respite.
 
 ## Visuals and Voice acting
 
@@ -41,6 +43,6 @@ In my library of adventure titles, _Firewatch_ would be the comic book. It's a s
 
 ## Conclusion: buy
 
-You're asking yourself if _Firewatch_ is worth $20. I say yes. What _Firewatch_ lacks in length, it makes up for in visuals and voice acting, both of which are some of the best I've experienced in a video game. 
+You're asking yourself if _Firewatch_ is worth $20. I say yes. I'd say yes at $30. What _Firewatch_ lacks in length, it makes up for in visuals and voice acting, both of which are some of the best I've experienced in a video game. 
 
-Nothing that Panic and Campo Santo have done here is unique to _Firewatch_ — you'll find bits of presentation and gameplay from other titles. Yet, the way it's all packaged up is what makes playing _Firewatch_ unique. Like a great comic book, it won't take you all day to finish the story, but the emotional impact will hang around, long after you've left the beautiful Wyoming wilderness. 
+Nothing that Panic and Campo Santo have done here is unique to _Firewatch_ — you'll find bits of presentation and gameplay from other titles. Yet, the way it's all packaged up is what makes playing _Firewatch_ unique. Like a great comic book, it won't take you all day to finish the story, but the emotional impact will hang around, long after you've left the Wyoming wilderness. 
