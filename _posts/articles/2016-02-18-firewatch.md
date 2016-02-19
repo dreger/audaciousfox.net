@@ -11,7 +11,7 @@ We purchased and played _Firewatch_ on our PS4. At times, I noticed small perfor
 
 I believe reviews should be upfront about their recommendations, so here it is: you should buy and play _Firewatch_. Even if walkabout adventure games don't interest you, Panic and Campo Santo have produced a combination of gameplay and presentation that you've likely never seen before in any other game. 
 
-In a world of Triple-A titles and blockbuster marketing campaigns, _Firewatch_, which seems to relish its normalcy, isn't just rare, it's respite.
+In an industry of Triple-A titles and blockbuster marketing campaigns, _Firewatch_, which seems to relish its normalcy, isn't just rare, it's respite.
 
 ## Visuals and Voice acting
 
