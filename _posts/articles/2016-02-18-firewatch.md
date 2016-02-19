@@ -9,7 +9,7 @@ _Firewatch_ is a short game. It only takes a couple of hours to play through, an
 
 We purchased and played _Firewatch_ on our PS4. At times, I noticed small performance dips, particularly in areas with an overabundance of trees (_sigh_, foliage), but those moments were few and far between, and I've read that a future patch will address performance issues. 
 
-I believe reviews should be upfront about their recommendations, so here it is: you should buy and play _Firewatch_. Even if walkabout adventure games don't interest you, Panic and Campo Santo have produced a combination of gameplay and presentation that you've likely never seen before in any other game. 
+I believe reviews should be upfront about their recommendations, so here it is: you should buy and play _Firewatch_. Even if walkabout adventure games don't interest you, Panic and Campo Santo have produced a combination of gameplay and presentation that you've likely never seen before. 
 
 In an industry of Triple-A titles and blockbuster marketing campaigns, _Firewatch_, which seems to relish its normalcy, isn't just rare, it's respite.
 
