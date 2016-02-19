@@ -45,4 +45,4 @@ In my library of adventure titles, _Firewatch_ would be the comic book. It's a s
 
 You're asking yourself if _Firewatch_ is worth $20. I say yes. I'd say yes at $30. What _Firewatch_ lacks in length, it makes up for in visuals and voice acting, both of which are some of the best I've experienced in a video game. 
 
-Nothing that Panic and Campo Santo have done here is unique to _Firewatch_ — you'll find bits of presentation and gameplay from other titles. Yet, the way it's all packaged up is what makes playing _Firewatch_ unique. Like a great comic book, it won't take you all day to finish the story, but the emotional impact will hang around, long after you've left the Wyoming wilderness. 
+Nothing that Panic and Campo Santo have done here is unique to _Firewatch_ — you'll find bits of presentation and gameplay from other titles. Yet, the way it's all packaged up is what makes playing _Firewatch_ so good. Like a great comic book, it won't take you all day to finish the story, but the emotional impact will hang around, long after you've left the Wyoming wilderness. 
