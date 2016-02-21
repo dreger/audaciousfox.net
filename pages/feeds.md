@@ -3,9 +3,9 @@ title: Feeds
 layout: page
 permalink: /feeds/
 ---
-# RSS Feeds
+# Syndication Feeds
 
-Currently, there is only one feed, which has everything that gets published to Audacious Fox:
+Currently, there is only one RSS feed, which has everything that gets published to Audacious Fox:
 
 [audaciousfox.com/feeds/main.xml](/feeds/main.xml)
 
