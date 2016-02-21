@@ -5,23 +5,24 @@ permalink: /masthead/
 ---
 # Masthead
 
-Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include liberal arts, technology, design, and science. 
+_Energy, diction, honesty._
+
+Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include technology, design, video games, and science. 
 
 ## Contact
 
-Correspondence is cheerfully received at either<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+Correspondence is cheerfully received at<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
 
 ## Mac Software
 
-- BBEdit
-- Webkit
+- TextEdit
+- WebKit
 - OmniFocus
 - Tweetbot
-- Feedbin
 
 ## Miscellany  
 
-The AF editorial style follows that of the _New York Times Manual of Style_ and our own in-house manual of style. 
+The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from our own in-house style guide. 
 
 Waffles are the best breakfast food ever. Period. 
 
