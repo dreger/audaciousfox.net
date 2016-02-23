@@ -5,8 +5,8 @@ permalink: /feeds/
 ---
 # Syndication Feeds
 
-Currently, there is only one RSS feed, which has everything that gets published to Audacious Fox:
+You can follow Audacious Fox on [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA) or subscribe via the following RSS feed: 
 
 [audaciousfox.com/feeds/main.xml](/feeds/main.xml)
 
-**In the works:** Apple News, a dedicated Twitter account, and the physical mailing of articles on half-sheet paper. 
+**In the works:** A dedicated Twitter account, the physical mailing of articles on half-sheet paper. 
