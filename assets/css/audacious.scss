@@ -37,6 +37,7 @@ $color-bg: #fefefe;
 $color-bg: darken($color-header-bg, 10%);
 $color-bg: $color-header-bg; 
 $color-bg: #f3f3f3;
+// $color-bg: #F5EFE6;
 $color-copy: #222;
 $color-faded: #afafaf;
 $color-really-faded: #dedede;
@@ -178,8 +179,9 @@ a {
 .page,
 .article {
   background: white; 
-  border: solid 1px #f3f3f3;
-  border-radius: 4px; 
+  // border: solid 1px #f3f3f3;
+  border-radius: 5px; 
+  box-shadow: 0 1px 4px 0 #ccc;
 }
 
 .header,
