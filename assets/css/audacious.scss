@@ -16,20 +16,20 @@
   On the shoulders of giants, so they say.
 */
 
+$max-width: 48rem;
 $max-width-copy: 32rem;
 $max-width: 32rem;
-$max-width: 48rem;
 $line-height: 1.45em;
 $font-size-small: .9rem;
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif: Charter, Georgia, serif;
+// $serif: Charter, Georgia, serif;
 
-$color: #2282e2; //nyt blue  
 $color: #fed464; // nyt insider
-$color: rgb(0, 0, 255); // blue
-$color: #4acc89; // teal
-$color-gold: #ffb000; // gold
 $color-teal: #79BD9A; // teal
+$color: rgb(0, 0, 255); // blue
+$color: #ffb000; // gold
+$color: #4acc89; // teal
+$color: #2282e2; //nyt blue  
 $color-darker: darken($color, 10%);
 $color-header-bg: #f5f7fa; 
 $color-header-bg: #faf8f5; 
@@ -52,13 +52,11 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: $serif;
-    background: $color-header-bg;
-    background: $color-bg; 
     color: $color-copy;
     padding: 0;
     font-weight: normal;
     font-style: normal;
+    font-family: $sans;
     line-height: $line-height;
 }
 
@@ -83,6 +81,7 @@ h3 { font-family: $sans; }
 h1 {
   font-size: 1.2875rem;
   font-size: 1.4875rem;
+  font-size: 1rem;
   line-height: 1.1em;
   font-weight: 900;
   font-weight: 700;
@@ -100,7 +99,7 @@ h2 {
 h3 {
   margin-bottom: .25rem;
   line-height: 1.1em;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 img {
@@ -149,7 +148,6 @@ hr {
   border: none;
   display: block;
   margin: 1rem 0;
-  max-width: 50%;
   border-top: solid 1px $color-really-faded;
 }
 
@@ -163,7 +161,7 @@ hr + ol {
 
 a {
   text-decoration: none;
-  color: $color-gold;
+  color: $color;
   &:hover {
     text-decoration: underline; 
   }
@@ -171,42 +169,39 @@ a {
 
 .wrapper {
   max-width: $max-width;
-  margin: 4rem auto;
-  display: flex; 
-}
-
-.header,
-.page,
-.article {
-  background: white; 
-  // border: solid 1px #f3f3f3;
-  border-radius: 5px; 
-  box-shadow: 0 1px 4px 0 #ccc;
+  margin: 4rem auto 0;
+  // display: flex; 
+  min-height: 100vh;
+  border: solid 1px $color-really-faded; 
+  border-bottom: none; 
 }
 
 .header,
 .page,
 .footer {
-  padding: 1.5rem;
+  padding: .75rem;
+}
+
+.page { 
+  margin-left: .25rem; 
+  padding: 0;
 }
 
 .header {
   padding: 1rem 1.5rem;
   font-family: $sans;
   margin: 0;
-  margin-right: 1.5rem; 
-  flex: 1 1 auto;
-  text-align: right; 
-  border-radius: 3px; 
-  width: 25%;
+  text-align: center; 
   height: 100%; 
   order: 1; 
+  border-top: solid 1px $color-really-faded; 
+  margin: 0; 
 }
 
 .content {
   flex: 0 1 auto;
   order: 2; 
-  width: 75%;
+  // width: 75%;
 }
 
 .navigation {
@@ -241,61 +236,72 @@ a {
 
 .site-header {
   max-width: $max-width; 
-  margin: 5rem auto 3rem; 
-  h1 {
-    text-transform: uppercase; 
-    letter-spacing: .1em;
-    font-size: 2rem; 
-    font-weight: normal; 
-  }
+  margin: 0 auto 1rem;  
+  display: flex; 
+  background: #F7F7F7; 
+  padding: 1.25rem 1rem; 
+  border-bottom: solid 1px $color-really-faded; 
 }
 
 .site-title {
   font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: .1em;
   margin-bottom: 0;
-  a {
-    color: $color-copy;
-    text-decoration: none;
-    font-weight: normal;
-    &:hover {
-      color: $color; 
-    }
-  }
+  padding: 0; 
+  line-height: 1em; 
 }
 
 .byline {
+  line-height: 1em; 
   margin-bottom: 0;
   color: $color-faded; 
-  a {
-    color: $color-faded; 
-    text-decoration: underline; 
-  }
+  margin-left: auto; 
 }
 
 .article {
-  margin: 5rem 0;
-  &:first-of-type { margin-top: 0; }
-  &:last-of-type { margin-bottom: 0; }
+  padding: .75rem 0; 
+  margin-left: 1rem;
+  border-bottom: solid 1px $color-really-faded;
+  &:first-of-type { padding-top: 0; }
+  &:last-of-type { 
+    border-bottom: 0;
+  }
 }
 
 .article-header {
-  border-bottom: solid 2px $color-bg;
+  font-family: $sans; 
+  display: flex; 
+  line-height: 1.2875em;
 }
 
 .article-header,
 .article-content {
-  padding: 1.5rem;
+  padding: 0 1rem 0 .75rem;
+  padding-left: .1rem;
+}
+
+.article-content {
+
 }
 
 .headline {
+  font-size: 1rem; 
+  padding: 0; 
   line-height: 1.2875em;
   margin: 0;
 }
 
+.headline-date {
+  margin: 0; 
+  font-size: 1rem; 
+  color: $color-faded; 
+  line-height: 1.2875em;
+  margin-left: auto; 
+  flex-shrink: 0; 
+  padding-left: 1rem;
+}
+
 .headline-briefing {
-  @extend .small-caps; 
+  // @extend .small-caps; 
   font-size: 1rem !important;  
 }
 
@@ -340,6 +346,8 @@ a {
   .name { @extend .small-caps; }
 }
 
+.faded { color: $color-faded; }
+
 .small-caps {
   text-transform: uppercase; 
   letter-spacing: .1em;
@@ -365,23 +373,23 @@ strong {
   }
   .wrapper {
     display: inherit; 
-    padding: 1rem;
-    margin: 1rem 0;  
+    // padding: 1rem;
+    margin: 0 auto;  
+    border: none; 
   }
-  .site-header {
-    margin: 1.5rem; 
-    padding-top: 1rem;
-    text-align: center; 
-    h1 { font-size: 1.75rem; }
-  }
-  .content {
-    width: 100%; 
+  .site-header { 
+
+    // h1 { font-size: 1.75rem; }
   }
   .header {
-    text-align: center; 
     padding: 1.5rem 0; 
     margin: 1rem 0; 
     width: 100%; 
+  }
+  .content, .header {
+    width: 100%; 
+    max-width: 30rem;
+    margin: 0 auto 3rem; 
   }
 }
 

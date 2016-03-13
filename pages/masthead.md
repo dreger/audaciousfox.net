@@ -3,7 +3,6 @@ title: Masthead
 layout: page
 permalink: /masthead/
 ---
-# Masthead
 
 _Energy, diction, honesty._
 

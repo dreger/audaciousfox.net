@@ -3,7 +3,6 @@ layout: page
 title: AF Manual of Style
 permalink: /manual-of-style/
 ---
-# AF Manual of Style
 
 This document serves as the living style guide for [Audacious Fox](http://audaciousfox.com), and I consider it a personalized list of rules that are a superset of those found in the New York Times Manual of Style. The goal of this document is to bring a consistent voice to all the writing on this site.
 

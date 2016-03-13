@@ -1,9 +1,8 @@
 ---
-title: Feeds
+title: Syndication Feeds
 layout: page
 permalink: /feeds/
 ---
-# Syndication Feeds
 
 You can follow Audacious Fox on [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA) or subscribe via the following RSS feed: 
 
