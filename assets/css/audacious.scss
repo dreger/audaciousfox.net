@@ -18,18 +18,19 @@
 
 $max-width: 48rem;
 $max-width-copy: 32rem;
-$max-width: 32rem;
+$max-width: 30rem;
 $line-height: 1.45em;
 $font-size-small: .9rem;
-$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-// $serif: Charter, Georgia, serif;
+$sans: "Proxima Nova", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$serif: Charter, Georgia, serif;
 
-$color: #fed464; // nyt insider
 $color-teal: #79BD9A; // teal
 $color: rgb(0, 0, 255); // blue
-$color: #ffb000; // gold
+$color: #fed464; // nyt insider
 $color: #4acc89; // teal
+$color: #2fb88b;
 $color: #2282e2; //nyt blue  
+$color: #ffb000; // gold
 $color-darker: darken($color, 10%);
 $color-header-bg: #f5f7fa; 
 $color-header-bg: #faf8f5; 
@@ -47,7 +48,7 @@ $color-really-faded: #dedede;
   box-sizing: content-box;
 }
 html {
-  font-size: 15px;
+  font-size: 17px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -165,6 +166,7 @@ a {
   &:hover {
     text-decoration: underline; 
   }
+  // &:visited { color: #8e49c3; }
 }
 
 .wrapper {
@@ -172,8 +174,9 @@ a {
   margin: 4rem auto 0;
   // display: flex; 
   min-height: 100vh;
-  border: solid 1px $color-really-faded; 
-  border-bottom: none; 
+  // border: solid 1px $color-really-faded; 
+  // border-left: 0; 
+  // border-bottom: 0; 
 }
 
 .header,
@@ -240,7 +243,7 @@ a {
   display: flex; 
   background: #F7F7F7; 
   padding: 1.25rem 1rem; 
-  border-bottom: solid 1px $color-really-faded; 
+  // border-bottom: solid 1px $color-really-faded; 
 }
 
 .site-title {
@@ -347,7 +350,7 @@ a {
 }
 
 .faded { color: $color-faded; }
-
+.link-source {}
 .small-caps {
   text-transform: uppercase; 
   letter-spacing: .1em;
