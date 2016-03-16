@@ -10,7 +10,11 @@ Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest e
 
 ## Contact
 
-Correspondence is cheerfully received at<br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+Correspondence is cheerfully received at <br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+
+## Syndication Feeds
+
+You can follow Audacious Fox on [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA) or subscribe via the following RSS feed: [audaciousfox.com/feeds/main.xml](/feeds/main.xml)
 
 ## Mac Software
 

@@ -21,16 +21,16 @@ $max-width-copy: 32rem;
 $max-width: 30rem;
 $line-height: 1.45em;
 $font-size-small: .9rem;
-$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$sans: Seravek, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $serif: Charter, Georgia, serif;
 
 $color-teal: #79BD9A; // teal
 $color: rgb(0, 0, 255); // blue
 $color: #fed464; // nyt insider
 $color: #4acc89; // teal
-$color: #2fb88b;
 $color: #2282e2; //nyt blue  
 $color: #ffb000; // gold
+$color: #2fb88b;
 $color-darker: darken($color, 10%);
 $color-header-bg: #f5f7fa; 
 $color-header-bg: #faf8f5; 
@@ -58,7 +58,7 @@ body {
     background: $color-bg; 
     font-weight: normal;
     font-style: normal;
-    font-family: $serif;
+    font-family: $sans;
     line-height: $line-height;
 }
 
@@ -167,18 +167,12 @@ a {
   &:hover {
     text-decoration: underline; 
   }
-  // &:visited { color: #8e49c3; }
 }
 
 .wrapper {
   max-width: $max-width;
   margin: 4rem auto 0;
-  // display: flex; 
-  min-height: 100vh;
   background: white; 
-  // border: solid 1px $color-really-faded; 
-  // border-left: 0; 
-  // border-bottom: 0; 
 }
 
 .header,
@@ -192,53 +186,6 @@ a {
   padding: 0;
 }
 
-.header {
-  padding: 1rem 1.5rem;
-  font-family: $sans;
-  margin: 0;
-  text-align: center; 
-  height: 100%; 
-  order: 1; 
-  border-top: solid 3px $color-bg;
-  margin: 0; 
-}
-
-.content {
-  flex: 0 1 auto;
-  order: 2; 
-  // width: 75%;
-}
-
-.navigation {
-  color: $color-faded;
-  font-size: $font-size-small;
-  margin: 0; 
-  padding: 0;
-  li { 
-    list-style: none; 
-    display: block; 
-    margin: 0;
-    padding: .75rem 0; 
-    line-height: 1em;
-    &:first-child { margin-top: 0; }
-  }
-  a {
-    @extend .small-caps;
-    // color: $color-faded;
-    text-decoration: none;
-  }
-}
-
-.footer {
-  color: $color-faded;
-  font-size: $font-size-small;
-  font-family: $sans;
-  border-top: solid 4px $color-header-bg;
-  line-height: 1.75em;
-  
-}
-
-
 .site-header {
   max-width: $max-width; 
   margin: 0 auto 1rem;  
@@ -246,7 +193,6 @@ a {
   background: $color-bg; 
   padding: 1.25rem 1rem; 
   font-family: $sans; 
-  // border-bottom: solid 1px $color-really-faded; 
 }
 
 .site-title {
@@ -285,10 +231,6 @@ a {
   padding-left: .1rem;
 }
 
-.article-content {
-
-}
-
 .headline {
   font-size: 1rem; 
   padding: 0; 
@@ -306,23 +248,6 @@ a {
   padding-left: 1rem;
 }
 
-.headline-briefing {
-  // @extend .small-caps; 
-  font-size: 1rem !important;  
-}
-
-.dateline {
-  @extend .small-caps; 
-  color: $color-faded;
-  position: relative;  
-  font-weight: normal; 
-  text-align: center; 
-  padding: .5rem 0;
-  margin: 0;
-  font-family: $sans; 
-  line-height: 1em; 
-  &:first-of-type { display: none; }
-}
 
 .date {
   text-transform: none; 
@@ -353,23 +278,16 @@ a {
 }
 
 .faded { color: $color-faded; }
-.link-source {}
 .small-caps {
   text-transform: uppercase; 
   letter-spacing: .1em;
   font-size: $font-size-small; 
 }
 
-#light-switch {
-  cursor: pointer; 
-  color: $color-faded;  
-  text-decoration: underline; 
-  // font-size: 1.5rem; 
-  // display: block; 
-}
 
 strong {
-  @extend .small-caps; 
+  @extend .small-caps;
+  font-weight: 500;  
 }
 
 
@@ -383,15 +301,6 @@ strong {
     margin: 0 auto;  
     border: none; 
   }
-  .site-header { 
-
-    // h1 { font-size: 1.75rem; }
-  }
-  .header {
-    padding: 1.5rem 0; 
-    margin: 1rem 0; 
-    width: 100%; 
-  }
   .content, .header {
     width: 100%; 
     max-width: 30rem;
@@ -399,39 +308,3 @@ strong {
   }
 }
 
-
-$night-color: #79BD9A; 
-$night-hover: #444; 
-$night-color-faded: #a8a8a8; 
-$night-copy: #eeeeee; 
-$night-color-light: lighten($night-color, 15%);
-$night-color-dark: darken($night-color, 15%);
-
-$night-a: #3A3F43; 
-$night-b: #2E3337; 
-
-
-.night {
-  a {
-    color: $color-teal; 
-  }
-  
-  body {
-    color: $night-copy; 
-    background: $night-a; 
-  }
-  .article, 
-  .header,
-  .page {
-    background: $night-b;
-    border: none; 
-  }
-
-  blockquote {
-    background: $night-a;
-  }
-
-  .article-header {
-    border-color: $night-a;
-  }  
-}
