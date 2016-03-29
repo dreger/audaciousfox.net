@@ -2,7 +2,7 @@
 title: On Deleting Several of my Online Accounts
 date: 2016-03-28 22:07
 ---
-This evening, I posted a tweet: 
+This evening, I [posted a tweet](https://twitter.com/Dreger/status/714619719299567616): 
 
 > Instagram, Snapchat, Foursquare, IFTTT, and Medium all got the axe this past week.
 
