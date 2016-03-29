@@ -34,6 +34,7 @@ $color: #2fb88b;
 $color-darker: darken($color, 10%);
 $color-header-bg: #fff; 
 $color-header-bg: #faf8f5; 
+$color-bg: #fff;
 $color-bg: #F7F7F7;
 $color-copy: #222;
 $color-faded: #afafaf;
@@ -54,7 +55,7 @@ body {
     background: $color-bg; 
     font-weight: normal;
     font-style: normal;
-    font-family: $sans;
+    font-family: $serif;
     line-height: $line-height;
 }
 
