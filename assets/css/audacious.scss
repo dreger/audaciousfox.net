@@ -32,12 +32,8 @@ $color: #2282e2; //nyt blue
 $color: #ffb000; // gold
 $color: #2fb88b;
 $color-darker: darken($color, 10%);
-$color-header-bg: #f5f7fa; 
+$color-header-bg: #fff; 
 $color-header-bg: #faf8f5; 
-$color-bg: #fefefe;
-$color-bg: darken($color-header-bg, 10%);
-$color-bg: $color-header-bg; 
-$color-bg: #f3f3f3;
 $color-bg: #F7F7F7;
 $color-copy: #222;
 $color-faded: #afafaf;
@@ -48,7 +44,7 @@ $color-really-faded: #dedede;
   box-sizing: content-box;
 }
 html {
-  font-size: 17px;
+  font-size: 21px;
 }
 body {
     -webkit-font-smoothing: antialiased;
