@@ -90,7 +90,7 @@ h1 {
 h2 { 
   @extend .small-caps; 
   font-size: 1.1rem;
-  line-height: 1.1em;
+  line-height: 1.2875em;
   font-weight: normal;
   margin: 2rem 0 1rem 0;
 }
@@ -210,6 +210,9 @@ a {
   padding: .75rem 0; 
   margin-left: 1rem;
   border-bottom: solid 3px $color-bg;
+  h1 {
+    margin-bottom: .75rem;
+  }
   header {
     padding-right:1rem;
   }
@@ -240,7 +243,7 @@ a {
 
 .headline-subtitle {
   color: $color; 
-  margin: 1.5rem 0;
+  margin: .5rem 0 1rem;
 }
 
 .headline-date {
