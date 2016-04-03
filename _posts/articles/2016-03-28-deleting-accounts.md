@@ -1,5 +1,6 @@
 ---
 title: On Deleting Several of my Online Accounts
+subtitle: It's not you, it's me. 
 date: 2016-03-28 22:07
 ---
 This evening, I [posted a tweet](https://twitter.com/Dreger/status/714619719299567616): 

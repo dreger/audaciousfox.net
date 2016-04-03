@@ -4,17 +4,18 @@ layout: default
 
 
 <article class="article">
-  <header class="article-header">  
+  <header>  
     {% if page.categories contains 'briefings' %}
     <h1 class="headline headline-briefing">{{ page.title }}</h1>
     {% else %}
-    <h1 class="headline">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
     {% endif %}
+    {% if page.subtitle %}<h2 class="headline-subtitle">{{ page.subtitle }}</h2>{% endif %} 
   </header>
   <hr class="almost-break">
-  <p>{% if page.categories contains 'briefings' %}<a href='/briefings'>Briefing</a> for {% endif %}{{ page.date | date: "%A, %e %B %Y" }}</p>
   <section class="article-content">
     {{ content }}
   </section> 
+  <p>&mdash; Kyle Dreger on {{ page.date | date: "%A, %e %B %Y" }}</p>
 </article>
 
