@@ -9,7 +9,7 @@ layout: default
       <p class="index_article_date">{{ post.date | date: "%b %e" }}</p>
     </header>
     <section class="index_article_content faded">
-      <!-- {{ post.content | strip_html | truncate: 128 }} -->
+      {{ post.content | strip_html | truncate: 128 }}
     </section>  
   </article>
 {% endfor %}

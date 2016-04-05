@@ -7,7 +7,7 @@ layout: default
     {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %} 
   </header>
   <hr class="almost-break">
-  <p>{{ page.date | date: "%A, %e %B %Y" }}</p>
+  <p>{% if page.categories contains 'briefings' %}<a href="/briefings">Briefing</a> for {% endif %}{{ page.date | date: "%A, %e %B %Y" }}</p>
   <section class="article_content">
     {{ content }}
   </section> 
