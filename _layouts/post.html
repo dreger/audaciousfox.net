@@ -1,21 +1,15 @@
 ---
 layout: default
 ---
-
-
 <article class="article">
-  <header>  
-    {% if page.categories contains 'briefings' %}
-    <h1 class="headline headline-briefing">{{ page.title }}</h1>
-    {% else %}
-    <h1>{{ page.title }}</h1>
-    {% endif %}
-    {% if page.subtitle %}<h2 class="headline-subtitle">{{ page.subtitle }}</h2>{% endif %} 
+  <header class="article_header">  
+    <h1 class="title">{{ page.title }}</h1>
+    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %} 
   </header>
   <hr class="almost-break">
-  <section class="article-content">
+  <p>{{ page.date | date: "%A, %e %B %Y" }}</p>
+  <section class="article_content">
     {{ content }}
   </section> 
-  <p>&mdash; Kyle Dreger on {{ page.date | date: "%A, %e %B %Y" }}</p>
 </article>
 
