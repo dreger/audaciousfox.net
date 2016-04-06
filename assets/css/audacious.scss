@@ -24,11 +24,11 @@ $serif:  Georgia, serif;
 
 $color: rgb(0, 0, 255); // blue
 $color: #fed464; // nyt insider
-$color: #2282e2; //nyt blue  
 $color: #2fb88b;
-$color: #ffb000; // gold
 $color: #79BD9A; // teal
 $color: #4acc89; // teal
+$color: #2282e2; //nyt blue  
+$color: #ffb000; // gold
 $color-darker: darken($color, 10%);
 $color-header-bg: #fff; 
 $color-header-bg: #faf8f5; 
@@ -145,7 +145,7 @@ hr {
   border: none;
   display: block;
   margin: 1rem 0;
-  border-top: solid 3px $color-bg;
+  border-top: solid 2px $color-bg;
 }
 
 hr + ol {
@@ -174,7 +174,6 @@ a {
   margin: 4rem auto 2rem;
   background: white; 
   overflow: auto;
-  border-radius: 8px;
 }
 
 .page { 
@@ -189,6 +188,11 @@ a {
   background: $color-bg; 
   padding: 1.25rem 1rem; 
   font-family: $sans; 
+  // color: white;
+  a { 
+    // color: white; 
+    text-decoration: none; 
+  }
 }
 
 .site_title {
@@ -200,10 +204,11 @@ a {
 }
 
 .site_byline {
+  color: $color-faded;
   line-height: 1em; 
   margin-bottom: 0;
-  color: $color-faded; 
   margin-left: auto; 
+  a { text-decoration: underline; }
 }
 
 .site_content {
@@ -247,7 +252,7 @@ a {
 .article {
   padding: .75rem 0; 
   margin-left: 1rem;
-  border-bottom: 3px solid $color-bg; 
+  border-bottom: 2px solid $color-bg; 
   &:first-of-type { padding-top: 0; }
   &:last-of-type { 
     border-bottom: 0; 
@@ -260,11 +265,15 @@ a {
   margin-right: 1rem;
 }
 
-.title { margin-bottom: 0; }
+.title { margin-bottom: .75rem; }
 
 .subtitle {
   color: $color; 
-  margin: .75rem 0 1rem;
+  margin: 1rem 0 1rem;
+}
+
+.date { 
+  color: $color-faded; 
 }
 
 .archive {
@@ -296,12 +305,11 @@ a {
 
 @media (max-width: 800px) {
   html {
-    font-size: 18px; 
+    font-size: 16px; 
   }
   .wrapper {
     display: inherit; 
-    // padding: 1rem;
-    margin: 0 auto;  
+    margin: 0 auto 2rem;  
     border: none; 
   }
   .content, .header {
