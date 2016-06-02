@@ -32,4 +32,4 @@ defaults:
     values:
       category: briefings
       layout: "post"
-      permalink: /briefings/:year/:title
+      permalink: /linked/:year/:title
