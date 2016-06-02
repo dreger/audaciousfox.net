@@ -10,18 +10,29 @@ permalink: /feeds/main.xml
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link href="http://audaciousfox.com/feeds/main.xml" rel="self" type="application/rss+xml"/>
-    {% for post in site.posts limit:25 %}
+    {% for post in site.posts limit:11 %}
     <item>
-        <title>{% if post.categories contains 'articles' %}{{ site.icon }} {% endif %}{{ post.title | xml_escape }}</title>
+        <title>{% unless post.link %}{{ site.icon }} {% endunless %}{{ post.title | xml_escape }}</title>
+        {% if post.link %}
+        <link>{{ post.link }}</link>
+        {% else %}
         <link>{{ post.url | prepend: site.url }}</link>
+        {% endif %}
         <guid isPermaLink="false">{{ post.url }}</guid>
-      <dc:creator><![CDATA[Kyle Dreger]]></dc:creator>
+      <dc:creator><![CDATA[K.Q. Dreger]]></dc:creator>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <description>
-          <![CDATA[
-          {{ post.content }}
-          ]]>
-        </description>
+      <description>
+        {% if post.link %}          
+        <![CDATA[
+        {{ post.content }}
+        <a href="{{ post.url | prepend: site.url }}">{{ site.icon }}</a>
+        ]]>
+        {% else %}
+        <![CDATA[
+        {{ post.content }}
+        ]]>
+        {% endif %}
+      </description>
     </item>
     {% endfor %}
   </channel>

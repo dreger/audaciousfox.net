@@ -2,9 +2,9 @@
 title: "Audacious Fox"
 email: "comments@dreger.me"
 description: "Liberal arts, in your browser."
-url: "http://audaciousfox.com" 
+url: "http://web.audaciousfox.com" 
 timezone: America/New_York
-icon: '&#9650;'
+icon: '&#9724;&#65038;'
 
 # Build settings
 sass:
@@ -28,8 +28,8 @@ defaults:
 
   -
     scope:
-      path: "_posts/briefings"
+      path: "_posts/linked"
     values:
-      category: briefings
+      category: linked
       layout: "post"
       permalink: /linked/:year/:title
