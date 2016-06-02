@@ -6,7 +6,7 @@ permalink: /masthead/
 
 _Energy, diction, honesty._
 
-Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include technology, design, video games, and science. 
+Audacious Fox is written and produced by K.Q. Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include technology, design, video games, and science. 
 
 ## Contact
 

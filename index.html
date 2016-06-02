@@ -2,14 +2,22 @@
 layout: default
 ---
 
-{% for post in site.posts limit:25 %}  
-  <article class="article index_article">
-    <header class="index_article_header">  
-      <h1 class="index_article_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p class="index_article_date">{{ post.date | date: "%b %e" }}</p>
-    </header>
-    <section class="index_article_content faded">
-      {{ post.content | strip_html | truncate: 128 }}
-    </section>  
-  </article>
+{% for post in site.posts limit: 1 %}
+  {% include post.html post=post %}
+{% endfor %}
+
+
+{% for post in site.posts offset:1 %}
+
+    {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+    {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+
+    {% if day != nday %}
+        <h2 class="date">{{ post.date | date: "%A, %B %e, %Y" }}</h2>
+    {% endif %}
+    
+    
+    {% include post.html post=post %}
+    
+
 {% endfor %}

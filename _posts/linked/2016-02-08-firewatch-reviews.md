@@ -1,6 +1,7 @@
 ---
 title: "PCWorld's review of Firewatch: 3/5"
 date: 2016-02-08 19:53
+link: http://www.pcworld.com/article/3030271/software/firewatch-review-lots-of-smoke-but-no-spark.html
 ---
 Last one for the night. Hayden Dingman, [covering the game for PCWorld][pcworld]: 
 

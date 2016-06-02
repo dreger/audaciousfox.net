@@ -16,22 +16,22 @@
   On the shoulders of giants, so they say.
 */
 
-$max-width: 30rem;
+$max-width: 40rem;
 $line-height: 1.45em;
 $font-size-small: .9rem;
-$sans: Verdana, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif:  Georgia, serif;
+$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$serif: Georgia, serif;
 
-$color: rgb(0, 0, 255); // blue
 $color: #fed464; // nyt insider
 $color: #2fb88b;
 $color: #79BD9A; // teal
-$color: #4acc89; // teal
 $color: #2282e2; //nyt blue  
+$color: #4acc89; // teal
+$color: rgb(0, 0, 255); // blue
 $color: #ffb000; // gold
 $color-darker: darken($color, 10%);
-$color-header-bg: #fff; 
 $color-header-bg: #faf8f5; 
+$color-header-bg: #fff; 
 $color-bg: #fff;
 $color-bg: #F7F7F7;
 $color-copy: #222;
@@ -43,13 +43,14 @@ $color-really-faded: #dedede;
   box-sizing: content-box;
 }
 html {
-  font-size: 18px;
+  font-size: 15px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
     color: $color-copy;
     padding: 0;
+    margin: 4rem 0; 
     background: $color-bg; 
     font-weight: normal;
     font-style: normal;
@@ -77,19 +78,23 @@ h3 { font-family: $sans; }
 
 h1 {
   font-size: 1.2875rem;
-  font-size: 1rem;
-  font-size: 1.4875rem;
-  line-height: 1.2875em;
-  font-weight: 900;
-  font-weight: normal;
-  font-style: normal;
+  line-height: 1.1em;
+  line-height: 1.3875em;
+  font-weight: 400;
+  a {
+    color: $color-copy; 
+    text-decoration: none; 
+    border: 0; 
+  }
 }
 
 h2 { 
-  @extend .small-caps; 
-  font-size: 1.1rem;
-  line-height: 1.2875em;
+  font-size: 1.025rem;
+  font-size: 1.015rem;
+  line-height: 1.3875em;
   font-weight: normal;
+  text-transform: uppercase; 
+  letter-spacing: .1em; 
   margin: 2rem 0 1rem 0;
 }
 
@@ -97,6 +102,13 @@ h3 {
   margin-bottom: .25rem;
   line-height: 1.1em;
   font-size: .9rem;
+}
+
+article {
+  background: white; 
+  padding: 1.5rem;
+  margin-bottom: 1rem; 
+  p:last-child { margin-bottom: 0; }
 }
 
 img {
@@ -107,9 +119,10 @@ img {
 
 blockquote {
   padding: 1rem;
-  background: $color-bg; 
+  background: lighten($color, 40%); 
+  
   blockquote {
-    background: darken($color-bg, 5%); 
+    background: lighten($color, 30%); 
     margin: 1rem 0; 
     padding: 1rem; 
   }
@@ -163,127 +176,91 @@ strong {
 
 a {
   color: $color;
+  text-decoration: none; 
+  // border-bottom: solid lighten($color, 30%) 1px; 
+  // padding-bottom: .1em;
+  font-weight: bold; 
   &:hover {
-    color: darken($color, 10%); 
-    text-decoration: underline; 
+    color: darken($color, 5%); 
   }
 }
+
+article { position: relative; }
 
 .wrapper {
-  max-width: $max-width;
-  margin: 4rem auto 2rem;
-  background: white; 
-  overflow: auto;
+  max-width: $max-width;  
+  margin: 0 auto; 
 }
 
-.page { 
-  margin-left: .25rem; 
-  padding: 0;
-}
-
-.site_header {
-  max-width: $max-width; 
-  margin: 0 auto;  
-  display: flex; 
-  background: $color-bg; 
-  padding: 1.25rem 1rem; 
-  font-family: $sans; 
-  // color: white;
-  a { 
-    // color: white; 
-    text-decoration: none; 
-  }
-}
-
-.site_title {
-  font-size: 1rem;
-  margin-bottom: 0;
-  padding: 0; 
-  font-weight: bold; 
-  line-height: 1em; 
-}
-
-.site_byline {
-  color: $color-faded;
-  line-height: 1em; 
-  margin-bottom: 0;
-  margin-left: auto; 
-  a { text-decoration: underline; }
-}
-
-.site_content {
-  padding: 1rem 0 0;
-  margin-bottom: 1rem;
-}
-
-.index_article_header {
-  font-family: $sans; 
-  display: flex; 
-  line-height: 1.2875em;
-}
-
-.index_article_title {
-  font-size: 1rem; 
-  padding: 0; 
-  line-height: 1.2875em;
-  margin: 0;
-}
-
-.index_article_date {
-  margin: 0; 
-  font-size: 1rem; 
-  color: $color-faded; 
-  line-height: 1.2875em;
-  margin-left: auto; 
+.navigation {
   flex-shrink: 0; 
-  padding-left: 1rem;
-}
-
-.index_article_header,
-.index_article_content {
-  padding: 0 1rem 0 .75rem;
-  padding-left: .1rem;
-}
-
-.index_article_content {
-  padding-top: .2875rem;
-}
-
-.article {
-  padding: .75rem 0; 
-  margin-left: 1rem;
-  border-bottom: 2px solid $color-bg; 
-  &:first-of-type { padding-top: 0; }
-  &:last-of-type { 
-    border-bottom: 0; 
-    padding-bottom: 0; 
+  text-align: right; 
+  padding-right: 2.5rem; 
+  font-family: $sans;
+  ul { padding: 0; }
+  li {
+    list-style: none;
+    margin: .5rem 0; 
+    padding: 0;  
+    a {
+      text-decoration: none; 
+      border: 0; 
+      @extend .small-caps; 
+    }
   }
 }
 
-.article_header,
-.article_content { 
-  margin-right: 1rem;
+.content {
+  flex: 1; 
 }
 
-.title { margin-bottom: .75rem; }
-
-.subtitle {
-  color: $color; 
-  margin: 1rem 0 1rem;
+.title {
+  font-size: 1.5rem; 
+  font-weight: normal; 
+  display: block; 
 }
 
-.date { 
+.logo {
+  text-align: center; 
+  img {
+    max-width: 230px; 
+    margin: 0; 
+  }
+  padding: .5rem .75rem; 
+  display: inline-block; 
+  border: 0; 
+  margin-bottom: 2.5rem;
+  // border-bottom: solid 5px transparent; 
+  &:hover {
+    // border-bottom-color: $color; 
+    background: darken($color-bg, 5%);
+  }
+}
+
+.link {
+  margin-top: 0; 
+  display: flex; 
+}
+
+.link-target {
+  flex: 1; 
+}
+.link-permalink {
+  color: #ccc; 
+	padding-left: 1rem; 
+  text-decoration: none; 	
+
+
+
+
+}
+
+.date {
+  margin: 3rem 0 1.5rem 1.5rem;
   color: $color-faded; 
 }
 
-.archive {
-  li { margin-bottom: 1rem; }
-  small {
-    display: block; 
-    font-size: $font-size-small; 
-    color: $color-faded; 
-  }
-}
+.flex { display: flex; }
 
 .interview {
   margin-left: 1.5rem; 
@@ -296,26 +273,35 @@ a {
   .name { @extend .small-caps; }
 }
 
-.faded { color: $color-faded; }
 .small-caps {
   text-transform: uppercase; 
   letter-spacing: .1em;
   font-size: $font-size-small; 
 }
 
-@media (max-width: 800px) {
-  html {
-    font-size: 16px; 
+@media (max-width: $max-width+2rem) {
+  body {
+    margin: 1rem 0;  
+  }
+  .logo {
+    margin: 0 0 .5rem; 
+    display: block; 
+    img { 
+      margin: 0 auto; 
+      max-width: 200px;
+    }
   }
   .wrapper {
-    display: inherit; 
-    margin: 0 auto 2rem;  
-    border: none; 
+    display: initial; 
   }
-  .content, .header {
-    width: 100%; 
-    max-width: 30rem;
-    margin: 0 auto 3rem; 
+  .navigation {
+    text-align: center; 
+    margin: 0 auto 1.5rem;
+    padding-right: 0; 
+    li { 
+      padding: 0 .5em; 
+      display: inline;
+    } 
   }
+  .byline { display: none; }
 }
-

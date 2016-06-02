@@ -1,6 +1,7 @@
 ---
 title: "The Guardian's Review of Firewatch: 4/5"
 date: 2016-02-08 12:30
+link: http://www.theguardian.com/technology/2016/feb/08/firewatch-review-first-person-simulation-adventure-game
 ---
 **Notes on spoilers:** _Although my comments and pull-quotes below are spolier-free, the Guardian's review reveals a number of plot details for Firewatch. If you want to go into the game completely fresh, save the full piece for later this week._
 

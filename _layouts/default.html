@@ -1,30 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>
-    {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
-    </title>
-    <meta charset="utf-8">
-    <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:site_name" content="{{ site.name }}"/>
-    <meta property="og:url" content="{{ page.url }}"/>
-    <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
-    <link rel="apple-touch-icon" href="/assets/images/icon.png" />
-    <link rel="stylesheet" href="/assets/css/audacious.css?v=1">
-    <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
-
-  </head>
+{% include head.html %}
   <body>  
     <section class="wrapper">
-      <header class="site_header">
-        <h1 class="site_title"><a href="/">Audacious Fox</a></h1>
-        <span class="site_byline">By <a href="/masthead">Kyle Dreger</a></span>
-      </header>
+      <a class="logo" href="/"><img src="/assets/images/logo.png"></a>
+    </section> 
+    <section class="wrapper flex">
+      <nav class="navigation">
+        <ul>
+          <li><a href="/masthead">Masthead</a></li>
+          <li><a href="/archive">Archive</a></li>
+          <li><a href="/feeds/main.xml">RSS</a></li>
+          <!-- <li><a href="http://twitter.com/dreger">@Dreger</a></li> -->
+        </ul>
+        <p class="byline">With your host,<br><span class="small-caps">K.Q. Dreger</span></p>
+      </nav>
     
-      <section class="site_content">
+      <section class="content">
         {{ content }}
       </section>
     </section>

@@ -1,15 +1,22 @@
 ---
 layout: default
 ---
-<article class="article">
-  <header class="article_header">  
-    <h1 class="title">{{ page.title }}</h1>
-    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %} 
-    <p class="date">{% if page.categories contains 'briefings' %}<a href="/briefings">Briefing</a> for {% endif %}{{ page.date | date: "%A, %e %B %Y" }}</p>
+{% capture titleize %}
+{% assign words = page.title | split: ' ' %}
+{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}
+{% endcapture %}
+
+<article>
+  <header class="article-header">  
+    {% if page.link %}
+    <h2 class="link"><a href="{{ page.link }}">{{ titleize }}</a></h2>
+    {% else %}
+    <h1>{{ titleize }}</h1>
+    {% endif %}
   </header>
-  <hr class="almost-break">
-  <section class="article_content">
+  <section class="article-content">
     {{ content }}
+    
+    <p><em>&mdash; {{ page.date | date: "%A, %-d %B %Y" }}</em></p>
   </section> 
 </article>
-
