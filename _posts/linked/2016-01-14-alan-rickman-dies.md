@@ -2,6 +2,7 @@
 title: Alan Rickman dies at 69
 date: 2016-01-14 17:01
 source: nytimes
+link: http://www.newyorker.com/cartoons/daily-cartoon/bonus-daily-cartoon-remembering-alan-rickman
 ---
 After "Harry Potter" hit theaters, my imaginary, book-based version of Severus Snape was replaced with Alan Rickman. As I read, and reread, my way through _Harry Potter_, I remember Snape's dialogue taking on Rickman's permeating, apathetic tone. For me, Rickman made the books better. 
 
