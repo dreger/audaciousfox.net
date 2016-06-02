@@ -2,6 +2,7 @@
 link: http://practicaltypography.com/billionaires-typewriter.html
 title: The Billionaire's Typewriter
 date: 2016-06-01 22:23
+published: false
 ---
 Matthew Butterick: 
 
