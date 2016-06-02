@@ -28,8 +28,8 @@ defaults:
 
   -
     scope:
-      path: "_posts/linked"
+      path: "_posts/briefings"
     values:
-      category: linked
+      category: briefings
       layout: "post"
-      permalink: /linked/:year/:title
+      permalink: /briefings/:year/:title
