@@ -24,7 +24,7 @@ defaults:
     values:
       layout: "post"
       category: articles
-      permalink: /:year/:title
+      permalink: /:year/:month/:title
 
   -
     scope:
@@ -32,4 +32,4 @@ defaults:
     values:
       category: linked
       layout: "post"
-      permalink: /linked/:year/:title
+      permalink: /linked/:year/:month/:day/:title
