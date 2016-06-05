@@ -32,4 +32,4 @@ defaults:
     values:
       category: linked
       layout: "post"
-      permalink: /linked/:year/:title
+      permalink: /linked/:year/:month/:title
