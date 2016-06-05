@@ -9,7 +9,7 @@ permalink: /linked/
 
 <p>An archive for just my longer articles can <a href="/archive">be found here</a>.</p>
 <ul class="archive">
-{% for post in site.categories.briefings  %}
+{% for post in site.categories.linked  %}
   <li><a href="{{ post.url }}">{{ post.title }}</a><br><small>{{ post.date | date: "%B %-d, %Y"}}</small></li>
 {% endfor %}
 </ul>

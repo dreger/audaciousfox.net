@@ -1,5 +1,5 @@
 ---
-title: Syndication Feeds
+title: RSS Feeds
 layout: page
 permalink: /feeds/
 ---

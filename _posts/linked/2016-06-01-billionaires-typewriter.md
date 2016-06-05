@@ -11,4 +11,4 @@ And later:
 
 > In truth, Medium’s main prod­uct is not a pub­lish­ing plat­form, but the pro­mo­tion of a pub­lish­ing plat­form. This pro­mo­tion brings read­ers and writ­ers onto the site. This, in turn, gen­er­ates the us­age data that’s valu­able to ad­ver­tis­ers. Boiled down, Medium is sim­ply mar­ket­ing in the ser­vice of more mar­ket­ing. It is not a “place for ideas.” It is a place for ad­ver­tis­ers. It is, there­fore, ut­terly superfluous.
 
-We, the independent writers on the web, give away more than we get with Medium. It's that simple. 
+Particularly for indie writers, and as it exists today, Medium takes more than it gives. It's that simple. 
