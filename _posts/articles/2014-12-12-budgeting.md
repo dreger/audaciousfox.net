@@ -1,5 +1,5 @@
 ---
-title: "Budgeting"
+title: "On Budgeting"
 date: 2014-12-12
 author: KD
 redirect_from: 
