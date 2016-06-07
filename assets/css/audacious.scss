@@ -280,7 +280,7 @@ a {
   h1,
   h2,
   h3,
-  .name {
+  .name, strong {
     margin-left: -1.5rem; 
   }
   .name { @extend .small-caps; }
