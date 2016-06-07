@@ -27,8 +27,8 @@ $color: #2fb88b;
 $color: #79BD9A; // teal
 $color: #2282e2; //nyt blue  
 $color: #4acc89; // teal
-$color: rgb(0, 0, 255); // blue
 $color: #ffb000; // gold
+$color: rgb(0, 0, 255); // blue
 $color-darker: darken($color, 10%);
 $color-header-bg: #faf8f5; 
 $color-header-bg: #fff; 
@@ -36,15 +36,17 @@ $color-bg: #fff;
 $color-bg: #F7F7F7;
 $color-lighter-bg: white; 
 $color-copy: #222;
-$color-faded: #afafaf;
+$color-faded: #888;
 $color-really-faded: #dedede;
+$color-blockquote: $color-really-faded; 
 
 // DARK
-$color: #22eac8;
-$color-copy: #f8f8f8;
-$color-faded: #81898e; 
-$color-bg: #3A3F43;
-$color-lighter-bg: #2E3337; 
+// $color: #22eac8;
+// $color-copy: #f8f8f8;
+// $color-faded: #81898e; 
+// $color-bg: #3A3F43;
+// $color-lighter-bg: #2E3337; 
+// $color-blockquote: $color-bg; 
 
 * {
   -moz-box-sizing: content-box;
@@ -146,14 +148,14 @@ blockquote {
 
 pre {
   overflow: scroll;
-  background: $color-really-faded;
+  background: $color-blockquote;
   padding: .5rem;
   line-height: 1.1em;
   font-size: $font-size-small;
 }
 
 code {
-  background: $color-really-faded;
+  background: $color-blockquote;
 }
 
 ol,
@@ -261,6 +263,7 @@ a {
   line-height: 1em; 
 	padding-left: 1rem; 
   text-decoration: none; 	
+  &:hover { color: $color; }
 }
 
 .archive li {
