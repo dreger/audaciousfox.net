@@ -25,28 +25,28 @@ $serif: $sans, Georgia, serif;
 $color: #fed464; // nyt insider
 $color: #2fb88b;
 $color: #79BD9A; // teal
-$color: #2282e2; //nyt blue  
+$color: #2282e2; //nyt blue
 $color: #4acc89; // teal
-$color: #ffb000; // gold
 $color: rgb(0, 0, 255); // blue
+$color: #ffb000; // gold
 $color-darker: darken($color, 10%);
-$color-header-bg: #faf8f5; 
-$color-header-bg: #fff; 
+$color-header-bg: #faf8f5;
+$color-header-bg: #fff;
 $color-bg: #fff;
-$color-bg: #F7F7F7;
-$color-lighter-bg: white; 
+$color-bg: #f5f5f5;
+$color-lighter-bg: white;
 $color-copy: #222;
 $color-faded: #888;
-$color-really-faded: #dedede;
-$color-blockquote: $color-really-faded; 
+$color-really-faded: #cecece;
+$color-blockquote: $color-really-faded;
 
 // DARK
 // $color: #22eac8;
 // $color-copy: #f8f8f8;
-// $color-faded: #81898e; 
+// $color-faded: #81898e;
 // $color-bg: #3A3F43;
-// $color-lighter-bg: #2E3337; 
-// $color-blockquote: $color-bg; 
+// $color-lighter-bg: #2E3337;
+// $color-blockquote: $color-bg;
 
 * {
   -moz-box-sizing: content-box;
@@ -60,8 +60,8 @@ body {
     margin: 0;
     color: $color-copy;
     padding: 0;
-    margin: 4rem 0; 
-    background: $color-bg; 
+    margin: 4rem 0;
+    background: $color-bg;
     font-weight: normal;
     font-style: normal;
     font-family: $serif;
@@ -92,19 +92,19 @@ h1 {
   line-height: 1.3875em;
   font-weight: 400;
   a {
-    color: $color-copy; 
-    text-decoration: none; 
-    border: 0; 
+    color: $color-copy;
+    text-decoration: none;
+    border: 0;
   }
 }
 
-h2 { 
+h2 {
   font-size: 1.025rem;
   font-size: 1.015rem;
   line-height: 1.3875em;
   font-weight: normal;
-  text-transform: uppercase; 
-  letter-spacing: .1em; 
+  text-transform: uppercase;
+  letter-spacing: .1em;
   margin: 2rem 0 1rem 0;
 }
 
@@ -115,10 +115,10 @@ h3 {
 }
 
 article {
-  background: $color-lighter-bg; 
+  background: $color-lighter-bg;
   padding: 1.5rem;
-  position: relative; 
-  margin-bottom: 1rem; 
+  position: relative;
+  margin-bottom: 1rem;
   p:last-child { margin-bottom: 0; }
 }
 
@@ -130,19 +130,19 @@ img {
 
 blockquote {
   padding: .5rem 1rem;
-  // background: lighten($color, 40%); 
-  border-left: 3px solid $color-bg; 
+  background: lighten($color, 40%);
+  // border-left: 3px solid $color-bg;
   // background: $color-bg; // Dark
-  
+
   blockquote {
-    // background: lighten($color, 30%); 
-    margin: 1.5rem 0; 
-    padding: 1rem; 
+    // background: lighten($color, 30%);
+    margin: 1.5rem 0;
+    padding: 1rem;
   }
   > p { margin-bottom: 0; }
   + blockquote {
     margin-top: -1.5rem;
-    padding-top: .75rem; 
+    padding-top: .75rem;
   }
 }
 
@@ -155,7 +155,10 @@ pre {
 }
 
 code {
-  background: $color-blockquote;
+  background: $color-bg;
+  font-size: $font-size-small;
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 ol,
@@ -171,7 +174,7 @@ hr {
   border: none;
   display: block;
   margin: 1rem 0;
-  border-top: solid 2px $color-bg;
+  border-top: solid 3px $color-bg;
 }
 
 hr + ol {
@@ -184,144 +187,145 @@ hr + ol {
 
 strong {
   @extend .small-caps;
-  font-weight: 500;  
+  font-weight: 500;
 }
 
 a {
   color: $color;
-  text-decoration: none; 
-  // border-bottom: solid lighten($color, 30%) 1px; 
+  text-decoration: none;
+  // border-bottom: solid lighten($color, 30%) 1px;
   // padding-bottom: .1em;
-  font-weight: bold; 
+  font-weight: bold;
   &:hover {
-    color: darken($color, 8%); 
+    color: darken($color, 8%);
   }
 }
 
 
 
 .wrapper {
-  max-width: $max-width;  
-  margin: 0 auto; 
+  max-width: $max-width;
+  margin: 0 auto;
 }
 
 .navigation {
-  flex-shrink: 0; 
+  flex-shrink: 0;
   width: 20%;
-  text-align: right; 
-  padding-right: 2.5rem; 
+  text-align: right;
+  padding-right: 2.5rem;
   font-family: $sans;
   ul { padding: 0; }
   li {
     list-style: none;
-    margin: .5rem 0; 
-    padding: 0;  
+    margin: .5rem 0;
+    padding: 0;
     a {
-      text-decoration: none; 
-      border: 0; 
-      @extend .small-caps; 
+      text-decoration: none;
+      border: 0;
+      @extend .small-caps;
     }
   }
 }
 
 .content {
-  flex: 1; 
+  flex: 1;
 }
 
 .title {
-  font-size: 1.5rem; 
-  font-weight: normal; 
-  display: block; 
+  font-size: 1.5rem;
+  font-weight: normal;
+  display: block;
 }
 
 .logo {
-  text-align: center; 
+  text-align: center;
   img {
-    max-width: 230px; 
-    margin: 0; 
+    max-width: 230px;
+    margin: 0;
   }
-  padding: .5rem .75rem; 
-  display: inline-block; 
-  border: 0; 
+  padding: .5rem .75rem;
+  display: inline-block;
+  border: 0;
   margin-bottom: 2.5rem;
-  // border-bottom: solid 5px transparent; 
+  // border-bottom: solid 5px transparent;
   &:hover {
-    // border-bottom-color: $color; 
+    // border-bottom-color: $color;
     background: darken($color-bg, 5%);
   }
 }
 
 .link {
-  margin-top: 0; 
-  display: flex; 
+  margin-top: 0;
+  display: flex;
 }
 .link-target {
-  flex: 1; 
+  flex: 1;
 }
 .link-permalink {
-  color: $color-faded; 
-  line-height: 1em; 
-	padding-left: 1rem; 
-  text-decoration: none; 	
+  color: $color-faded;
+  line-height: 1em;
+	padding-left: 1rem;
+  text-decoration: none;
   &:hover { color: $color; }
 }
 
 .archive li {
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1.5rem;
 }
 
 .date {
   @extend .small-caps;
   margin: 3rem 0 1.5rem 1.5rem;
-  color: $color-faded; 
+  color: $color-faded;
 }
 
 .flex { display: flex; }
 
 .interview {
-  margin-left: 1.5rem; 
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
   h1,
   h2,
   h3,
   .name, strong {
-    margin-left: -1.5rem; 
+    margin-left: -1.5rem;
   }
   .name { @extend .small-caps; }
 }
 
 .small-caps {
-  text-transform: uppercase; 
+  text-transform: uppercase;
   letter-spacing: .1em;
-  font-size: $font-size-small; 
+  font-size: $font-size-small;
 }
 
 @media (max-width: $max-width+2rem) {
   html {
-    font-size: 16px; 
+    font-size: 16px;
   }
   body {
-    margin: 1rem 0;  
+    margin: 1rem 0;
   }
   .logo {
-    margin: 0 0 .5rem; 
-    display: block; 
-    img { 
-      margin: 0 auto; 
+    margin: 0 0 .5rem;
+    display: block;
+    img {
+      margin: 0 auto;
       max-width: 230px;
     }
   }
   .wrapper {
-    display: initial; 
+    display: initial;
   }
   .navigation {
     width: 100%;
-    text-align: center; 
+    text-align: center;
     margin: 0 auto 1.5rem;
-    padding-right: 0; 
-    li { 
-      padding: 0 .5em; 
+    padding-right: 0;
+    li {
+      padding: 0 .5em;
       display: inline;
-    } 
+    }
   }
   .byline { display: none; }
 }
