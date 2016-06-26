@@ -130,9 +130,9 @@ img {
 
 blockquote {
   padding: .5rem 1rem;
-  background: lighten($color, 40%);
+  // background: lighten($color, 40%);
   // border-left: 3px solid $color-bg;
-  // background: $color-bg; // Dark
+  background: $color-bg; // Dark
 
   blockquote {
     // background: lighten($color, 30%);
