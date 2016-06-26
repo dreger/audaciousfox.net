@@ -4,13 +4,13 @@
 {% endcapture %}
 
 <article>
-  <header class="article-header">  
+  <header class="article-header">
     {% if post.link %}
-    <h2 class="link"><a class="link-target" href="{{ post.link }}">{{ titleize }}</a>&nbsp;<a class="link-permalink mla" href="{{ post.url }}">&#9724;&#65038;</a></h2>
+    <h2 class="link"><a class="link-target" href="{{ post.link }}" >{{ titleize }}</a>&nbsp;<a title="Permalink to {{ post.title | xml_escape }}" class="link-permalink mla" href="{{ post.url }}">&#9724;&#65038;</a></h2>
     {% else %}
     <h1><a href="{{ post.url }}">{{ titleize }}</a></h1>
     {% endif %}  </header>
   <section class="article-content">
     {{ post.content }}
-  </section> 
+  </section>
 </article>
