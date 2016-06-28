@@ -1,0 +1,17 @@
+---
+layout: page
+title: Archive / Linked To
+permalink: /linked/
+---
+<p>If you and I were friends, these are the links I'd text you.</p>
+
+<p>This is my opportunity to comment on an article, video, or image that I think you should see. On the front page, linked items are set in all caps, and the title will take you to the original source. </p>
+
+<p><strong>Pro tip:</strong> On the front page, click on the right-aligned square in the title to grab the permalink for that particular linked item.</p>
+
+<p>An archive for my featured pieces can <a href="/archive">be found here</a>.</p>
+<ul class="archive">
+{% for post in site.categories.linked  %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a><br><small>{{ post.date | date: "%B %-d, %Y"}}</small></li>
+{% endfor %}
+</ul>

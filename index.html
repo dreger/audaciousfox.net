@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% for post in site.posts limit: 1 %}
+  {% include post.html post=post %}
+{% endfor %}
+
+
+{% for post in site.posts offset:1 %}
+
+    {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+    {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+
+    {% if day != nday %}
+        <h2 class="date">{{ post.date | date: "%A, %B %e, %Y" }}</h2>
+    {% endif %}
+    
+    
+    {% include post.html post=post %}
+    
+
+{% endfor %}

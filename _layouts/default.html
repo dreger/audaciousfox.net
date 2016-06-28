@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+  <body>  
+    <section class="wrapper">
+      <a class="logo" href="/"><img src="/assets/images/logo.png"></a>
+    </section> 
+    <section class="wrapper flex">
+      <nav class="navigation">
+        <ul>
+          <li><a href="/masthead/">Masthead</a></li>
+          <li><a href="/archive/">Archive</a></li>
+          <li><a href="/feeds/">RSS</a></li>
+          <!-- <li><a href="http://twitter.com/dreger">@Dreger</a></li> -->
+        </ul>
+        <p class="byline">With your host,<br><span class="small-caps">K.Q. Dreger</span></p>
+      </nav>
+    
+      <section class="content">
+        {{ content }}
+      </section>
+    </section>
+    
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100962497); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100962497ns.gif" /></p></noscript>
+  </body>
+</html>

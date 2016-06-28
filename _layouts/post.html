@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% capture titleize %}
+{% assign words = page.title | split: ' ' %}
+{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}
+{% endcapture %}
+
+<article>
+  <header class="article-header">  
+    {% if page.link %}
+    <h2 class="link"><a href="{{ page.link }}">{{ titleize }}</a></h2>
+    {% else %}
+    <h1>{{ titleize }}</h1>
+    {% endif %}
+  </header>
+  <section class="article-content">
+    {{ content }}
+    
+    <p><em>&mdash; {{ page.date | date: "%A, %-d %B %Y" }}</em></p>
+  </section> 
+</article>

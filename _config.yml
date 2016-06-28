@@ -1,0 +1,35 @@
+# Site settings
+title: "Audacious Fox"
+email: "comments@dreger.me"
+description: "Framing technology, design, and gaming in a concise way."
+url: "http://web.audaciousfox.com" 
+timezone: America/New_York
+icon: '&#9724;&#65038;'
+
+# Build settings
+sass:
+  style: compressed
+markdown: kramdown 
+highlighter: rouge
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      category: articles
+      permalink: /:year/:month/:title
+
+  -
+    scope:
+      path: "_posts/linked"
+    values:
+      category: linked
+      layout: "post"
+      permalink: /linked/:year/:month/:day/:title

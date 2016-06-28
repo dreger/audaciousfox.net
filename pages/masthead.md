@@ -1,0 +1,34 @@
+---
+title: Masthead
+layout: page
+permalink: /masthead/
+---
+
+_Energy, diction, honesty._
+
+
+Audacious Fox is written and produced by K.Q. Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include technology, design, video games, and science. 
+
+
+## Contact
+
+Correspondence is cheerfully received at <br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+
+## Mac Software
+
+- TextEdit
+- WebKit
+- OmniFocus
+- Tweetbot
+
+## Miscellany  
+
+The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from our own in-house style guide. 
+
+Waffles are the best breakfast food ever. Period. 
+
+This site is hosted on [GitHub pages](https://pages.github.com/), and the domain is registered through [Hover.com](http://hover.com). 
+
+Typography: system fonts that don't suck. 
+
+Remember: Hard things are hard.
