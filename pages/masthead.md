@@ -4,20 +4,23 @@ layout: page
 permalink: /masthead/
 ---
 
-_Energy, diction, honesty._
+Audacious Fox is written and produced by K.Q. Dreger. Coverage includes technology, design, video games, and science. Occasionally, Dr. Christopher B. Durr will be contribute a guest editorial. 
 
+## Contact 
 
-Audacious Fox is written and produced by K.Q. Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include technology, design, video games, and science. 
+Correspondence is cheerfully received at <comments@dreger.me>. I do my best respond within a day or so. I take [your privacy](/privacy) seriously.
 
+## Feeds
 
-## Contact
+Subscribe via [RSS](/feeds/main.xml), [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA), or follow me on Twitter [@Dreger](https://twitter.com/dreger).
 
-Correspondence is cheerfully received at <br><comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+## Software
 
-## Mac Software
+I use a variety of software to publish AF. Below are some of my favorites: 
 
-- TextEdit
+- Ulysses
 - WebKit
+- ReadKit
 - OmniFocus
 - Tweetbot
 
@@ -31,4 +34,4 @@ This site is hosted on [GitHub pages](https://pages.github.com/), and the domain
 
 Typography: system fonts that don't suck. 
 
-Remember: Hard things are hard.
+Audacious Fox is written with energy, diction, and honesty. 

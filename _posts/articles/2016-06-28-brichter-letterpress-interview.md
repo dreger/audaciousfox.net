@@ -1,9 +1,9 @@
 ---
-title: "Mini Interview: Loren Brichter on the Sale of Letterpress to Solebon"
+title: "Interview: Loren Brichter"
 date: 2016-06-28 22:22
 ---
 
-After [noticing the sale of Letterpress to Solebon][me], I reached out to Atebit's founder and sole proprietor, Loren Brichter. After we waited a couple of weeks for things to settle down, Mr. Brichter agreed to do a small interview over email. Thanks again, Loren — I'm excited for what you've got next.
+After [noticing that Letterpress had been sold to Solebon LLC][me], I reached out to Atebit's founder and sole proprietor, Loren Brichter. After we waited a few weeks to let things settle down, Mr. Brichter agreed to do a small interview over email. Topics include selling Letterpress, iOS, and design. 
 
 ---
 
