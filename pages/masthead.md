@@ -8,7 +8,7 @@ Audacious Fox is written and produced by K.Q. Dreger. Coverage includes technolo
 
 ## Contact 
 
-Correspondence is cheerfully received at <comments@dreger.me>. I do my best respond within a day or so. I take [your privacy](/privacy) seriously.
+Correspondence is cheerfully received at <comments@dreger.me>. I do my best respond within a day or so. 
 
 ## Feeds
 
