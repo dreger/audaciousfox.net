@@ -23,23 +23,24 @@ $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Ca
 $serif: $sans, Georgia, serif;
 
 $color: #fed464; // nyt insider
-$color: #2fb88b;
 $color: #2282e2; //nyt blue
-$color: #4acc89; // teal
-$color: #79BD9A; // teal
-$color: #ffb000; // gold
 $color: #F48845; // tan
 $color: rgb(0, 0, 255); // blue
-$color-darker: darken($color, 10%);
-$color-bg: #f4f4f4; //faf8f5
+$color: #79BD9A; // teal
+$color: #4acd89; // teal
+$color: #ffb000; // gold
+$color: #FFB300;
+$color-darker: darken($color, 13%);
+$color-bg: #fafafa; //faf8f5
 $color-lighter-bg: white;
 $color-copy: #222;
-$color-faded: #888;
+$color-faded: #777;
 $color-really-faded: #cecece;
 $color-blockquote: $color-really-faded;
 
 // DARK
 // $color: #22eac8;
+// $color: rgb(0, 255, 0);
 // $color-copy: #f8f8f8;
 // $color-faded: #81898e;
 // $color-bg: #3A3F43;
@@ -62,7 +63,7 @@ body {
     background: $color-bg;
     font-weight: normal;
     font-style: normal;
-    font-family: $serif;
+    font-family: $sans;
     line-height: $line-height;
 }
 
@@ -117,7 +118,8 @@ article {
   padding: 1.5rem;
   position: relative;
   margin-bottom: 1rem;
-  // border: solid 1px #eee;
+  // border: solid 1px #f2f2f2;
+  // border-radius: 4px;
   p:last-child { margin-bottom: 0; }
 }
 
@@ -128,9 +130,9 @@ img {
 }
 
 blockquote {
-  padding: .5rem 1rem;
+  padding: .75rem 1rem;
   // background: lighten($color, 40%);
-  // border-left: 3px solid $color-bg;
+  border-left: 3px solid $color-bg;
   background: $color-bg; // Dark
 
   blockquote {
