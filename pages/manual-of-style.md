@@ -4,6 +4,7 @@ title: Audacious Fox Manual of Style
 permalink: /projects/manual-of-style/
 redirect_from: 
   - /manual-of-style/
+  - /style-guide/
 ---
 
 This document serves as the living style guide for [Audacious Fox](/), and I consider it a personalized list of rules that are a superset of those found in the _New York Times Manual of Style_. The goal of this document is to bring a consistent voice to all the writing on this site.
