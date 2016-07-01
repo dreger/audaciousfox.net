@@ -25,11 +25,11 @@ $serif: $sans, Georgia, serif;
 $color: #fed464; // nyt insider
 $color: #2282e2; //nyt blue
 $color: #F48845; // tan
-$color: rgb(0, 0, 255); // blue
 $color: #79BD9A; // teal
 $color: #4acd89; // teal
 $color: #ffb000; // gold
 $color: #FFB300;
+$color: rgb(0, 0, 255); // blue
 $color-darker: darken($color, 13%);
 $color-bg: #fafafa; //faf8f5
 $color-lighter-bg: white;
@@ -117,7 +117,7 @@ article {
   background: $color-lighter-bg;
   padding: 1.5rem;
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   // border: solid 1px #f2f2f2;
   // border-radius: 4px;
   p:last-child { margin-bottom: 0; }
