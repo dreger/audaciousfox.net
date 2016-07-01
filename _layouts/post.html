@@ -3,7 +3,11 @@ layout: default
 ---
 {% capture titleize %}
 {% assign words = page.title | split: ' ' %}
+{% if words.size < 2 %}
+{{ page.title }}
+{% else %}
 {% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}
+{% endif %}
 {% endcapture %}
 
 <article>

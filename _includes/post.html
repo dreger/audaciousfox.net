@@ -1,6 +1,10 @@
 {% capture titleize %}
 {% assign words = post.title | split: ' ' %}
+{% if words.size < 2 %}
+{{ post.title }}
+{% else %}
 {% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}
+{% endif %}
 {% endcapture %}
 
 <article>
