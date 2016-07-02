@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://pxlnv.com/sitemap.xml
+Sitemap: http://audaciousfox.net/sitemap.xml
