@@ -32,6 +32,7 @@ $color: rgb(255, 0, 0); // red
 $color: rgb(0, 255, 0); // green
 $color: #ed2b23;
 $color: rgb(0, 0, 255); // blue
+$color: rgb(0,122,255);
 $color-darker: darken($color, 13%);
 $color-bg: #fafafa; //faf8f5
 $color-lighter-bg: white;
@@ -198,11 +199,12 @@ strong {
 
 a {
   color: $color;
-  text-decoration: none;
   // border-bottom: solid lighten($color, 30%) 1px;
   // padding-bottom: .1em;
+  text-decoration: none;
   font-weight: 500;
   &:hover {
+    text-decoration: underline;
     color: darken($color, 8%);
   }
 }
