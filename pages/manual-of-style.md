@@ -7,7 +7,7 @@ redirect_from:
   - /style-guide/
 ---
 
-This document serves as the living style guide for [Audacious Fox](/), and I consider it a personalized list of rules that are a superset of those found in the _New York Times Manual of Style_. The goal of this document is to bring a consistent voice to all the writing on this site.
+This document serves as the living style guide for [Audacious Fox](/), and I consider it a personalized list of rules that are a superset of those found in the New York Times Manual of Style. The goal of this document is to bring a consistent voice to all the writing on this site.
 
 If you run a web column, please feel free to remix or copy the contents here for your own personal use. If you feel so obliged, a link back to this page is appreciated, but not required. This document will continue to evolve over time, so please check back occasionally.
 
@@ -17,7 +17,7 @@ If you do any sort of writing, particularly online, you should be using a style 
 
 ## Style & Tone
 
-Go read [_The Elements of Style_](https://en.wikipedia.org/wiki/The_Elements_of_Style) by Strunk & White. Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose.
+Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style)" by Strunk & White. Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose.
 
 ## Reference (A-Z)
 
@@ -26,7 +26,10 @@ Go read [_The Elements of Style_](https://en.wikipedia.org/wiki/The_Elements_of_
 > Following a word that ends in an 's,' "The Moss' house."
 
 - backup (noun)
-- book titles (italicize)
+- books
+
+> Book titles go in quotes, with principle words capitalized.
+
 - back up (verb)
 - built-in
 - capitalization
