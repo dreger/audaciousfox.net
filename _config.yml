@@ -2,14 +2,14 @@
 title: "Audacious Fox"
 email: "comments@dreger.me"
 description: "Framing technology, design, and gaming in a concise way."
-url: "http://web.audaciousfox.com" 
+url: "http://web.audaciousfox.net" 
 timezone: America/New_York
 icon: '&#9724;&#65038;'
 
 # Build settings
 sass:
   style: compressed
-markdown: kramdown 
+markdown: kramdown
 highlighter: rouge
 excerpt_separator: "<!-- more -->"
 
