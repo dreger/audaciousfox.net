@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://pxlnv.com/sitemap.xml
