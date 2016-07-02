@@ -2,7 +2,7 @@
 layout: page
 title: Audacious Fox Manual of Style
 permalink: /projects/manual-of-style/
-redirect_from: 
+redirect_from:
   - /manual-of-style/
   - /style-guide/
 ---
@@ -17,7 +17,7 @@ If you do any sort of writing, particularly online, you should be using a style 
 
 ## Style & Tone
 
-Go read [_The Elements of Style_](https://en.wikipedia.org/wiki/The_Elements_of_Style) by Strunk & White. Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose. 
+Go read [_The Elements of Style_](https://en.wikipedia.org/wiki/The_Elements_of_Style) by Strunk & White. Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose.
 
 ## Reference (A-Z)
 
@@ -26,36 +26,32 @@ Go read [_The Elements of Style_](https://en.wikipedia.org/wiki/The_Elements_of_
 > Following a word that ends in an 's,' "The Moss' house."
 
 - backup (noun)
+- book titles (italicize)
 - back up (verb)
 - built-in
 - capitalization
 
 > See [how to capitalize your titles](http://titlecapitalization.com)
 
-- commas
-
-> Use the serial comma, otherwise try to rewrite the sentence. 
-
+- commas: use the serial comma.
 - full-time
 - go-to: "my go-to song is 'Shake it Off'"
 - home screen
-- italicizing 
+- italicization
 
-> The following publications should be italicized. 
-
-> _BuzzFeed_, _Daring Fireball_, _FiveThirtyEight_, _National Geographic_, _New York Times_, The _Times_, _Time_, _The Verge_
+> **Online publication titles:** No italicization is necessary.
 
 - lock in: being forced to use a certain type of product
 - long-form: lots of words
 - names
 
-> First reference: Kyle Dreger. Subsequent references: Mr. Dreger. 
+> First reference: Kyle Dreger. Subsequent references: Mr. Dreger.
 
 - Pixel Envy
 - pull quote: a block of text, taken from another source.
-- quoting
+- quotes
 
-> Appositive phrases should be chosen based on the context of your audience. Used to establish the context of a person, place, or thing without making the reader feel stupid. Ex. "Kyle Dreger, a writer and programmer from Ohio, created the AF Manual of Style, a resource he hopes is copied by bloggers everywhere." Don't be a jerk. Always make it clear who and where you're quoting from.
+> Appositive phrases should be chosen based on the context of your audience. Establish the context of a person, place, or thing without making the reader feel stupid. Ex. "K.Q. Dreger, a writer from Ohio, created the AF Manual of Style, a resource he hopes is copied by bloggers everywhere." Don't be a jerk. Always make it clear who and where you're quoting from. Also, quote things _exactly_ as they appear.
 
 - real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time)
 - Retina: as in Retina screens
@@ -63,6 +59,7 @@ Go read [_The Elements of Style_](https://en.wikipedia.org/wiki/The_Elements_of_
 - start-up
 - style guide: this thing
 - tail end
+
 - The Newsprint
 - weblog: one word, an online blog
 - website: a collection of pages on the Internet
