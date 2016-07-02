@@ -319,7 +319,9 @@ a {
     padding: 1rem 0;
   }
   article {
-    border: 0; 
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0; 
   }
   .logo {
     margin: 0 0 .5rem;
