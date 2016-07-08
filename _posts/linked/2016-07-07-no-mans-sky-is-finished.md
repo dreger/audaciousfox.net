@@ -1,5 +1,5 @@
 ---
-title: "No Man's Sky just went gold"
+title: "No Man's Sky Just Went Gold"
 date: 2016-07-07 22:15
 link: https://twitter.com/NoMansSky/status/751141699880095745
 ---
