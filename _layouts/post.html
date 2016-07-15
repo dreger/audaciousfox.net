@@ -3,24 +3,19 @@ layout: default
 ---
 {% capture titleize %}
 {% assign words = page.title | split: ' ' %}
-{% if words.size < 2 %}
-{{ page.title }}
-{% else %}
-{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}
-{% endif %}
-{% endcapture %}
+{% if words.size < 2 %}{{ page.title }}{% else %}{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
 
 <article>
-  <header class="article-header">  
+  <header class="article-header">
     {% if page.link %}
-    <h2 class="link"><a href="{{ page.link }}">{{ titleize }}</a></h2>
+    <h2 class="link"><a class="link-target" href="{{ page.link }}" >{{ titleize }}</a>&nbsp;&nbsp;&nbsp;<a title="Permalink to {{ page.title | xml_escape }}" class="link-permalink" href="{{ page.url }}">&#9724;&#65038;</a></h2>
     {% else %}
     <h1>{{ titleize }}</h1>
-    {% endif %}
+    {% endif %}  
   </header>
   <section class="article-content">
-    {{ content }}
-    
-    <p><em>&mdash; {{ page.date | date: "%A, %-d %B %Y" }}</em></p>
-  </section> 
+    {{ page.content }}
+    <p>&mdash; {{ page.date | date: "%A, %-d %B %Y" }}</p>
+  </section>
 </article>
+

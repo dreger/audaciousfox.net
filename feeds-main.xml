@@ -9,7 +9,7 @@ permalink: /feeds/main.xml
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="http://audaciousfox.com/feeds/main.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}/feeds/main.xml" rel="self" type="application/rss+xml"/>
     {% for post in site.posts limit:11 %}
     <item>
         <title>{% unless post.link %}{{ site.icon }} {% endunless %}{{ post.title | xml_escape }}</title>

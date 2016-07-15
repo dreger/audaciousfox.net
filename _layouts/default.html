@@ -2,30 +2,37 @@
 <html lang="en">
 {% include head.html %}
   <body>
-<!--     <a href="https://twitter.com/AliTomineek/status/751135077082406912" class="solidarity"></a> -->
-    <section class="wrapper header">
-      <a class="logo" href="/"><img src="/assets/images/logo.png"></a>
-    </section>
-    <section class="wrapper flex">
-      <nav class="navigation">
-        <ul>
-          <li><a href="/masthead/">Masthead</a></li>
-          <li><a href="/archive/">Archive</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <!-- <li><a href="/members/">Members</a></li> -->
-        </ul>
-        <p class="faded byline">With your host,<br><span class="small-caps">K.Q. Dreger</span></p>
-
-        <p class="faded byline font-small">Follow Audacious Fox via <a class="small-caps" href="/feeds/main.xml">RSS</a>, on <a href="https://twitter.com/Dreger">Twitter</a>, or <a href="https://apple.news/T7mJio790S96lno9kfkfXPA">Apple&nbsp;News</a>.</p>
-      </nav>
-
-      <section class="content">
+    <div class="wrapped">
+      <header class="site-header">
+        <a href="/"><img class="logo" src="/assets/images/logo.png"></a>
+      </header>
+      
+      <ul class="site-nav">
+        <li><a href="/masthead">Masthead</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/feeds/main.xml">RSS</a> / <a href="https://twitter.com/dreger">@Dreger</a></li>
+      </ul>
+      
+      <section class="site-content">
         {{ content }}
       </section>
-    </section>
+    </div>
     
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(100962497); }catch(e){}</script>
     <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100962497ns.gif" /></p></noscript>
   </body>
 </html>
+
+<!-- 
+<nav class="navigation">
+  <ul>
+    <li><a href="/masthead/">Masthead</a></li>
+    <li><a href="/archive/">Archive</a></li>
+    <li><a href="/projects/">Projects</a></li>
+  </ul>
+  <p class="faded byline">With your host,<br><span class="small-caps">K.Q. Dreger</span></p>
+
+  <p class="faded byline font-small">Follow Audacious Fox via <a class="small-caps" href="/feeds/main.xml">RSS</a>, on <a href="https://twitter.com/Dreger">Twitter</a>, or <a href="https://apple.news/T7mJio790S96lno9kfkfXPA">Apple&nbsp;News</a>.</p>
+</nav> -->

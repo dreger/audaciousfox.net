@@ -21,8 +21,9 @@ Had there been some clear path from graduation to the classroom for computer sci
 
 ---
 
-1. And most of these kids are playing Minecraft on some sort of touchscreen, which I personally find unwieldy. However, over the holidays, I had the chance to watch some of younger cousins play Minecraft on their iPods touch [2], and they had no problem navigating the game world. Furthermore, when I showed them my mouse and keyboard setup, they laughed. 
-2. "iPod touches" just sounds weird, and although I agree that [the usage of "Macbook Pros" and "iPod Shuffles"](http://english.stackexchange.com/questions/7276/plural-of-ipod-touch) would suggest "iPod Touches" is perfectly acceptable, I'm going to say to hell with it and just borrow from the far cooler sounding style that gets used when talking about more than one Attorney General: Attorneys General.  
+[1] And most of these kids are playing Minecraft on some sort of touchscreen, which I personally find unwieldy. However, over the holidays, I had the chance to watch some of younger cousins play Minecraft on their iPods touch [2], and they had no problem navigating the game world. Furthermore, when I showed them my mouse and keyboard setup, they laughed. 
+
+[2] "iPod touches" just sounds weird, and although I agree that [the usage of "Macbook Pros" and "iPod Shuffles"](http://english.stackexchange.com/questions/7276/plural-of-ipod-touch) would suggest "iPod Touches" is perfectly acceptable, I'm going to say to hell with it and just borrow from the far cooler sounding style that gets used when talking about more than one Attorney General: Attorneys General.  
 
 [wired]:http://www.wired.com/2016/01/obama-pledges-4-billion-to-computer-science-in-us-schools/
 [nyt]: http://www.nytimes.com/2015/09/16/nyregion/de-blasio-to-announce-10-year-deadline-to-offer-computer-science-to-all-students.html

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Audacious Fox Manual of Style
-permalink: /projects/manual-of-style/
+title: Style Guide
+permalink: /projects/style-guide/
 redirect_from:
   - /manual-of-style/
   - /style-guide/
