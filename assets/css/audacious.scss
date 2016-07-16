@@ -240,7 +240,7 @@ article {
 
 .link {
   font-size: $f5;
-  line-height: $line-height; 
+  line-height: 1.5em; 
 	margin-top: 0; 
   a {
     text-decoration: none; 
@@ -250,6 +250,11 @@ article {
 .link-target {
   font-weight: 900;
   border-bottom: solid 2px $black; 
+}
+
+.link-permalink { 
+  margin-top: 1.25rem;  
+  display: inline-block; 
 }
 
 .interview {
@@ -292,3 +297,4 @@ article {
 
 .flex { display: flex; }
 .mla { margin-left: auto; }
+.gray { color: $gray; }

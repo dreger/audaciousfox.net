@@ -8,14 +8,14 @@ layout: default
 <article>
   <header class="article-header">
     {% if page.link %}
-    <h2 class="link"><a class="link-target" href="{{ page.link }}" >{{ titleize }}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title="Permalink to {{ page.title | xml_escape }}" class="link-permalink" href="{{ page.url }}">&#9724;&#65038;</a></h2>
+    <h2 class="link"><a class="link-target" href="{{ page.link }}" >{{ titleize }}</a></h2>
     {% else %}
     <h1>{{ titleize }}</h1>
     {% endif %}  
   </header>
   <section class="article-content">
     {{ page.content }}
-    <p>&mdash; {{ page.date | date: "%A, %-d %B %Y" }}</p>
+    <p class="gray">{{ page.date | date: "%A, %-d %B %Y" }}</p>
   </section>
 </article>
 
