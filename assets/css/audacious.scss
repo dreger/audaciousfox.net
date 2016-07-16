@@ -205,9 +205,16 @@ article {
   flex-direction: column; 
 }
 
+.site-header {
+  line-height: 1em; 
+  margin: 0; 
+  font-size: 1rem; 
+  text-transform: uppercase; 
+  letter-spacing: .1em; 
+}
+
 .site-nav {
   border-top: 3px solid $black;
-  // border-bottom: solid 3px $light-gray;
   padding: $f6 0; 
   margin: 0; 
   margin-top: $f6; 
@@ -219,14 +226,6 @@ article {
     &:last-child { margin-right: 0; }
   }
   a { text-decoration: none; }
-}
-
-.logo {
-  max-width: 250px;   
-  margin: 0; 
-  &:hover {
-    opacity: .6; 
-  }
 }
 
 .date {
@@ -279,6 +278,7 @@ article {
       &:last-child { margin-bottom: 0; } 
     }
   }
+  article { padding: 2.25rem 0; }
   em img {
     margin-left: 0; 
     width: 100%; 
