@@ -79,11 +79,12 @@ $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Ca
 $serif:  Georgia, serif;
 $mono: Menlo, monospace;
 
-$black: #222;
-$gray: #757575;
-$light-gray: #d8d8d8;
-$lightest-gray: #f2f2f2;
-$tan: #FFF1D3;
+$bg: white; 
+$copy: #222;
+$faded: #757575;
+$more-faded: #d8d8d8;
+$most-faded: #f2f2f2;
+$blockquote: #FFF1D3;
 
 $f1: 3rem; 
 $f2: 2.25rem; 
@@ -93,13 +94,14 @@ $f5: 1rem;
 $f6: .875rem; 
 
 // DARK
+// $copy: #fefefe; 
 // $color: #22eac8;
 // $color: rgb(0, 255, 0);
 // $color-copy: #f8f8f8;
 // $color-faded: #81898e;
-// $color-bg: #3A3F43;
-// $color-lighter-bg: #2E3337;
-// $color-blockquote: $color-bg;
+// $most-faded: #3A3F43;
+// $bg: #2E3337;
+// $blockquote: $bg;
 
 /* ================================
    UNRESET CLASSES 
@@ -111,19 +113,24 @@ $f6: .875rem;
 }
 
 html {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 body {
   font-family: $serif; 
   line-height: $line-height; 
   margin: 0; 
-  color: $black; 
+  color: $copy; 
+	background: $bg; 
 }
 
 a {
-  color: $black; 
-  &:hover { color: $gray; }
+  color: $copy;
+	text-decoration: none; 
+	border-bottom: dotted 1px $faded; 
+  &:hover { 
+		background: $most-faded; 
+	}
 }
 
 em { font-style: italic; }
@@ -145,7 +152,10 @@ h1 {
   font-size: $f3; 
   font-weight: 800;
   line-height: 1.1em;  
-  a { text-decoration: none; }
+  a { 
+		text-decoration: none; 
+		border: 0; 
+	}
 }
 
 h2 { 
@@ -174,14 +184,14 @@ li { margin-bottom: 1rem; }
 hr {
   height: 3px; 
   border: 0; 
-  background: $light-gray; 
+  background: $more-faded; 
   margin: 1.5rem 0;
   display: block; 
 }
 
 blockquote {
   padding: $f6; 
-  background: $tan; 
+  background: $blockquote; 
   font-family: $mono;
   font-size: $f6;
   line-height: $line-height; 
@@ -215,10 +225,8 @@ article {
 }
 
 .site-nav {
-  border-top: 3px solid $black;
   padding: $f6 1.5rem; 
   margin: 0; 
-  margin-top: $f6; 
   font-family: $sans; 
   line-height: 1em; 
   li { 
@@ -231,12 +239,13 @@ article {
 
 .date {
   font-size: $f6; 
-  padding: 1rem 1.5rem;  
+  padding: .75rem 1.5rem;  
+	text-transform: uppercase; 
+	letter-spacing: .1em; 
   font-weight: 500; 
-	background: $lightest-gray; 
+	color: $faded; 
   margin: 3rem 0 0; 
-  border-top: solid 1px $light-gray; 
-  border-bottom: solid 1px $light-gray; 
+  border-bottom: solid 2px $more-faded; 
 }
 
 .link {
@@ -250,7 +259,6 @@ article {
 
 .link-target {
   font-weight: 900;
-  border-bottom: solid 2px $black; 
 }
 
 .link-permalink { 
@@ -299,4 +307,4 @@ article {
 
 .flex { display: flex; }
 .mla { margin-left: auto; }
-.gray { color: $gray; }
+.gray { color: $faded; }
