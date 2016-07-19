@@ -72,7 +72,7 @@ table {
    VARIABLES 
 ================================ */
 
-$max-width: 32rem;
+$max-width: 36rem;
 $line-height: 1.45em;
 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -82,6 +82,7 @@ $mono: Menlo, monospace;
 $black: #222;
 $gray: #757575;
 $light-gray: #d8d8d8;
+$lightest-gray: #f2f2f2;
 $tan: #FFF1D3;
 
 $f1: 3rem; 
@@ -117,7 +118,6 @@ body {
   font-family: $serif; 
   line-height: $line-height; 
   margin: 0; 
-  padding: 1.5rem; 
   color: $black; 
 }
 
@@ -189,7 +189,7 @@ blockquote {
 }
 
 article {
-  padding: 3rem 0; 
+  padding: 3rem 1.5rem; 
   &:last-child { border-bottom: 0; }
   p:last-child { margin-bottom: 0; }
 }
@@ -208,14 +208,14 @@ article {
 .site-header {
   line-height: 1em; 
   margin: 0; 
-//   font-size: 1rem; 
+	padding: 1.5rem 1.5rem 0; 
   text-transform: uppercase; 
   letter-spacing: .1em; 
 }
 
 .site-nav {
   border-top: 3px solid $black;
-  padding: $f6 0; 
+  padding: $f6 1.5rem; 
   margin: 0; 
   margin-top: $f6; 
   font-family: $sans; 
@@ -229,13 +229,13 @@ article {
 }
 
 .date {
-  font-size: $f5; 
-  padding: 1rem 0;  
-  color: $light-gray; 
-  font-weight: 900; 
+  font-size: $f6; 
+  padding: 1rem 1.5rem;  
+  font-weight: 500; 
+	background: $lightest-gray; 
   margin: 3rem 0 0; 
-  border-top: solid 3px $light-gray; 
-  border-bottom: solid 3px $light-gray; 
+  border-top: solid 1px $light-gray; 
+  border-bottom: solid 1px $light-gray; 
 }
 
 .link {
@@ -276,6 +276,7 @@ article {
   .site-header { order: 1; }
   .site-content { order: 2; }
   .site-nav {
+		padding: 1.5rem; 
     order: 3;
     li {
       display: block; 
@@ -283,7 +284,7 @@ article {
       &:last-child { margin-bottom: 0; } 
     }
   }
-  article { padding: 2.25rem 0; }
+  article { padding: 2.25rem 1.5rem; }
   em img {
     margin-left: 0; 
     width: 100%; 
