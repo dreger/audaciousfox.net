@@ -191,7 +191,8 @@ blockquote {
 article {
   padding: 3rem 1.5rem; 
   &:last-child { border-bottom: 0; }
-  p:last-child { margin-bottom: 0; }
+  p:last-child,
+	blockquote:last-child { margin-bottom: 0; }
 }
 
 /* ================================
