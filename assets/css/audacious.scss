@@ -72,18 +72,19 @@ table {
    VARIABLES 
 ================================ */
 
-$max-width: 36rem;
+$max-width: 30rem;
 $line-height: 1.45em;
 
-$sans: 'Avenir Next', 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif:  Georgia, serif;
+$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$serif:  "Charter", Georgia, serif;
 $mono: Menlo, monospace;
 
-$bg: white; 
+$bg: #f2f2f2; 
 $copy: #222;
+$color: RGBA(52, 60, 71, 1.00); 
 $faded: #757575;
 $more-faded: #bbb;
-$most-faded: #eee;
+$most-faded: #ddd;
 $blockquote: #FFF1D3;
 
 $f1: 3rem; 
@@ -113,7 +114,7 @@ $f6: .875rem;
 }
 
 html {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 body {
@@ -125,11 +126,11 @@ body {
 }
 
 a {
-  color: $copy;
+  color: $color;
 	text-decoration: none; 
-	border-bottom: dotted 1px $faded; 
+	border-bottom: dotted 1px $color; 
   &:hover { 
-		background: $most-faded; 
+		background: $bg; 
 	}
 }
 
@@ -148,15 +149,14 @@ h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote {
 
 h1,h2,h3,header { 
 	font-family: $sans; 
-	a {
-		color: $copy; 
-	}
 }
 
 h1 { 
-  font-size: $f3; 
-  font-weight: 900;
+  font-size: $f4; 
+  font-weight: 800;
   line-height: 1.1em;  
+	// border-bottom: solid 3px $bg; 
+	// padding-bottom: 1rem;
   a { 
 		text-decoration: none; 
 		border: 0; 
@@ -164,13 +164,16 @@ h1 {
 }
 
 h2 { 
-  font-size: $f4; 
+  font-size: $f5; 
   font-weight: 500;
   line-height: 1.1em;  
   margin-top: 2.25rem;
 }
 
-h3 { font-size: $f5; }
+h3 { 
+	font-size: $f6; 
+	font-weight: 700; 
+}
 
 img {
   display: block;
@@ -179,7 +182,15 @@ img {
 
 em img {
   width: $max-width + 10rem; 
-  margin-left: -5rem;
+  margin-left: -6.5rem;
+	border: solid $f6 $bg; 
+	border-left: 0; 
+	border-right: 0; 
+}
+
+small { 
+	font-size: $f6; 
+	line-height: 1em; 
 }
 
 ul,ol { padding-left: 1.25rem; }
@@ -189,9 +200,12 @@ li { margin-bottom: 1rem; }
 hr {
   height: 3px; 
   border: 0; 
-  background: $more-faded; 
+  background: $bg; 
   margin: 1.5rem 0;
   display: block; 
+	&.index-break {
+		margin: 0 3rem;
+	}
 }
 
 blockquote {
@@ -204,7 +218,9 @@ blockquote {
 }
 
 article {
-  padding: 3rem 1.5rem; 
+	margin: 1.5rem 0; 
+	background: white; 
+  padding: 1.5rem; 
   &:last-child { border-bottom: 0; }
   p:last-child,
 	blockquote:last-child { margin-bottom: 0; }
@@ -216,7 +232,7 @@ article {
 
 .wrapped { 
   max-width: $max-width; 
-  margin: 3rem auto; 
+  margin: 0 auto 3rem; 
   display: flex; 
   flex-direction: column; 
 }
@@ -224,33 +240,58 @@ article {
 .site-header {
   line-height: 1em; 
   margin: 0; 
-	padding: 1.5rem 1.5rem 0; 
-	font-size: $f2;
-	font-weight: normal;  
+	background: $color; 
+	padding: 1.5rem 1.5rem .75rem; 
+	font-size: $f3;
+	text-transform: uppercase; 
+	letter-spacing: .1em; 
+	font-weight: normal; 
+	border: 0; 
+	a { 
+		text-decoration: none; 
+		border: 0; 
+		color: white; 
+		&:hover {
+			color: $more-faded; 
+			background: none; 
+		}
+	}
 }
 
 .site-nav {
-  padding: $f6 1.5rem; 
+  padding: .75rem 1.5rem 1.5rem; 
   margin: 0; 
   font-family: $sans; 
+	font-size: $f6;
   line-height: 1em; 
+	background: $color; 
+	color: $faded; 
   li { 
     display: inline-block; 
     margin: 0 1rem 0 0;
     &:last-child { margin-right: 0; }
   }
-  a { text-decoration: none; }
+  a { 
+		text-decoration: none; 
+		border: 0; 
+		color: $most-faded; 
+		&:hover {
+			color: white; 
+			background: none; 
+		}
+	}
 }
 
 .date {
   font-size: $f6; 
-  padding: .75rem 1.5rem;  
 	text-transform: uppercase; 
 	letter-spacing: .1em; 
   font-weight: normal; 
 	color: $faded; 
-  margin: 3rem 0 0; 
-  border-bottom: dotted 1px $more-faded; 
+	padding:  0 1.5rem; 
+	margin: 3rem 0 0;
+	background: $bg; 
+  border-bottom: solid 3px $bg; 
 }
 
 .link {
@@ -262,13 +303,18 @@ article {
   }
 }
 
-.link-target {
-  font-weight: 900;
+.link-target {text-transform: uppercase; 
+letter-spacing: .1em; 
+  font-weight: 500;
 }
 
 .link-permalink { 
   margin-top: 1.25rem;  
   display: inline-block; 
+	color: $more-faded; 
+	border: 0; 
+	padding: 0; 
+	line-height: 1em; 
 }
 
 .interview {
@@ -284,10 +330,22 @@ article {
 }
 
 @media (max-width: $max-width + 11rem) {
+	em img {
+	  margin-left: 0; 
+	  width: 100%; 
+		border: 0; 
+	}
+}
+
+@media (max-width: $max-width) {
   .wrapped {
     margin: 0 auto; 
   }
-  .site-header { order: 1; }
+  .site-header { 
+		order: 1; 
+		border: 0; 
+		padding: 1.5rem; 
+	}
   .site-content { order: 2; }
   .site-nav {
 		padding: 1.5rem; 
@@ -298,11 +356,16 @@ article {
       &:last-child { margin-bottom: 0; } 
     }
   }
-  article { padding: 2.25rem 1.5rem; }
-  em img {
-    margin-left: 0; 
-    width: 100%; 
-  }
+  article { 
+		padding: 1.5rem 1.5rem; 
+		margin: 1rem 0; 
+		border-bottom: solid 1px $most-faded; 
+		border-top: solid 1px $most-faded; 
+		&:first-child {
+			margin-top: 0; 
+			border-top: 0; 
+		}
+	}
 }
 
 
@@ -312,4 +375,4 @@ article {
 
 .flex { display: flex; }
 .mla { margin-left: auto; }
-.gray { color: $faded; }
+.gray { color: $more-faded; }

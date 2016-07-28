@@ -1,0 +1,25 @@
+---
+---
+@charset "utf-8";
+
+html { 
+	font-size: 18px; 
+}
+
+h1,h2,h3 {
+	font-weight: bold; 
+	font-size: 1rem; 
+}
+
+body {
+	line-height: 1.5em;
+	font-family: Courier;
+	margin: 1rem; 
+	color: #222; 
+	padding: 0; 
+	max-width: 36rem; 
+}
+
+a {
+	color: #222; 
+}
