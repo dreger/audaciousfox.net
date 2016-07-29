@@ -8,30 +8,35 @@ Audacious Fox is written by K.Q. Dreger. Coverage includes technology, design, v
 
 ## Contact
 
-Correspondence is cheerfully received at <comments@dreger.me>. I do my best respond within a day or so.
+Correspondence is cheerfully received at <comments@dreger.me>, and I do my best respond within a day or so.
 
 ## Feeds
 
-Subscribe via [RSS](/feeds/main.xml), [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA), or follow me on Twitter [@Dreger](https://twitter.com/dreger).
+[RSS](/feeds/main.xml), [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA), or follow me on Twitter [@Dreger](https://twitter.com/dreger).
 
-## Software
+## Tools
 
-I use a variety of software to publish AF. Below are some of my favorites:
+I use a variety of tools to publish AF. Below are some of my favorites:
 
-- Ulysses
-- WebKit
-- ReadKit
-- OmniFocus
-- Tweetbot
+- Words
+- Sentences
+- Paragraphs
+- Witty humor
+- Appositive phrases
+- Commas
 
-## Miscellany  
+Language &amp; heart — that's all you really need. No MacBook or mechanical keyboard will make you a better writer. These are nice things to have, but never fall into the mistake of believing your writing is dependent on them. If you focus too much on the tools, you're bound to blame them eventually. 
 
-The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from our own in-house style guide.
+## Colophon  
 
-Waffles are the best breakfast food ever. Period.
+This site is hosted on [GitHub pages](https://pages.github.com/), and the domain is registered through [Hover.com](http://hover.com). They've both been great, and I highly recommend their services. 
 
-This site is hosted on [GitHub pages](https://pages.github.com/), and the domain is registered through [Hover.com](http://hover.com).
+The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
 
-Typography: system fonts that don't suck.
+Headlines and copy are set in system fonts that don't suck.
 
-Audacious Fox is written with energy, diction, and honesty.
+Three great words: energy, diction, and honesty.
+
+Have strong opinions, loosely held. 
+
+Waffles for all meals. Period.

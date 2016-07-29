@@ -5,13 +5,14 @@
 <article>
   <header class="article-header">
     {% if post.link %}
-    <h2 class="link"><a class="link-target" href="{{ post.link }}" >{{ titleize }}</a></h2>
+    <h2 class="link">
+      <a class="link-target" href="{{ post.link }}" >{{ titleize }}</a>
+    </h2>
     {% else %}
     <h1><a href="{{ post.url }}">{{ titleize }}</a></h1>
     {% endif %}  </header>
   <section class="article-content">
     {{ post.content }}
+    <p class="article-date"><a href="{{ post.url }}">{{ post.date | date: "%-d %B" }}</a></p>
   </section>
-  
-  <p><a title="Permalink to {{ post.title | xml_escape }}" class="link-permalink" href="{{ post.url }}">&#9724;&#65038;</a></p>
 </article>

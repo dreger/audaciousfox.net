@@ -193,7 +193,7 @@ small {
 
 ul,ol { padding-left: 1.25rem; }
 ul li { list-style: square; }
-li { margin-bottom: 1rem; }
+li { margin-bottom: .875rem; }
 
 hr {
   height: 3px; 
@@ -216,7 +216,7 @@ blockquote {
 }
 
 article {
-	margin: 1.5rem 0; 
+	margin: 2.5rem 0; 
 	background: white; 
   padding: 1.5rem; 
   &:last-child { border-bottom: 0; }
@@ -230,7 +230,7 @@ article {
 
 .wrapped { 
   max-width: $max-width; 
-  margin: 0 auto 3rem; 
+  margin: 3rem auto; 
   display: flex; 
   flex-direction: column; 
 }
@@ -280,39 +280,32 @@ article {
 	}
 }
 
-.date {
+.article-date {
   font-size: $f6; 
-	text-transform: uppercase; 
-	letter-spacing: .1em; 
+	// text-transform: uppercase; 
+	// letter-spacing: .1em; 
   font-weight: normal; 
-	color: $faded; 
-	padding:  0 1.5rem; 
-	margin: 3rem 0 0;
-	background: $bg; 
-  border-bottom: solid 3px $bg; 
+	color: $more-faded; 
+	line-height: 1em; 
+	font-family: $sans; 
+	a { 
+		color: $more-faded; 
+		border: 0; 
+	}
 }
 
 .link {
   font-size: $f6;
-  line-height: 1.5em; 
+  line-height: $line-height; 
 	margin: 0 0 1rem; 
-  a {
-    text-decoration: none; 
-  }
+	position: relative; 
+	a { border: 0; }
 }
 
-.link-target {text-transform: uppercase; 
-letter-spacing: .1em; 
-  font-weight: 500;
-}
-
-.link-permalink { 
-  margin-top: 1.25rem;  
-  display: inline-block; 
-	color: $more-faded; 
-	border: 0; 
-	padding: 0; 
-	line-height: 1em; 
+.link-target {
+	text-transform: uppercase; 
+	letter-spacing: .1em; 
+  font-weight: 900;
 }
 
 .interview {
@@ -374,3 +367,4 @@ letter-spacing: .1em;
 .flex { display: flex; }
 .mla { margin-left: auto; }
 .gray { color: $more-faded; }
+.small { font-size: $f6; line-height: 1em; }
