@@ -19,7 +19,7 @@
 
 
 /* ================================
-  http://meyerweb.com/eric/tools/css/reset/ 
+  http://meyerweb.com/eric/tools/css/reset/
   v2.0 | 20110126
   License: none (public domain)
 ================================ */
@@ -33,8 +33,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -45,7 +45,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,7 +69,7 @@ table {
 }
 
 /* ================================
-   VARIABLES 
+   VARIABLES
 ================================ */
 
 $max-width: 30rem;
@@ -79,23 +79,23 @@ $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Ca
 $serif:  "Charter", Georgia, serif;
 $mono: Menlo, monospace;
 
-$bg: #f2f2f2; 
+$bg: #f2f2f2;
 $copy: #222;
-$color: RGBA(52, 60, 71, 1.00); 
+$color: RGBA(52, 60, 71, 1.00);
 $faded: #757575;
 $more-faded: #bbb;
 $most-faded: #ddd;
 $blockquote: #FFF1D3;
 
-$f1: 3rem; 
-$f2: 2.25rem; 
-$f3: 1.5rem; 
-$f4: 1.25rem; 
-$f5: 1rem; 
-$f6: .875rem; 
+$f1: 3rem;
+$f2: 2.25rem;
+$f3: 1.5rem;
+$f4: 1.25rem;
+$f5: 1rem;
+$f6: .875rem;
 
 // DARK
-// $copy: #fefefe; 
+// $copy: #fefefe;
 // $color: #22eac8;
 // $color: rgb(0, 255, 0);
 // $color-copy: #f8f8f8;
@@ -105,7 +105,7 @@ $f6: .875rem;
 // $blockquote: $bg;
 
 /* ================================
-   UNRESET CLASSES 
+   UNRESET CLASSES
 ================================ */
 
 * {
@@ -118,28 +118,28 @@ html {
 }
 
 body {
-  font-family: $serif; 
-  line-height: $line-height; 
-  margin: 0; 
-  color: $copy; 
-	background: $bg; 
+  font-family: $serif;
+  line-height: $line-height;
+  margin: 0;
+  color: $copy;
+	background: $bg;
 }
 
 a {
   color: $color;
-	text-decoration: none; 
-	border-bottom: dotted 1px $color; 
-  &:hover { 
-		background: $bg; 
+	text-decoration: none;
+	border-bottom: dotted 1px $color;
+  &:hover {
+		background: $bg;
 	}
 }
 
 em { font-style: italic; }
 
 strong {
-  text-transform: uppercase; 
-  letter-spacing: .1em; 
-  font-weight: 400; 
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 400;
   font-size: $f6;
 }
 
@@ -147,48 +147,48 @@ h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote {
   margin-bottom: 1.25rem;
 }
 
-h1,h2,h3,header { 
-	font-family: $sans; 
+h1,h2,h3,header {
+	font-family: $sans;
 }
 
-h1 { 
-  font-size: $f4; 
+h1 {
+  font-size: $f4;
   font-weight: 800;
-  line-height: 1.1em;  
-  a { 
-		text-decoration: none; 
-		border: 0; 
+  line-height: 1.1em;
+  a {
+		text-decoration: none;
+		border: 0;
 	}
 }
 
-h2 { 
-  font-size: $f5; 
+h2 {
+  font-size: $f5;
   font-weight: 500;
-  line-height: 1.1em;  
+  line-height: 1.1em;
   margin-top: 2.25rem;
 }
 
-h3 { 
-	font-size: $f6; 
-	font-weight: 700; 
+h3 {
+	font-size: $f6;
+	font-weight: 700;
 }
 
 img {
   display: block;
-  width: 100%; 
+  width: 100%;
 }
 
 em img {
-  width: $max-width + 10rem; 
+  width: $max-width + 10rem;
   margin-left: -6.5rem;
-	border: solid $f6 $bg; 
-	border-left: 0; 
-	border-right: 0; 
+	border: solid $f6 $bg;
+	border-left: 0;
+	border-right: 0;
 }
 
-small { 
-	font-size: $f6; 
-	line-height: 1em; 
+small {
+	font-size: $f6;
+	line-height: 1em;
 }
 
 ul,ol { padding-left: 1.25rem; }
@@ -196,115 +196,115 @@ ul li { list-style: square; }
 li { margin-bottom: .875rem; }
 
 hr {
-  height: 3px; 
-  border: 0; 
-  background: $bg; 
+  height: 3px;
+  border: 0;
+  background: $bg;
   margin: 1.5rem 0;
-  display: block; 
+  display: block;
 	&.index-break {
 		margin: 0 3rem;
 	}
 }
 
 blockquote {
-  padding: $f6; 
-  background: $blockquote; 
+  padding: $f6;
+  background: $blockquote;
   // font-family: $mono;
   font-size: $f6;
-  line-height: $line-height; 
+  line-height: $line-height;
   p:last-child { margin-bottom: 0; }
 }
 
 article {
-	margin: 2.5rem 0; 
-	background: white; 
-  padding: 1.5rem; 
-  &:last-child { border-bottom: 0; }
+    margin: 2.5rem 0;
+	background: white;
+  padding: 1.5rem;
   p:last-child,
 	blockquote:last-child { margin-bottom: 0; }
 }
 
 /* ================================
-   STYLES 
+   STYLES
 ================================ */
 
-.wrapped { 
-  max-width: $max-width; 
-  margin: 3rem auto; 
-  display: flex; 
-  flex-direction: column; 
+.wrapped {
+  max-width: $max-width;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-header {
-  line-height: 1em; 
-  margin: 0; 
-	background: $color; 
-	padding: 1.5rem 1.5rem .75rem; 
+  line-height: 1em;
+  margin: 0;
+	padding: 1.5rem 1.5rem .75rem;
 	font-size: $f3;
-	text-transform: uppercase; 
-	letter-spacing: .1em; 
-	font-weight: normal; 
-	border: 0; 
-	a { 
-		text-decoration: none; 
-		border: 0; 
-		color: white; 
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: normal;
+	border: 0;
+	a {
+		text-decoration: none;
+		border: 0;
+		color: $color;
 		&:hover {
-			color: $more-faded; 
-			background: none; 
+			color: $more-faded;
+			background: none;
 		}
 	}
 }
 
 .site-nav {
-  padding: .75rem 1.5rem 1.5rem; 
-  margin: 0; 
-  font-family: $sans; 
+  padding: .75rem 1.5rem 1.5rem;
+  margin: 0;
+  font-family: $sans;
 	font-size: $f6;
-  line-height: 1em; 
-	background: $color; 
-	color: $faded; 
-  li { 
-    display: inline-block; 
+  line-height: 1em;
+	color: $more-faded;
+  li {
+    display: inline-block;
     margin: 0 1rem 0 0;
     &:last-child { margin-right: 0; }
   }
-  a { 
-		text-decoration: none; 
-		border: 0; 
-		color: $most-faded; 
+  a {
+		text-decoration: none;
+		border: 0;
+		color: $faded;
 		&:hover {
-			color: white; 
-			background: none; 
+			color: $more-faded;
+			background: none;
 		}
 	}
 }
 
 .article-date {
-  font-size: $f6; 
-	// text-transform: uppercase; 
-	// letter-spacing: .1em; 
-  font-weight: normal; 
-	color: $more-faded; 
-	line-height: 1em; 
-	font-family: $sans; 
-	a { 
-		color: $more-faded; 
-		border: 0; 
+  font-size: $f6;
+	// text-transform: uppercase;
+	// letter-spacing: .1em;
+  font-weight: normal;
+	color: $more-faded;
+	line-height: 1em;
+	font-family: $sans;
+	a {
+		color: $more-faded;
+		border: 0;
 	}
 }
 
 .link {
-  font-size: $f6;
-  line-height: $line-height; 
-	margin: 0 0 1rem; 
-	position: relative; 
-	a { border: 0; }
+  font-size: $f5;
+  line-height: $line-height;
+	margin: 0 0 1rem;
+	position: relative;
+	a {
+    font-weight: 500;
+    border: 0;
+  }
 }
 
 .link-target {
-	text-transform: uppercase; 
-	letter-spacing: .1em; 
+	text-transform: uppercase;
+	letter-spacing: .1em;
   font-weight: 900;
 }
 
@@ -322,46 +322,45 @@ article {
 
 @media (max-width: $max-width + 11rem) {
 	em img {
-	  margin-left: 0; 
-	  width: 100%; 
-		border: 0; 
+	  margin-left: 0;
+	  width: 100%;
+		border: 0;
 	}
 }
 
 @media (max-width: $max-width) {
   .wrapped {
-    margin: 0 auto; 
+    margin: 0 auto;
   }
-  .site-header { 
-		order: 1; 
-		border: 0; 
-		padding: 1.5rem; 
+  .site-header {
+		order: 1;
+		border: 0;
+		padding: 2.25rem 1.5rem; 
 	}
   .site-content { order: 2; }
   .site-nav {
-		padding: 1.5rem; 
+		padding: 1.5rem;
     order: 3;
     li {
-      display: block; 
+      display: block;
       margin: 0 0 1rem;
-      &:last-child { margin-bottom: 0; } 
+      &:last-child { margin-bottom: 0; }
     }
   }
-  article { 
-		padding: 1.5rem 1.5rem; 
-		margin: 1rem 0; 
-		border-bottom: solid 1px $most-faded; 
-		border-top: solid 1px $most-faded; 
+  article {
+		padding: 1.5rem 1.5rem;
+		margin: .5rem 0;
+		border-bottom: solid 1px $most-faded;
+		border-top: solid 1px $most-faded;
 		&:first-child {
-			margin-top: 0; 
-			border-top: 0; 
+			margin-top: 0;
 		}
 	}
 }
 
 
 /* ================================
-   UTILITY CLASSES 
+   UTILITY CLASSES
 ================================ */
 
 .flex { display: flex; }
