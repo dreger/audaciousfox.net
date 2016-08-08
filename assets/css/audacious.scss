@@ -72,7 +72,7 @@ table {
    VARIABLES
 ================================ */
 
-$max-width: 30rem;
+$max-width: 36rem;
 $line-height: 1.45em;
 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -123,6 +123,7 @@ body {
   margin: 0;
   color: $copy;
 	background: $bg;
+	-webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -153,7 +154,7 @@ h1,h2,h3,header {
 
 h1 {
   font-size: $f4;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 1.1em;
   a {
 		text-decoration: none;
@@ -179,8 +180,8 @@ img {
 }
 
 em img {
-  width: $max-width + 10rem;
-  margin-left: -6.5rem;
+  width: $max-width + 13rem;
+  margin-left: -8rem;
 	border: solid $f6 $bg;
 	border-left: 0;
 	border-right: 0;
@@ -239,9 +240,7 @@ article {
   margin: 0;
 	padding: 1.5rem 1.5rem .75rem;
 	font-size: $f3;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	font-weight: normal;
+	font-weight: 900;
 	border: 0;
 	a {
 		text-decoration: none;
@@ -279,8 +278,6 @@ article {
 
 .article-date {
   font-size: $f6;
-	// text-transform: uppercase;
-	// letter-spacing: .1em;
   font-weight: normal;
 	color: $more-faded;
 	line-height: 1em;
@@ -296,16 +293,13 @@ article {
   line-height: $line-height;
 	margin: 0 0 1rem;
 	position: relative;
-	a {
-    font-weight: 500;
-    border: 0;
-  }
 }
 
 .link-target {
+	border: 0;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .interview {
@@ -320,7 +314,7 @@ article {
   .name { @extend strong; }
 }
 
-@media (max-width: $max-width + 11rem) {
+@media (max-width: $max-width + 14rem) {
 	em img {
 	  margin-left: 0;
 	  width: 100%;
@@ -335,7 +329,7 @@ article {
   .site-header {
 		order: 1;
 		border: 0;
-		padding: 2.25rem 1.5rem; 
+		padding: 1.5rem;
 	}
   .site-content { order: 2; }
   .site-nav {
