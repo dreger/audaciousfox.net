@@ -1,6 +1,6 @@
 ---
 title: "Average U.S. Broadband Download Speeds Pass 50 Mbps For First Time"
-date: 2016-08-08 20:01
+date: 2016-08-08 20:40
 link: http://www.speedtest.net/reports/united-states/
 ---
 
