@@ -1,5 +1,6 @@
 ---
 title: "1,000 Words on No Man's Sky"
+published: false
 ---
 
 One of my favorite speeches is one that was never given. In 1969, the world followed Apollo 11 as it ascended into our atmosphere and transcended our perceived notions of American achievement.
@@ -60,7 +61,7 @@ NMS is about discovery, and there’s no way to discover everything Hello Games 
 
 NMS is not a game you can win. It was designed without the concept of winning. It was designed simply to be. And that, to many of us, is unnerving.
 
---- 
+---
 
 NMS asks us to trust it, but more than trusting the game, we’re asked to trust ourselves.
 
