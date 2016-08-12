@@ -213,16 +213,21 @@ hr {
 
 blockquote {
   padding: 0 1.5rem;
+	font-size: $f6;
   line-height: $line-height;
 	color: $faded;
+	border-left: solid 2px $most-faded;
+	+ blockquote {
+		margin-top: -1.25rem;
+		padding-top: 1.25rem;
+	}
   p:last-child { margin-bottom: 0; }
 }
 
 article {
-    margin: 2.5rem 0;
+  margin: 1.5rem 0;
 	background: white;
   padding: 1.5rem;
-	border-radius: 8px;
   p:last-child,
 	blockquote:last-child { margin-bottom: 0; }
 }
@@ -233,9 +238,13 @@ article {
 
 .wrapped {
   max-width: $max-width;
-  margin: 3rem auto;
+  margin: 0 auto 3rem;
   display: flex;
   flex-direction: column;
+}
+
+.af-header {
+	background: white;
 }
 
 .site-header {
@@ -283,7 +292,7 @@ article {
   font-weight: normal;
 	color: $more-faded;
 	line-height: 1em;
-	font-style: italic;
+	font-size: $f6;
 	font-family: $sans;
 	a {
 		color: $more-faded;
@@ -338,6 +347,7 @@ article {
 		border-top: solid 1px $most-faded;
 		&:first-child {
 			margin-top: 0;
+			border-top: 0;
 		}
 	}
 }
