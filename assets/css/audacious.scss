@@ -72,11 +72,11 @@ table {
    VARIABLES
 ================================ */
 
-$max-width: 36rem;
+$max-width: 32rem;
 $line-height: 1.45em;
 
-$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif:  "Charter", Georgia, serif;
+$sans: "Futura", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$serif:  Georgia, serif;
 $mono: Menlo, monospace;
 
 $bg: #f2f2f2;
@@ -154,7 +154,9 @@ h1,h2,h3,header {
 
 h1 {
   font-size: $f4;
-  font-weight: 500;
+  font-weight: normal;
+	// text-transform: uppercase;
+	// letter-spacing: .1em;
   line-height: 1.1em;
   a {
 		text-decoration: none;
@@ -164,13 +166,15 @@ h1 {
 
 h2 {
   font-size: $f5;
-  font-weight: 500;
+  font-weight: normal;
   line-height: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
   margin-top: 2.25rem;
 }
 
 h3 {
-	font-size: $f6;
+	font-size: $f5;
 	font-weight: 700;
 }
 
@@ -289,18 +293,13 @@ article {
 }
 
 .link {
-  font-size: $f5;
   line-height: $line-height;
 	margin: 0 0 1rem;
-	position: relative;
+	a {
+		border: 0;
+	}
 }
 
-.link-target {
-	border: 0;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-  font-weight: 500;
-}
 
 .interview {
   margin-left: 1.5rem;
