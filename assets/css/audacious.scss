@@ -83,7 +83,7 @@ $bg: #f9f5fa;
 $bg: #f4f4f4;
 $copy: #333;
 $color: RGBA(52, 60, 71, 1.00);
-$faded: #888;
+$faded: #777;
 $more-faded: #bbb;
 $most-faded: #d2d2d2;
 $blockquote: #FFF1D3;
@@ -228,9 +228,28 @@ article {
   margin: 1.5rem 0;
 	background: white;
   padding: 1.5rem;
+	position: relative;
 	padding: 2.25rem;
   p:last-child,
 	blockquote:last-child { margin-bottom: 0; }
+}
+
+aside {
+	width: 33%;
+	float: right;
+	margin: 0 0 1.25rem 1.25rem;
+	padding: .5rem 0 0;
+	font-size: $f6;
+	color: $faded;
+	line-height: $line-height;
+	border-top: double $most-faded;
+}
+
+code {
+	font-family: $mono;
+	font-size: $f6;
+	padding: 1px 4px;
+	border: solid 1px $most-faded; 
 }
 
 /* ================================
@@ -352,6 +371,10 @@ article {
 			margin-top: 0;
 			border-top: 0;
 		}
+	}
+	aside {
+		width: 100%;
+		margin: 0 0 1.25rem;
 	}
 }
 
