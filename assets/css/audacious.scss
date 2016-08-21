@@ -79,10 +79,11 @@ $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Ca
 $serif: Georgia, serif;
 $mono: Menlo, monospace;
 
-$bg: #f9f5fa;
 $bg: #f4f4f4;
+$bg: #f8f8f8;
 $copy: #303030;
 $color: RGBA(52, 60, 71, 1.00);
+$color: #61d1c3;
 $faded: #777;
 $more-faded: #bbb;
 $most-faded: #d2d2d2;
@@ -116,11 +117,11 @@ $f6: .875rem;
 }
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 body {
-  font-family: $serif;
+  font-family: $sans;
   line-height: $line-height;
   margin: 0;
   color: $copy;
@@ -131,9 +132,8 @@ body {
 a {
   color: $color;
 	text-decoration: none;
-	border-bottom: solid 1px $most-faded;
   &:hover {
-		background: $bg;
+		text-decoration: underline;
 	}
 }
 
@@ -213,10 +213,11 @@ hr {
 
 blockquote {
   padding: 0 1.5rem;
-	font-size: $f6;
+	font-size: $f5;
+	margin-left: .25rem;
   line-height: $line-height;
 	color: $faded;
-	border-left: solid 2px $most-faded;
+	border-left: solid 1px $most-faded;
 	+ blockquote {
 		margin-top: -1.25rem;
 		padding-top: 1.25em;
@@ -249,7 +250,7 @@ code {
 	font-family: $mono;
 	font-size: $f6;
 	padding: 1px 4px;
-	border: solid 1px $most-faded; 
+	border: solid 1px $most-faded;
 }
 
 /* ================================
@@ -278,7 +279,7 @@ code {
 	a {
 		text-decoration: none;
 		border: 0;
-		color: $color;
+		color: $copy;
 		&:hover {
 			color: $more-faded;
 			background: none;
