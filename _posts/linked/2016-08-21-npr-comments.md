@@ -11,13 +11,6 @@ Elizabeth Jenson, NPR:
 
 I'm not sure why NPR didn't try rules similar to The Times before completely axing the comments section. Not that I blame them, though. Online comments, particularly ones you display right next to your content, can (read: will) become a cesspool for trolling and hate. If you don't have the human-power to keep discourse civil, better to just shut it down.
 
-I found the Ms. Jenson's mention of cost interesting. NPR is using a third-party commenting system from Disqus, and it's running at "twice what was budgeted". This is unlike the NYT, which appears to use their own in-house commenting system.
+I found Ms. Jenson's mention of cost interesting. NPR is using a third-party commenting system from Disqus, and it's running at "twice what was budgeted". This is unlike the NYT, which appears to use their own in-house commenting system.
 
-Reading through the comments on NPR's article do make me empathize with the users, though. There are a fair number of folks that are genuinely saddened by the loss of their forum. One user, [Ultra Con][ultra], even has an idea of how to save the show:
-
-> Why doesnt [sic] NPR try a "pay as you comment approach?" A few cents to comment,
-I would pay it. That cost would likely eliminate the half caring trolls. And folks who feel the value, would pay it.
-
-Free speech, as they say.
-
-[ultra]: http://disq.us/p/1b1z6er
+Reading through the comments on NPR's article, it's hard not to empathize with some of the users. There are a fair number of folks who appear to be genuinely saddened by the loss of their forum. 
