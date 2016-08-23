@@ -129,7 +129,8 @@ em { font-style: italic; }
 strong {
   text-transform: uppercase;
   letter-spacing: .1em;
-  font-weight: 400;
+  font-weight: 500;
+	font-family: $sans;
   font-size: $f6;
 }
 
@@ -142,8 +143,8 @@ h1,h2,h3,header {
 }
 
 h1 {
-  font-size: $f4;
-  font-weight: 500;
+  font-size: $f3;
+  font-weight: 400;
   line-height: 1.2em;
   a {
 		text-decoration: none;
@@ -153,11 +154,11 @@ h1 {
 
 h2 {
   font-size: $f5;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-  margin-top: 2.25rem;
+  margin-top: 3rem;
 }
 
 h3 {
@@ -188,7 +189,7 @@ ul li { list-style: square; }
 li { margin-bottom: .875rem; }
 
 hr {
-  height: 3px;
+  height: 4px;
   border: 0;
   background: $bg;
   margin: 1.5rem 0;
@@ -199,7 +200,7 @@ hr {
 }
 
 blockquote {
-	width: 75%;
+	width: 90%;
 	margin: 2.25rem auto;
 	color: $faded;
 	padding: 0;
@@ -228,7 +229,7 @@ aside {
 	font-size: $f6;
 	color: $faded;
 	line-height: $line-height;
-	border-top: double $most-faded;
+	border-top: solid 2px $most-faded;
 }
 
 code {
@@ -306,6 +307,7 @@ code {
 	line-height: 1em;
 	font-size: $f6;
 	font-family: $sans;
+	margin-top: 1.25rem; 
 	a {
 		color: $more-faded;
 		border: 0;
