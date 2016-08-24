@@ -4,28 +4,11 @@ layout: page
 permalink: /masthead/
 ---
 
-Audacious Fox is written by K.Q. Dreger. Coverage includes technology, design, video games, and science. Occasionally, Dr. Christopher B. Durr will be contribute a guest editorial.
+Audacious Fox is written by K.Q. Dreger in Northeast Ohio.
 
-## Contact
+Correspondence is cheerfully received at <comments@dreger.me>. Feel free to ding me on Twitter [@Dreger](https://twitter.com/dreger).
 
-Correspondence is cheerfully received at <comments@dreger.me>, and I do my best respond within a day or so.
-
-To expedite a response, please ding me on Twitter [@Dreger](https://twitter.com/dreger).
-
-## Feeds
-
-[RSS](/feeds/main.xml) and [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
-
-## Tools
-
-I use a variety of tools to publish AF. Below are some of my favorites:
-
-- Sentences
-- Paragraphs
-- Wit and humor
-- Appositive phrases
-
-Language &amp; heart — that's all you really need. No MacBook or mechanical keyboard will make you a better writer. These are nice things to have, but never fall into the mistake of believing your writing is dependent on them. If you focus too much on the tools, you're bound to blame them eventually.
+Grab the feeds via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
 
 ## Colophon  
 
