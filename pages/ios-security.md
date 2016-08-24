@@ -3,23 +3,17 @@ layout: page
 title: Basic iOS Security 
 permalink: /projects/ios-security/
 ---
-Basic iOS Security
-
 iOS is the most secure consumer mobile operating system out of the box. However, regardless the OS, we will always be the weakest link in any security process. Here are my tips for further securing your instance of iOS. 
+
+**Note:** This guide is currently designed for the Settings.app layout in iOS 10. However, most of what follows should be very similar to iOS 9. 
 
 ## Glossary
 
 2FA: Two-Factor Authentication. In addition to your password, some services allow you require a time-sensitive code at login, which will be texted to you. 
 
-## Guide 
+## Step 1. Lock down the lock screen
 
-### Disable Siri interactions from the home screen
-
-“Call Mom” / “Text my brother” 
-
-These are both escorts of attack that someone could use Siri for, in order to conduct some phishing. If you’ve turned off message preview on the lock screen, an attacker couldn’t see the responses, but it’s still an unnecessary risk. You only want Siri operational if you’ve authenticated into your device. 
-
-Settings \> Siri \> Set `Access on Lock Screen` to `Off`
+The lock screen is the most important part of your security strategy on iOS. Understanding the different ways data and interactions are exposed can help you stay safe. 
 
 ### Turn on Touch ID & Passcode
 
@@ -29,11 +23,23 @@ Require Passcode: Immediately
 
 Scroll down to the services that can be accessed from the lock screen. I’d recommend turning off `Reply to Message`, because this could be used to try and get information out of your loved ones. A quick “Text Mom…” and suddenly you’re divulging security question answers. 
 
-### Notifications
+### Disable Siri
 
-Go to Notifications, and then open up the settings for Messages. Scroll down to the bottom, and turn `Show Previews` to Off. This prevents anyone from reading your text messages, including any 2FA codes, that get messaged to you. 
+“Call Mom” / “Text my brother” 
 
-### Health.app
+These are both escorts of attack that someone could use Siri for, in order to conduct some phishing. If you’ve turned off message preview on the lock screen, an attacker couldn’t see the responses, but it’s still an unnecessary risk. You only want Siri operational if you’ve authenticated into your device. 
+
+Settings \> Siri \> Set `Access on Lock Screen` to `Off`
+
+I should note that disabling Siri may be for he extra cautious. Disabling Siri will also render her useless from earbud microphones and while driving, unless you unlock your phone. If you want to keep Siri enabled, then you absolutely must disable Message previews, which are explained next. 
+
+### Hide Message Previews
+
+Go to Notifications, and then open up the settings for Messages. Scroll down to the bottom, and turn `Show Previews` to Off. This prevents anyone from reading your text messages, including those 2FA codes that your bank, email, or other service might send you. 
+
+Additionally, hiding message previews drastically reduces the risk of someone impersonating you via Siri from the lock screen. 
+
+### Health
 
 Inside the Health app, there’s a section called Medical ID. This lets you set up some basic health information that can be displayed on the lock screen. The idea being that should ever be unresponsive, someone could grab your phone and get some quick information about your basic medical profile. 
 
