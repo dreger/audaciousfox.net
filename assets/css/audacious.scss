@@ -69,21 +69,20 @@ table {
 }
 
 /* ================================
-   VARIABLES 
+   VARIABLES
 ================================ */
 
-$max-width: 36rem;
-$max-width: 42rem;
+$max-width: 38rem;
 $line-height: 1.45em;
 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif: Charter, Georgia, serif;
+$serif: $sans, Charter, Georgia, serif;
 $mono: Menlo, monospace;
 
 $bg: #f8f8f8;
 $copy: RGBA(52, 60, 71, 1.00);
 $color: RGBA(0,122,255,1.00);
-$faded: #777;
+$faded: #888;
 $more-faded: #bbb;
 $most-faded: #ddd;
 
@@ -135,7 +134,7 @@ strong {
 }
 
 h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25em;
 }
 
 h1,h2,h3,header {
@@ -159,12 +158,15 @@ h2 {
   line-height: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-  margin-top: 3rem;
+	margin-bottom: 1.25rem;
+  margin-top: 2.25rem;
 }
 
 h3 {
 	font-size: $f5;
 	font-weight: 700;
+	margin-top: 2.25rem;
+	margin-bottom: .5rem;
 }
 
 img {
@@ -187,7 +189,7 @@ small {
 
 ul,ol { padding-left: 1.25rem; }
 ul li { list-style: square; }
-li { margin-bottom: .875rem; }
+li { margin-bottom: .5em; }
 
 hr {
   height: 4px;
@@ -207,7 +209,7 @@ blockquote {
 	padding: 0;
 	+ blockquote {
 		margin-top: -2.25rem;
-		padding-top: 1em;
+		padding-top: 1.25em;
 	}
   p:last-child { margin-bottom: 0; }
 }
@@ -304,15 +306,20 @@ code {
 
 .article-date {
   font-weight: normal;
-	color: $more-faded;
 	line-height: 1em;
+	color: $more-faded;
 	// font-size: $f6;
 	font-family: $sans;
 	margin-top: 1.25rem;
 	a {
-		color: $more-faded;
+		// color: $most-faded;
 		border: 0;
 	}
+}
+
+.index-date {
+	padding-left: 2.25rem;
+	color: $more-faded;
 }
 
 .link {
@@ -320,6 +327,12 @@ code {
 	margin-top: 0;
 }
 
+.post-url {
+	margin-left: auto;
+	// color: $most-faded;
+	line-height: 1em;
+	padding-right: 1rem;
+}
 
 .interview {
   margin-left: 1.5rem;
@@ -363,6 +376,7 @@ code {
 			border-top: 0;
 		}
 	}
+	.index-date { padding-left: 1.5rem; }
 	aside {
 		width: 100%;
 		margin: 0 0 1.25rem;
