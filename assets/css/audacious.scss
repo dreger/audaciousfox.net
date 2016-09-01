@@ -308,17 +308,16 @@ code {
   font-weight: normal;
 	line-height: 1em;
 	color: $more-faded;
-	// font-size: $f6;
 	font-family: $sans;
 	margin-top: 1.25rem;
 	a {
-		// color: $most-faded;
 		border: 0;
 	}
 }
 
 .index-date {
 	padding-left: 2.25rem;
+	font-weight: 300; 
 	color: $more-faded;
 }
 
