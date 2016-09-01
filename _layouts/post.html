@@ -1,16 +1,12 @@
 ---
 layout: default
 ---
-{% capture titleize %}
-{% assign words = page.title | split: ' ' %}
-{% if words.size < 2 %}{{ page.title }}{% else %}{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
-
 <article>
   <header class="article-header">
     {% if page.link %}
-    <h2 class="link"><a class="link-target" href="{{ page.link }}" >{{ titleize }}</a></h2>
+    <h2 class="link"><a class="link-target headliner" href="{{ page.link }}" >{{ page.title }}</a></h2>
     {% else %}
-    <h1>{{ titleize }}</h1>
+    <h1 class="headliner">{{ page.title }}</h1>
     {% endif %}
   </header>
   <section class="article-content">

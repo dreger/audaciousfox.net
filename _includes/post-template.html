@@ -1,15 +1,11 @@
-{% capture titleize %}
-{% assign words = post.title | split: ' ' %}
-{% if words.size < 2 %}{{ post.title }}{% else %}{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
-
 <article>
   <header class="article-header">
     {% if post.link %}
     <h2 class="link">
-      <a class="link-target" href="{{ post.link }}" >{{ titleize }}</a>
+      <a class="link-target headliner" href="{{ post.link }}" >{{ post.title }}</a>
     </h2>
     {% else %}
-    <h1><a href="{{ post.url }}">{{ titleize }}</a></h1>
+    <h1><a class="headliner" href="{{ post.url }}">{{ post.title }}</a></h1>
     {% endif %}
   </header>
   <section class="article-content">
