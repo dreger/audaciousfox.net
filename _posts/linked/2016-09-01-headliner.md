@@ -16,4 +16,4 @@ I get:
     U.S Broadband Speeds Reach
     New High
 
-I have both a Liquid implementation (for pre-processing in Jekyll) and a JavaScript version (for post-processing in any webpage). 
+I have both a Liquid implementation (for pre-processing in Jekyll) and a JavaScript version (for post-processing in any webpage). Check them out, and let me know if you have any ideas for improvements or other languages. 
