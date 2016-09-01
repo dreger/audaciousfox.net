@@ -25,7 +25,6 @@
       words.push(orphaned)
       var newHeadline = words.join(" ")
       headline.innerHTML = newHeadline;
-      console.log(newHeadline)
     }
   }
 })();
