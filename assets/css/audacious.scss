@@ -68,6 +68,7 @@ table {
 	border-spacing: 0;
 }
 
+
 /* ================================
    VARIABLES
 ================================ */
@@ -77,7 +78,7 @@ $line-height: 1.4em;
 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $serif: $sans, Charter, Georgia, serif;
-$mono: Menlo, monospace;
+$mono: Menlo, Monaco, monospace;
 
 $bg: #f8f8f8;
 $copy: RGBA(52, 60, 71, 1.00);
@@ -133,7 +134,7 @@ strong {
   font-size: $f6;
 }
 
-h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote {
+h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote,.highlighter-rouge {
   margin-bottom: 1.25em;
 }
 
@@ -241,6 +242,21 @@ code {
 	padding: 1px 4px;
 	border: solid 1px $most-faded;
 }
+
+pre {
+  font-family: $mono; 
+  overflow:scroll;
+  font-size: $f6; 
+  border-width: 1px ;
+  border-color: $more-faded;
+  border-style: dashed;
+  padding: .5rem; 
+  code {
+    padding: initial; 
+    border: 0; 
+  }
+}
+
 
 /* ================================
    STYLES

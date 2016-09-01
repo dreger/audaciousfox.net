@@ -1,0 +1,19 @@
+---
+title: Stop Leaving Orphaned Words in Headlines
+date: 2016-09-01 12:37
+link: http://audaciousfox.net/projects/headliner
+redirect_from:
+  - linked/2016/09/01/headliner-js
+---
+
+I find headlines with orphaned words ugly, so AF headlines are pre-processed to add a non-breaking space between the last two words. Now instead of this:
+
+    U.S Broadband Speeds Reach New
+    High
+
+I get: 
+
+    U.S Broadband Speeds Reach
+    New High
+
+I have both a Liquid implementation (for pre-processing in Jekyll) and a JavaScript version (for post-processing in any webpage). 
