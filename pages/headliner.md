@@ -4,7 +4,7 @@ title: Headliner
 permalink: /projects/headliner/
 ---
 
-I find headlines with orphaned words ugly, so here are a few ways to insert a non-breaking space between the last two words of your headlines. 
+I find headlines with orphaned words visually unappealing, so here are a few ways to insert a non-breaking space between the last two words of your headlines. 
 
 ## Jekyll / Liquid
 

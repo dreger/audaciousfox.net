@@ -6,7 +6,7 @@ redirect_from:
   - linked/2016/09/01/headliner-js
 ---
 
-I find headlines with orphaned words ugly, so AF headlines are pre-processed to add a non-breaking space between the last two words. Now instead of this:
+I find headlines with orphaned words visually unappealing, so AF headlines are pre-processed to add a non-breaking space between the last two words. Now instead of this:
 
     U.S Broadband Speeds Reach New
     High
