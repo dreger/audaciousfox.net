@@ -3,3 +3,4 @@ _site
 _drafts
 todo.md
 *.plist
+.DS_Store
