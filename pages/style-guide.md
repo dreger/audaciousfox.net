@@ -52,10 +52,12 @@ Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_S
 
 - Pixel Envy
 - pull quote: a block of text, taken from another source.
-- quotes
 
 > Appositive phrases should be chosen based on the context of your audience. Establish the context of a person, place, or thing without making the reader feel stupid. Ex. "K.Q. Dreger, a writer from Ohio, created the AF Manual of Style, a resource he hopes is copied by bloggers everywhere." Don't be a jerk. Always make it clear who and where you're quoting from. Also, quote things _exactly_ as they appear.
 
+> "Be sparing with quotes. Direct quotes should be used when either the speaker or what he said is surprising, or when the words he used are particularly pithy or graphic. Otherwise you can probably paraphrase him more concisely." — [Economist Style Guide][esg] 
+
+- quotation marks: any added punctuation goes outside. 
 - real time: two words, denoting [this](https://en.wikipedia.org/wiki/Real-time)
 - Retina: as in Retina screens
 - roundup: a collection of things
@@ -67,3 +69,5 @@ Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_S
 - weblog: one word, an online blog
 - website: a collection of pages on the Internet
 - well-deserved
+
+[esg]:http://www.economist.com/style-guide/quotes
