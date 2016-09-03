@@ -77,15 +77,15 @@ $max-width: 38rem;
 $line-height: 1.4em;
 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif: $sans, Charter, Georgia, serif;
+$serif: Charter, Georgia, serif;
 $mono: Menlo, Monaco, monospace;
 
 $bg: #f8f8f8;
 $copy: RGBA(52, 60, 71, 1.00);
 $color: RGBA(0,122,255,1.00);
 $faded: #888;
-$more-faded: #bbb;
-$most-faded: #ddd;
+$more-faded: #ccc;
+$most-faded: #dadada;
 
 $f1: 3rem;
 $f2: 2.25rem;
@@ -117,10 +117,11 @@ body {
 }
 
 a {
-  color: $color;
+  color: $copy;
 	text-decoration: none;
+	border-bottom: solid 1px $more-faded;
   &:hover {
-		text-decoration: underline;
+		background: #f2f2f2;
 	}
 }
 
@@ -150,6 +151,7 @@ h1 {
   a {
 		text-decoration: none;
 		border: 0;
+		color: $copy;
 	}
 }
 
@@ -244,16 +246,16 @@ code {
 }
 
 pre {
-  font-family: $mono; 
+  font-family: $mono;
   overflow:scroll;
-  font-size: $f6; 
+  font-size: $f6;
   border-width: 1px ;
   border-color: $more-faded;
   border-style: dashed;
-  padding: .5rem; 
+  padding: .5rem;
   code {
-    padding: initial; 
-    border: 0; 
+    padding: initial;
+    border: 0;
   }
 }
 
@@ -312,7 +314,7 @@ pre {
   a {
 		text-decoration: none;
 		border: 0;
-		color: $faded;
+		// color: $faded;
 		&:hover {
 			color: $more-faded;
 			background: none;
@@ -322,6 +324,7 @@ pre {
 
 .article-date {
   font-weight: normal;
+	font-size: $f6; 
 	line-height: 1em;
 	color: $more-faded;
 	font-family: $sans;
@@ -334,7 +337,9 @@ pre {
 .index-date {
 	padding-left: 2.25rem;
 	font-weight: 300;
-	color: $more-faded;
+	font-size: $f6;
+	line-height: 1em;
+	// color: $more-faded;
 }
 
 .link {
@@ -346,7 +351,13 @@ pre {
 	margin-left: auto;
 	color: $most-faded;
 	line-height: 1em;
-	padding-right: 1rem;
+	padding: 3px 4px 2px 4px;
+	border: 0;
+	position: relative;
+	left: -4px;
+	&:hover {
+		color: $copy;
+	}
 }
 
 .interview {
