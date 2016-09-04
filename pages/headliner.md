@@ -39,4 +39,4 @@ Ideally, you'll be able to pre-process your headlines like the above example. Ho
       }
     })();
     
-One huge nitpick: This script post-processes your HTML, so headlines may visibly, albeit very quickly, change after the page loads. The processing is fast, so you may not see it happen, but the very fact it's there may bug some folks, including myself. For that reason, I will, ironically, not be using Headliner.js; however, I hope someone is able to make good use of it.
+One huge nitpick: This script post-processes your HTML, so headlines may visibly, albeit very quickly, change after the page loads. The processing is fast, so you may not see it happen, but the very fact it's there may bug some folks, including myself. For that reason, I will, ironically, not be using Headliner; however, I hope someone is able to make good use of it.
