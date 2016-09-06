@@ -1,6 +1,6 @@
 ---
 ---
-@charset "utf-8";
+@charset "UTF-8";
 
 /* ================================
   Designed by K.Q. Dreger.
@@ -324,7 +324,7 @@ pre {
 
 .article-date {
   font-weight: normal;
-	font-size: $f6; 
+	font-size: $f6;
 	line-height: 1em;
 	color: $more-faded;
 	font-family: $sans;
@@ -343,18 +343,24 @@ pre {
 }
 
 .link {
+	display: flex;
   line-height: $line-height;
 	margin-top: 0;
+	&:hover {
+		.link-url { color: $copy; }
+	}
 }
 
-.post-url {
-	margin-left: auto;
+.link-target { margin-right: 1rem; }
+
+.link-url {
+	font-family: "Hiragino Kaku Gothic Pro", "Osaka", "Zapf Dingbats";
 	color: $most-faded;
 	line-height: 1em;
-	padding: 3px 4px 2px 4px;
+	/* Very odd padding here to look even. */
+	padding: 3px 3px 2px 4px;
 	border: 0;
 	position: relative;
-	left: -4px;
 	&:hover {
 		color: $copy;
 	}

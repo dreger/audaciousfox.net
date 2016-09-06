@@ -8,7 +8,7 @@ layout: default
 <article>
   <header class="article-header">
     {% if page.link %}
-    <h2 class="link"><a class="link-target" href="{{ page.link }}" >{{ titleize }}</a></h2>
+    <h2 class="link"><span><a class="link-target" href="{{ page.link }}" >{{ titleize }}</a></span></h2>
     {% else %}
     <h1>{{ titleize }}</h1>
     {% endif %}
