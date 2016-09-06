@@ -84,7 +84,7 @@ $bg: #f8f8f8;
 $copy: RGBA(52, 60, 71, 1.00);
 $color: RGBA(0,122,255,1.00);
 $faded: #888;
-$more-faded: #ccc;
+$more-faded: #cbcbcb;
 $most-faded: #dadada;
 
 $f1: 3rem;
@@ -252,7 +252,8 @@ pre {
   border-width: 1px ;
   border-color: $more-faded;
   border-style: dashed;
-  padding: .5rem;
+  padding: .25rem .5rem;
+	line-height: $line-height;
   code {
     padding: initial;
     border: 0;
@@ -336,9 +337,10 @@ pre {
 
 .index-date {
 	padding-left: 2.25rem;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: $f6;
 	line-height: 1em;
+	margin-top: 3rem;
 	// color: $more-faded;
 }
 
@@ -347,23 +349,24 @@ pre {
   line-height: $line-height;
 	margin-top: 0;
 	&:hover {
-		.link-url { color: $copy; }
+		a { color: $copy; }
 	}
 }
 
-.link-target { margin-right: 1rem; }
+.link-target {
+	margin-right: 1rem;
+}
 
 .link-url {
+	margin-left: auto;
 	font-family: "Hiragino Kaku Gothic Pro", "Osaka", "Zapf Dingbats";
-	color: $most-faded;
-	line-height: 1em;
-	/* Very odd padding here to look even. */
-	padding: 3px 3px 2px 4px;
-	border: 0;
-	position: relative;
-	&:hover {
-		color: $copy;
+	a {
+		/* Very odd padding here to look even. */
+		color: $most-faded;
+		padding: 3px 3px 2px 4px;
+		border: 0;
 	}
+
 }
 
 .interview {

@@ -6,8 +6,8 @@
   <header class="article-header">
     {% if post.link %}
     <h2 class="link">
-      <span><a class="link-target" href="{{ post.link }}" >{{ titleize }}</a></span>
-      <span class="mla"><a class="link-url" href="{{ post.url }}">{{ site.icon }}</a></span>
+      <span class="link-target"><a href="{{ post.link }}" >{{ titleize }}</a></span>
+      <span class="link-url"><a href="{{ post.url }}">{{ site.icon }}</a></span>
     </h2>
     {% else %}
     <h1><a href="{{ post.url }}">{{ titleize }}</a></h1>
