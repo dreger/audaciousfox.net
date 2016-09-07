@@ -1,5 +1,5 @@
 ---
-title: Stop Leaving Orphaned Words in Headlines
+title: Orphaned Words in Headlines
 date: 2016-09-01 12:37
 link: http://audaciousfox.net/projects/headliner
 redirect_from:
