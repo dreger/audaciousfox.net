@@ -10,7 +10,7 @@ Somewhat buried by all the news surrounding Apple's recent product event, Google
 
 > In following releases, we will continue to extend HTTP warnings, for example, by labelling HTTP pages as “not secure” in Incognito mode, where users may have higher expectations of privacy. Eventually, we plan to label all HTTP pages as non-secure, and change the HTTP security indicator to the red triangle that we use for broken HTTPS.
 
-That last sentence should hit hard, because this is a huge change in the world's most popular web browser. It's also just the latest step in Goole's quest for all HTTPS all the time. Two years ago, on their official Webmaster blog, Google hinted at the importance of secured content by announcing that [HTTPS would become one of the ranking signals][seo] used to determine where search results appear on the page:
+That last sentence should hit hard, because this is a huge change in the world's most popular web browser. It's also just the latest step in Google's quest for all HTTPS all the time. Two years ago, on their official Webmaster blog, Google hinted at the importance of secured content by announcing that [HTTPS would become one of the ranking signals][seo] used to determine where search results appear on the page:
 
 > For now it's only a very lightweight signal—affecting fewer than 1% of global queries, and carrying less weight than other signals such as high-quality content—while we give webmasters time to switch to HTTPS. But over time, we may decide to strengthen it, because we’d like to encourage all website owners to switch from HTTP to HTTPS to keep everyone safe on the web.
 
