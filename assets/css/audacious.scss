@@ -340,7 +340,7 @@ pre {
 
 .link {
 	display: flex;
-  line-height: $line-height;
+  line-height: 1.8em;
 	margin-top: 0;
 	&:hover {
 		a { color: $copy; }
