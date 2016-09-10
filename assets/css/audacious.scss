@@ -73,17 +73,17 @@ table {
    VARIABLES
 ================================ */
 
-$max-width: 38rem;
+$max-width: 44rem;
 $line-height: 1.4em;
 
 $sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $serif: Charter, Georgia, serif;
 $mono: Menlo, Monaco, monospace;
 
-$bg: #f8f8f8;
+$bg: #f6f7f8;
 $copy: RGBA(52, 60, 71, 1.00);
 $color: RGBA(0,122,255,1.00);
-$faded: #888;
+$faded: #a2a2a2;
 $more-faded: #cbcbcb;
 $most-faded: #dadada;
 
@@ -104,7 +104,7 @@ $f6: .875rem;
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -178,9 +178,11 @@ img {
 }
 
 em img {
-  width: $max-width + 14rem;
-  margin-left: -9.25rem;
+  // width: $max-width + 14rem;
+  // margin-left: -9.25rem;
 	border: solid $f6 $bg;
+	width: 32rem;
+	margin-left: -2.25rem;
 	border-left: 0;
 	border-right: 0;
 }
@@ -223,6 +225,7 @@ article {
   padding: 1.5rem;
 	position: relative;
 	padding: 2.25rem;
+	&:first-child { margin-top: 0; }
   p:last-child,
 	blockquote:last-child { margin-bottom: 0; }
 }
@@ -267,61 +270,55 @@ pre {
 
 .wrapped {
   max-width: $max-width;
-  margin: 0 auto 3rem;
-  display: flex;
-  flex-direction: column;
+  margin: 4rem auto;
 }
 
-.af-header {
-	background: white;
-	padding: 2.25rem;
+.container {
 	display: flex;
-	align-items: center;
 }
 
-.site-header {
-  line-height: 1em;
-  margin: 0;
+.column {
+	max-width: 32rem;
+	flex-shrink: 0;
+}
+
+.sidebar {
+	padding: 2.25rem 0 0 2.25rem;
+	font-size: $f6;
+	color: #888;
+	line-height: $line-height;
+	font-family: $sans;
+}
+
+.navigation {
+	list-style: none;
 	padding: 0;
-	font-size: $f3;
-	font-weight: 900;
-	border: 0;
+	li { list-style: none; }
 	a {
-		text-decoration: none;
-		border: 0;
-		color: $copy;
-		&:hover {
-			color: $more-faded;
-			background: none;
-		}
+		// text-transform: uppercase;
+		// letter-spacing: .1em;
 	}
 }
 
-.site-nav {
-	margin-left: auto;
-	ul {
-		padding: 0;
-		margin: 0;
-		font-family: $sans;
-		font-size: $f6;
-		line-height: 1em;
-		color: $more-faded;
-	}
-  li {
-    display: inline-block;
-    margin: 0 1rem 0 0;
-    &:last-child { margin-right: 0; }
-  }
-  a {
-		text-decoration: none;
-		border: 0;
-		// color: $faded;
-		&:hover {
-			color: $more-faded;
-			background: none;
-		}
-	}
+.title {
+	font-size: $f4;
+	padding: 0 2.25rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-bottom: 2.25rem;
+	line-height: 1em;
 }
+
+.byline {
+	font-weight: 300;
+	margin-left: .5rem;
+	font-size: $f5;
+	line-height: 1em;
+	letter-spacing: 1px;
+	color: $faded;
+}
+
 
 .article-date {
   font-weight: normal;
@@ -336,12 +333,13 @@ pre {
 }
 
 .index-date {
-	padding-left: 2.25rem;
+	padding: 0 2.25rem;
+	text-align: left;
 	font-weight: 400;
 	font-size: $f6;
 	line-height: 1em;
 	margin-top: 3rem;
-	// color: $more-faded;
+	color: $faded;
 }
 
 .link {
@@ -366,7 +364,12 @@ pre {
 		padding: 3px 3px 2px 4px;
 		border: 0;
 	}
+}
 
+.caps {
+	font-size: .875em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
 }
 
 .interview {
@@ -381,27 +384,31 @@ pre {
   .name { @extend strong; }
 }
 
-@media (max-width: $max-width + 14rem) {
-	em img {
-	  margin-left: 0;
-	  width: 100%;
-		border: 0;
-	}
-}
 
-@media (max-width: $max-width) {
+@media (max-width: $max-width + 2rem) {
+	html { font-size: 16px; }
   .wrapped {
     margin: 0 auto;
+		display: block;
+		margin: 0 auto;
+		max-width: 34rem;
   }
-  .af-header {
+
+	.container { display: block; }
+
+	.title, .sidebar {
 		padding: 1.5rem;
-		border: 0;
-		display: initial
+		margin: 1rem 0;
 	}
-	.site-header {
-		margin-bottom: 1rem;
+
+	.byline {
+		display: block;
+		margin: .5rem 0 0;
 	}
-  .site-content { order: 2; }
+
+	.column {
+		max-width: 100%;
+	}
   article {
 		padding: 1.5rem 1.5rem;
 		border-radius: 0;
@@ -411,10 +418,16 @@ pre {
 			border-top: 0;
 		}
 	}
-	.index-date { padding-left: 1.5rem; }
+	.index-date { padding: 0 1.5rem; }
 	aside {
 		width: 100%;
 		margin: 0 0 1.25rem;
+	}
+
+	em img {
+		margin-left: 0;
+		width: 100%;
+		border: 0;
 	}
 }
 
