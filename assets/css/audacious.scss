@@ -294,10 +294,6 @@ pre {
 	list-style: none;
 	padding: 0;
 	li { list-style: none; }
-	a {
-		// text-transform: uppercase;
-		// letter-spacing: .1em;
-	}
 }
 
 .title {
@@ -361,7 +357,8 @@ pre {
 	a {
 		/* Very odd padding here to look even. */
 		color: $most-faded;
-		padding: 3px 3px 2px 4px;
+		padding: 3px 3px 1px 4px;
+		line-height: 1em; 
 		border: 0;
 	}
 }
@@ -370,6 +367,14 @@ pre {
 	font-size: .875em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
+}
+
+.archive {
+	li { margin-bottom: 1.25rem; }
+	small {
+		color: $faded;
+		margin-bottom: .5rem;
+	}
 }
 
 .interview {
