@@ -73,18 +73,18 @@ table {
 ================================ */
 
 $max-width: 44rem;
-$line-height: 1.4em;
+$line-height: 1.5em;
 
-$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$serif: Charter, Georgia, serif;
+$sans: Optima, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$serif: Optima, Charter, Georgia, serif;
 $mono: Menlo, Monaco, monospace;
 
 $bg: #f6f7f8;
 $copy: RGBA(52, 60, 71, 1.00);
 $color: RGBA(0,122,255,1.00);
-$faded: #a2a2a2;
-$more-faded: #cbcbcb;
-$most-faded: #dadada;
+$faded: #858687;
+$more-faded: #c5c6c7;
+$most-faded: #e5e6e7;
 
 $f1: 3rem;
 $f2: 2.25rem;
@@ -103,7 +103,7 @@ $f6: .875rem;
 }
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
@@ -118,7 +118,7 @@ body {
 a {
   color: $copy;
 	text-decoration: none;
-	border-bottom: solid 1px $more-faded;
+	border-bottom: dotted 1px $faded;
   &:hover {
 		background: #f2f2f2;
 	}
@@ -135,18 +135,18 @@ strong {
 }
 
 h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote,.highlighter-rouge {
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
 }
 
 h1,h2,h3,header {
 	font-family: $sans;
+	line-height: $line-height;
 }
 
 h1 {
   font-size: $f3;
   font-weight: 400;
 	margin-bottom: 1.5rem;
-  line-height: 1.2em;
   a {
 		text-decoration: none;
 		border: 0;
@@ -157,10 +157,9 @@ h1 {
 h2 {
   font-size: $f5;
   font-weight: normal;
-  line-height: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	margin-bottom: 1.25rem;
+	margin-bottom: 1rem;
   margin-top: 2.25rem;
 }
 
@@ -177,10 +176,8 @@ img {
 }
 
 em img {
-  // width: $max-width + 14rem;
-  // margin-left: -9.25rem;
 	border: solid $f6 $bg;
-	width: 32rem;
+	width: 34rem;
 	margin-left: -2.25rem;
 	border-left: 0;
 	border-right: 0;
@@ -209,12 +206,12 @@ hr {
 
 blockquote {
 	width: 90%;
-	margin: 2.25rem auto;
+	margin: 1rem auto;
 	color: $faded;
 	padding: 0;
 	+ blockquote {
-		margin-top: -2.25rem;
-		padding-top: 1.25em;
+		margin-top: -1rem;
+		padding-top: 1em;
 	}
   p:last-child { margin-bottom: 0; }
 }
@@ -224,7 +221,7 @@ article {
 	background: white;
   padding: 1.5rem;
 	position: relative;
-	padding: 2.25rem;
+	padding: 2rem 2.25rem 1.875rem;
 	&:first-child { margin-top: 0; }
   p:last-child,
 	blockquote:last-child { margin-bottom: 0; }
@@ -278,7 +275,7 @@ pre {
 }
 
 .column {
-	max-width: 32rem;
+	max-width: 34rem;
 	flex-shrink: 0;
 }
 
@@ -320,7 +317,7 @@ pre {
   font-weight: normal;
 	font-size: $f6;
 	line-height: 1em;
-	color: $more-faded;
+	color: $faded;
 	font-family: $sans;
 	margin-top: 1.25rem;
 	a {
@@ -340,9 +337,7 @@ pre {
 
 .link {
 	display: flex;
-  line-height: 1.6em;
 	margin-top: 0;
-	margin-bottom: 1rem; 
 	&:hover {
 		a { color: $copy; }
 	}
@@ -359,7 +354,7 @@ pre {
 		/* Very odd padding here to look even. */
 		color: $most-faded;
 		padding: 3px 3px 1px 4px;
-		line-height: 1em; 
+		line-height: 1em;
 		border: 0;
 	}
 }
@@ -371,10 +366,9 @@ pre {
 }
 
 .archive {
-	li { margin-bottom: 1.25rem; }
+	li { margin-bottom: 1em; }
 	small {
 		color: $faded;
-		margin-bottom: .5rem;
 	}
 }
 
@@ -404,7 +398,7 @@ pre {
 
 	.title, .sidebar {
 		padding: 1.5rem;
-		margin: 1rem 0;
+		margin: 0 0;
 	}
 
 	.byline {
