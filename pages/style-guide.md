@@ -46,6 +46,7 @@ Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_S
 
 - lock in: being forced to use a certain type of product
 - long-form: lots of words
+- MacOS: Apple's desktop operating system
 - names
 
 > First reference: Kyle Dreger. Subsequent references: Mr. Dreger.
