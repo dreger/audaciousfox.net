@@ -1,5 +1,5 @@
 ---
-title: "OpenType Being Updated with New \"Variable Font\" Format"
+title: "\"A New Kind of Font: A Variable Font\""
 link: http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/
 date: 2016-09-15 19:00
 ---
@@ -12,9 +12,9 @@ There's a lot to digest here, but the gist is this: much smaller font file sizes
 
 > To facilitate just such advancements, people from our four companies (along with notable independent contributors) have been collaborating for more than half a year on a significant improvement to the [OpenType font file specification][open type] that now includes a new technology: OpenType Font Variations, which allows type designers to interpolate a font’s entire glyph set or individual glyphs along up to 64,000 axes of variation (weight, width, etc.), and define specific positions in the design space as named instances (“Bold”, “Condensed”, etc.). 
 
-There's still a long way to go, and Mr. Brown calls on type designers, browser vendors, and web standards groups to help get it done. Yet, even in its infancy, variable fonts seem downright impressive. Color me excited. 
-
 (That last bit answers one of my biggest questions: given an extremely customizable format, how do you guide usage towards simple, sensible configurations?) 
+
+It's clear there's still a long way to go, and Mr. Brown calls on type designers, browser vendors, and web standards groups to help get it done. Yet, even in its infancy, variable fonts seem downright impressive. Color me excited. 
 
 [joint]: https://medium.com/@tiro/introducing-opentype-variable-fonts-12ba6cd2369
 [open type]: https://www.microsoft.com/typography/otspec/
