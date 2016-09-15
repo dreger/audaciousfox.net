@@ -23,7 +23,7 @@ John Hudson penned a joint announcement for Microsoft, Google, Apple, and Adobe,
 
 There's a lot more in this piece, but a good deal of it revolves around the technical sides of the variable font spec, which I find fascinating but you may not. Regardless, the amount of thought, work, and collaboration that went into this format appears to be staggering. 
 
-**Pro tip:** the appendix and table terms is at the bottom of the post — no need to have Google open in another window like yours truly. 
+(**Pro tip:** the appendix and table terms is at the bottom of the post — no need to have Google open in another window like yours truly.)
 
 In what amounts to humor in a font format announcement post, I enjoyed when Mr. Hudson began discussing how Microsoft, Google, Apple, and Adobe were working to integrate variable font support into their browsers and operating systems. On Apple: 
 
