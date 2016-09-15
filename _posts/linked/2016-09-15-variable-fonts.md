@@ -1,5 +1,5 @@
 ---
-title: "\"A New Kind of Font: A Variable Font\""
+title: "Adobe: \"A New Kind of Font: A Variable Font\""
 link: http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/
 date: 2016-09-15 19:00
 ---
