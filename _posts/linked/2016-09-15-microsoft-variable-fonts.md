@@ -13,4 +13,4 @@ To close us out for the night, here's co-creator of OpenType itself, Microsoft:
 
 Nice to see an actual, albeit fuzzy, target date mixed in with all of the other co-announcements today. I also like the "doing more with less" part from above; it succinctly conveys what variable fonts are all about. 
 
-As for getting early access to variable fonts — well, that might just be the most compelling argument for installing Windows I've heard over the past few years. 
+As for getting early access to variable fonts — well, that just might be this year's most compelling argument for installing Windows at all. 
