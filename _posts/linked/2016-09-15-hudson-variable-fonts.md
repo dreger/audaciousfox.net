@@ -21,7 +21,7 @@ John Hudson penned a joint announcement for Microsoft, Google, Apple, and Adobe,
 > 
 > + It will be important for tools to provide font makers with intuitive ways to navigate the potentially complex design space of variable fonts with multiple axes, intermediate delta sets, and axis variation. As discussed previously, maintaining flexibility in the relationship of design masters and the arrangement of variations in a font will enable font makers to tailor fonts to the needs of customer.
 
-There's a lot more in this piece, but a good deal of it revolves around the technical sides of the variable font spec, which I find fascinating but you may not. Regardless, the amount of thought, work, and collaboration that went into this format appears to be staggering. 
+There's a lot more in this piece, but a good deal of it revolves around the technical sides of the variable font spec. I find that stuff fascinating, but I'm already at, if not way over, what I consider a reasonable amount of quotes from a font format proposal. Regardless, the amount of thought, work, and collaboration that went into this format appears to be staggering. 
 
 (**Pro tip:** the appendix and table terms is at the bottom of the post — no need to have Google open in another window like yours truly.)
 
