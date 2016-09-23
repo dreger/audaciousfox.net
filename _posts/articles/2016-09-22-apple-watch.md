@@ -65,6 +65,6 @@ Apple Watch felt like a device with tremendous potential, and for something perm
 
 [^2]:	Whenever it comes to personal data, particularly personal health data, privacy is paramount. However, I'm not arguing for any sort of Game Center-style integration (although that does play into the gamification of exercise); rather, I'd be more interested in a Find My Friends approach, where the data sharing process is both granular and intentional. I'm not sure why this sort of thing isn't there at launch.  
 
-[^3]:	Ultimately, there's not a lot you can do from WatchOS 1.0. The software is limited to displaying apps that do all of there processing _on your phone_, which ultimately means that you spend waiting for apps to launch, waiting for data to be refreshed, waiting for calculations to be performed. It's not a good experience.
+[^3]:	Ultimately, there's not a lot you can do within WatchOS 1.0. The software is limited to displaying apps that do all of there processing _on your phone_, which ultimately means that you spend waiting for apps to launch, waiting for data to be refreshed, waiting for calculations to be performed. It's not a good experience.
 
 [^4]:	Francisco _Sans_ might have been fun too, although I'm sure west coast natives would have my head for bastardizing the name like that. 
