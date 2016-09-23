@@ -38,6 +38,7 @@ Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_S
 
 - commas: use the serial comma.
 - full-time
+- gamification: to make oft mundane activities exciting and addicting by adding game-like elements
 - go-to: "my go-to song is 'Shake it Off'"
 - home screen
 - italicization
