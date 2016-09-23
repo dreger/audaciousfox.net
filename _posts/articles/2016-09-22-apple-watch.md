@@ -35,7 +35,7 @@ With Apple Watch, the data exists, but that's about it. On the other hand, Fitbi
 
 When compared to other trackers, Apple Watch isn't just competing on features; many times it will have to compete against a pre-existing support network. 
 
-Ironically, given my enjoyment of tracking fitness data, the health-related feature I enjoyed most was the hourly reminders to stand up and walk around. It was a great example of how Apple Watch could slide into the background, but also help you make small improvements to your daily health. 
+Ironically, given my enjoyment of tracking fitness data, the health-related feature I enjoyed most were the hourly reminders to stand up and walk around. It was a great example of how Apple Watch could slide into the background, but also help you make small improvements to your daily health. 
 
 ## Notifications 
 
