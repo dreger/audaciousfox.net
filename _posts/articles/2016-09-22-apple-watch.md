@@ -9,7 +9,7 @@ _Furthermore, the Apple Watch I purchased a year ago doesn't technically exist a
 
 ---
 
-Ironically, the thing I miss the most about Apple Watch is the Sport Band. I think you could focus an entire review on  the variety of bands and the incredibly intuitive latching mechanism. Truly, I've never worn anything quite as comfortable as when I wore my Apple Watch. 
+What I will miss most about my Apple Watch is the Sport Band. I think you could focus an entire review on  the variety of bands and the incredibly intuitive latching mechanism. Truly, I've never worn anything quite as comfortable as when I wore my Apple Watch. 
 
 Wore, as in the past tense. I no longer own an Apple Watch, primarily due to what I saw as the functionality to cost ratio being tipped ever so slightly in the wrong direction. This cost-benefit analysis will probably go through the minds of many first generation Apple Watch buyers, although I'm sure many will end up keeping theirs. For me, it was a little too much money for too little functionality. 
 
@@ -39,7 +39,7 @@ Ironically, given my enjoyment of tracking fitness data, the health-related feat
 
 ## Notifications 
 
-Health and fitness feel secondary to Apple Watch's main functionality: offloading notifications from your phone to your wrist, which I thought it did quite well.[^3] After a couple of hours, I found not needing my phone to triage notifications a pleasant experience, which is a far cry from the torment I was prepared for. This positive reaction can be attributed in large part to the excellence of the Taptic Engine, which offers a very satisfying, and convincing, tapping sensation. This subtle, silent form of notification is pulled off to near perfection, and you really need to feel it for yourself to understand. When a notification comes in, I felt a small tapping on my wrist, at which point I could turn my watch upward to reveal a slick little animation that ushers new content onto the screen. It worked great, and I loved the vibrant colors and typography, underscored by the superb San Francisco Compact typeface.[^4] 
+Health and fitness feel secondary to Apple Watch's main functionality: offloading notifications from your phone to your wrist.[^3] After a couple of hours, I found not needing my phone to triage notifications a pleasant experience, which is a far cry from the torment I was prepared for. This positive reaction can be attributed in large part to the excellence of the Taptic Engine, which offers a very satisfying, and convincing, tapping sensation. This subtle, silent form of notification is pulled off to near perfection, and you really need to feel it for yourself to understand. When a notification comes in, I felt a small tapping on my wrist, at which point I could turn my watch upward to reveal a slick little animation that ushers new content onto the screen. It worked great, and I loved the vibrant colors and typography, underscored by the superb San Francisco Compact typeface.[^4] 
 
 However, interacting with notifications quickly became a one-way street. Notifications could come in, but responding and interacting with them was a mixed bag of emotions. This was particularly maddening when replying to text messages. On WatchOS, the only way to create text on-the-fly is to dictate your message to Siri. 
 
@@ -65,6 +65,6 @@ Apple Watch felt like a device with tremendous potential, and for something perm
 
 [^2]:	Whenever it comes to personal data, particularly personal health data, privacy is paramount. However, I'm not arguing for any sort of Game Center-style integration (although that does play into the gamification of exercise); rather, I'd be more interested in a Find My Friends approach, where the data sharing process is both granular and intentional. I'm not sure why this sort of thing isn't there at launch.  
 
-[^3]:	More than once, I thought of what it said about me that I needed a $400 device to get to notifications a little faster than before. I know, Apple Watch has a lot of other "functionality"  <small>\* There's not a lot you can do from watchOS 1.0. The software is limited to displaying apps that do all of there processing _on your phone_, which ultimately means that you spend waiting for apps to launch, waiting for data to be refreshed, waiting for calculations to be performed. It's not a good experience. \*</small> but those functions feel immature and lacking. Receiving notifications without needing to check your phone is a headlining feature. 
+[^3]:	Ultimately, there's not a lot you can do from WatchOS 1.0. The software is limited to displaying apps that do all of there processing _on your phone_, which ultimately means that you spend waiting for apps to launch, waiting for data to be refreshed, waiting for calculations to be performed. It's not a good experience.
 
 [^4]:	Francisco _Sans_ might have been fun too, although I'm sure west coast natives would have my head for bastardizing the name like that. 
