@@ -1,5 +1,5 @@
 ---
-title: "Having Only Missed My Target Publish Date by a Year, Here Are My Brief Thoughts and Observations on Apple Watch"
+title: "Having Only Missed My Target Publish Date by a Year, Here Are Some Brief Thoughts and Observations on Apple Watch"
 date: 2016-09-22 21:10
 ---
 
