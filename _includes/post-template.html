@@ -3,17 +3,20 @@
 {% if words.size < 2 %}{{ post.title }}{% else %}{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
 
 <article>
-  <header class="article-header">
-    {% if post.link %}
-    <h2 class="link">
-      <span class="link-target"><a href="{{ post.link }}" >{{ titleize }}</a></span>
-      <span class="link-url"><a href="{{ post.url }}">{{ site.icon }}</a></span>
-    </h2>
-    {% else %}
-    <h1><a href="{{ post.url }}">{{ titleize }}</a></h1>
-    {% endif %}
-  </header>
-  <section class="article-content">
-    {{ post.content }}
-  </section>
+  {% if post.link %}
+    <header class="article-header">
+      <h2 class="link">
+        <span class="link-target"><a href="{{ post.link }}" >{{ titleize }}</a></span>
+        <span class="link-url"><a href="{{ post.url }}">{{ site.icon }}</a></span>
+      </h2>
+    </header>
+  {% else %}
+    <header class="article-header">
+      <h1><a href="{{ post.url }}">{{ titleize }}</a></h1>
+    </header>
+
+    <p class="faded">{{ post.date | date: "%A, %-d %B %Y" }}</p>
+  {% endif %}
+  
+  {{ post.content }}
 </article>

@@ -11,7 +11,11 @@ layout: default
     {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
 
     {% if day != nday %}
-        <h2 class="index-date">{{ post.date | date: "%A, %d %B %Y" }}</h2>
+    	  {% if post.link %}
+        	<h2 class="index-date">{{ post.date | date: "%A, %d %B %Y" }}</h2>
+        {% else %}
+          <hr class="index-break">
+    	  {% endif %}
     {% endif %}
 
     {% include post-template.html post=post %}

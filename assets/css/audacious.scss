@@ -127,11 +127,7 @@ a {
 em { font-style: italic; }
 
 strong {
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-weight: 500;
-	font-family: $sans;
-  font-size: $f6;
+  @extend .caps; 
 }
 
 h1,h2,h3,h4,h5,h6,p,img,ul,ol,aside,blockquote,.highlighter-rouge {
@@ -199,16 +195,12 @@ hr {
   background: $bg;
   margin: 1.5rem 0;
   display: block;
-	&.index-break {
-		margin: 0 3rem;
-	}
 }
 
 blockquote {
-	width: 90%;
+	width: 90%; 
+	color: $faded; 
 	margin: 1rem auto;
-	color: $faded;
-	padding: 0;
 	+ blockquote {
 		margin-top: -1rem;
 		padding-top: 1em;
@@ -339,6 +331,16 @@ pre {
 	color: $faded;
 }
 
+.index-break {
+	margin: 3rem 2.25rem;
+	padding: 1.5rem 0; 
+	font-family: "Hiragino Kaku Gothic Pro", "Osaka", "Zapf Dingbats";
+	color: $more-faded; 
+	&:after {
+		content: "+ + +"; // Aslo like U+00D7 ×
+	}
+}
+
 .link {
 	display: flex;
 	margin-top: 0;
@@ -364,9 +366,11 @@ pre {
 }
 
 .caps {
-	font-size: .875em;
-	letter-spacing: .1em;
 	text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 500;
+	font-family: $sans;
+  font-size: .875em;
 }
 
 .archive {
@@ -384,6 +388,8 @@ pre {
   margin-top: 3rem; 
   li { margin-bottom: 1.5em; }
 }
+
+.term { font-weight: bold; }
 
 .interview {
   margin-left: 1.5rem;
@@ -451,5 +457,8 @@ pre {
 
 .flex { display: flex; }
 .mla { margin-left: auto; }
-.gray { color: $more-faded; }
-.small { font-size: $f6; line-height: 1em; }
+.faded { color: $faded; }
+.more-faded { color: $more-faded; }
+.most-faded { color: $most-faded; }
+.center { text-align: center; }
+.small { font-size: .875em; line-height: 1em; }

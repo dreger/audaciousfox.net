@@ -6,15 +6,21 @@ layout: default
 {% if words.size < 2 %}{{ page.title }}{% else %}{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
 
 <article>
-  <header class="article-header">
-    {% if page.link %}
-    <h2 class="link"><span class="link-target"><a href="{{ page.link }}" >{{ titleize }}</a></span></h2>
-    {% else %}
-    <h1>{{ titleize }}</h1>
-    {% endif %}
-  </header>
-  <section class="article-content">
-    {{ page.content }}
-    <p class="article-date">{{ page.date | date: "%A, %-d %B %Y" }}</p>
-  </section>
+  {% if page.link %}
+    <header class="article-header">
+      <h2 class="link">
+        <span class="link-target"><a href="{{ page.link }}" >{{ titleize }}</a></span>
+      </h2>
+    </header>
+  {% else %}
+    <header class="article-header">
+      <h1><a href="{{ page.url }}">{{ titleize }}</a></h1>
+    </header>
+
+    <p class="faded">{{ page.date | date: "%A, %-d %B %Y" }}</p>
+  {% endif %}
+  
+  {{ content }}
+
+  {% if page.link %}<p class="article-date">{{ page.date | date: "%A, %-d %B %Y" }}</p>{% endif %}
 </article>
