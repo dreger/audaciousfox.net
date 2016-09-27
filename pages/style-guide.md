@@ -71,6 +71,6 @@ Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_S
 - weblog: one word, an online blog
 - website: a collection of pages on the Internet
 - well-deserved
-- Yahoo: internet company, to be referred to without the "!"
+- Yahoo: internet search and advertising company; to be referred to as "Yahoo", without the "!" at the end. 
 
 [esg]:http://www.economist.com/style-guide/quotes
