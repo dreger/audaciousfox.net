@@ -18,7 +18,7 @@ At its core, budgeting is setting aside money from each paycheck to go towards a
 - Internet
 - Summer vacation 2015
 
-Notice the mixture of month-to-month (eating out, groceries, fun) and long-term (summer vacation, car repairs) expenses. Also think about how bills (cell phones, internet) will be relatively consistent from month-to-month, while things like car repairs can vary in cost.
+Notice the mixture of month-to-month (eating out, groceries, fun) and long-term (summer vacation, car repairs) expenses. Also think about how bills (cell phones, Internet) will be relatively consistent from month-to-month, while things like car repairs can vary in cost.
 
 ## Categorizing transactions
 

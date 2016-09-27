@@ -20,7 +20,7 @@ I also like his water and pipe analogy for illustrating bandwidth vs. latency. I
 
 > Bandwidth is the total amount of water that can flow through the pipe in a given period of time (typically expressed in gallons per minute or gallons per hour). [...] Latency, in contrast, is the amount of time it takes for the water that enters the pipe at one end to exit at the other.
 
-Latency is often equally, if not more, critical to your internet experience than total bandwidth. As many AF readers probably know, competitive online video games are particular sensitive to high latency connections. When your performance depends on fast reaction time, even a hundred milliseconds of lag can leave you looking stupid.
+Latency is often equally, if not more, critical to your Internet experience than total bandwidth. As many AF readers probably know, competitive online video games are particular sensitive to high latency connections. When your performance depends on fast reaction time, even a hundred milliseconds of lag can leave you looking stupid.
 
 [fiber]: https://fiber.google.com/about/
 [chattanooga]: https://gigaom.com/2011/05/29/take-the-chattanooga-choo-choo-to-the-internets-future/
