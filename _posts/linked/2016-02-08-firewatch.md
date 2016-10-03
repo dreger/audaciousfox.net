@@ -1,5 +1,5 @@
 ---
-title: "Firewatch launches tomorrow on PS4, Windows, Mac, and Linux for $19.99"
+title: "Firewatch Launches Tomorrow on PS4, Windows, Mac, and Linux For $19.99"
 date: 2016-02-08 12:13
 link: http://store.steampowered.com/app/383870
 ---

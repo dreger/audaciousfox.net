@@ -1,5 +1,5 @@
 ---
-title: Medium now supports RSS 
+title: Medium Now Supports RSS 
 link: https://blog.superfeedr.com/medium-acquires-superfeedr/
 date: 2016-06-05 10:15
 ---

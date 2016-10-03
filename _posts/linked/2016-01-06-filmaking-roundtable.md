@@ -1,5 +1,5 @@
 ---
-title: "The Hollywood Reporter's Hour with Ridley Scott, Tarantino, and More"
+title: "The Hollywood Reporter's Hour With Ridley Scott, Tarantino, and More"
 date: 2016-01-06 09:51
 link: https://www.youtube.com/watch?v=SQ7qKKQrSBY
 source: youtube

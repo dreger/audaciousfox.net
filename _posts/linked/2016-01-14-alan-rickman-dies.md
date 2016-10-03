@@ -1,5 +1,5 @@
 ---
-title: Alan Rickman dies at 69
+title: Alan Rickman Dies at 69
 date: 2016-01-14 17:01
 source: nytimes
 link: http://www.newyorker.com/cartoons/daily-cartoon/bonus-daily-cartoon-remembering-alan-rickman

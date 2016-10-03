@@ -1,5 +1,5 @@
 ---
-title: "Letterpress now owned by Solebon LLC"
+title: "Letterpress Now Owned by Solebon LLC"
 date: 2016-02-08 12:45
 link: http://www.solebon.com/
 ---
