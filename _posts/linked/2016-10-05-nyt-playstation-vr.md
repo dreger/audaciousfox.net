@@ -1,8 +1,7 @@
 ---
-title: "The New York Times Review of Sony PlayStation VR"
-date: 2016-10-05 19:23
+title: "Sony PlayStation VR Has Comfortable Fit, Palatable Price, but Lacks Compelling Games"
+date: 2016-10-05 19:30
 link: http://www.nytimes.com/2016/10/06/technology/personaltech/sony-playstation-vr-review-the-best-of-an-early-crop.html
-published: false
 ---
 
 Brian X. Chen, writing for the NYT: 
