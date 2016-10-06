@@ -1,5 +1,5 @@
 ---
-title: "Obama pledges $4 billion in funding for computer science education in schools"
+title: "Obama Pledges $4 Billion in Funding For Computer Science Education in Schools"
 date: 2016-02-06 15:32
 source: wired
 ---

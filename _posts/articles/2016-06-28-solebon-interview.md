@@ -1,5 +1,5 @@
 ---
-title: "A Small Exchange with Solebon LLC"
+title: "A Small Exchange With Solebon LLC"
 date: 2016-06-28 22:09
 ---
 
