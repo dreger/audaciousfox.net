@@ -1,5 +1,5 @@
 ---
-title: "\'What it's like to be lost inside developing a game\'"
+title: "‘What it’s like to be lost inside developing a game’"
 date: 2016-09-11 18:16
 link: http://weatherfactory.biz/215-2/
 ---

@@ -1,5 +1,5 @@
 ---
-title: The Legend of "Open"
+title: The Legend of “Open”
 date: 2016-06-25 09:36
 link: http://www.ign.com/articles/2014/07/04/miyamoto-doesnt-like-to-call-zelda-wii-u-open-world
 ---

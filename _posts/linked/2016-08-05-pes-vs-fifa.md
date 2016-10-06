@@ -1,5 +1,5 @@
 ---
-title: "Pro Evolution Soccer Looks to Steal FIFA's Crown"
+title: "Pro Evolution Soccer Looks to Steal FIFA’s Crown"
 date: 2016-08-05 18:45
 link: http://www.gamespot.com/articles/pes-2017-strengthens-its-core-and-prepares-to-stea/1100-6442351/
 ---

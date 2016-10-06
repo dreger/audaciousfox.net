@@ -1,5 +1,5 @@
 ---
-title: Campo Santo Teams Up With Good Universe to Create 'Firewatch' Film 
+title: Campo Santo Teams Up With Good Universe to Create ‘Firewatch’ Film 
 link: http://www.hollywoodreporter.com/heat-vision/good-universe-campo-santo-team-932558
 date: 2016-09-27 17:28
 ---

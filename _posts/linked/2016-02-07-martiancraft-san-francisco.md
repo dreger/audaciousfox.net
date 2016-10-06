@@ -1,5 +1,5 @@
 ---
-title: "\'So is San Francisco really the perfect system font for Apple’s products? It’s complicated.\'"
+title: "‘So is San Francisco really the perfect system font for Apple’s products? It’s complicated.’"
 date: 2016-02-07 09:01
 link: http://martiancraft.com/blog/2015/10/san-francisco-part-2/
 ---
