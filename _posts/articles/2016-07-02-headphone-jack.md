@@ -34,7 +34,7 @@ To that end, I think a reasonable view of the situation is this:
 
 Apple doesn't think the future of getting audio into our ears is reliant on a 50 year-old standard. I imagine most innovative technology companies think that way. However, while the headphone jack is incredibly simple, cheap, and permeated throughout society, Apple is one of the only companies who could actually orchestrate the move to the next thing. An audio interface that can do more in different and better ways.
 
-If Apple's decided to do this, it's done. The next iPhone is already well into production for release in the Fall. Now we just wait and see. 
+If Apple's decided to do this, it's done. The next iPhone is already well into production for release in the Fall. 
 
 
 [wsj]: http://www.wsj.com/articles/apple-unlikely-to-make-big-changes-for-next-iphone-1466526489
