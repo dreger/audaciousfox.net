@@ -9,4 +9,4 @@ Regarding the review, I was somewhat relieved to see Mr. Ginter reference someth
 
 > On occasion, I’ve found the iPhone 7 Plus’ A10 Fusion chip to be too fast for the new home button. iOS will begin to return to the home screen before I can double press the button to bring up the multi-tasking app switcher. It’s not a bad experience at all, it’s just a small downside of the new home button.
 
-A small downside for sure, and one that I attribute far more to iOS than the new home button engineering. Even double pressing as rapidly as possible on my iPhone 7, the home screen feint is still present, and I'd wager a future software update will fix the issue. 
+A small downside for sure, and a flaw I attribute far more to iOS than the new home button engineering. Even double pressing as rapidly as possible on my iPhone 7, the home screen feint is still present, and I'd wager a future software update will fix the issue. 
