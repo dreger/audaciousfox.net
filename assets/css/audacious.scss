@@ -151,16 +151,16 @@ h1 {
 }
 
 h2 {
-  font-size: $f5;
+  font-size: $f4;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: .1em;
+  // text-transform: uppercase;
+  // letter-spacing: .1em;
   margin-bottom: 1rem;
   margin-top: 2.25rem;
 }
 
 h3 {
-	font-size: $f6;
+	font-size: $f5;
 	font-weight: 700;
 	margin-top: 2.25rem;
 	margin-bottom: .5rem;
@@ -325,7 +325,7 @@ pre {
 	padding: 0 2.25rem;
 	text-align: left;
 	font-weight: 400;
-	font-size: $f6;
+	font-size: $f5;
 	line-height: 1em;
 	margin-top: 3rem;
 	color: $faded;
@@ -359,7 +359,7 @@ pre {
 	a {
 		/* Very odd padding here to look even. */
 		color: $most-faded;
-		padding: 3px 3px 1px 4px;
+		padding: 2px 3px 1px 2px;
 		line-height: 1em;
 		border: 0;
 		&:hover { background: $bg; }
