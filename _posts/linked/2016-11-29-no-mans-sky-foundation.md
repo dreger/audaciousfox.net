@@ -20,7 +20,7 @@ For now, it appears I might have been shortsighted. This update is huge (see the
 
 The patch also seems to have reinvigorated the player base. [Steam Charts][], a site that monitors player numbers of PC-based game platform Steam, is reporting a jump in active players over the past few days, taking active user count from 500 to more than 6,000. This is still a far cry from the 36,000 average players in August, and 200,000 after launch, but the spike is impressive.  
 
-I don't think going completely silent for three months was the best approach PR approach, but there’s something to be said for screwing hype and choosing to [under promise and over deliver][tweet]. 
+I don't think going completely silent for three months was the best PR approach, but there’s something to be said for screwing hype and choosing to [under promise and over deliver][tweet]. 
 
 
 
