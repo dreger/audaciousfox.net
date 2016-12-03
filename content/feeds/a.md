@@ -1,0 +1,3 @@
+---
+url: /feeds/main.xml
+---

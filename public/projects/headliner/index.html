@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html> 
+<title>
+  
+  Audacious Fox: Headliner 
+  
+</title>
+<head>
+  <link rel="stylesheet" href="/css/audacious.css"> 
+</head>
+  <body>
+    <div class="wrapped">
+      <h1 class="title">
+        <a href="/">Audacious Fox</a>
+        <span class="byline">by K.Q. Dreger</span>
+      </h1>
+
+      <div class="container">
+        <section class="column">
+
+<article>
+
+<h1>Headliner</h1>
+
+
+
+<p>I find headlines with orphaned words visually unappealing, so here are a few ways to insert a non-breaking space between the last two words of your headlines.</p>
+
+<h2 id="jekyll-liquid">Jekyll / Liquid</h2>
+
+<p>Put the following code at the top of your <code>post.html</code> layout file:</p>
+
+<pre><code>{% capture headliner %}
+{% assign words = page.title | split: ' ' %}
+{% if words.size &lt; 2 %}{{ page.title }}{% else %}{% for word in words %}{% if forloop.last %}&amp;nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}{% endif %}{% endcapture %}
+</code></pre>
+
+<p><br></p>
+
+<p>You can then access the new headline data from the <code>headliner</code> variable.</p>
+
+<h2 id="javascript">JavaScript</h2>
+
+<p>Ideally, you&rsquo;ll be able to pre-process your headlines like the above example. However, not everyone has the ability to alter the way their CMS renders data, so I&rsquo;ve written a small JavaScript file to take care of things on the front end. Just put this in a script file at the bottom of your page, and then add the class <code>.headliner</code> to any elements that contain headlines.</p>
+
+<pre><code>(function() {
+  var titles = document.getElementsByClassName(&quot;headliner&quot;);
+  for(var i = 0; i &lt; titles.length; i++) {
+    var headline = titles[i];
+    var words = headline.textContent.split(&quot; &quot;);
+    if (words.length &gt; 2) {
+      var titleLength = words.length
+      var orphaned = words[titleLength-2] + &quot;&amp;nbsp;&quot; + words[titleLength-1]
+      words = words.slice(0, titleLength-2)
+      words.push(orphaned)
+      var newHeadline = words.join(&quot; &quot;)
+      headline.innerHTML = newHeadline;
+      console.log(newHeadline)
+    }
+  }
+})();
+</code></pre>
+
+<p><br></p>
+
+<p>One huge nitpick: This script post-processes your HTML, so headlines may visibly, albeit very quickly, change after the page loads. The processing is fast, so you may not see it happen, but the very fact it&rsquo;s there may bug some folks, including myself. For that reason, I will, ironically, not be using Headliner; however, I hope someone is able to make good use of it.</p>
+
+
+</article>
+
+ </section>
+
+        <div class="sidebar">
+          <ul class="navigation">
+            <li class="caps"><em>Index</em></li>
+            <li><a href="/masthead">Masthead</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/feeds/main.xml">RSS</a></li>
+          </ul>
+
+          <p>A dailyish webcolumn about tech, design, and gaming. Published from Ohio.</p>
+
+          <p>Made on a Macintosh.</p>
+
+          
+        </div>
+      </div>
+
+    </div>
+
+  </body> 
+</html>
+ 

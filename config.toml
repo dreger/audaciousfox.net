@@ -1,0 +1,24 @@
+baseurl = "https://audaciousfox.net"
+title = "Audacious Fox"
+languageCode = "en-us"
+MetaDataFormat = "yaml"
+disableRSS = true
+disableSitemap = true
+
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[author]
+  name = "K.Q. Dreger"
+
+
+[permalinks]
+  archive = "/:year/:month/:filename"
+  linked = "/linked/:year/:month/:day/:filename"
+
+[blackfriday]
+  smartypants = true
+  fractions = true
+  plainIDAnchors = true
+
+[params]
+  icon = '&#9724;&#65038;'

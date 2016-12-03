@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+<article>
+  <header class="article-header">
+   <h2 class="link">
+     <span class="link-target"><a href="{{ .Permalink }}" >{{ .Title }}</a></span>
+   </h2>
+  </header>
+
+  {{ .Content }}
+
+  <p class="faded">{{ .Date.Format "Monday, 2 January 2006" }}</p>
+</article>
+{{ partial "footer.html" . }}
