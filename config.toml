@@ -4,6 +4,7 @@ languageCode = "en-us"
 MetaDataFormat = "yaml"
 disableRSS = true
 disableSitemap = true
+publishdir = "html"
 
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
