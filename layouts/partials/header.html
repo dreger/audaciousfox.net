@@ -1,5 +1,6 @@
-<!DOCTYPE html> 
-<html> 
+<!doctype html>
+<!-- The greater fool; what kind of day has it been? --> 
+<html lang="en">
 <title>
   {{ if eq .Title .Site.Title }}
   {{ .Title }}
@@ -7,8 +8,22 @@
   {{ .Site.Title }}: {{ .Title }} 
   {{ end }}
 </title>
-<head>
+  <meta charset="utf-8">
+  {{ if eq .Title .Site.Title }}
+    <meta name="Description" content="Words about design, technology, and gaming. Best enjoyed with a pinch of salt and fine drink. Written by K.Q. Dreger.">
+  {{ else }}
+    <meta name="Description" content="{{ substr .Content 0 256 | plainify }}...">
+  {{ end }}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="{{ .Title }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:description" content="stripped desc"/>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="stylesheet" href="/css/audacious.css"> 
+  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+<head>
 </head>
   <body>
     <div class="wrapped">
