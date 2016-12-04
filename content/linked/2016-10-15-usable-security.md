@@ -1,7 +1,8 @@
 ---
-title: When it Comes to Security Design, Stop Trying to Fix the User
-date: 2016-10-15T9:14:00
+date: 2016-10-15T00:00:00Z
 link: https://www.schneier.com/blog/archives/2016/10/security_design.html
+title: When it Comes to Security Design, Stop Trying to Fix the User
+url: /2016/10/15/usable-security/
 ---
 
 Bruce Schneier, cybersecurity expert and fellow at the Berkman Center for Internet and Society at Harvard:  
@@ -10,4 +11,5 @@ Bruce Schneier, cybersecurity expert and fellow at the Berkman Center for Intern
 
 > We must stop trying to fix the user to achieve security. We'll never get there, and research toward those goals just obscures the real problems. Usable security does not mean "getting people to do what we want." It means creating security that works, given (or despite) what people do.
 
-Digital security is already a paramount issue in our current world; yet, in practice, "usable security" is often neither. It's going to take a large amount of educating and designing before users can stay safe despite doing "what people do" online.
+Digital security is already a paramount issue in our current world; yet, in practice, "usable security" is often neither. It's going to take a large amount of educating and designing before users can stay safe despite doing "what people do" online. 
+
