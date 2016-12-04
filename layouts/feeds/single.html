@@ -11,6 +11,7 @@
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range $element := first 20 (where $.Site.Pages "Type" "in" "archivelinked") }}
     <item>
+        <author>K.Q. Dreger</author>
       {{ if eq .Section "linked" }} 
         <title>{{ .Title }}</title>
         <link>{{ .Params.link }}</link>
@@ -23,7 +24,6 @@
       <guid>{{ .Permalink }}</guid>
 
       <description>
-
         {{ .Content | html }}
         {{ if eq .Section "linked" }}
           {{ partial "rss-linked-footer.html" . | html }}
