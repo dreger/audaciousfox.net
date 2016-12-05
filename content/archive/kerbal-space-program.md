@@ -4,7 +4,7 @@ date: 2015-07-17T00:00:00Z
 redirect_from:
 - 2015/07/17/kerbal-space-program.html
 title: 'Kerbal Space Program: To the Moon'
-url: /2015/07/17/kerbal-space-program/
+
 ---
 
 _By guest editor, Christopher B. Durr._

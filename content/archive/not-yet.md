@@ -1,7 +1,7 @@
 ---
 date: 2016-06-26T15:16:10Z
 title: Not Yet
-url: /2016/06/26/not-yet/
+
 ---
 
 Ben Brooks and Michael Rockwell both brought up the topic of going iOS only, and the maintenance that goes into tuning and running MacOS (née OS X). [Brooks][1]: 

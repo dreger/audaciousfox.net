@@ -3,11 +3,14 @@ title = "Audacious Fox"
 languageCode = "en-us"
 MetaDataFormat = "yaml"
 disableRSS = true
-disableSitemap = true
+disableSitemap = false
 uglyurls = false
 publishdir = "html"
 
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [author]
   name = "K.Q. Dreger"

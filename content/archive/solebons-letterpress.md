@@ -2,7 +2,7 @@
 date: 2016-06-05T00:00:00Z
 published: false
 title: Solebon Inc. on the Sale and Future of Letterpress
-url: /2016/06/05/solebons-letterpress/
+
 ---
 
 A couple of months ago, I noticed that Letterpress, the critically-acclaimed iOS word game, appeared to have [been sold][me] from Atebits to Solebon Inc. I reached out to Solebon for comment on the sale, and they replied with an email that I've been given permission to post. Here's some of the best bits: 

@@ -2,7 +2,7 @@
 date: 2016-02-18T00:00:00Z
 subtitle: This game is short, but very good
 title: Firewatch Review
-url: /2016/02/18/firewatch/
+
 ---
 
 _![Firewatch, by Campo Santo](http://i.imgur.com/tmBrubi.jpg)_

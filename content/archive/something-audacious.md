@@ -4,7 +4,7 @@ date: 2014-10-20T00:00:00Z
 redirect_from:
 - 2014/10/20/something-audacious.html
 title: Something Audacious
-url: /2014/10/20/something-audacious/
+
 ---
 
 For a while now, I have wanted to stop writing at [kyledreger.com](http://kyledreger.com).

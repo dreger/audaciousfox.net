@@ -1,7 +1,7 @@
 ---
 date: 2016-07-02T00:00:00Z
 title: On Removing the Headphone Jack
-url: /2016/07/02/headphone-jack/
+
 ---
 
 [The Wall Street Journal reported two things][wsj]: 1.) Apple will be moving to a two-year cycle for major iPhone hardware updates, and 2.) the next iPhone won't have a headphone jack. 

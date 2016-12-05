@@ -2,7 +2,7 @@
 date: 2016-09-22T00:00:00Z
 title: Having Only Missed My Target Publish Date by a Year, Here Are Some Brief Thoughts
   and Observations on Apple Watch
-url: /2016/09/22/apple-watch/
+
 ---
 
 _Editor's note: Just over a year ago, I purchased an Apple Watch and intended to write up some thoughts and observations. That draft then made its way into a soup of other text files, and I eventually forgot about it. However, this past week, I stumbled back across my old notes, and given the recent launch of Apple Watch Series Two, I thought it would be fun to publish my thoughts on the previous model. Readers should note that although these observations were written over a year ago, I did take an hour to do some light copyediting, as the original was not quite publish ready._

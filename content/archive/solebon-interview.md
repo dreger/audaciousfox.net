@@ -1,7 +1,7 @@
 ---
 date: 2016-06-28T00:00:00Z
 title: A Small Exchange With Solebon LLC
-url: /2016/06/28/solebon-interview/
+
 ---
 
 A couple of months ago, I noticed that iOS word game Letterpress appeared to have [changed owners from Loren Brichter's Atebits to Solebon LLC][me]. After some time had passed, I reached out to Solebon to get a little more information about the acquisition. We had a short exchange of emails, and that conversation is below.

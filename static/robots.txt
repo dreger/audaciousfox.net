@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://audaciousfox.net/sitemap.xml

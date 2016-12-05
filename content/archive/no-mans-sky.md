@@ -1,7 +1,7 @@
 ---
 date: 2016-08-13T00:00:00Z
 title: No Man's Sky Review
-url: /2016/08/13/no-mans-sky/
+
 ---
 
 In 1969, the world followed Apollo 11 as it ascended into our atmosphere and transcended our perceived notions of American achievement. 

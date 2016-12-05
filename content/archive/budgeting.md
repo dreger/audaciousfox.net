@@ -4,7 +4,7 @@ date: 2014-12-12T00:00:00Z
 redirect_from:
 - 2014/12/12/budgeting.html
 title: On Budgeting
-url: /2014/12/12/budgeting/
+
 ---
 
 At its core, budgeting is setting aside money from each paycheck to go towards a specific goal or _category_ of expenses. That's it. You get paid, you give those dollars a job, and then you only spend whatever you have saved for a particular category. To give you an idea of what this looks like, here are some of the categories that my wife and I have set up for our budget:
