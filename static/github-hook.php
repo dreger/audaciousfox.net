@@ -1,3 +1,3 @@
 <?php
-  exec('cd /var/www/audaciousfox.net ; git pull ; hugo');
+  `cd /var/www/audaciousfox.net ; git pull ; hugo`;
 ?>
