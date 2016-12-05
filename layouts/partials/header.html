@@ -2,7 +2,7 @@
 <!-- The greater fool; what kind of day has it been? --> 
 <html lang="en">
 <title>
-  {{ if eq .Title .Site.Title }}
+  {{ if .IsHome }}
   {{ .Title }}
   {{ else }}
   {{ .Site.Title }}: {{ .Title }} 
@@ -11,8 +11,9 @@
   <meta charset="utf-8">
   {{ if eq .Title .Site.Title }}
     <meta name="Description" content="Words about design, technology, and gaming. Best enjoyed with a pinch of salt and fine drink. Written by K.Q. Dreger.">
-  {{ else }}
-    <meta name="Description" content="{{ substr .Content 0 256 | plainify }}...">
+  {{ end }}
+  {{ if .IsPage }}
+    <meta name="Description" content="{{ htmlEscape .Summary | plainify }}...">
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="{{ .Title }}"/>
