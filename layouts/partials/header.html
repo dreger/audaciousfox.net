@@ -1,5 +1,7 @@
 <!doctype html>
-<!-- The greater fool; what kind of day has it been? --> 
+
+{{ `<!-- The greater fool; what kind of day has it been? -->` | safeHTML }}
+
 <html lang="en">
 <title>
   {{ if .IsHome }}
@@ -29,8 +31,8 @@
   <body>
     <div class="wrapped">
       <h1 class="title">
-        <a href="/">Audacious Fox</a>
-        <span class="byline">by K.Q. Dreger</span>
+        <a href="/">{{ .Site.Title }}</a>
+        <span class="byline">by {{ .Site.Author.name }}</span>
       </h1>
 
       <div class="container">
