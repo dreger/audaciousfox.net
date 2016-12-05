@@ -2,9 +2,8 @@
   <channel>
     <title>{{ .Site.Title }}</title>
     <subtitle>By {{ .Site.Author.name }}</subtitle>
-    <link rel="self" href="{{ .Permalink }}" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link rel="alternate" type="text/html" href="{{ .Site.BaseURL }}"/>
-    <id>{{.Permalink}}</id>
+    <link>{{ .Site.BaseURL }}</link>
+    <atom:link href="Permalink" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, {{ .Site.Author.name }}</rights>
     <link>{{ .Permalink }}</link>
 {{ if not .Date.IsZero }}
