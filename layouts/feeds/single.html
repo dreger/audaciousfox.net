@@ -1,17 +1,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Site.Title }}</title>
-    <link>{{ .Permalink }}</link>
-    <description>Recent content {{ with .Title }}in {{.}} {{ end }}on {{ .Site.Title }}</description>
-    {{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <subtitle>By {{ .Site.Author.name }}</subtitle>
+    <link rel="alternate" type="text/html" href="{{ .Site.BaseURL }}"/>
+    <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
-    {{ range $element := first 20 (where $.Site.Pages "Type" "in" "archivelinked") }}
+    <rights>Copyright ©, {{ .Site.Author.name }}</rights>
+    <link>{{ .Permalink }}</link>
+{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}    {{ range $element := first 20 (where $.Site.Pages "Type" "in" "archivelinked") }}
     <item>
-        <author>K.Q. Dreger</author>
+        <author>{{ .Site.Author.name }}</author>
       {{ if eq .Section "linked" }} 
         <title>{{ .Title }}</title>
         <link>{{ .Params.link }}</link>
