@@ -1,2 +1,2 @@
-<?php 'cd /var/www/audaciousfox.net ; /usr/bin/git pull ; /usr/local/bin/hugo ;'
+<?php 'cd /var/www/audaciousfox.net ; git pull ; hugo ;'
 ?>
