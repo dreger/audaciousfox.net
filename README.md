@@ -6,3 +6,5 @@ A test readme.
 {{ $url := replace $url "https://" "" }}
 {{ $url := replace $url "http://" "" }}
 {{ $url := split $url "/" }}
+
+Test.
