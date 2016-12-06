@@ -17,6 +17,7 @@
   {{ if .IsPage }}
     <meta name="Description" content="{{ htmlEscape .Summary | plainify }}...">
   {{ end }}
+  <meta name="generated" content='{{ .Now.Format "Jan 2, 2006 at 3:04pm (MST)" }}'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="{{ .Title }}"/>
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
