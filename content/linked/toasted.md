@@ -1,5 +1,5 @@
 ---
-date: 2016-12-13T20:05:34-05:00
+date: 2016-12-13T18:55:34-05:00
 link: https://www.fastcodesign.com/3065667/this-1500-toaster-oven-is-everything-thats-wrong-with-silicon-valley-design
 title: Human Computer Interaction 
 ---
