@@ -3,7 +3,6 @@
      <header class="article-header">
        <h2 class="link">
          <span class="link-target"><a href="{{ .Params.link }}" >{{ .Title }}</a></span>
-         <span class="link-url"><a href="{{ .RelPermalink }}" >{{ $.Param "icon" | markdownify  }}</a></span>
        </h2>
      </header>
    {{ else }}
@@ -15,4 +14,8 @@
    {{ end }}
 
    {{ .Content }}
+
+  {{ if (eq .Section "linked") }}
+   <a href="{{ .RelPermalink }}" >{{ $.Param "icon" | markdownify  }}</a>
+   {{ end }}
  </article>
