@@ -1,21 +1,15 @@
-<article>
-   {{ if (eq .Section "linked") }}
-     <header class="article-header">
-       <h2 class="link">
-         <span class="link-target"><a href="{{ .Params.link }}" >{{ .Title }}</a></span>
-       </h2>
-     </header>
-   {{ else }}
-      <header class="article-header">
-         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-       </header>
+<article>       
+  <header class="article-header">
+    {{ if (eq .Section "linked") }}
+      <h2 class="link">
+        <span class="link-target"><a href="{{ .Params.link }}" >{{ .Title }}</a></span>
+      </h2> 
+    {{ else }}
+      <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+    {{ end }}
+  </header>
 
-       <p class="faded">{{ .Date.Format "Monday, 2 January 2006" }}</p>
-   {{ end }}
-
-   {{ .Content }}
-
-  {{ if (eq .Section "linked") }}
-   <a href="{{ .RelPermalink }}" >{{ $.Param "icon" | markdownify  }}</a>
-   {{ end }}
- </article>
+  {{ .Content }}
+  
+  <p><a class="muted" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></p>
+</article>

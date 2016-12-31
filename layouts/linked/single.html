@@ -9,6 +9,6 @@
 
   {{ .Content }}
 
-  <p class="faded">{{ .Date.Format "Monday, 2 January 2006" }}</p>
+  <p><a class="muted" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></p>
 </article>
 {{ partial "footer.html" . }}
