@@ -1,7 +1,7 @@
 ---
 date: 2016-10-12T00:00:00Z
 link: https://www.washingtonpost.com/news/the-intersect/wp/2016/10/12/facebook-has-repeatedly-trended-fake-news-since-firing-its-human-editors/
-published: false
+draft: true
 title: Facebook Fails Sorting Fiction From Fact
 ---
 

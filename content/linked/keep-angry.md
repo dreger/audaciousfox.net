@@ -1,7 +1,6 @@
 ---
 date: 2016-11-21T00:00:00Z
 link: http://qz.com/841879/by-taking-advantage-of-the-bodys-fight-or-flight-response-we-can-enact-change-in-the-world/
-published: true
 title: Keep Angry, Stay Frosty
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2016-09-06T00:00:00Z
 link: https://david-smith.org/blog/2016/09/06/app-store-name-lengths/
-published: false
+draft: true
 title: Automation by Limitation
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2016-10-12T00:00:00Z
 link: http://www.nytimes.com/2016/10/13/us/politics/facebook-helped-drive-a-voter-registration-surge-election-officials-say.html
-published: false
+draft: true
 title: Facebook Reminder Helps Drive Increased Voter Registration
 ---
 
