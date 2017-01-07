@@ -1,14 +1,13 @@
 ---
 date: 2016-06-28T00:00:00Z
 title: 'Interview: Loren Brichter'
-
 ---
 
-After [noticing that Letterpress had been sold to Solebon LLC][me], I reached out to Atebit's founder and sole proprietor, Loren Brichter. After we waited a few weeks to let things settle down, Mr. Brichter agreed to do a small interview over email. What follows is our conversation about selling Letterpress, iOS, and developing on the web. 
+After noticing that Letterpress had been sold to Solebon LLC, I reached out to Atebit's founder and sole proprietor, Loren Brichter. After we waited a few weeks to let things settle down, Mr. Brichter agreed to do a small interview over email. What follows is our conversation about selling Letterpress, iOS, and developing on the web. 
 
----
+--- 
 
-<div class="interview" markdown="1">
+<span class="interview">
 
 **K.Q. Dreger:** Hello, Loren. Thanks for agreeing to do this interview. I'll cut right to the chase: Why decide to sell  Letterpress? From [my correspondence with Solebon][me], I know that they originally approached you in early 2015, but you weren't interested. What changed from 2Q to 4Q?
 
@@ -90,7 +89,7 @@ Wouldn’t be surprised if I never went back.
 
 **Brichter:** I’d love to do it! But it will definitely be a web app.
 
-</div>
+</span>
 
 ---
 
@@ -100,4 +99,3 @@ Thanks again to Mr. Brichter and Atebits for doing this interview.
 [ms]: https://www.macstories.net/links/letterpress-1-2-brings-html5-replay-feature/
 [scribbles]: http://mac.appstorm.net/general/scribbles-simple-intuitive-drawing-for-mac/
 [nope]: http://i.imgur.com/1VCcECJ.gifv
-[me]: {% post_url 2016-02-08-letterpress-solebon %}

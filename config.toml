@@ -1,4 +1,4 @@
-baseurl = "http://audaciousfox.net"
+baseurl = "https://audaciousfox.net"
 title = "Audacious Fox"
 languageCode = "en-us"
 MetaDataFormat = "yaml"
