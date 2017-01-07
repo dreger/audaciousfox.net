@@ -3,7 +3,7 @@ author: CD
 date: 2015-07-14T00:00:00Z
 redirect_from:
 - 2015/07/14/start.html
-title: Don't Read More, Read Different
+title: Don’t Read More, Read Different
 
 ---
 

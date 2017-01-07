@@ -1,7 +1,7 @@
 ---
 date: 2016-11-22T00:00:00Z
 link: http://kotaku.com/xbox-one-and-ps4-stores-let-users-rate-and-sometimes-r-1789278963
-title: Reviewing Games You Haven't Played
+title: Reviewing Games You Haven’t Played
 ---
 
 Stephen Totilo, writing for _Kotaku_: 

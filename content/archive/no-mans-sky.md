@@ -1,6 +1,6 @@
 ---
 date: 2016-08-13T00:00:00Z
-title: No Man's Sky Review
+title: No Man’s Sky Review
 
 ---
 

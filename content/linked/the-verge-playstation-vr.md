@@ -1,7 +1,7 @@
 ---
 date: 2016-10-05T00:00:00Z
 link: http://www.theverge.com/2016/10/5/13167954/playstation-vr-review-ps4-psvr-virtual-reality-headset-controllers
-title: '&lsquo;When good enough is great&rsquo;'
+title: "‘When good enough is great’"
 ---
 
 Adi Robertson, reviewing the Sony PlayStation VR for The Verge: 

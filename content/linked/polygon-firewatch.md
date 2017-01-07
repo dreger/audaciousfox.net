@@ -1,7 +1,7 @@
 ---
 date: 2016-02-08T00:00:00Z
 link: http://www.polygon.com/2016/2/8/10900796/firewatch-review-pc-ps4-playstation-4-campo-santo
-title: 'Polygon''s Review of Firewatch: 8.5/10'
+title: 'Polygon’s Review of Firewatch: 8.5/10'
 ---
 
 Colin Campbell, [reporting for Polygon][polygon]: 
