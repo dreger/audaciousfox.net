@@ -1,6 +1,6 @@
 ---
 date: 2017-01-09T21:55:15-05:00
-title: Maleable, Modifiable, MacOS
+title: Malleable, Modifiable, MacOS
 link: http://rd2.io/2017/01/macs-and-trucks/
 ---
 [Rob Rhyne][], in his aforementioned essay: 
