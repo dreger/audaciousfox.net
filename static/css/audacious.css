@@ -140,10 +140,13 @@ body {
 a {
   color: black;
   color:RGBA(52,60,71,1);
+  text-decoration: none; 
+  border-bottom: 1px solid #e1e2e3;
 }
+a:hover { border-bottom-color: RGBA(52,60,71,1); }
 
-.muted { color: #888; text-decoration: none; font-size: .875em; line-height: 1em;}
-.muted:hover { color: RGBA(52,60,71,1); text-decoration: underline; }
+.muted { color: #888; border: 0; font-size: .875em; line-height: 1em;}
+.muted:hover { color: RGBA(52,60,71,1); }
 
 em { font-style:italic; }
 
@@ -166,7 +169,7 @@ h2,
 h3,
 header {
   line-height:1.5em;
-  font-family:"Avenir Next",Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
 }
 
 h1 {
@@ -311,7 +314,7 @@ pre code {
   font-size:.875rem;
   color:#888;
   line-height:1.5em;
-  font-family:"Avenir Next",Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
 }
 
 .navigation {
@@ -345,7 +348,7 @@ pre code {
   font-size:.875rem;
   line-height:1em;
   color:#858687;
-  font-family:"Avenir Next",Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   margin-top:1.25rem;
 }
 
@@ -399,7 +402,7 @@ strong,
   text-transform:uppercase;
   letter-spacing:.1em;
   font-weight:500;
-  font-family:"Avenir Next",Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   font-size:.875em;
 }
 
