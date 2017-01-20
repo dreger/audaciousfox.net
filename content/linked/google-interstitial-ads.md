@@ -10,7 +10,7 @@ Eric Brantner, on the recent update to Google's page rank algorithm, which [targ
 
 > Of course, there are some caveats. The new rule applies only to the first click on a page from Google. Once you’re on a web page, there are no penalties if you encounter the ads following another link.
 
-This change feels like a half measure, and it comes from this line from the [Google Webmasters Blog post][goog], where Google specifies that they're only targeting (emphasis mine) "pages where content is not easily accessible to a user _on the transition from_ the mobile search results". Despite the premise sounding good, Google's only focusing on the transition from result to page; the part of the experience most closely tied to them. This is not an attempt to purge these _terrible_ fullscreen roadblocks from the web. 
+This change feels like a half measure. On their [Webmasters Blog][goog], Google specifies they're only targeting (emphasis mine) "pages where content is not easily accessible to a user _on the transition from_ the mobile search results". Google's only focusing on the transition from result to page; the part of the experience most closely tied to them. This is not an attempt to purge these _terrible_ fullscreen roadblocks from the web. 
 
 To an extent, that's fair; Google's entitled to only focus on the parts of searching they can control: the results and the certain parts of the result itself. Additionally, judging from my own analytics, most Google traffic tends to read what they came for and leave. For those people, interstitial ads after the first page aren't an issue. 
 
