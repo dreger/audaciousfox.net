@@ -1,7 +1,7 @@
 ---
 date: 2017-01-19T21:10:09-05:00
 title: Google Goes After Interstitial Ads
-link: https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html
+link: https://www.scribblrs.com/google-now-penalizing-mobile-ads/
 ---
 
 Eric Brantner, on the recent update to Google's page rank algorithm, which [targets overly obnoxious interstitial ads on mobile][goog]: 
