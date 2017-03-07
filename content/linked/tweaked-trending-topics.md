@@ -4,7 +4,7 @@ title: Tweaked Trending Topics Now Show Stories by Region
 date: 2017-01-26T20:40:09-05:00
 --- 
 
-Laura Sydell, NPR, reporting on Facebook’s recent change to its Trending topics algorithm: 
+Laura Sydell, _NPR_, reporting on Facebook’s recent change to its Trending topics algorithm: 
 
 > As of Wednesday, the company has once again changed its trending algorithms. Personal preferences are now out of the equation. "Facebook will no longer be personalized based on someone's interests," Facebook says in a press release. "Everyone in the same region will see the same topics." For now, a region is considered a country, so everyone in the U.S. should see the same topics.
 

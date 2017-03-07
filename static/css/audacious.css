@@ -121,6 +121,35 @@ table {
   border-spacing:0;
 }
 
+/*
+  Fonts
+*/
+
+@font-face {
+  font-family: 'Concourse C6 Regular';
+  src: url('/fonts/concourse_c6_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Concourse C4 Regular';
+  src: url('/fonts/concourse_c4_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Concourse T4 Regular';
+  src: url('/fonts/concourse_t4_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+  Start Styles
+*/
+
 * {
   -moz-box-sizing:content-box;
   box-sizing:content-box;
@@ -167,14 +196,14 @@ blockquote,
 h1,
 h2,
 h3,
-header {
+header,
+.sidebar {
   line-height:1.5em;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family:'Concourse T4',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
 }
 
 h1 {
   font-size:2.25rem;
-  font-weight:400;
   margin-bottom:1.5rem;
 }
 
@@ -186,14 +215,12 @@ h1 a {
 
 h2 {
   font-size:1.25rem;
-  font-weight:500;
   margin-bottom:1rem;
   margin-top:2.25rem;
 }
 
 h3 {
   font-size:1rem;
-  font-weight:500;
   margin-top:2.25rem;
   margin-bottom:.5rem;
 }
@@ -312,9 +339,8 @@ pre code {
 .sidebar {
   padding:2.25rem 0 0 2.25rem;
   font-size:.875rem;
+  line-height: 1.5em;
   color:#888;
-  line-height:1.5em;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
 }
 
 .navigation {
@@ -327,40 +353,17 @@ pre code {
 .title {
   font-size:1.25rem;
   padding:0 2.25rem;
-  font-weight:bold;
-  text-transform:uppercase;
-  letter-spacing:.1em;
+  text-transform: uppercase;
+  font-family:'Concourse C6 Regular',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   margin-bottom:2.25rem;
   line-height:1em;
 }
 
 .byline {
-  font-weight:400;
+  font-family:'Concourse C4 Regular',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   margin-left:.5rem;
   font-size:1rem;
   line-height:1em;
-  letter-spacing:1px;
-  color:#858687;
-}
-
-.article-date {
-  font-weight:normal;
-  font-size:.875rem;
-  line-height:1em;
-  color:#858687;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  margin-top:1.25rem;
-}
-
-.article-date a { border:0; }
-
-.index-date {
-  padding:0 2.25rem;
-  text-align:left;
-  font-weight:400;
-  font-size:1rem;
-  line-height:1em;
-  margin-top:3rem;
   color:#858687;
 }
 
@@ -399,10 +402,8 @@ pre code {
 .caps,
 strong,
 .interview .name {
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  font-weight:500;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  text-transform: uppercase;
+  font-family:'Concourse C4 Regular', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   font-size:.875em;
 }
 
