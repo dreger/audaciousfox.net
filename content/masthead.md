@@ -14,7 +14,7 @@ The AF editorial style follows that of the _New York Times Manual of Style_, wit
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
-Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with Charter handling the body copy. AF should look good in all modern web browsers; please let me know if it doesn't. 
+Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with [Charter](http://practicaltypography.com/charter.html) handling the body copy. AF should look good in all modern web browsers; please let me know if it doesn't. 
 
 Three great words: energy, diction, and honesty.
 
