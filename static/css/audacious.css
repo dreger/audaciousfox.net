@@ -214,7 +214,7 @@ h1 a {
 }
 
 h2 {
-  font-size:1.5rem;
+  font-size:1.25rem;
   margin-bottom:1rem;
   margin-top:2.25rem;
 }
@@ -355,7 +355,7 @@ pre code {
 .navigation li { list-style:none; }
 
 .title {
-  font-size:1.25rem;
+  font-size:1.5rem;
   padding:0 2.25rem;
   text-transform: uppercase;
   font-family:'Concourse C6 Regular',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
@@ -441,7 +441,7 @@ strong,
 .interview .name { margin-left:-1.5rem; }
 
 @media (max-width:50rem) {
-  html { font-size:16px; }
+  html { font-size:18px; }
 
   .wrapped {
     margin:0 auto;
@@ -453,7 +453,7 @@ strong,
   .container { display:block; }
 
   .title,
-.sidebar {
+  .sidebar {
     padding:1.5rem;
     margin:0 0;
   }
