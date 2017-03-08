@@ -24,7 +24,7 @@ Released last week, _The Legend of Zelda: Breath of the Wild_ is not only Ninten
 
 There are many similar reviews, but the above pull quotes capture the overall sentiment: _Breath of the Wild_ is a landmark in the series and has near universal acclaim. As a fan of the franchise, this is incredibly heartening; even if my only way of sharing in the excitement is through reading and waiting for someone I know to get a copy. 
 
-Side note: As I was researching, I was came across a quote from _Zelda_ series creator Shigeru Miyamoto, in a 2012 interview with the _Guardian’s_ [Simon Parkin][guardian]. In the interview, Mr. Miyamoto is quoted, “A delayed game is eventually good, but a rushed game is forever bad”. 
+Side note: As I was researching, I came across a quote from _Zelda_ series creator Shigeru Miyamoto, in a 2012 interview with the _Guardian’s_ [Simon Parkin][guardian]. In the interview, Mr. Miyamoto is quoted, “A delayed game is eventually good, but a rushed game is forever bad”. 
 
 This summarizes something I admire about creative companies like Nintendo, Pixar, and Apple: they’re not afraid to delay a launch or take extra time for the sake of quality and story. Many publishers extol courage, conviction, and commitment in their games, and good games attempt to translate these ideals to the player. In great titles, however, these principles are not only present, but palpable. No translation is needed, because there’s only one interpretation, and everyone understands. 
 
