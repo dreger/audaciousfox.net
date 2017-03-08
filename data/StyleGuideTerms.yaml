@@ -31,7 +31,7 @@ Terms:
     d: My go-to song is 'Shake it Off'.
 
   - t: headlines
-    d: Written in simple English and should be able to be read as a sentence if all words removed for copy fitting are restored.
+    d: Written in simple English and should be able to be read as a sentence if all words removed for copy fitting are restored. Words that would normally be italicized (titles of books, video games, etc.) should be set in apostrophes. 
 
   - t: home screen
 
