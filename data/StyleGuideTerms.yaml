@@ -85,6 +85,9 @@ Terms:
   - t: tail end
 
   - t: The Newsprint
+  
+  - t: TidBits
+    d: A normalized capitalization of Apple news site, [TidBITS](https://tidbits.com/). 
 
   - t: tvOS
     d: "Apple's TV operating system, which runs exclusively on Apple TV."
