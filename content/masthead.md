@@ -8,7 +8,7 @@ Correspondence is cheerfully received at <comments@dreger.me>. Feel free to ding
 
 Grab the feeds via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
 
-## Style, Both Written &amp; Visual
+## Style, Both Visual &amp; Written
 
 The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
 
