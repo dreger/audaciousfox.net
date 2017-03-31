@@ -6,7 +6,7 @@ title: "Next AP Stylebook Drops the Hypen, Capital ‘S’ From ‘Esports’"
 
 Announced at last weekend's American Copy Editors Society meeting, the Associated Press now recommends referring to competitive video games as 'esports', not 'eSports' or 'e-sports'. 
 
-I consider the AP Stylebook a liberal style guide, but giving esports the same treatment as email, both lowercased and hyphen-less, is indicative of a significant trend in public perception and usage. According to the AP, esports are now commonplace.[^1] 
+I consider the AP Stylebook one of the more liberal style guide, but giving esports the same treatment as email, both lowercased and hyphen-less, is indicative of a significant trend in public perception and usage. According to the AP, esports are now mainstream.[^1] 
 
 [^1]: I count 12 colleges that [offer varsity esports programs][games edu] (with a surprisingly strong showing from my home state), and in 2014, video game 'League of Legends' drew [27 million viewers][espn] for its final match, which was more than that year's final games of the World Series (23.5 million) or NBA Finals (18 million). 
 
