@@ -10,7 +10,7 @@ Grab the feeds via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7m
 
 ## Style, Both Visual &amp; Written
 
-The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
+In most cases, the AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
