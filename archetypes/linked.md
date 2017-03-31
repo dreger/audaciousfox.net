@@ -1,4 +1,3 @@
 ---
-type: post
-category: link
+link: a_link
 ---
