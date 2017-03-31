@@ -425,10 +425,9 @@ strong,
 
 .footnotes {
   font-size:.875rem;
-  border-top:2px solid #f6f7f8;
-  padding-top:1.5rem;
+  padding-top:1rem;
   line-height:1.5em;
-  margin-top:3rem;
+  margin-top:1.5rem;
 }
 
 .footnotes li { margin-bottom:1.5em; }
