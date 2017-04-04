@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <article>
   <header class="article-header">
-     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+     <h1><a href="{{ .Permalink }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></h1>
   </header>
 
 
