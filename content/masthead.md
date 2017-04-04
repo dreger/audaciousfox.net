@@ -22,5 +22,4 @@ Have strong opinions, loosely held.
 
 Waffles for all meals. Period.
 
-<br>
 <p class="small faded">All content on Audacious Fox is &copy; K.Q. Dreger.</p>
