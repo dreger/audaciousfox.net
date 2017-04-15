@@ -51,8 +51,6 @@ This all seems incredibly serious, but how authentic are these documents? Yester
 
 >  While our initial analysis indicates that many of the issues leaked today were already patched in the latest iOS, we will continue work to rapidly address any identified vulnerabilities. We always urge customers to download the latest iOS to make sure they have the most recent security updates.
 
----
-
 8,761 documents is a lot of data to dig through, so expect the reverberations of this leak to continue for a while. However, if the documents are genuine, it appears the C.I.A. has been slowly strengthening its ability to gain unauthorized access to any number of smartphones and devices, with intent to capture private data before it’s been encrypted. Unless you’re a journalist, work in government, or are simply unlucky, there’s a chance you haven’t been targeted. At this point though, it’s hard to say with any certainty to what extent or how often these tools have been used. 
 
 In the meantime, basic security advice still stands: update all your software and operating systems to the latest versions, enable [two-factor authentication](https://twofactorauth.org) for your primary email address and important online accounts, and continue to rely on encrypted messaging apps for communicating sensitive information. These steps might not stop the C.I.A., but taking simple security seriously makes it harder on anyone without the resources of the United States government. 

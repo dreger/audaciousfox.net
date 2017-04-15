@@ -189,10 +189,12 @@ a:hover {
 }
 
 .muted {
-    color: #888;
+    color: #858687;
     border: 0;
     font-size: .875em;
     line-height: 1em;
+    font-family: "Concourse C4 Regular";
+    text-transform: uppercase;
 }
 
 .muted:hover {
@@ -231,7 +233,7 @@ header,
 h1 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 
 h1 a {
@@ -241,9 +243,10 @@ h1 a {
 }
 
 h2 {
-    font-size: 1rem;
+    line-height: 1.5em;
     margin-bottom: 1rem;
     margin-top: 2.25rem;
+    font-size: 1rem;
     font-family: "Concourse C4 Regular";
     text-transform: uppercase;
 }
@@ -298,9 +301,12 @@ hr {
 }
 
 blockquote {
-    width: 90%;
+    /*width: 90%;*/
     color: #858687;
+    /*color: #aaa;*/
+    /*background: #f6f7f8;*/
     margin: 1rem auto;
+    padding: 1rem;
 }
 
 blockquote strong {
