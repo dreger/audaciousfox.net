@@ -229,7 +229,7 @@ header,
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
     line-height: 1.25em;
 }
@@ -241,17 +241,17 @@ h1 a {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     margin-top: 2.25rem;
+    font-family: "Concourse C4 Regular";
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 1rem;
     margin-top: 2.25rem;
     margin-bottom: .5rem;
-    font-family: "Concourse C4 Regular";
-    text-transform: uppercase;
 }
 
 img {
@@ -290,10 +290,10 @@ li {
 }
 
 hr {
-    height: 4px;
+    height: 2px;
     border: 0;
     background: #f6f7f8;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     display: block;
 }
 
@@ -483,7 +483,7 @@ strong,
 
 .footnotes {
     font-size: .875rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     line-height: 1.5em;
     margin-top: 1.5rem;
 }
