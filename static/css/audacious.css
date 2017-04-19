@@ -251,11 +251,11 @@ h2 {
     text-transform: uppercase;
 }
 
-h2.link {
+/*h2.link {
     font-size: 1.25rem; 
     text-transform: none; 
     font-family: 'Concourse T4 Regular';
-}
+}*/
 
 h3 {
     font-size: 1rem;
@@ -358,8 +358,15 @@ aside {
 }
 
 sup {
-    margin: 0 4px 0 2px;
+    margin: 0 2px 0 0;
     line-height: 1em;
+}
+
+sub {
+    margin: 0 0 0 2px;
+    line-height: 1em;
+    font-size: smaller;
+    vertical-align: sub;
 }
 
 code {
