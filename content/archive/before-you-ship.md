@@ -2,7 +2,7 @@
 date: 2017-04-18T19:38:40-04:00
 title: Before You Ship
 ---
-These are the questions our team ask one another before any user-facing design goes live. Think of this as a checklist, like the ones they use at **NASA** before a takeoff. It's a simple tool that helps ensure all designs meet the same requirements, and it's easily understood by new and seasoned designers. 
+These are the questions our designers ask one another before any user-facing design goes live. Think of this as a checklist, like the ones they use at **NASA** before a takeoff. It's a simple tool that helps ensure all designs meet the same requirements, and it's easily understood by new and seasoned designers. 
 
 ## Checklist
 
