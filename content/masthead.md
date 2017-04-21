@@ -4,22 +4,26 @@ url: /masthead/
 ---
 Audacious Fox is written by K.Q. Dreger in Northeast Ohio.
 
-Correspondence is cheerfully received at <comments@dreger.me>. Feel free to ding me on Twitter [@Dreger](https://twitter.com/dreger).
+General correspondence is cheerfully received at <comments@dreger.me>. 
 
-Grab the feeds via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
+For sensitive messages, I'm `dreger` on Telegram and [Keybase][]. For public comments or questions, try my Twitter [@Dreger](https://twitter.com/dreger).
+
+[keybase]: https://keybase.io/dreger 
+
+Subscribe via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
 
 ## Style, Both Visual &amp; Written
 
-In most cases, the AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
+In most cases, the **AF** editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
-Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with [Charter](http://practicaltypography.com/charter.html) handling the body copy. AF should look good in all modern web browsers; please let me know if it doesn't. 
+Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with [Charter](http://practicaltypography.com/charter.html) handling the body copy. **AF** should look good in all modern web browsers; please let me know if it doesn't. 
 
-Three great words: energy, diction, and honesty.
+## Your Host, Briefly 
 
-Have strong opinions, loosely held.
+I'm a product designer, working out of Northeast Ohio. **Audacious Fox** is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
 
-Waffles for all meals. Period.
+Some parting tidbits: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
 
 <p class="small faded">All content on Audacious Fox is &copy; K.Q. Dreger.</p>
