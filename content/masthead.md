@@ -24,6 +24,23 @@ Headlines are set in [Concourse](http://practicaltypography.com/concourse.html),
 
 I'm a product designer, working out of Northeast Ohio. **Audacious Fox** is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
 
-Some parting tidbits: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
+Random tidbits I wish to impart upon you: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
+
+## Other Writers Worth Reading
+
+I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. Have someone that should be on here? Drop me a note. 
+
+- _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
+- _Dispatches on Therapy_, [Holbemn](http://holbemn.xyz)
+- _Idle Words_, [Maciej Cegłowski](http://idlewords.com)
+- _Inessential_, [Brent Simmons](http://inessential.com)
+- _Initial Charge_, [Michael Rockwell](http://initialcharge.net)
+- [Jenn Schiffer](https://medium.com/@jennschiffer)
+- _Kottke.org_, [Jason Kottke](http://kottke.org)
+- [Lara Hogan](http://larahogan.me/blog/)
+- _The Newsprint_, [Joshua Ginter](http://www.thenewsprint.co)
+- _Pixel Envy_, [Nick Heer](http://pxlnv.com)
+- _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
+- [Una Kravets](https://una.im/archive/#💁)
 
 <p class="small faded">All content on Audacious Fox is &copy; K.Q. Dreger.</p>
