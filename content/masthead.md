@@ -43,4 +43,4 @@ I read pretty much everything these folks put out. I update this list every coup
 - _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
 - [Una Kravets](https://una.im/archive/#💁)
 
-<p class="small faded">All content on Audacious Fox is &copy; K.Q. Dreger.</p>
+<p class="small faded">All content &copy; K.Q. Dreger.</p>
