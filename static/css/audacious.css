@@ -301,6 +301,7 @@ blockquote {
     background: #f6f7f8;
     padding: 1rem;
     /*color: #858687;*/
+    border-radius: 4px; 
     margin: 1rem auto;
 }
 
