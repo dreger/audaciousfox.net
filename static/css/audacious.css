@@ -432,9 +432,6 @@ blockquote p:last-child {
   margin-left: -1.5rem; }
 
 @media (max-width: 36rem) {
-  html {
-    font-size: 17px; }
-
   .wrapped {
     margin: 0 auto;
     display: block;
