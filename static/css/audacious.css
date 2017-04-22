@@ -432,9 +432,6 @@ blockquote p:last-child {
   margin-left: -1.5rem; }
 
 @media (max-width: 36rem) {
-  html {
-    font-size: 18px; }
-
   .wrapped {
     margin: 0 auto;
     display: block;
@@ -446,7 +443,7 @@ blockquote p:last-child {
 
   .header,
   .sidebar {
-    padding: .5rem 1.5rem;
+    padding: 1rem 1.5rem;
     margin: 0 0; }
 
   .navigation-jump {
