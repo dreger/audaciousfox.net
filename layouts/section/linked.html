@@ -12,8 +12,7 @@
 <p>An archive for my featured pieces can <a href="/archive">be found here</a>.</p>
 <ul class="archive">
   {{ range .Data.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a>
-      <br><small>{{ .Date.Format "2 January 2006" }}</small></li>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a>&nbsp;&nbsp;<small>{{ .Date.Format "2 January 2006" }}</small></li>
   {{ end }}
 </ul>
 

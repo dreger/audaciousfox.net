@@ -31,10 +31,11 @@
 </head>
   <body>
     <div class="wrapped">
-      <h1 class="title">
-        <a href="/">{{ .Site.Title }}</a>
-        <span class="byline">by {{ .Site.Author.name }} <a href="#navigation" class="navigation-jump">&bull;&bull;&bull; </a></span>
-      </h1>
+      <header class="header" role="header">
+        <h1 class="title"><a href="/">{{ .Site.Title }}</a></h1>
+        <span class="byline">By {{ .Site.Author.name }}</span>
+        <a href="#navigation" class="navigation-jump muted mla">&bull;&bull;&bull;</a>
+      </header>
 
       <div class="container">
         <section class="column">
