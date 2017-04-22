@@ -5,3 +5,4 @@ _drafts
 todo.md
 *.plist
 .DS_Store
+static/css/audacious.css.map
