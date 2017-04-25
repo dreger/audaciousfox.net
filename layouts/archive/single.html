@@ -1,12 +1,12 @@
 {{ partial "header.html" . }}
 <article>
   <header class="article-header">
-     <h1><a href="{{ .Permalink }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></h1>
+     <h1 title="{{ .Title }}"><a href="{{ .Permalink }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></h1>
   </header>
 
 
   {{ .Content }}
-  <p><a class="muted" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></p>
+  <p><a title='Permalink for “{{ .Title }}”' class="muted" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></p>
 
 </article>
 {{ partial "footer.html" . }}
