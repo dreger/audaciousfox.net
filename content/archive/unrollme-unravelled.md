@@ -3,7 +3,7 @@ date: 2017-04-24T22:40:44
 title: Unroll.me, Unravelled
 ---
 
-Yesterday, [Mike Isaac of _The New York Times_](https://mobile.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html) wrote a profile on Uber C.E.O. Travis Kalanick and his drive to turn Uber into a winning machine, regardless the cost. It's an incredibly fascinating piece, and you should make time to read it. 
+Yesterday, [Mike Isaac of _The New York Times_](https://mobile.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html) wrote a profile on Uber C.E.O. Travis Kalanick and his drive to turn Uber into a winning machine, regardless the cost. It's a fascinating piece, and you should make time to read it. 
 
 But in Mr. Isaac’s digging, he unearthed some unsettling information about _another_ company, Unroll.me. Owned by Slice Intelligence, Unroll.me labels itself as a way to “clean up your inbox”, by intercepting and archiving your email, and then sending you a simple summary of all your receipts and newsletters. As reported by Mr. Isaac’s, however, Unroll.me was selling aggregated, “anonymized” email message data to whoever wanted to buy; in this case, Uber. Mr. Isaac: 
 
@@ -19,7 +19,7 @@ Following this story, Unroll.me's CEO and founder Jojo Hedaya [wrote the followi
 
 > Sure we have a [Terms of Service Agreement](https://unroll.me/legal/terms/) and a plain-English [Privacy Policy](https://unroll.me/legal/privacy/) that our users agree they have read and understand before they even sign up, but the reality is most of us - myself included - don't take the time to thoroughly review them.
 
-This apology blog post has made its way around the internet, but I found most takes or tweets to be surprisingly harsh. Sidestepping the tone deaf "it was heartbreaking" and Mr. Hedaya's bizarre admission of not thoroughly reviewing his own company’s documents,  we're left with an unassailable fact: There is an Unroll.me privacy policy, and every Unroll.me user agreed to it. And in [that policy](https://unroll.me/legal/privacy/), which at nearly 2,500 is not short yet reasonably formatted and readable, right under “Our Collection and Use of Non-Personal Information”, is the money quote: 
+This apology blog post has made its way around the internet, but I found most takes or tweets to be surprisingly harsh. Sidestepping the tone deaf "it was heartbreaking" and Mr. Hedaya's bizarre admission of not thoroughly reviewing his own company’s documents,  we're left with an unassailable fact: There is an Unroll.me privacy policy, and every Unroll.me user agreed to it. And in [that policy](https://unroll.me/legal/privacy/), which at nearly 2,500 words is not short yet reasonably formatted and readable, right under “Our Collection and Use of Non-Personal Information”, is the money quote: 
 
 > We also collect non-personal information − data in a form that does not permit direct association with any specific individual. We may collect, use, transfer, sell, and disclose non-personal information for any purpose.
 
