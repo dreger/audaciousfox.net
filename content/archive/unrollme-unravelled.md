@@ -55,7 +55,7 @@ There’s this classic scene in “Casablanca”, where nightclub and gambling d
 
 > Captain Renault: Oh, thank you very much. 
 
-We’re allowed to be mad we didn’t read Unroll.me's privacy policy or that it wasn’t presented more visibly; we’re allowed to revoke Unroll.me’s access to our email and never use any of their parent company’s services in the future; but after years of using free email, free social networks, and free news sites where our data is routinely sold to the highest bidder, how are we shocked?  
+We’re allowed to be upset we didn’t read Unroll.me's privacy policy or that it wasn’t presented more visibly; we can even revoke Unroll.me’s access to our email and never use any of their parent company’s services in the future; but after years of using free email, free social networks, and free news sites where our data is routinely sold to the highest bidder, how are we shocked?  
 
 [^1]: [MyPermissions.org](https://mypermissions.org) has direct links to the "review" pages for many popular services. (You don't need to install anything, just click the icon of the service you want to go review.)
 
