@@ -25,7 +25,8 @@ This apology blog post has made its way around the internet, but I found most ta
 
 Plain English to me.  
 
-But we need to separate and articulate the the different issues at play here, which I see boiling down to three different arguments:  
+
+That said, we need to separate and articulate the different issues at play here, which I see boiling down to three different arguments:  
 
 1. Uber has been conducting a masterclass in how to alienate the average, decent person. From their [toxic culture](https://qz.com/914946/a-female-engineers-account-of-working-at-uber-alleges-rampant-sexism-repeatedly-ignored-by-execs-and-hr/) — full of sexism and bullying — to the [Uber executives' visit to a Seoul "escort bar"](https://www.theinformation.com/uber-groups-visit-to-seoul-escort-bar-sparked-hr-complaint), the company, led by [a flame-throwing C.E.O.](https://mobile.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html), is both [massively valuable](https://www.bloomberg.com/features/2017-uber-airbnb-99-billion-idea/) and morally bankrupt. Uber employees looking for new jobs [have to defend themselves to recruiters][guardian], and in the current climate, anything associated with Uber is prequalified for scrutiny. 
 2. Slice's selling of aggregated and “anonymized” email data is a scummy thing to do to its users. Additionally, the premise that stripping out a user's name ensures reasonable anonymity is ridiculous. Remember, this data isn't being combed through by humans, it's being dumped into machines that are designed to pick out patterns. Word usage, locale, time of day. With enough data and context, your emails will point to you, even if they don't explicitly include your name. Unroll.me should have been more upfront about how they used their users' data. 
@@ -42,7 +43,7 @@ Mr. Isaac's story highlighted an unfortunate side effect of free online services
 
 But Slice's participation in an industry practice, despite their business dealing with Uber, doesn't grant us clemency in this story. Ultimately, the blame for our data being sold is on us. We agreed to Unroll.me's privacy policy. We've agreed to terms and conditions without reading a single word. Many of us know, deep down, how these free sites and services make a living, but when we choose to care is often arbitrary.  
 
-There’s this classic scene in “Casablanca”, where nightclub and gambling den owner Rick Blaine [gets confronted by corrupt policeman](https://www.youtube.com/watch?v=SjbPi00k%5C_ME) Captain Louis Renault, who has come to shut down Blaine's operation: 
+There’s this classic scene in “Casablanca”, where nightclub and gambling den owner Rick Blaine [gets confronted by corrupt police officer](https://www.youtube.com/watch?v=SjbPi00k%5C_ME) Captain Louis Renault, who has come to shut down Blaine's operation: 
 
 > Blaine: How can you close me up? On what grounds? 
 
