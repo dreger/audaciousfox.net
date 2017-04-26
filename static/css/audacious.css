@@ -433,7 +433,7 @@ blockquote p:last-child {
 
 @media (max-width: 36rem) {
   html {
-    font-size: 18px; }
+    font-size: 17px; }
 
   .wrapped {
     margin: 0 auto;
@@ -471,7 +471,7 @@ blockquote p:last-child {
     padding: 0 1.5rem; }
 
   .sidebar {
-    text-align: left; }
+    text-align: center; }
 
   aside {
     width: 100%;
