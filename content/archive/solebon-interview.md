@@ -4,11 +4,14 @@ title: A Small Exchange With Solebon LLC
 
 ---
 
-A couple of months ago, I noticed that iOS word game Letterpress appeared to have [changed owners from Loren Brichter's Atebits to Solebon LLC][me]. After some time had passed, I reached out to Solebon to get a little more information about the acquisition. We had a short exchange of emails, and that conversation is below.
+A couple of months ago, I noticed that iOS word game Letterpress appeared to have changed owners from Loren Brichter's Atebits to Solebon LLC. After some time had passed, I reached out to Solebon to get a little more information about the acquisition. We had a short exchange of emails, and that conversation is below.
 
 ---
 
-<div class="interview" markdown="1">
+{{% md %}}
+<div class='interview'>
+{{% /md %}}
+
 **K.Q. Dreger**: What can you tell me about the acquisition of Letterpress?
 
 **Solebon LLC**: Solebon acquired Letterpress from Atebits in December 2015. We had approached Loren Brichter in 2Q of 2015 but he wasn't interested in selling at that time. We revisited the topic with him in 4Q and agreed to move forward.
@@ -26,7 +29,9 @@ Going forward, we just released the 2.0 version of Letterpress which utilizes a 
 Letterpress has a unique story as well among word games and we are both honored and excited to make the investments required for it to grow. We own some other interesting apps that are in varying stages of investment including sudoku, chess and puzzle titles. Admittedly, we have our hands full right now particularly with iOS 10 and new devices coming in the next few months.
 
 **Dreger**: Great, thank you for your time!
-</div>
 
-[me]: {% post_url 2016-02-08-letterpress-solebon %}
+{{% md %}}
+</div>
+{{% /md %}}
+
 [icloud]: http://www.imore.com/icloud-music-library-outage-leaves-many-unable-access-their-music

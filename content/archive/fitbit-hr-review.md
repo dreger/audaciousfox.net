@@ -12,13 +12,15 @@ Dr. Christopher B. Durr and I wanted to record a review of our Fitbit HRs, but w
 
 ---
 
-<span class="interview">
+{{% md %}}
+<div class='interview'>
+{{% /md %}}
 
 ## August 2015
 
 **Christopher B. Durr:** I guess we should start with a pretty simple question: Why did you want a FitBit? Aside from your susceptibility to 21st century marketing. 
 
-**Kyle Dreger:** It's “Fitbit.” Don’t capitalize the “b.” 
+**K.Q. Dreger:** It's “Fitbit.” Don’t capitalize the “b.” 
 
 **Durr:** “Editor”-in-Chief fits you well.
 
@@ -151,4 +153,6 @@ However, I know some companies give employees better insurance premiums for wear
 
 **Durr:** Same. I haven't taken it off for more than a day since I got it. I'd buy again. 
 
-</span>
+{{% md %}}
+</div>
+{{% /md %}}
