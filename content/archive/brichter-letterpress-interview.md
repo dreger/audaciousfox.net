@@ -7,7 +7,9 @@ After noticing that Letterpress had been sold to Solebon LLC, I reached out to A
 
 --- 
 
-<span class="interview">
+{{% md %}}
+<div class='interview'>
+{{% /md %}}
 
 **K.Q. Dreger:** Hello, Loren. Thanks for agreeing to do this interview. I'll cut right to the chase: Why decide to sell  Letterpress? From [my correspondence with Solebon][me], I know that they originally approached you in early 2015, but you weren't interested. What changed from 2Q to 4Q?
 
@@ -89,7 +91,9 @@ Wouldn’t be surprised if I never went back.
 
 **Brichter:** I’d love to do it! But it will definitely be a web app.
 
-</span>
+{{% md %}}
+</div>
+{{% /md %}}
 
 ---
 
