@@ -18,7 +18,7 @@ Dr. Christopher B. Durr and I wanted to record a review of our Fitbit HRs, but w
 
 **Christopher B. Durr:** I guess we should start with a pretty simple question: Why did you want a FitBit? Aside from your susceptibility to 21st century marketing. 
 
-**Kyle Dreger:** It's “Fitbit.” Don’t capitalize the “b.” 
+**K.Q. Dreger:** It's “Fitbit.” Don’t capitalize the “b.” 
 
 **Durr:** “Editor”-in-Chief fits you well.
 
