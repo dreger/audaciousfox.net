@@ -1,7 +1,7 @@
 ---
 date: 2017-04-27T23:44:33-04:00
 link: https://www.apple.com/newsroom/2017/04/apple-dubai-mall-opens-april-27/
-title: Apple Dubai Mall Opens Today With Stunning ‘Solar Wings’
+title: Apple Dubai Mall Opens With Unique ‘Solar Wings’ Design
 ---
 
 Apple PR: 
