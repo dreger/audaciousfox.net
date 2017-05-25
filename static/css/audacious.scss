@@ -205,7 +205,7 @@ pre code {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.25rem; 
+  padding: 2.25rem 2.25rem; 
   a { 
     border: 0; 
   }
@@ -327,9 +327,13 @@ blockquote p:last-child {
   .container {
     display: block; }
 
+  .header {
+    background: white; 
+  }
+
   .header,
   .sidebar {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem 2rem;
     margin: 0 0; }
 
   .navigation-jump {
