@@ -17,8 +17,12 @@
 
 $serif: Charter, Georgia, Cambria, "Times New Roman", Times, serif;
 $sans: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
-
 $accent: RGBA(52, 60, 71, 1); 
+$accent: #000; 
+$faded: #858687; 
+$faded: #454647; 
+$more-faded: #a1a2a3; 
+$bg: #f7f8f9; 
 
 /*
   Start Styles
@@ -35,18 +39,21 @@ body {
   line-height: 1.5em;
   margin: 0;
   color: $accent;
-  background: #f6f7f8;
+  background: $bg;
   font-family: $serif; }
 
 a {
+  color: blue; 
   color: $accent;
-  border-bottom: solid 1px #e1e2e3;
+  border-bottom: solid 1px #d1d2d3;
   text-decoration: none; 
-  &:hover { border-bottom-color: $accent; }
+  &:hover { 
+    border-bottom-color: $accent; 
+  }
 }
 
 .muted {
-  color: #858687;
+  color: $more-faded;
   border: 0;
   font-size: .875em;
   line-height: 1em; }
@@ -84,19 +91,22 @@ header,
 h1 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
-  line-height: 1.5em; }
+  line-height: 1.5em; 
+}
 
 h1 a {
   text-decoration: none;
   border: 0;
-  color: $accent; }
+  color: $accent; 
+}
 
 h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
   line-height: 1.5em;
-  font-family: $sans; }
+  font-family: $sans; 
+}
 
 h3 {
   font-size: 1rem;
@@ -133,7 +143,7 @@ li {
 hr {
   height: 2px;
   border: 0;
-  background: #f6f7f8;
+  background: $bg;
   margin: 1rem 0;
   display: block; }
 
@@ -158,7 +168,7 @@ aside {
   margin: 0 0 1.25rem 1.25rem;
   padding: .5rem 0 0;
   font-size: .875rem;
-  color: #858687;
+  color: $faded;
   line-height: 1.5em;
   border-top: solid 2px #d5d6d7; }
 
@@ -195,7 +205,11 @@ pre code {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.25rem; }
+  padding: 2.25rem; 
+  a { 
+    border: 0; 
+  }
+}
 
 .wrapped {
   margin: 4rem auto;
@@ -214,7 +228,7 @@ pre code {
 .sidebar {
   font-size: .875rem;
   line-height: 1.5em;
-  color: #888;
+  color: $faded;
   text-align: center;
   padding: 0 2rem 2rem; }
 
@@ -233,11 +247,11 @@ pre code {
   font-family: $sans; }
 
 .byline {
-  margin-left: .5rem;
+  margin-left: 0;
   margin-left: auto; 
-  font-family: $sans;
   line-height: 1em;
-  color: #bbb; }
+  color: $more-faded; 
+}
 
 .link {
   margin-top: 0; }
@@ -254,7 +268,7 @@ strong,
   margin-bottom: 1em; }
 
 .archive small {
-  color: #858687; }
+  color: $faded; }
 
 .footnotes {
   font-size: .875rem;
@@ -269,10 +283,11 @@ strong,
   font-weight: bold; }
 
 blockquote {
-  background: #f6f7f8;
+  background: $bg;
   padding: 1rem;
   border-radius: 4px;
-  margin: 1rem auto; }
+  margin: 1rem auto; 
+}
 
 blockquote strong {
   text-transform: none;
@@ -301,7 +316,7 @@ blockquote p:last-child {
 
 @media (max-width: 36rem) {
   html {
-    font-size: 17px; }
+    font-size: 16px; }
 
   .wrapped {
     margin: 0 auto;
