@@ -18,7 +18,7 @@ footnoteReturnLinkContents = "↩"
 
 [permalinks]
   archive = "/:year/:month/:filename"
-  linked = "/linked/:year/:month/:day/:filename"
+  linked = "/linked/:year/:filename"
 
 [blackfriday]
   smartypants = true
