@@ -22,8 +22,8 @@ $accent: RGBA(52, 60, 71, 1);
 $accent: #000; 
 $faded: #454647; 
 $light-gray: #e1e2e3; 
-$gray: #a1a2a3; 
-$bg: #f7f8f9; 
+$gray: #c1c2c3; 
+$bg: #f4f5f6; 
 
 /*
   Start Styles
@@ -78,6 +78,8 @@ header,
   line-height: 1.5em;
   font-family: $sans;
   text-transform: uppercase; 
+  a {
+    border-color: white; }
 }
 
 h1 {
@@ -88,7 +90,6 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  border: 0;
   color: $accent; 
 }
 
@@ -222,11 +223,8 @@ blockquote p:last-child {
   justify-content: center;
   padding: 2.25rem 2.25rem; 
   border-bottom: solid 2px $light-gray; 
+  font-family: $sans;
   h1 { font-size: 1rem; }
-  a { 
-    border: 0; 
-    font-family: $sans
-  }
 }
 
 
@@ -240,7 +238,7 @@ blockquote p:last-child {
   margin-left: 0;
   margin-left: auto; 
   line-height: 1em;
-  color: $light-gray; 
+  color: $gray; 
 }
 
 .wrapped {
@@ -295,12 +293,12 @@ strong,
 
 .footnotes {
   font-size: .875rem;
-  padding-top: 1.5rem;
+  padding: 1rem 0 2.25rem;
   line-height: 1.5em;
-  margin-top: 1.5rem; }
+  margin-top: 0rem; }
 
 .footnotes li {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1em; }
 
 .term {
   font-weight: bold; }
