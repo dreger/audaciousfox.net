@@ -23,7 +23,7 @@ $accent: #000;
 $faded: #454647; 
 $light-gray: #e1e2e3; 
 $gray: #c1c2c3; 
-$bg: #f4f5f6; 
+$bg: #f1f2f3; 
 
 /*
   Start Styles
@@ -39,7 +39,7 @@ html {
 body {
   line-height: 1.5em;
   margin: 0;
-  color: $accent;
+  background: $bg; 
   color: $accent; 
   font-family: $serif; }
 
@@ -79,7 +79,7 @@ header,
   font-family: $sans;
   text-transform: uppercase; 
   a {
-    border-color: white; }
+    border-color: transparent; }
 }
 
 h1 {
@@ -142,9 +142,9 @@ hr {
 article {
   background: white;
   position: relative;
-  border-bottom: solid 2px $light-gray; 
+  border-bottom: solid 2px $bg; 
   background: white;
-  padding: 4rem 2.25rem;
+  padding: 2.25rem;
   &:last-child { border-bottom: 0; } 
 }
 
@@ -222,7 +222,7 @@ blockquote p:last-child {
   align-items: center;
   justify-content: center;
   padding: 2.25rem 2.25rem; 
-  border-bottom: solid 2px $light-gray; 
+  // border-bottom: solid 2px $light-gray; 
   font-family: $sans;
   h1 { font-size: 1rem; }
 }
@@ -258,7 +258,7 @@ blockquote p:last-child {
 .sidebar {
   font-size: .875rem;
   line-height: 1.5em;
-  padding: 0 2.25rem; 
+  padding: 2.25rem; 
   a { 
     border: 0; 
     &:hover { border-bottom: solid 2px black; }
@@ -357,7 +357,7 @@ strong,
   article {
     padding: 1.5rem 1.5rem;
     border-radius: 0;
-    margin: .5rem 0; }
+    margin: .25rem 0; }
 
   article:first-child {
     margin-top: 0;

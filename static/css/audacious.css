@@ -145,7 +145,7 @@ html {
 body {
   line-height: 1.5em;
   margin: 0;
-  color: #000;
+  background: #f1f2f3;
   color: #000;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
@@ -187,7 +187,7 @@ header,
   h3 a,
   header a,
   .navigation a {
-    border-color: white; }
+    border-color: transparent; }
 
 h1 {
   font-size: 1.25rem;
@@ -239,16 +239,16 @@ li {
 hr {
   height: 2px;
   border: 0;
-  background: #f4f5f6;
+  background: #f1f2f3;
   margin: 1rem 0;
   display: block; }
 
 article {
   background: white;
   position: relative;
-  border-bottom: solid 2px #e1e2e3;
+  border-bottom: solid 2px #f1f2f3;
   background: white;
-  padding: 4rem 2.25rem; }
+  padding: 2.25rem; }
   article:last-child {
     border-bottom: 0; }
 
@@ -300,7 +300,7 @@ pre code {
   border: 0; }
 
 blockquote {
-  background: #f4f5f6;
+  background: #f1f2f3;
   padding: 1rem;
   border-radius: 4px;
   margin: 1rem auto; }
@@ -323,7 +323,6 @@ blockquote p:last-child {
   align-items: center;
   justify-content: center;
   padding: 2.25rem 2.25rem;
-  border-bottom: solid 2px #e1e2e3;
   font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
   .header h1 {
     font-size: 1rem; }
@@ -356,7 +355,7 @@ blockquote p:last-child {
 .sidebar {
   font-size: .875rem;
   line-height: 1.5em;
-  padding: 0 2.25rem; }
+  padding: 2.25rem; }
   .sidebar a {
     border: 0; }
     .sidebar a:hover {
@@ -451,7 +450,7 @@ strong,
   article {
     padding: 1.5rem 1.5rem;
     border-radius: 0;
-    margin: .5rem 0; }
+    margin: .25rem 0; }
 
   article:first-child {
     margin-top: 0; }
