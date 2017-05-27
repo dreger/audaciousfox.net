@@ -17,7 +17,7 @@ footnoteReturnLinkContents = "↩"
   name = "K.Q. Dreger"
 
 [permalinks]
-  archive = "/:year/:month/:filename"
+  archive = "/:year/:filename"
   linked = "/linked/:year/:filename"
 
 [blackfriday]
