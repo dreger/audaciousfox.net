@@ -2,7 +2,7 @@
   <header class="article-header">
     {{ if (eq .Section "linked") }}
       <h2 title="{{ .Title }}" class="link">
-        <span class="link-target"><a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></span>
+        <span class="link-target"><a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}&nbsp;&rarr;</a></span>
       </h2> 
     {{ else }}
       <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML}}</a></h1>
@@ -11,5 +11,5 @@
 
   {{ .Content }}
   
-  <p><a title='Permalink for “{{ .Title }}”' class="muted" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></p>
+  <p><a title='Permalink for “{{ .Title }}”' class="canonical-link" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, January 2" }}</a></p>
 </article>

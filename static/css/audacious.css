@@ -125,8 +125,8 @@ table {
   Fonts
 */
 @font-face {
-  font-family: 'Concourse C4 Regular';
-  src: url("/fonts/concourse_c4_regular-webfont.woff") format("woff");
+  font-family: 'Concourse C6 Regular';
+  src: url("/fonts/concourse_c6_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 /*
@@ -140,31 +140,21 @@ table {
   box-sizing: content-box; }
 
 html {
-  font-size: 16px; }
+  font-size: 18px; }
 
 body {
   line-height: 1.5em;
   margin: 0;
   color: #000;
-  background: #FAFAFA;
-  font-family: Charter, Georgia, Cambria, "Times New Roman", Times, serif; }
+  color: #000;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  color: blue;
   color: #000;
-  border-bottom: solid 1px #d1d2d3;
+  border-bottom: solid 2px #e1e2e3;
   text-decoration: none; }
   a:hover {
     border-bottom-color: #000; }
-
-.muted {
-  color: #a1a2a3;
-  border: 0;
-  font-size: .875em;
-  line-height: 1em; }
-
-.muted:hover {
-  color: #000; }
 
 em {
   font-style: italic; }
@@ -190,7 +180,7 @@ h3,
 header,
 .navigation {
   line-height: 1.5em;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase; }
 
 h1 {
@@ -207,8 +197,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
-  line-height: 1.5em;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  line-height: 1.5em; }
 
 h3 {
   font-size: 1rem;
@@ -250,13 +239,13 @@ hr {
   display: block; }
 
 article {
-  margin: 2rem auto;
   background: white;
-  border-radius: 4px;
   position: relative;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+  border-bottom: solid 2px #e1e2e3;
   background: white;
-  padding: 2rem 2.25rem 1.875rem; }
+  padding: 4rem 2.25rem; }
+  article:last-child {
+    border-bottom: 0; }
 
 article:first-child {
   margin-top: 0; }
@@ -273,7 +262,7 @@ aside {
   font-size: .875rem;
   color: #454647;
   line-height: 1.5em;
-  border-top: solid 2px #d5d6d7; }
+  border-top: solid 2px #e1e2e3; }
 
 sup {
   margin: 0 2px 0 0;
@@ -288,7 +277,9 @@ sub {
 code {
   font-size: .875rem;
   padding: 1px 4px;
-  border: solid 1px #d5d6d7; }
+  border: solid 1px #d5d6d7;
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 2px; }
 
 pre {
   overflow: scroll;
@@ -302,85 +293,6 @@ pre {
 pre code {
   padding: initial;
   border: 0; }
-
-.header {
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2.25rem 2.25rem; }
-  .header a {
-    border: 0; }
-
-.wrapped {
-  margin: 4rem auto;
-  max-width: 40rem;
-  max-width: 36rem;
-  max-width: 34rem;
-  max-width: 32.25rem; }
-
-.container {
-  display: flex;
-  flex-direction: column; }
-
-.column {
-  flex-shrink: 0; }
-
-.sidebar {
-  font-size: .875rem;
-  line-height: 1.5em;
-  color: #454647;
-  text-align: center;
-  padding: 0 2rem 2rem; }
-
-.navigation {
-  list-style: none;
-  padding: 0; }
-
-.navigation li {
-  list-style: none; }
-
-.title {
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 1em;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
-
-.byline {
-  margin-left: 0;
-  margin-left: auto;
-  line-height: 1em;
-  color: #a1a2a3; }
-
-.link {
-  margin-top: 0; }
-
-.caps,
-strong,
-.interview .name {
-  font-size: .875em;
-  line-height: 1em;
-  text-transform: uppercase;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
-
-.archive li {
-  margin-bottom: 1em; }
-
-.archive small {
-  color: #454647; }
-
-.footnotes {
-  font-size: .875rem;
-  padding-top: 1.5rem;
-  line-height: 1.5em;
-  margin-top: 1.5rem; }
-
-.footnotes li {
-  margin-bottom: 1.5em; }
-
-.term {
-  font-weight: bold; }
 
 blockquote {
   background: #f7f8f9;
@@ -400,10 +312,103 @@ blockquote + blockquote {
 blockquote p:last-child {
   margin-bottom: 0; }
 
+.header {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.25rem 2.25rem;
+  border-bottom: solid 2px #e1e2e3; }
+  .header h1 {
+    font-size: 1rem; }
+  .header a {
+    border: 0;
+    font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+
+.title {
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1em; }
+
+.byline {
+  margin-left: 0;
+  margin-left: auto;
+  line-height: 1em;
+  color: #e1e2e3; }
+
+.wrapped {
+  margin: 4rem auto;
+  max-width: 40rem;
+  max-width: 36rem;
+  max-width: 34rem;
+  max-width: 32.25rem; }
+
+.container {
+  display: flex;
+  flex-direction: column; }
+
+.column {
+  flex-shrink: 0; }
+
+.sidebar {
+  font-size: .875rem;
+  line-height: 1.5em;
+  padding: 0 2.25rem; }
+  .sidebar a {
+    border: 0; }
+    .sidebar a:hover {
+      border-bottom: solid 2px black; }
+
+.navigation {
+  list-style: none;
+  padding: 0; }
+
+.navigation li {
+  list-style: none; }
+
+.link {
+  margin-top: 0; }
+
+.caps,
+strong,
+.interview .name {
+  font-size: .875em;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+
+.archive li {
+  margin-bottom: 1em; }
+
+.archive small {
+  color: #454647; }
+
+.footnotes {
+  font-size: .875rem;
+  padding-top: 1.5rem;
+  line-height: 1.5em;
+  margin-top: 1.5rem; }
+
+.footnotes li {
+  margin-bottom: 1.5em; }
+
+.term {
+  font-weight: bold; }
+
 .interview {
   display: block;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem; }
+
+.canonical-link {
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .875rem;
+  line-height: 1em;
+  color: #a1a2a3;
+  border-color: white;
+  text-transform: uppercase; }
+  .canonical-link:hover {
+    color: black; }
 
 .interview h1,
 .interview h2,
@@ -446,14 +451,7 @@ blockquote p:last-child {
     margin: .5rem 0; }
 
   article:first-child {
-    margin-top: 0;
-    border-top: 0; }
-
-  .index-date {
-    padding: 0 1.5rem; }
-
-  .sidebar {
-    text-align: center; }
+    margin-top: 0; }
 
   aside {
     width: 100%;

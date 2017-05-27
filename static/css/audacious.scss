@@ -6,8 +6,8 @@
 */
 
 @font-face {
-  font-family: 'Concourse C4 Regular';
-  src: url("/fonts/concourse_c4_regular-webfont.woff") format("woff");
+  font-family: 'Concourse C6 Regular';
+  src: url("/fonts/concourse_c6_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -15,13 +15,14 @@
   Variables
 */
 
-$serif: Charter, Georgia, Cambria, "Times New Roman", Times, serif;
-$sans: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
+$serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$sans: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
 $accent: RGBA(52, 60, 71, 1); 
+
 $accent: #000; 
-$faded: #858687; 
 $faded: #454647; 
-$more-faded: #a1a2a3; 
+$light-gray: #e1e2e3; 
+$gray: #a1a2a3; 
 $bg: #f7f8f9; 
 
 /*
@@ -33,33 +34,23 @@ $bg: #f7f8f9;
   box-sizing: content-box; }
 
 html {
-  font-size: 16px; }
+  font-size: 18px; }
 
 body {
   line-height: 1.5em;
   margin: 0;
   color: $accent;
-  background: #FAFAFA;
+  color: $accent; 
   font-family: $serif; }
 
 a {
-  color: blue; 
-  color: $accent;
-  border-bottom: solid 1px #d1d2d3;
+  color: $accent; 
+  border-bottom: solid 2px $light-gray;
   text-decoration: none; 
   &:hover { 
     border-bottom-color: $accent; 
   }
 }
-
-.muted {
-  color: $more-faded;
-  border: 0;
-  font-size: .875em;
-  line-height: 1em; }
-
-.muted:hover {
-  color: $accent; }
 
 em {
   font-style: italic; }
@@ -86,7 +77,8 @@ header,
 .navigation {
   line-height: 1.5em;
   font-family: $sans;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+}
 
 h1 {
   font-size: 1.25rem;
@@ -105,7 +97,6 @@ h2 {
   margin-top: 2.25rem;
   font-size: 1rem;
   line-height: 1.5em;
-  font-family: $sans; 
 }
 
 h3 {
@@ -148,13 +139,13 @@ hr {
   display: block; }
 
 article {
-  margin: 2rem auto;
   background: white;
-  border-radius: 4px;
   position: relative;
-  box-shadow: 0 0 2px 0 rgba(0,0,0,.16);
+  border-bottom: solid 2px $light-gray; 
   background: white;
-  padding: 2rem 2.25rem 1.875rem; }
+  padding: 4rem 2.25rem;
+  &:last-child { border-bottom: 0; } 
+}
 
 article:first-child {
   margin-top: 0; }
@@ -171,7 +162,7 @@ aside {
   font-size: .875rem;
   color: $faded;
   line-height: 1.5em;
-  border-top: solid 2px #d5d6d7; }
+  border-top: solid 2px $light-gray; }
 
 sup {
   margin: 0 2px 0 0;
@@ -186,7 +177,10 @@ sub {
 code {
   font-size: .875rem;
   padding: 1px 4px;
-  border: solid 1px #d5d6d7; }
+  border: solid 1px #d5d6d7; 
+  box-shadow: 0 0px 2px 0 rgba(0,0,0,.25);
+  border-radius: 2px;
+}
 
 pre {
   overflow: scroll;
@@ -201,15 +195,52 @@ pre code {
   padding: initial;
   border: 0; }
 
+
+blockquote {
+  background: $bg;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem auto; 
+}
+
+blockquote strong {
+  text-transform: none;
+  font-size: 1rem;
+  font-weight: bold; }
+
+blockquote + blockquote {
+  margin-top: -1rem;
+  padding-top: 1em; }
+
+blockquote p:last-child {
+  margin-bottom: 0; }
+
 .header {
   font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2.25rem 2.25rem; 
+  border-bottom: solid 2px $light-gray; 
+  h1 { font-size: 1rem; }
   a { 
     border: 0; 
+    font-family: $sans
   }
+}
+
+
+.title {
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1em;
+  }
+
+.byline {
+  margin-left: 0;
+  margin-left: auto; 
+  line-height: 1em;
+  color: $light-gray; 
 }
 
 .wrapped {
@@ -229,30 +260,21 @@ pre code {
 .sidebar {
   font-size: .875rem;
   line-height: 1.5em;
-  color: $faded;
-  text-align: center;
-  padding: 0 2rem 2rem; }
+  padding: 0 2.25rem; 
+  a { 
+    border: 0; 
+    &:hover { border-bottom: solid 2px black; }
+  }
+}
 
 .navigation {
   list-style: none;
-  padding: 0; }
+  padding: 0; 
+}
 
 .navigation li {
   list-style: none; }
 
-.title {
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 1em;
-  font-family: $sans; }
-
-.byline {
-  margin-left: 0;
-  margin-left: auto; 
-  line-height: 1em;
-  color: $more-faded; 
-}
 
 .link {
   margin-top: 0; }
@@ -283,29 +305,20 @@ strong,
 .term {
   font-weight: bold; }
 
-blockquote {
-  background: $bg;
-  padding: 1rem;
-  border-radius: 4px;
-  margin: 1rem auto; 
-}
-
-blockquote strong {
-  text-transform: none;
-  font-size: 1rem;
-  font-weight: bold; }
-
-blockquote + blockquote {
-  margin-top: -1rem;
-  padding-top: 1em; }
-
-blockquote p:last-child {
-  margin-bottom: 0; }
-
 .interview {
   display: block;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem; }
+
+.canonical-link {
+  font-family: $sans; 
+  font-size: .875rem; 
+  line-height: 1em; 
+  color: $gray; 
+  border-color: white; 
+  text-transform: uppercase; 
+  &:hover { color: black; }
+}
 
 .interview h1,
 .interview h2,
@@ -350,13 +363,7 @@ blockquote p:last-child {
 
   article:first-child {
     margin-top: 0;
-    border-top: 0; }
-
-  .index-date {
-    padding: 0 1.5rem; }
-
-  .sidebar { 
-    text-align: center; }
+  }
 
   aside {
     width: 100%;
