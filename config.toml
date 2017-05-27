@@ -6,6 +6,7 @@ disableRSS = true
 disableSitemap = false
 uglyurls = false
 publishdir = "html"
+pluralizelisttitles = false
 footnoteReturnLinkContents = "↩"
 
 [sitemap]
