@@ -19,7 +19,7 @@ $serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $sans: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
 $accent: RGBA(52, 60, 71, 1); 
 
-$accent: #000; 
+$accent: #141414; 
 $faded: #454647; 
 $light-gray: #e1e2e3; 
 $gray: #c1c2c3; 
@@ -178,8 +178,9 @@ sub {
 code {
   font-size: .875rem;
   padding: 1px 4px;
+  font-family: monospace; 
   border: solid 1px #d5d6d7; 
-  box-shadow: 0 0px 2px 0 rgba(0,0,0,.25);
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,.25);
   border-radius: 2px;
 }
 
@@ -259,6 +260,7 @@ blockquote p:last-child {
   font-size: .875rem;
   line-height: 1.5em;
   padding: 2.25rem; 
+  text-align: center; 
   a { 
     border: 0; 
     &:hover { border-bottom: solid 2px black; }

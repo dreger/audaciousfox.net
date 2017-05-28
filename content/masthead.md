@@ -4,13 +4,11 @@ url: /masthead/
 ---
 Audacious Fox is written by K.Q. Dreger in Northeast Ohio.
 
-General correspondence is cheerfully received at <comments@dreger.me>. 
-
-For sensitive messages, I'm `dreger` on Telegram and [Keybase][]. For public comments or questions, try my Twitter [@Dreger](https://twitter.com/dreger).
+Correspondence is cheerfully received on Twitter, [@Dreger](https://twitter.com/dreger) or over email at <comments@dreger.me>. For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
 
 [keybase]: https://keybase.io/dreger 
 
-Subscribe via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
+Get the latest articles and links via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
 
 ## Style, Both Visual &amp; Written
 
@@ -18,7 +16,7 @@ In most cases, the **AF** editorial style follows that of the _New York Times Ma
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
-Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with [Charter](http://practicaltypography.com/charter.html) handling the body copy. **AF** should look good in all modern web browsers; please let me know if it doesn't. 
+Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with Georgia handling the body copy. **AF** should look good in all modern web browsers; please let me know if it doesn't. 
 
 ## Your Host, Briefly 
 

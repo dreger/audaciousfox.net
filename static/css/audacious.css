@@ -146,15 +146,15 @@ body {
   line-height: 1.5em;
   margin: 0;
   background: #f1f2f3;
-  color: #000;
+  color: #141414;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  color: #000;
+  color: #141414;
   border-bottom: solid 2px #e1e2e3;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: #000; }
+    border-bottom-color: #141414; }
 
 em {
   font-style: italic; }
@@ -196,7 +196,7 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  color: #000; }
+  color: #141414; }
 
 h2 {
   margin-bottom: 1rem;
@@ -282,8 +282,9 @@ sub {
 code {
   font-size: .875rem;
   padding: 1px 4px;
+  font-family: monospace;
   border: solid 1px #d5d6d7;
-  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.25);
   border-radius: 2px; }
 
 pre {
@@ -355,7 +356,8 @@ blockquote p:last-child {
 .sidebar {
   font-size: .875rem;
   line-height: 1.5em;
-  padding: 2.25rem; }
+  padding: 2.25rem;
+  text-align: center; }
   .sidebar a {
     border: 0; }
     .sidebar a:hover {
