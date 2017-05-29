@@ -11,6 +11,9 @@ Terms:
 
   - t: built-in
 
+  - t: Buzzfeed
+    d: A normalized capitalization of news site [_BuzzFeed_](https://buzzfeed.com). 
+
   - t: capitalization
     d: "[TitleCapitalization.com](http://titlecapitalization.com). Capitalize all verbs, nouns and pronouns, and all words of four or more letters. The following words may be left lowercase: [a, and, as, at, but, by, en, for, if, in, of, on, or, the, to, v., vs., via]."
 
