@@ -150,11 +150,11 @@ body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  color: #0ed3c8;
+  color: #326eff;
   text-decoration: none; }
   a:hover {
     border-bottom: solid 2px #d1d2d3;
-    border-bottom-color: #0ed3c8; }
+    border-bottom-color: #326eff; }
 
 em {
   font-style: italic; }
