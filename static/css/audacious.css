@@ -125,8 +125,8 @@ table {
   Fonts
 */
 @font-face {
-  font-family: 'Concourse C6 Regular';
-  src: url("/fonts/concourse_c6_regular-webfont.woff") format("woff");
+  font-family: 'Concourse C4 Regular';
+  src: url("/fonts/concourse_c4_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 /*
@@ -150,11 +150,11 @@ body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  color: #326eff;
-  text-decoration: none; }
+  color: #141414;
+  text-decoration: none;
+  border-bottom: solid 2px #d1d2d3; }
   a:hover {
-    border-bottom: solid 2px #d1d2d3;
-    border-bottom-color: #326eff; }
+    border-bottom-color: #141414; }
 
 em {
   font-style: italic; }
@@ -180,7 +180,7 @@ h3,
 header,
 .navigation {
   line-height: 1.5em;
-  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase; }
   h1 a,
   h2 a,
@@ -301,13 +301,12 @@ pre code {
   border: 0; }
 
 blockquote {
-  padding: 0 1rem;
+  padding: 0 2.25rem;
   border-radius: 4px;
   background: white;
   margin: 1rem auto;
   line-height: 1.5em;
-  font-size: 0.875rem;
-  color: #777; }
+  font-size: 0.875rem; }
 
 blockquote strong {
   text-transform: none;
@@ -326,7 +325,7 @@ blockquote p:last-child {
   display: flex;
   align-items: center;
   padding: 2.25rem 2.25rem;
-  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
   .header h1 {
     font-size: 1rem; }
 
@@ -362,6 +361,8 @@ blockquote p:last-child {
   line-height: 1.5em;
   padding: 2.25rem;
   text-align: center; }
+  .sidebar a:hover {
+    border-bottom: solid 2px #141414; }
 
 .navigation {
   list-style: none;
@@ -379,7 +380,7 @@ strong,
   font-size: .875em;
   line-height: 1em;
   text-transform: uppercase;
-  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
 
 .archive li {
   margin-bottom: 1em; }
@@ -405,7 +406,7 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   font-size: .875rem;
   line-height: 1em;
   color: #afafaf;
@@ -424,7 +425,7 @@ strong,
 
 @media (max-width: 36rem) {
   html {
-    font-size: 16px; }
+    font-size: 18px; }
 
   .wrapped {
     margin: 0 auto;
@@ -434,6 +435,9 @@ strong,
 
   .container {
     display: block; }
+
+  blockquote {
+    padding: 0 1.5rem; }
 
   .header,
   .sidebar {
