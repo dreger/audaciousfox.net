@@ -125,8 +125,8 @@ table {
   Fonts
 */
 @font-face {
-  font-family: 'Concourse C4 Regular';
-  src: url("/fonts/concourse_c4_regular-webfont.woff") format("woff");
+  font-family: 'Concourse C6 Regular';
+  src: url("/fonts/concourse_c6_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 /*
@@ -180,7 +180,7 @@ h3,
 header,
 .navigation {
   line-height: 1.5em;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase; }
   h1 a,
   h2 a,
@@ -326,7 +326,7 @@ blockquote p:last-child {
   display: flex;
   align-items: center;
   padding: 2.25rem 2.25rem;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
   .header h1 {
     font-size: 1rem; }
 
@@ -379,7 +379,7 @@ strong,
   font-size: .875em;
   line-height: 1em;
   text-transform: uppercase;
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
 
 .archive li {
   margin-bottom: 1em; }
@@ -405,7 +405,7 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   font-size: .875rem;
   line-height: 1em;
   color: #afafaf;
