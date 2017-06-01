@@ -20,9 +20,11 @@ $sans: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 $accent: RGBA(52, 60, 71, 1); 
 
 $accent: #141414; 
-$faded: #454647; 
-$light-gray: #e1e2e3; 
-$gray: #c1c2c3; 
+$link: #326eff; 
+$link: #0ed3c8; 
+$faded: #777; 
+$light-gray: #d1d2d3; 
+$gray: #afafaf; 
 $bg: #f1f2f3; 
 
 /*
@@ -44,11 +46,11 @@ body {
   font-family: $serif; }
 
 a {
-  color: $accent; 
-  border-bottom: solid 2px $light-gray;
+  color: $link; 
   text-decoration: none; 
   &:hover { 
-    border-bottom-color: $accent; 
+    border-bottom: solid 2px $light-gray;
+    border-bottom-color: $link;
   }
 }
 
@@ -142,7 +144,7 @@ hr {
 article {
   background: white;
   position: relative;
-  border-bottom: solid 2px $bg; 
+  border-bottom: solid 4px $bg; 
   background: white;
   padding: 2.25rem;
   &:last-child { border-bottom: 0; } 
@@ -199,10 +201,13 @@ pre code {
 
 
 blockquote {
-  background: $bg;
-  padding: 1rem;
+  padding: 0 1rem;
   border-radius: 4px;
+  background: white;
   margin: 1rem auto; 
+  line-height: 1.5em;
+  font-size: 0.875rem;
+  color: $faded;
 }
 
 blockquote strong {
@@ -221,7 +226,7 @@ blockquote p:last-child {
   font-size: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
   padding: 2.25rem 2.25rem; 
   // border-bottom: solid 2px $light-gray; 
   font-family: $sans;
@@ -237,9 +242,10 @@ blockquote p:last-child {
 
 .byline {
   margin-left: 0;
-  margin-left: auto; 
+  margin-left: .5rem; 
   line-height: 1em;
   color: $gray; 
+  a { color: $gray; }
 }
 
 .wrapped {
@@ -262,8 +268,8 @@ blockquote p:last-child {
   padding: 2.25rem; 
   text-align: center; 
   a { 
-    border: 0; 
-    &:hover { border-bottom: solid 2px black; }
+    // border: 0; 
+    // &:hover { border-bottom: solid 2px black; }
   }
 }
 

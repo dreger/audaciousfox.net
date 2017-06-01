@@ -150,11 +150,11 @@ body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  color: #141414;
-  border-bottom: solid 2px #e1e2e3;
+  color: #0ed3c8;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: #141414; }
+    border-bottom: solid 2px #d1d2d3;
+    border-bottom-color: #0ed3c8; }
 
 em {
   font-style: italic; }
@@ -246,7 +246,7 @@ hr {
 article {
   background: white;
   position: relative;
-  border-bottom: solid 2px #f1f2f3;
+  border-bottom: solid 4px #f1f2f3;
   background: white;
   padding: 2.25rem; }
   article:last-child {
@@ -265,9 +265,9 @@ aside {
   margin: 0 0 1.25rem 1.25rem;
   padding: .5rem 0 0;
   font-size: .875rem;
-  color: #454647;
+  color: #777;
   line-height: 1.5em;
-  border-top: solid 2px #e1e2e3; }
+  border-top: solid 2px #d1d2d3; }
 
 sup {
   margin: 0 2px 0 0;
@@ -301,10 +301,13 @@ pre code {
   border: 0; }
 
 blockquote {
-  background: #f1f2f3;
-  padding: 1rem;
+  padding: 0 1rem;
   border-radius: 4px;
-  margin: 1rem auto; }
+  background: white;
+  margin: 1rem auto;
+  line-height: 1.5em;
+  font-size: 0.875rem;
+  color: #777; }
 
 blockquote strong {
   text-transform: none;
@@ -322,7 +325,6 @@ blockquote p:last-child {
   font-size: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 2.25rem 2.25rem;
   font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
   .header h1 {
@@ -335,9 +337,11 @@ blockquote p:last-child {
 
 .byline {
   margin-left: 0;
-  margin-left: auto;
+  margin-left: .5rem;
   line-height: 1em;
-  color: #c1c2c3; }
+  color: #afafaf; }
+  .byline a {
+    color: #afafaf; }
 
 .wrapped {
   margin: 4rem auto;
@@ -358,10 +362,6 @@ blockquote p:last-child {
   line-height: 1.5em;
   padding: 2.25rem;
   text-align: center; }
-  .sidebar a {
-    border: 0; }
-    .sidebar a:hover {
-      border-bottom: solid 2px black; }
 
 .navigation {
   list-style: none;
@@ -385,7 +385,7 @@ strong,
   margin-bottom: 1em; }
 
 .archive small {
-  color: #454647; }
+  color: #777; }
 
 .footnotes {
   font-size: .875rem;
@@ -408,7 +408,7 @@ strong,
   font-family: "Concourse C6 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   font-size: .875rem;
   line-height: 1em;
-  color: #c1c2c3;
+  color: #afafaf;
   border-color: white;
   text-transform: uppercase; }
   .canonical-link:hover {
