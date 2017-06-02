@@ -152,7 +152,7 @@ body {
   margin: 0;
   background: #f1f2f3;
   color: #141414;
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-family: Charter, Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
   transition: color ease-out .08s;
@@ -192,7 +192,7 @@ header,
   text-transform: uppercase; }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   line-height: 1.5em; }
 
@@ -451,6 +451,9 @@ strong,
 
   blockquote {
     padding: 0 1.5rem; }
+
+  .by {
+    display: none; }
 
   .title {
     font-size: 1rem; }

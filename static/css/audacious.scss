@@ -21,7 +21,7 @@
   Variables
 */
 
-$serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$serif: Charter, Georgia, Cambria, "Times New Roman", Times, serif;
 $sans: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
 $sans-bold: "Concourse C3 Bold", $sans;
 $accent: RGBA(52, 60, 71, 1); 
@@ -96,7 +96,7 @@ header,
 }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   line-height: 1.5em; 
 }
@@ -377,6 +377,8 @@ strong,
   blockquote {
     padding: 0 1.5rem;
   }
+
+  .by { display: none; }
 
   .title {
     font-size: 1rem; 

@@ -16,7 +16,7 @@ In most cases, the **AF** editorial style follows that of the _New York Times Ma
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
-Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with Georgia handling the body copy. **AF** should look good in all modern web browsers; please let me know if it doesn't. 
+Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with [Charter](http://practicaltypography.com/charter.html) handling the body copy. **AF** should look good in all modern web browsers; please let me know if it doesn't. 
 
 ## Your Host, Briefly 
 
