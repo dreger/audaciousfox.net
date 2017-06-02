@@ -242,6 +242,7 @@ blockquote p:last-child {
   // border-top: solid 2px $link; 
   border-bottom: 4px solid $bg; 
   font-family: $sans;
+  border-radius: 4px 4px 0 0; 
 }
 
 .header,
@@ -264,6 +265,7 @@ h1 {
   margin: 0;
   line-height: 1em;
   margin-right: .5rem; 
+  font-size: 1rem; 
   }
 
 .byline { 
