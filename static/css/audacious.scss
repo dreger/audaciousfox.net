@@ -6,14 +6,14 @@
 */
 
 @font-face {
-  font-family: 'Concourse C4 Regular';
-  src: url("/fonts/concourse_c4_regular-webfont.woff") format("woff");
+  font-family: 'Concourse C3 Regular';
+  src: url("/fonts/concourse_c3_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Concourse C6 Regular';
-  src: url("/fonts/concourse_c6_regular-webfont.woff") format("woff");
+  font-family: 'Concourse C3 Bold';
+  src: url("/fonts/concourse_c3_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -22,7 +22,8 @@
 */
 
 $serif: Georgia, Cambria, "Times New Roman", Times, serif;
-$sans: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
+$sans: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; 
+$sans-bold: "Concourse C3 Bold", $sans;
 $accent: RGBA(52, 60, 71, 1); 
 
 $link: blue; 
@@ -57,8 +58,9 @@ a {
   transition: all ease-out .08s; 
   color: $link; 
   text-decoration: none; 
+  border-bottom: solid 2px white;
   &:hover { 
-    border-bottom: solid 2px $light-gray;
+    // text-decoration: underline;
     color: $link; 
     border-bottom-color: $link;
   }
@@ -90,15 +92,6 @@ header,
   line-height: 1.5em;
   font-family: $sans;
   text-transform: uppercase; 
-}
-
-.header,
-.navigation,
-h1 {
-  a {
-    border-color: transparent; 
-    &:hover { color: $link; }
-  }
 }
 
 h1 {
@@ -241,27 +234,38 @@ blockquote p:last-child {
 .header {
   font-size: 1rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   // justify-content: center;
   background: white; 
   padding: 2.25rem 2.25rem 2rem; 
   // border-top: solid 2px $link; 
   border-bottom: 4px solid $bg; 
   font-family: $sans;
-  h1 { font-size: 1rem; }
+}
+
+.header,
+.sidebar,
+h1 {
+  a {
+    border: 0;  
+    color: $accent; 
+    &:hover { 
+      color: $link; 
+      border: 0; 
+    }
+  }
 }
 
 
 .title {
-  font-family: "Concourse C6 Regular", $sans; 
+  font-family: $sans-bold; 
   text-transform: uppercase;
   margin: 0;
   line-height: 1em;
+  margin-right: .5rem; 
   }
 
-.byline {
-  margin-left: 0;
-  margin-left: .5rem; 
+.byline { 
   line-height: 1em;
   color: $gray; 
   a { color: $gray; }
@@ -309,7 +313,7 @@ strong,
   font-size: .875em;
   line-height: 1em;
   text-transform: uppercase;
-  font-family: $sans; }
+  font-family: $sans-bold; }
 
 .archive li {
   margin-bottom: 1em; }
@@ -339,9 +343,12 @@ strong,
   font-size: .875rem; 
   line-height: 1em; 
   color: $gray; 
-  border-color: white; 
+  border: 0; 
   text-transform: uppercase; 
-  &:hover { color: black; }
+  &:hover { 
+    color: $link; 
+    border: 0; 
+  }
 }
 
 .interview h1,
@@ -362,13 +369,15 @@ strong,
     margin: 0 auto;
     max-width: 34rem; }
 
-    .header { background: white; }
-
   .container {
     display: block; }
 
   blockquote {
     padding: 0 1.5rem;
+  }
+
+  .title {
+    font-size: 1rem; 
   }
 
   .header,

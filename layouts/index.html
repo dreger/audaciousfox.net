@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-{{ $homepage := .Paginate (first 30 (where .Data.Pages "Type" "in" "archivelinked")) }}
+{{ $homepage := .Paginate (first 50 (where .Data.Pages "Type" "in" "archivelinked")) }}
 
 
 {{ range $index, $element := $homepage.Pages.GroupByDate "Monday, 02 January 2006" }}

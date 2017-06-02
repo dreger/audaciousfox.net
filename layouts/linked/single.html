@@ -3,7 +3,7 @@
 <article>
   <header class="article-header">
    <h2 title="{{ .Title }}" class="link">
-     <span class="link-target"><a href="{{ .Params.link }}" >{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}&nbsp;&rarr;</a></span>
+     <span class="link-target"><a href="{{ .Params.link }}" >{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></span>
    </h2>
   </header>
 
