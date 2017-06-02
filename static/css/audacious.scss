@@ -32,8 +32,8 @@ $link: #0ed3c8;
 $link: #79BD9A; 
 $link: blue; 
 $faded: #777; 
-$light-gray: #e1e2e3; 
-$gray: #afafaf; 
+$light-gray: #d1d2d3; 
+$gray: #8f8f8f; 
 $bg: #f1f2f3; 
 
 /*
@@ -269,6 +269,7 @@ h1 {
   line-height: 1em;
   color: $gray; 
   a { color: $gray; }
+  margin-left: auto; 
 }
 
 .wrapped {

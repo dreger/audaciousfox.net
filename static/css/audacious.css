@@ -268,7 +268,7 @@ aside {
   font-size: .875rem;
   color: #777;
   line-height: 1.5em;
-  border-top: solid 2px #e1e2e3; }
+  border-top: solid 2px #d1d2d3; }
 
 sup {
   margin: 0 2px 0 0;
@@ -284,7 +284,7 @@ code {
   font-size: .875rem;
   padding: 1px 4px;
   font-family: monospace;
-  border: solid 1px #e1e2e3;
+  border: solid 1px #d1d2d3;
   border-radius: 2px; }
 
 pre {
@@ -349,9 +349,10 @@ h1 a {
 
 .byline {
   line-height: 1em;
-  color: #afafaf; }
+  color: #8f8f8f;
+  margin-left: auto; }
   .byline a {
-    color: #afafaf; }
+    color: #8f8f8f; }
 
 .wrapped {
   margin: 4rem auto;
@@ -419,7 +420,7 @@ strong,
   font-family: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   font-size: .875rem;
   line-height: 1em;
-  color: #afafaf;
+  color: #8f8f8f;
   border: 0;
   text-transform: uppercase; }
   .canonical-link:hover {
