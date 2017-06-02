@@ -5,7 +5,7 @@
         <span class="link-target"><a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></span>
       </h2> 
     {{ else }}
-      <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML}}</a></h1>
+      <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title | safeHTML}}</a></h1>
     {{ end }}
   </header>
 
