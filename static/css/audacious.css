@@ -129,6 +129,11 @@ table {
   src: url("/fonts/concourse_c4_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Concourse C6 Regular';
+  src: url("/fonts/concourse_c6_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 /*
   Variables
 */
@@ -140,7 +145,7 @@ table {
   box-sizing: content-box; }
 
 html {
-  font-size: 18px; }
+  font-size: 16px; }
 
 body {
   line-height: 1.5em;
@@ -150,11 +155,13 @@ body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  color: #141414;
-  text-decoration: none;
-  border-bottom: solid 2px #d1d2d3; }
+  transition: all ease-out .08s;
+  color: #0ed3c8;
+  text-decoration: none; }
   a:hover {
-    border-bottom-color: #141414; }
+    border-bottom: solid 2px #e1e2e3;
+    color: #0ed3c8;
+    border-bottom-color: #0ed3c8; }
 
 em {
   font-style: italic; }
@@ -182,12 +189,15 @@ header,
   line-height: 1.5em;
   font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase; }
-  h1 a,
-  h2 a,
-  h3 a,
-  header a,
-  .navigation a {
-    border-color: transparent; }
+
+.header a,
+.navigation a,
+h1 a {
+  border-color: transparent; }
+  .header a:hover,
+  .navigation a:hover,
+  h1 a:hover {
+    color: #0ed3c8; }
 
 h1 {
   font-size: 1.25rem;
@@ -248,7 +258,7 @@ article {
   position: relative;
   border-bottom: solid 4px #f1f2f3;
   background: white;
-  padding: 2.25rem; }
+  padding: 2.25rem 2.25rem 2rem; }
   article:last-child {
     border-bottom: 0; }
 
@@ -267,7 +277,7 @@ aside {
   font-size: .875rem;
   color: #777;
   line-height: 1.5em;
-  border-top: solid 2px #d1d2d3; }
+  border-top: solid 2px #e1e2e3; }
 
 sup {
   margin: 0 2px 0 0;
@@ -283,8 +293,7 @@ code {
   font-size: .875rem;
   padding: 1px 4px;
   font-family: monospace;
-  border: solid 1px #d5d6d7;
-  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px #e1e2e3;
   border-radius: 2px; }
 
 pre {
@@ -324,12 +333,15 @@ blockquote p:last-child {
   font-size: 1rem;
   display: flex;
   align-items: center;
-  padding: 2.25rem 2.25rem;
+  background: white;
+  padding: 2.25rem 2.25rem 2rem;
+  border-bottom: 4px solid #f1f2f3;
   font-family: "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
   .header h1 {
     font-size: 1rem; }
 
 .title {
+  font-family: "Concourse C6 Regular", "Concourse C4 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: 0;
   line-height: 1em; }
@@ -344,9 +356,10 @@ blockquote p:last-child {
 
 .wrapped {
   margin: 4rem auto;
+  max-width: 34rem;
+  max-width: 28rem;
   max-width: 40rem;
   max-width: 36rem;
-  max-width: 34rem;
   max-width: 32.25rem; }
 
 .container {
@@ -361,8 +374,6 @@ blockquote p:last-child {
   line-height: 1.5em;
   padding: 2.25rem;
   text-align: center; }
-  .sidebar a:hover {
-    border-bottom: solid 2px #141414; }
 
 .navigation {
   list-style: none;
@@ -433,6 +444,9 @@ strong,
     margin: 0 auto;
     max-width: 34rem; }
 
+  .header {
+    background: white; }
+
   .container {
     display: block; }
 
@@ -456,7 +470,7 @@ strong,
   article {
     padding: 1.5rem 1.5rem;
     border-radius: 0;
-    margin: .25rem 0; }
+    margin: 0; }
 
   article:first-child {
     margin-top: 0; }
