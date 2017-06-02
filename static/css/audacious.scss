@@ -55,7 +55,8 @@ body {
   font-family: $serif; }
 
 a {
-  transition: all ease-out .08s; 
+  transition: color ease-out .08s; 
+  transition: border ease-out .08s; 
   color: $link; 
   text-decoration: none; 
   border-bottom: solid 2px white;

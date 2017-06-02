@@ -155,7 +155,8 @@ body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  transition: all ease-out .08s;
+  transition: color ease-out .08s;
+  transition: border ease-out .08s;
   color: blue;
   text-decoration: none;
   border-bottom: solid 2px white; }
