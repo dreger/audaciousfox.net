@@ -26,11 +26,11 @@ $sans: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 $sans-bold: "Concourse C3 Bold", $sans;
 $accent: RGBA(52, 60, 71, 1); 
 
-$link: blue; 
-$link: #79BD9A; 
 $accent: #141414; 
 $link: #fed464; 
 $link: #0ed3c8; 
+$link: #79BD9A; 
+$link: blue; 
 $faded: #777; 
 $light-gray: #e1e2e3; 
 $gray: #afafaf; 
@@ -361,7 +361,7 @@ strong,
 
 @media (max-width: 36rem) {
   html {
-    font-size: 18px; }
+    font-size: 17px; }
 
   .wrapped {
     margin: 0 auto;

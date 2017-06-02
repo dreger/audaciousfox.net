@@ -156,12 +156,12 @@ body {
 
 a {
   transition: all ease-out .08s;
-  color: #0ed3c8;
+  color: blue;
   text-decoration: none;
   border-bottom: solid 2px white; }
   a:hover {
-    color: #0ed3c8;
-    border-bottom-color: #0ed3c8; }
+    color: blue;
+    border-bottom-color: blue; }
 
 em {
   font-style: italic; }
@@ -337,7 +337,7 @@ h1 a {
   .header a:hover,
   .sidebar a:hover,
   h1 a:hover {
-    color: #0ed3c8;
+    color: blue;
     border: 0; }
 
 .title {
@@ -423,7 +423,7 @@ strong,
   border: 0;
   text-transform: uppercase; }
   .canonical-link:hover {
-    color: #0ed3c8;
+    color: blue;
     border: 0; }
 
 .interview h1,
@@ -436,7 +436,7 @@ strong,
 
 @media (max-width: 36rem) {
   html {
-    font-size: 18px; }
+    font-size: 17px; }
 
   .wrapped {
     margin: 0 auto;
