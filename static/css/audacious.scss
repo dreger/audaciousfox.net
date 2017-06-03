@@ -31,6 +31,7 @@ $max-width: 28.25rem;
 $link: #fed464; 
 $link: #2164BF; 
 $link: #0ed3c8; //teal
+$link: #1968FF; //blue
 $accent: #141414; 
 $faded: #777; 
 $light-gray: #d1d2d3; 
@@ -220,7 +221,7 @@ blockquote {
   background: white;
   margin: 1rem auto; 
   line-height: 1.5em;
-  font-size: 0.875rem;
+  // font-size: 0.875rem;
   font-style: italic; 
   // color: $faded;
 }
