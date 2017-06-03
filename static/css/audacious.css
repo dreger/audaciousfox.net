@@ -145,7 +145,8 @@ table {
   box-sizing: content-box; }
 
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased; }
 
 body {
   line-height: 1.5em;
@@ -155,14 +156,13 @@ body {
   font-family: Charter, Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  transition: color ease-out .08s;
-  transition: border ease-out .08s;
-  color: blue;
+  transition: all ease-out .08s;
+  color: #141414;
   text-decoration: none;
-  border-bottom: solid 2px white; }
+  border-bottom: solid 1px #d1d2d3; }
   a:hover {
-    color: blue;
-    border-bottom-color: blue; }
+    color: #0ed3c8;
+    border-bottom-color: #0ed3c8; }
 
 em {
   font-style: italic; }
@@ -219,7 +219,9 @@ em img {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   border-left: 0;
-  border-right: 0; }
+  border-right: 0;
+  width: 36.25rem;
+  margin: 2rem 0 2rem -6.25rem; }
 
 small {
   font-size: .875rem;
@@ -307,7 +309,8 @@ blockquote {
   background: white;
   margin: 1rem auto;
   line-height: 1.5em;
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+  font-style: italic; }
 
 blockquote strong {
   text-transform: none;
@@ -325,7 +328,6 @@ blockquote p:last-child {
   font-size: 1rem;
   display: flex;
   align-items: baseline;
-  background: white;
   padding: 2.25rem 2.25rem 2rem;
   border-bottom: 4px solid #f1f2f3;
   font-family: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
@@ -339,7 +341,7 @@ h1 a {
   .header a:hover,
   .sidebar a:hover,
   h1 a:hover {
-    color: blue;
+    color: #0ed3c8;
     border: 0; }
 
 .title {
@@ -352,18 +354,19 @@ h1 a {
 
 .byline {
   line-height: 1em;
-  color: #8f8f8f;
+  color: #8a8a8a;
   margin-left: auto; }
   .byline a {
-    color: #8f8f8f; }
+    color: #8a8a8a; }
 
 .wrapped {
   margin: 4rem auto;
   max-width: 34rem;
   max-width: 28rem;
-  max-width: 40rem;
   max-width: 36rem;
-  max-width: 32.25rem; }
+  max-width: 40rem;
+  max-width: 32.25rem;
+  max-width: 28.25rem; }
 
 .container {
   display: flex;
@@ -423,11 +426,11 @@ strong,
   font-family: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   font-size: .875rem;
   line-height: 1em;
-  color: #8f8f8f;
+  color: #8a8a8a;
   border: 0;
   text-transform: uppercase; }
   .canonical-link:hover {
-    color: blue;
+    color: #0ed3c8;
     border: 0; }
 
 .interview h1,
