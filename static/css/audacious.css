@@ -156,7 +156,7 @@ body {
   font-family: Charter, Georgia, Cambria, "Times New Roman", Times, serif; }
 
 a {
-  transition: all ease-out .08s;
+  transition: color ease-out .08s, border ease-out .08s;
   color: #141414;
   text-decoration: none;
   border-bottom: solid 1px #d1d2d3; }
@@ -441,9 +441,9 @@ strong,
 .interview .name {
   margin-left: -1.5rem; }
 
-@media (max-width: 36rem) {
+@media (max-width: 38rem) {
   html {
-    font-size: 17px; }
+    font-size: 18px; }
 
   .wrapped {
     margin: 0 auto;
@@ -457,15 +457,15 @@ strong,
   blockquote {
     padding: 0 1.5rem; }
 
-  .by {
-    display: none; }
-
   .title {
     font-size: 1rem; }
 
+  .by {
+    display: none; }
+
   .header,
   .sidebar {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem .875rem;
     margin: 0 0; }
 
   .navigation-jump {
@@ -493,5 +493,9 @@ strong,
     margin-left: 0;
     width: 100%;
     border: 0; } }
+@media (max-width: 320px) {
+  .header,
+  .title {
+    font-size: .875rem; } }
 
 /*# sourceMappingURL=audacious.css.map */
