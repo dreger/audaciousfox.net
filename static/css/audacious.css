@@ -264,14 +264,14 @@ article blockquote:last-child {
   margin-bottom: 0; }
 
 aside {
-  width: 33%;
+  width: 40%;
   float: right;
   margin: 0 0 1.25rem 1.25rem;
   padding: .5rem 0 0;
   font-size: .875rem;
   color: #777;
   line-height: 1.5em;
-  border-top: solid 2px #d1d2d3; }
+  border-top: solid 1px #d1d2d3; }
 
 sup {
   margin: 0 2px 0 0;

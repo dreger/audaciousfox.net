@@ -26,6 +26,7 @@ $sans: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 $sans-bold: "Concourse C3 Bold", $sans;
 $accent: RGBA(52, 60, 71, 1); 
 
+$max-width: 30.25rem; 
 $max-width: 28.25rem; 
 
 $link: #fed464; 
@@ -173,14 +174,14 @@ article blockquote:last-child {
   margin-bottom: 0; }
 
 aside {
-  width: 33%;
+  width: 40%;
   float: right;
   margin: 0 0 1.25rem 1.25rem;
   padding: .5rem 0 0;
   font-size: .875rem;
   color: $faded;
   line-height: 1.5em;
-  border-top: solid 2px $light-gray; }
+  border-top: solid 1px $light-gray; }
 
 sup {
   margin: 0 2px 0 0;
