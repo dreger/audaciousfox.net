@@ -27,7 +27,7 @@ I’ve run over 60 miles with my AirPods, and I haven’t had one problem with t
  
 Each AirPod comes with a speaker and a mic. Having individual microphones is useful, because you can choose to use one AirPod at a time without compromising on functionally. Not true with EarPods. If you didn’t keep the right-side EarPod in, the mic and control buttons would dangle. 
  
-Wires might be long for this world, but I liked the way a string strung between two music lovers would literally and visibly connect the two. AirPods eschew this connected metaphor, but the benefits of wireless audio simply outweigh whatever nostalgia I have. 
+Wires may not be long for this world, but I liked the way a string strung between two music lovers would literally and visibly connect the two. AirPods eschew this connected metaphor, but the benefits of wireless audio simply outweigh whatever nostalgia I have. 
  
 <aside>Oh, and did I mention you’ll never have to spend hours untangling headphone cords, only to say, “screw it” and put whichever earpiece you managed to get free in your ear while the rest of the knot hangs off your head like a gaudy earring?</aside>
  
