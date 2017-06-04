@@ -161,8 +161,8 @@ a {
   text-decoration: none;
   border-bottom: solid 1px #d1d2d3; }
   a:hover {
-    color: #0ed3c8;
-    border-bottom-color: #0ed3c8; }
+    color: #1968FF;
+    border-bottom-color: #1968FF; }
 
 em {
   font-style: italic; }
@@ -309,7 +309,6 @@ blockquote {
   background: white;
   margin: 1rem auto;
   line-height: 1.5em;
-  font-size: 0.875rem;
   font-style: italic; }
 
 blockquote strong {
@@ -341,7 +340,7 @@ h1 a {
   .header a:hover,
   .sidebar a:hover,
   h1 a:hover {
-    color: #0ed3c8;
+    color: #1968FF;
     border: 0; }
 
 .title {
@@ -430,7 +429,7 @@ strong,
   border: 0;
   text-transform: uppercase; }
   .canonical-link:hover {
-    color: #0ed3c8;
+    color: #1968FF;
     border: 0; }
 
 .interview h1,
