@@ -60,6 +60,6 @@ This is more a critique of Siri than AirPods, but when Apple so tightly integrat
  
 ## Closing
  
-My two biggest concerns with purchasing wireless headphones were (a) dealing with batteries in yet _another_ device and (b) working around the the inconsistencies of Bluetooth. With the AirPods’ case and W1 chip, Apple has delivered elegant solutions to both issues, in a way that makes AirPods feel like the most Apple-ly device they’ve built in quite a while.
+My two biggest concerns with purchasing wireless headphones were (a) dealing with batteries in yet _another_ device and (b) working around the the inconsistencies of Bluetooth. With the AirPods’ case and W1 chip, Apple has delivered elegant solutions to both issues, in a way that makes AirPods feel like the most Apple-y device they’ve built in quite a while.
  
 After five months of near daily usage, AirPods are still a joy to use, and I have no desire to look elsewhere. 
