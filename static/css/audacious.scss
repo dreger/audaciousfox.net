@@ -26,8 +26,10 @@ $sans: "Concourse C3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 $sans-bold: "Concourse C3 Bold", $sans;
 $accent: RGBA(52, 60, 71, 1); 
 
-$max-width: 30.25rem; 
-$max-width: 28.25rem; 
+$sidebar-width: 12rem; 
+$column-width: 28.25rem; 
+$column-width: 30.5rem; 
+$max-width: $sidebar-width + $column-width; 
 
 $link: #fed464; 
 $link: #2164BF; 
@@ -276,7 +278,7 @@ h1 {
   line-height: 1em;
   color: $gray; 
   a { color: $gray; }
-  margin-left: auto; 
+  // margin-left: auto; 
 }
 
 .wrapped {
@@ -285,22 +287,26 @@ h1 {
   max-width: 28rem; 
   max-width: 36rem;
   max-width: 40rem;
-  max-width: 32.25rem; 
+  max-width: 60rem; 
   max-width: $max-width; 
 }
 
 .container {
   display: flex;
-  flex-direction: column; }
+ // flex-direction: column; 
+}
 
 .column {
-  flex-shrink: 0; }
+  max-width: $column-width; 
+}
 
 .sidebar {
+  width: $sidebar-width; //12rem; 
+  flex-shrink: 0; 
   font-size: .875rem;
   line-height: 1.5em;
-  padding: 2.25rem; 
-  text-align: center; 
+  padding: 2.25rem 0 2.25rem 2.25rem; 
+  // text-align: center; 
 }
 
 .navigation {
@@ -368,7 +374,7 @@ strong,
 .interview .name {
   margin-left: -1.5rem; }
 
-@media (max-width: 38rem) {
+@media (max-width: $max-width + 2rem) {
   html {
     font-size: 18px; }
 
