@@ -20,8 +20,8 @@ Both of these changes are subject to, well, change before iOS 11 releases this F
 
 Increasingly, it feels like a serious commitment to my privacy is included in the premium I pay for Apple products. iPhones and MacBooks can be more expensive than the competition, but I don't trust Google or Microsoft the way I do Apple. Maybe that's bias, but in a world of AI and machine learning, where more data is better and companies happily feed your information to their algorithms, Apple appears to be going _extremely_ out of its way to avoid compromising my identity. And that's something I don't mind paying a little extra for. 
 
-[^1]: "Well, turns out, if you want to get pictures of mountains, you don't need to get it out of people's personal photo libraries." — Craig Federighi, SVP of Software Engineering, during last year's episode of The Talk Show Live. 
+[^1]: "Well, turns out, if you want to get pictures of mountains, you don't need to get it out of people's personal photo libraries." — Craig Federighi, SVP of Software Engineering, during [last year's episode of The Talk Show Live][tts]. 
 
-[tts]: https://www.imore.com/tim-cook-you-can-have-ai-and-privacy
+[tts]: https://www.imore.com/our-full-transcript-talk-show-wwdc-2016-phil-schiller-and-craig-federighi
 [sts]: https://mobile.twitter.com/stroughtonsmith/status/872769481298391040
 [uber-tc]: https://techcrunch.com/2016/12/22/uber-explains-why-it-looks-like-its-app-is-still-tracking-your-location-long-after-drop-off/
