@@ -461,6 +461,11 @@ strong,
   .by {
     display: none; }
 
+  .sidebar {
+    text-align: center;
+    flex-shrink: initial;
+    width: initial; }
+
   .header,
   .sidebar {
     padding: 1rem 1.5rem .875rem;

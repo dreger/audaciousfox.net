@@ -385,7 +385,8 @@ strong,
     max-width: 34rem; }
 
   .container {
-    display: block; }
+    display: block; 
+  }
 
   blockquote {
     padding: 0 1.5rem;
@@ -395,6 +396,12 @@ strong,
     font-size: 1rem; 
   }
   .by { display: none; }
+
+  .sidebar { 
+    text-align: center; 
+    flex-shrink: initial; 
+    width: initial; 
+  }
 
   .header,
   .sidebar, {
