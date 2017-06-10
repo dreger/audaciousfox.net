@@ -14,18 +14,19 @@
   {{ if eq .Title .Site.Title }}
     <meta name="Description" content="Words about design, technology, and gaming. Best enjoyed with a pinch of salt and fine drink. Written by K.Q. Dreger.">
   {{ end }}
+  
   {{ if .IsPage }}
     <meta name="Description" content="{{ htmlEscape .Summary | plainify }}...">
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:description" content="{{ htmlEscape .Summary | plainify }}..."/>
+    <meta property="og:site_name" content="{{ .Site.Title }}"/>
+    <meta property="og:url" content="{{ .Permalink }}"/> 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@dreger" />
   {{ end }}
+
   <meta name="generated" content='{{ .Now.Format "Jan 2, 2006 at 3:04:05 (MST)" }}'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta property="og:title" content="{{ .Title }}"/>
-  <meta property="og:description" content="{{ htmlEscape .Summary | plainify }}..."/>
-  <meta property="og:site_name" content="{{ .Site.Title }}"/>
-  <meta property="og:url" content="{{ .Permalink }}"/> 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@dreger" />
   
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
