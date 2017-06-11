@@ -154,9 +154,9 @@ li {
   margin-bottom: .5em; }
 
 hr {
-  height: 2px;
+  height: 1px;
   border: 0;
-  background: $bg;
+  border-top: 2px dotted $bg; 
   margin: 1rem 0;
   display: block; }
 
@@ -224,15 +224,15 @@ blockquote {
   background: white;
   margin: 1rem auto; 
   line-height: 1.5em;
-  // font-size: 0.875rem;
   font-style: italic; 
-  // color: $faded;
 }
 
 blockquote strong {
   text-transform: none;
   font-size: 1rem;
-  font-weight: bold; }
+  font-weight: bold; 
+  font-family: $serif; 
+}
 
 blockquote + blockquote {
   margin-top: -1rem;
