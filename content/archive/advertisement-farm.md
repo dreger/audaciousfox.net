@@ -25,7 +25,7 @@ Google operates the world's #1 browser, #1 ad platform, and #1 search engine. Th
  
 ---
  
-The news regarding Chrome is only the latest in a series of steps Google's has made to further convert the open web experience into a proprietary one. 
+The news regarding Chrome is only the latest in a series of steps Google's taken to further convert the open web experience into a proprietary one. 
  
 It begins with search results. A high pagerank in Google is coveted, and being the top result can make an enormous difference in the success of your business. An entire industry exists around Search Engine Optimization (SEO), and there are countless blogs and hypotheses surrounding how to appear higher in the results particular sets of terms. However, finding a way into the top listings of a Google search doesn't bring inherit safety with it.
  
