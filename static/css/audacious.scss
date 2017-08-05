@@ -31,9 +31,9 @@ $column-width: 28.25rem;
 $column-width: 30.5rem; 
 $max-width: $sidebar-width + $column-width; 
 
-$link: #fed464; 
 $link: #2164BF; 
 $link: #0ed3c8; //teal
+$link: #FFDC00; 
 $link: #1968FF; //blue
 $accent: #141414; 
 $faded: #777; 
@@ -62,13 +62,11 @@ body {
   font-family: $serif; }
 
 a {
-  transition: color ease-out .08s, border ease-out .08s; 
-  color: $accent; 
+  transition: all ease-out .08s, border ease-out .08s; 
+  color: $link; 
   text-decoration: none; 
-  border-bottom: solid 1px $light-gray;
   &:hover { 
-    color: $link; 
-    border-bottom-color: $link;
+    background: $bg;
   }
 }
 
@@ -95,7 +93,7 @@ h2,
 h3,
 header {
   line-height: 1.5em;
-  font-family: $sans-bold;
+  font-family: $sans;
   text-transform: uppercase; 
 }
 
@@ -103,12 +101,6 @@ h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   line-height: 1.5em; 
-  font-family: $sans-bold;
-}
-
-h1 a {
-  text-decoration: none;
-  color: $accent; 
 }
 
 h2 {
@@ -224,7 +216,6 @@ blockquote {
   background: white;
   margin: 1rem auto; 
   line-height: 1.5em;
-  // font-style: italic; 
   font-size: .875rem; 
 }
 
@@ -316,7 +307,8 @@ h1 {
 }
 
 .navigation li {
-  list-style: none; }
+  list-style: none; 
+}
 
 
 .link {
@@ -355,7 +347,7 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  font-family: $sans-bold; 
+  font-family: $sans; 
   font-size: .875rem; 
   line-height: 1em; 
   color: $gray; 
