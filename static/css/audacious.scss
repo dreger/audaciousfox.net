@@ -371,11 +371,12 @@ strong,
   font-size: .875rem; 
   line-height: 1em; 
   color: $gray; 
-  border: 0; 
+  border-color: transparent; 
   text-transform: uppercase; 
   &:hover { 
-    color: $link; 
+    color: $accent; 
     border: 0; 
+    // border-color: $accent; 
   }
 }
 

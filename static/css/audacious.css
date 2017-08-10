@@ -434,10 +434,10 @@ strong,
   font-size: .875rem;
   line-height: 1em;
   color: #8a8a8a;
-  border: 0;
+  border-color: transparent;
   text-transform: uppercase; }
   .canonical-link:hover {
-    color: #1968FF;
+    color: #141414;
     border: 0; }
 
 .pagination {
