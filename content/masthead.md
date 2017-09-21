@@ -12,9 +12,7 @@ Get the latest articles and links via [RSS](/feeds/main.xml) or [Apple News](htt
 
 ## Style, Both Visual &amp; Written
 
-In most cases, the **AF** editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own [in-house style guide](/projects/style-guide).
-
-I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website. 
+I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. 
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
