@@ -12,7 +12,7 @@
 </title>
   <meta charset="utf-8">
   {{ if eq .Title .Site.Title }}
-    <meta property="generated" content="{{ now.Format }}">
+    <meta property="generated" content='{{ now.Format "Monday, 02 Jan 2006 15:04:05 MST" }}'>
     <meta name="Description" content="Words about design, technology, and gaming. Best enjoyed with a pinch of salt and fine drink. Written by K.Q. Dreger.">
   {{ end }}
   
