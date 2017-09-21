@@ -2,7 +2,7 @@
 title: Masthead
 url: /masthead/
 ---
-Audacious Fox is written by K.Q. Dreger in Northeast Ohio.
+Audacious Fox is produced by K.Q. Dreger. 
 
 Correspondence is cheerfully received on Twitter, [@Dreger](https://twitter.com/dreger) or over email at <comments@dreger.me>. For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
 
