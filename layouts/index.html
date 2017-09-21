@@ -1,18 +1,7 @@
 {{ partial "header.html" . }}
 
-{{ $homepage := .Paginate (first 50 (where .Data.Pages "Type" "in" "archivelinked")) }}
-
-
-{{ range $index, $element := $homepage.Pages.GroupByDate "Monday, 02 January 2006" }}
-  {{ if (ge $index 1) }}
-    <!-- <h2 class="index-date">{{ .Key }}</h2> -->
-  {{ end }}
-
-  {{ range .Pages }}
+{{ range (first 25 (where .Data.Pages "Type" "in" "archivelinked")) }}
     {{ partial "post.html" . }}
-  {{end}}
 {{end}}
-
-
 
 {{ partial "footer.html" . }}
