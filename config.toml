@@ -1,25 +1,24 @@
-baseurl = "https://audaciousfox.net"
-title = "Audacious Fox"
-languageCode = "en-us"
-MetaDataFormat = "yaml"
-disableRSS = true
-disableSitemap = false
-uglyurls = false
-publishdir = "html"
+baseurl             = 'https://audaciousfox.net'
+title               = 'Audacious Fox'
+languageCode        = 'en-us'
+MetaDataFormat      = 'yaml'
+disableKinds        = ['RSS']
+uglyurls            = false
+publishdir          = 'html'
 pluralizelisttitles = false
-footnoteReturnLinkContents = "↩"
+footnoteReturnLinkContents = '↩&#65038;'
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = 'monthly'
   priority = 0.5
-  filename = "sitemap.xml"
+  filename = 'sitemap.xml'
 
 [author]
-  name = "K.Q. Dreger"
+  name = 'K.Q. Dreger'
 
 [permalinks]
-  archive = "/:year/:filename"
-  linked = "/linked/:year/:filename"
+  archive = '/:year/:filename'
+  linked = '/linked/:year/:filename'
 
 [blackfriday]
   smartypants = true
