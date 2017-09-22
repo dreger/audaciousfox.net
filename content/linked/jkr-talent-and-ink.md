@@ -5,4 +5,4 @@ link: https://twitter.com/jk_rowling/status/768040812924002304
 ---
 Sage writing advice from J.K. Rowling. 
 
-Also, "Talent and Ink" would make one hell of a name for a band or blog.
+Also, how great would "Talent and Ink" be for a blog name? Sure, there's a small whiff of hubris, but I still like it.  
