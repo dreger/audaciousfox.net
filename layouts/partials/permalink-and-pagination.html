@@ -1,0 +1,12 @@
+  <p><a title='Permalink for “{{ title .Title }}”' class="canonical-link" href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></p>
+
+
+  <div class="pagination">
+  	{{ if .Next }}
+	  <div><span class="caps">Older</span><br><a href="{{.Next.Permalink}}">{{ title .Next.Title}}</a></div>
+	{{ end }}
+	{{ if .Prev }}
+	  <br>
+	  <div><span class="caps">Newer</span><br><a href="{{.Prev.Permalink}}">{{ title .Prev.Title}}</a></div>
+	{{ end }}
+  </div>

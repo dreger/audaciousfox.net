@@ -7,12 +7,11 @@
   {{ if .IsHome }}
   {{ .Title }}
   {{ else }}
-  {{ .Site.Title }}: {{ .Title }} 
+  {{ .Site.Title }}: {{ title .Title }} 
   {{ end }}
 </title>
   <meta charset="utf-8">
   {{ if eq .Title .Site.Title }}
-    <meta property="generated" content='{{ now.Format "Monday, 02 Jan 2006 15:04:05 MST" }}'>
     <meta name="Description" content="Words about design, technology, and gaming. Best enjoyed with a pinch of salt and fine drink. Written by K.Q. Dreger.">
   {{ end }}
   
@@ -27,7 +26,7 @@
     <meta name="twitter:site" content="@dreger" />
   {{ end }}
 
-  <meta name="generated" content='{{ .Now.Format "Jan 2, 2006 at 3:04:05 (MST)" }}'>
+  <meta name="generated" content='{{ now.Format "Jan 2, 2006 at 3:04:05 (MST)" }}'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="icon" type="image/png" href="/favicon.png">
