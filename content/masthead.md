@@ -28,17 +28,17 @@ Random tidbits I wish to impart upon you: Energy, diction, and honesty are three
 
 I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. Have someone that should be on here? Drop me a note. 
 
-- _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
+- [Jenn Schiffer](https://medium.com/@jennschiffer)
+- [Joshua Ginter](https://www.joshuaginter.com)
+- [Lara Hogan](http://larahogan.me/blog/)
+- [Una Kravets](https://una.im/archive/#💁)
 - _Dispatches on Therapy_, [Holbemn](http://holbemn.xyz)
 - _Idle Words_, [Maciej Cegłowski](http://idlewords.com)
 - _Inessential_, [Brent Simmons](http://inessential.com)
 - _Initial Charge_, [Michael Rockwell](http://initialcharge.net)
-- [Jenn Schiffer](https://medium.com/@jennschiffer)
 - _Kottke.org_, [Jason Kottke](http://kottke.org)
-- [Lara Hogan](http://larahogan.me/blog/)
-- _The Newsprint_, [Joshua Ginter](http://www.thenewsprint.co)
 - _Pixel Envy_, [Nick Heer](http://pxlnv.com)
+- _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
 - _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
-- [Una Kravets](https://una.im/archive/#💁)
 
 <p class="small faded">All content &copy; K.Q. Dreger.</p>
