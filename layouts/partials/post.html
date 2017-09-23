@@ -1,7 +1,7 @@
 <article>       
   <header class="article-header">
     {{ if (eq .Section "linked") }}
-      <h2 title="{{ title .Title }}" class="link">
+      <h2 title="{{ .Title }}" class="link">
         <span class="link-target"><a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></span>
       </h2> 
     {{ else }}
