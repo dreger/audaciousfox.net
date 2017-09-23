@@ -1,5 +1,5 @@
 ---
-title: "Visions, A literary science fiction magazine"
+title: "Visions, a Literary Science Fiction Magazine"
 date: 2017-09-22T22:36:35-04:00
 link: https://www.readvisions.com/
 ---
