@@ -1,5 +1,3 @@
-
-
 {{ partial "header.html" . }}
 
 <article>
@@ -8,7 +6,7 @@
 <p>Links, videos, and images I think you should see. Longer, <a href="/archive">column articles here</a>.</p>
 <ul class="archive">
   {{ range .Data.Pages }}
-    <li><a href="{{ .Permalink }}">{{ title .Title }}</a><br><small>{{ .Date.Format "January 2, 2006" }}</small></li>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a><br><small>{{ .Date.Format "January 2, 2006" }}</small></li>
   {{ end }}
 </ul>
 
