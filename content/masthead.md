@@ -2,7 +2,7 @@
 title: Masthead
 url: /masthead/
 ---
-Audacious Fox is produced by K.Q. Dreger. 
+Audacious Fox is written by K.Q. Dreger. 
 
 Correspondence is cheerfully received on Twitter, [@Dreger](https://twitter.com/dreger) or over email at <comments@dreger.me>. For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
 
@@ -19,6 +19,8 @@ This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the dom
 Headlines are set in [Concourse](http://practicaltypography.com/concourse.html), with [Charter](http://practicaltypography.com/charter.html) handling the body copy. **AF** should look good in all modern web browsers; please let me know if it doesn't. 
 
 ## Your Host, Briefly 
+
+{{< figure src="/kq.jpg" title="Yours truly. Photo by Emily Dreger." >}}
 
 I'm a product designer, working out of Northeast Ohio. **Audacious Fox** is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
 

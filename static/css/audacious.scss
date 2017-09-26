@@ -127,12 +127,8 @@ img {
   width: 100%; }
 
 em img {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  border-left: 0;
-  border-right: 0; 
-  width: $max-width + 8rem; 
-  margin: 2rem 0 2rem -6.25rem; 
+  width: $column-width; 
+  margin: 2rem 0 2rem -2.25rem; 
 }
 
 small {
@@ -223,9 +219,7 @@ blockquote {
   padding: 0 2.25rem;
   border-radius: 4px;
   background: white;
-  margin: 1rem auto; 
-  line-height: 1.5em;
-  font-size: .875rem; 
+  margin: 1rem auto;  
 }
 
 blockquote strong {
@@ -241,6 +235,17 @@ blockquote + blockquote {
 
 blockquote p:last-child {
   margin-bottom: 0; }
+
+figure {
+  margin-bottom: 1.5rem; 
+  img { margin-bottom: .5rem; }
+  figcaption { 
+    font-size: .875rem; 
+    line-height: 1.35em;
+    color: $gray; 
+    font-family: $sans; 
+  }
+}
 
 .header {
   font-size: 1rem;
