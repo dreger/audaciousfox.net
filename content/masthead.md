@@ -20,7 +20,7 @@ Headlines are set in [Concourse](http://practicaltypography.com/concourse.html),
 
 ## Your Host, Briefly 
 
-{{< figure src="/kq.jpg" title="Yours truly. Photo by Emily Dreger." >}}
+{{< figure src="/kq.jpg" title="Photo by Emily Dreger." >}}
 
 I'm a product designer, working out of Northeast Ohio. **Audacious Fox** is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
 
