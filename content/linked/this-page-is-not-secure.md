@@ -1,7 +1,7 @@
 ---
 date: 2016-09-09T00:00:00Z
 link: https://security.googleblog.com/2016/09/moving-towards-more-secure-web.html
-title: 'Warning: This Page is Not Secure'
+title: 'Warning: This Page Is Not Secure'
 ---
 
 Somewhat buried by all the news surrounding Apple's recent product event, Google announced that it will be using Chrome's strength in the browser market to push for HTTPS everywhere. This will come in the form of, eventually, all HTTP pages being labeled with red `Not secure` messages in the address bar. Emily Schechter, for the Chrome Security Team:

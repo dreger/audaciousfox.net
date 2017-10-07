@@ -1,5 +1,5 @@
 ---
-title: The ‘Economic Model’ is Corrupt  
+title: The ‘Economic Model’ Is Corrupt  
 date: 2017-09-21T21:30:04-04:00
 link: https://www.eff.org/deeplinks/2017/09/apple-does-right-users-wrong-advertisers
 ---

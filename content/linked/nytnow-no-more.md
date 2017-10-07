@@ -1,7 +1,7 @@
 ---
 date: 2016-08-21T00:00:00Z
 link: http://www.nytimes.com/2016/08/19/business/media/new-york-times-to-shelve-nyt-now-app.html
-title: NYT Now is No More
+title: NYT Now Is No More
 ---
 
 Sydney Ember, reporting for the New York Times, on the shuttering of NYT Now:

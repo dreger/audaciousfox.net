@@ -1,6 +1,6 @@
 ---
 date: 2016-08-31T00:00:00Z
-title: No Man’s Sky is Not the New Destiny
+title: No Man’s Sky Is Not the New Destiny
 ---
 
 I have a few problems with Ben Kuchera's recent piece for Polygon titled, [No Man’s Sky is the new Destiny][kuchera nms]. I don't believe the comparison is fair or offers a realistic insight into the future of NMS.

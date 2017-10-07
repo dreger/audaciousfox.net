@@ -1,7 +1,7 @@
 ---
 date: 2017-06-08T23:31:36-04:00
 link: https://mobile.twitter.com/rjonesy/status/872080961772630016
-title: iOS 11 Tightens Location Privacy, Displays Banner When Location is Being Accessed in the Background
+title: iOS 11 Tightens Location Privacy, Displays Banner When Location Is Being Accessed in the Background
 ---
 
 In iOS 10, there are three options a user can select from when prompted for location access: 
