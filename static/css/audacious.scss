@@ -125,9 +125,12 @@ img {
   display: block;
   width: 100%; }
 
-em img {
-  width: $column-width; 
-  margin: 2rem 0 2rem -2.25rem; 
+em {
+  figcaption { font-style: normal; }
+  img {
+    width: $column-width; 
+    margin: 1rem 0 1rem -2.25rem; 
+  }
 }
 
 small {
