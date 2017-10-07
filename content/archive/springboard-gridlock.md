@@ -25,7 +25,7 @@ Since its introduction 10 years ago, the iOS Springboard has been largely unchan
 
 *Reachability works well enough, and it's system-wide.* — Reachability isn't the answer, it's a band-aid to make our current navigation-on-the-top state less annoying. 
 
-Have comments or questions of your own? [Let me know](/masthead).;
+Have comments or questions of your own? [Let me know](/masthead).
 
 [iphone 7]: {{< relref "iphone-7.md" >}}
 [rudberg]: http://blog.maxrudberg.com/post/165590234593/ui-design-for-iphone-x-bottom-elements
