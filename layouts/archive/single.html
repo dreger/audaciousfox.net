@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <article>
   <header class="article-header">
-    <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ title .Title | safeHTML}}</a></h1>
+    <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title | safeHTML}}</a></h1>
   </header>
 
   {{ .Content }}
