@@ -63,7 +63,6 @@ body {
   font-family: $serif; }
 
 a {
-  // transition: all ease-out .04s, border ease-out .08s; 
   color: $accent; 
   text-decoration: none; 
   border-bottom: solid 1px $light-gray; 
@@ -158,9 +157,8 @@ hr {
 
 article {
   background: white;
-  position: relative;
   box-shadow: 0 2px 4px rgba(0,0,0,.16); 
-  border-radius: 8px; 
+  position: relative;
   margin-bottom: 1rem; 
   padding: 2rem 2.25rem 2rem;
   &:last-child { border-bottom: 0; } 
@@ -218,7 +216,6 @@ pre code {
 blockquote {
   padding: 0 2.25rem;
   border-radius: 4px;
-  background: white;
   margin: 1rem auto;  
 }
 
@@ -252,8 +249,6 @@ figure {
   display: flex;
   align-items: baseline;
   padding: 2.25rem 2.25rem 2rem; 
-  border-bottom: 4px solid $bg; 
-  border-radius: 4px 4px 0 0; 
 }
 
 .header,
@@ -267,7 +262,6 @@ h1 {
     }
   }
 }
-
 
 .title {
   font-family: $sans-bold; 
@@ -296,7 +290,6 @@ h1 {
 
 .container {
   display: flex;
- // flex-direction: column; 
 }
 
 .column {
@@ -307,6 +300,7 @@ h1 {
   width: $sidebar-width; //12rem; 
   flex-shrink: 0; 
   font-size: .875rem;
+  // border-left: 2px solid; 
   line-height: 1.5em;
   padding: 2.25rem 0 2.25rem 2.25rem; 
 }

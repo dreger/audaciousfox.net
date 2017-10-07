@@ -243,9 +243,8 @@ hr {
 
 article {
   background: white;
-  position: relative;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
-  border-radius: 8px;
+  position: relative;
   margin-bottom: 1rem;
   padding: 2rem 2.25rem 2rem; }
   article:last-child {
@@ -301,7 +300,6 @@ pre code {
 blockquote {
   padding: 0 2.25rem;
   border-radius: 4px;
-  background: white;
   margin: 1rem auto; }
 
 blockquote strong {
@@ -331,9 +329,7 @@ figure {
   font-size: 1rem;
   display: flex;
   align-items: baseline;
-  padding: 2.25rem 2.25rem 2rem;
-  border-bottom: 4px solid #f5f6f7;
-  border-radius: 4px 4px 0 0; }
+  padding: 2.25rem 2.25rem 2rem; }
 
 .header a,
 .sidebar a,
