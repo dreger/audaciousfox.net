@@ -491,10 +491,10 @@ strong,
     max-width: 100%; }
 
   article {
-    padding: 1.5rem 1.5rem;
+    padding: 2.25rem 1.5rem;
     border-radius: 0;
     border-bottom: solid 4px #f5f6f7;
-    margin: 0; }
+    margin: 1rem 0; }
 
   article:first-child {
     margin-top: 0; }
