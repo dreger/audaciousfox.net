@@ -1,5 +1,5 @@
 ---
-title: "NASA’S Cozmic Qwest"
+title: "NASA’s Cozmic Qwest"
 date: 2017-10-11T21:23:42-04:00
 link: https://www.theverge.com/2017/10/11/16454684/nasa-video-game-cosmic-quest-errors-kennedy-center
 ---
