@@ -8,11 +8,11 @@
 $accent: RGBA(52, 60, 71, 1); 
 
 $sidebar-width: 12rem; 
-$column-width: 32.25rem; 
 $column-width: 40rem; 
+$column-width: 36rem; 
 $max-width: $sidebar-width + $column-width; 
 
-$line-height: 1.4em; 
+$line-height: 145%; 
 
 $link: #2164BF; 
 $link: #0ed3c8; //teal
@@ -33,7 +33,7 @@ $bg: #f5f6f7;
   box-sizing: content-box; }
 
 html {
-  font-size: 13px; 
+  font-size: 12px; 
   -webkit-font-smoothing: antialiased; 
 }
 
@@ -93,7 +93,7 @@ header,
 h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  line-height: 1.5em; 
+  line-height: $line-height; 
   text-transform: none; 
   letter-spacing: 0px; 
 }
@@ -102,7 +102,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
-  line-height: 1.5em;
+  line-height: $line-height;
 }
 
 h3 {
@@ -330,7 +330,7 @@ strong,
   line-height: $line-height;
   margin-top: 0rem; 
   margin: 2.25rem 0; 
-  border: solid 1px $light-gray; 
+  border-top: solid 2px $bg; 
   > hr { display: none; }
   ol {
     padding-left: 2.25rem; 
@@ -373,12 +373,11 @@ strong,
 }
 
 .pagination {
-  font-size: .875rem; 
-  line-height: 1.5em; 
+  line-height: $line-height; 
   color: $gray; 
   padding-top: 4.5rem; 
   .caps {
-    font-size: 1em; 
+    letter-spacing: .08em; 
     padding-bottom: .25rem; 
   }
 }
