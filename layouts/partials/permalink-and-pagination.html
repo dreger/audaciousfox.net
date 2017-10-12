@@ -3,10 +3,10 @@
 
   <div class="pagination">
   	{{ if .Next }}
-	  <div><span class="caps">Older</span><br><a href="{{.Next.Permalink}}">{{.Next.Title}}</a></div>
+	  <div><div class="caps">Older</div><a href="{{.Next.Permalink}}">{{.Next.Title}}</a></div>
 	{{ end }}
 	{{ if .Prev }}
 	  <br>
-	  <div><span class="caps">Newer</span><br><a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a></div>
+	  <div><div class="caps">Newer</div><a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a></div>
 	{{ end }}
   </div>
