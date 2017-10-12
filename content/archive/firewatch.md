@@ -5,9 +5,7 @@ title: Firewatch Review
 
 ---
 
-_![Firewatch, by Campo Santo](http://i.imgur.com/tmBrubi.jpg)_
-
-<small><em>Via <a href="http://blog.camposanto.com/post/138965082204/firewatch-launch-wallpaper-when-we-redid-the">Campo Santo</a></em></small>
+_{{< figure src="https://i.imgur.com/tmBrubi.jpg" title="Via Campo Santo." >}}_
 
 _Firewatch_ is a short game. It only takes a couple of hours to play through, and there isn't a lot of replayability. Over the course of three days, an hour or two a night, my wife and I played _Firewatch_ to completion.
 

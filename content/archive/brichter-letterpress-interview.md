@@ -22,7 +22,7 @@ After noticing that Letterpress had been sold to Solebon LLC, I reached out to A
 
 Both of these changes are in stark contrast to your original approach: matchmaking and user accounts were managed entirely by Game Center, and [the entire Letterpress dictionary](https://github.com/Atebits/Words) was available to the public on GitHub. Were these changes something you advised, or were they already in Solbon's roadmap for  Letterpress?  
 
-**Loren Brichter:** I had actually looked into licensing an official dictionary. Maintaining a word list is tough, loads of gray areas, impossible to make everyone happy, so I understand why they did it. (Super super happy they re-added the ability to play bad words though, I would have been fucking bummed otherwise).
+**Brichter:** I had actually looked into licensing an official dictionary. Maintaining a word list is tough, loads of gray areas, impossible to make everyone happy, so I understand why they did it. (Super super happy they re-added the ability to play bad words though, I would have been fucking bummed otherwise).
 
 Switching off Game Center was priority #1 for me, and when they said they could build a new backend for the game it pretty much sealed the deal. Game Center was rough. It was my mistake to use it. The game had always been cross-platform (Mac+iOS), but there were so many bugs in Game Center for Mac that if I had launched it I would have been crushed under the weight of tech support.
 

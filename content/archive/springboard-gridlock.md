@@ -9,7 +9,7 @@ So why, as Apple continues to invest in large screens, is the current iOS Spring
 
 I want this: 
 
-_{{< figure src="https://i.imgur.com/t2YYZmG.jpg" title="You want this too. Don't tell me otherwise." >}}_
+{{< figure src="https://i.imgur.com/t2YYZmG.jpg" title="You want this too. Don't tell me otherwise." >}}
 
 Allowing me to put icons anywhere on the existing grid means I don't need to choose between a clean home screen and [hackery](http://david-smith.org/blog/2014/10/15/blank-icon-slots/) to keep my most-used apps within reach. This isn't a new idea. For years, Android has both allowed an unrestricted grid layout and put default, non-docked icons near the bottom of the screen. I think it's served them well in the era of big phones.
 
