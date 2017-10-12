@@ -122,19 +122,6 @@ table {
   border-spacing: 0; }
 
 /*
-  Fonts
-*/
-@font-face {
-  font-family: 'Concourse C3 Bold';
-  src: url("/fonts/concourse_c3_bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Concourse T3 Regular';
-  src: url("/fonts/concourse_t3_regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-/*
   Variables
 */
 /*
@@ -145,15 +132,17 @@ table {
   box-sizing: content-box; }
 
 html {
-  font-size: 16px;
+  font-size: 13px;
   -webkit-font-smoothing: antialiased; }
 
 body {
-  line-height: 1.35em;
+  line-height: 1.4em;
   margin: 0;
   background: #f5f6f7;
   color: #141414;
-  font-family: Charter, Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-style: normal;
+  font-weight: 400; }
 
 a {
   color: #141414;
@@ -164,6 +153,9 @@ a {
 
 em {
   font-style: italic; }
+
+strong {
+  font-weight: 700; }
 
 h1,
 h2,
@@ -187,7 +179,6 @@ header,
 .navigation,
 .canonical-link {
   line-height: 1.5em;
-  font-family: "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: .08em; }
 
@@ -216,7 +207,7 @@ img {
 em figcaption {
   font-style: normal; }
 em img {
-  width: 30.5rem;
+  width: 40rem;
   margin: 1rem 0 1rem -2.25rem; }
 
 small {
@@ -239,13 +230,12 @@ li {
 hr {
   height: 1px;
   border: 0;
-  border-top: 1px solid #d1d2d3;
-  margin: 1rem 0;
+  border-top: 2px solid #f5f6f7;
+  margin: 1.5rem 0;
   display: block; }
 
 article {
   background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   position: relative;
   margin-bottom: 1rem;
   padding: 2rem 2.25rem 2rem; }
@@ -267,7 +257,7 @@ aside {
   font-size: .875rem;
   color: #777;
   line-height: 1.5em;
-  border-top: solid 1px #d1d2d3; }
+  border-top: solid 2px #f5f6f7; }
 
 sup {
   margin: 0 2px 0 0;
@@ -307,8 +297,7 @@ blockquote {
 blockquote strong {
   text-transform: none;
   font-size: 1rem;
-  font-weight: bold;
-  font-family: Charter, Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-weight: bold; }
 
 blockquote + blockquote {
   margin-top: -1rem;
@@ -323,9 +312,8 @@ figure {
     margin-bottom: .5rem; }
   figure figcaption {
     font-size: .875rem;
-    line-height: 1.35em;
-    color: #8a8a8a;
-    font-family: "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+    line-height: 1.4em;
+    color: #8a8a8a; }
 
 .header {
   font-size: 1rem;
@@ -344,10 +332,10 @@ h1 a {
     border-color: #141414; }
 
 .title {
-  font-family: "Concourse C3 Bold", "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: 0;
   line-height: 1em;
+  font-weight: bold;
   margin-right: .5rem;
   font-size: 1rem; }
 
@@ -364,13 +352,13 @@ h1 a {
   max-width: 36rem;
   max-width: 40rem;
   max-width: 60rem;
-  max-width: 42.5rem; }
+  max-width: 52rem; }
 
 .container {
   display: flex; }
 
 .column {
-  max-width: 30.5rem; }
+  max-width: 40rem; }
 
 .sidebar {
   width: 12rem;
@@ -382,8 +370,7 @@ h1 a {
 .navigation {
   list-style: none;
   padding: 0;
-  text-transform: uppercase;
-  font-family: "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  text-transform: uppercase; }
 
 .navigation li {
   list-style: none; }
@@ -396,8 +383,7 @@ strong,
 .interview .name {
   font-size: .875em;
   line-height: 1em;
-  text-transform: uppercase;
-  font-family: "Concourse C3 Bold", "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
+  text-transform: uppercase; }
 
 .archive li {
   margin-bottom: 1em; }
@@ -408,10 +394,9 @@ strong,
 .footnotes {
   font-size: .875rem;
   padding: 0;
-  line-height: 1.35em;
+  line-height: 1.4em;
   margin-top: 0rem;
   margin: 2.25rem 0;
-  font-family: "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   border: solid 1px #d1d2d3; }
   .footnotes > hr {
     display: none; }
@@ -438,7 +423,6 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  font-family: "Concourse T3 Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
   font-size: .875rem;
   line-height: 1em;
   color: #8a8a8a;
@@ -462,9 +446,9 @@ strong,
 .interview .name {
   margin-left: -1.5rem; }
 
-@media (max-width: 44.5rem) {
+@media (max-width: 54rem) {
   html {
-    font-size: 18px; }
+    font-size: 14px; }
 
   .wrapped {
     margin: 0 auto;
@@ -525,6 +509,6 @@ strong,
     border: 0; } }
 @media (max-width: 340px) {
   html {
-    font-size: 17px; } }
+    font-size: 14px; } }
 
 /*# sourceMappingURL=audacious.css.map */
