@@ -9,10 +9,10 @@ $accent: RGBA(52, 60, 71, 1);
 
 $sidebar-width: 12rem; 
 $column-width: 40rem; 
-$column-width: 34.25rem; 
+$column-width: 36rem; 
 $max-width: $sidebar-width + $column-width; 
 
-$line-height: 140%; 
+$line-height: 150%; 
 
 $link: #2164BF; 
 $link: #0ed3c8; //teal
@@ -33,7 +33,7 @@ $bg: #f5f6f7;
   box-sizing: content-box; }
 
 html {
-  font-size: 16px; 
+  font-size: 14px; 
   -webkit-font-smoothing: antialiased; 
 }
 
@@ -378,7 +378,7 @@ strong,
   padding-top: 4.5rem; 
   .caps {
     letter-spacing: .08em; 
-    padding-bottom: .25rem; 
+    padding-bottom: .5rem; 
   }
 }
 
@@ -413,7 +413,6 @@ strong,
   .title {
     font-size: 1rem; 
   }
-  .by { display: none; }
 
   .sidebar {  
     flex-shrink: initial; 
