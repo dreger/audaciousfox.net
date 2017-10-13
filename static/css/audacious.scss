@@ -12,7 +12,7 @@ $column-width: 40rem;
 $column-width: 34.25rem; 
 $max-width: $sidebar-width + $column-width; 
 
-$line-height: 150%; 
+$line-height: 140%; 
 
 $link: #2164BF; 
 $link: #0ed3c8; //teal
@@ -33,7 +33,7 @@ $bg: #f5f6f7;
   box-sizing: content-box; }
 
 html {
-  font-size: 12px; 
+  font-size: 16px; 
   -webkit-font-smoothing: antialiased; 
 }
 
@@ -42,7 +42,7 @@ body {
   margin: 0;
   background: $bg; 
   color: $accent; 
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-family: "Gotham SSm A", "Gotham SSm B";
   font-style: normal;
   font-weight: 400;
 }
@@ -392,7 +392,7 @@ strong,
 
 @media (max-width: $max-width + 2rem) {
   html {
-    font-size: 16px; 
+    font-size: 15px; 
   }
 
   .wrapped {
