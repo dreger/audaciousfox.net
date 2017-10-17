@@ -8,8 +8,8 @@
 $accent: RGBA(52, 60, 71, 1); 
 
 $sidebar-width: 12rem; 
-$column-width: 40rem; 
 $column-width: 36rem; 
+$column-width: 40rem; 
 $max-width: $sidebar-width + $column-width; 
 
 $line-height: 150%; 
@@ -184,11 +184,9 @@ sub {
   vertical-align: sub; }
 
 code {
-  font-size: .875rem;
-  padding: 1px 4px;
+  padding: 2px 4px;
+  background: $bg; 
   font-family: monospace; 
-  border: solid 1px $light-gray; 
-  border-radius: 2px;
 }
 
 pre {
