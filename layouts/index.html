@@ -1,7 +1,11 @@
 {{ partial "header.html" . }}
 
-{{ range (first 25 (where .Data.Pages "Type" "in" "archivelinked")) }}
+{{ range (first 16 (where .Data.Pages "Type" "in" "archivelinked")) }}
     {{ partial "post.html" . }}
 {{end}}
+
+<div class="index-end">
+	Thanks for reading. Check out more <a href="/archive">in the archive</a>.
+</div>
 
 {{ partial "footer.html" . }}

@@ -12,7 +12,7 @@ $column-width: 36rem;
 $column-width: 40rem; 
 $max-width: $sidebar-width + $column-width; 
 
-$line-height: 1.7em; 
+$line-height: 1.65em; 
 $letter-spacing: .16em; 
 $letter-spacing: .08em; 
 $letter-spacing: .12em; 
@@ -25,7 +25,14 @@ $accent: #141414;
 $faded: #777; 
 $light-gray: #d1d2d3; 
 $gray: #8a8a8a; 
+
 $bg: #f5f6f7; 
+$article-bg: white; 
+
+// $bg: #141516;
+// $accent: #ccc;  
+// $article-bg: #141516; 
+// $light-gray: #444; 
  
 /*
   Start Styles
@@ -150,7 +157,7 @@ hr {
 }
 
 article {
-  background: white;
+  background: $article-bg;
   position: relative;
   margin-bottom: 1rem; 
   padding: 2rem 2.25rem 2rem;
@@ -214,6 +221,7 @@ blockquote {
 blockquote strong {
   text-transform: none;
   font-size: 1rem;
+  letter-spacing: 0; 
   font-weight: bold; 
 }
 
@@ -365,7 +373,6 @@ strong,
   &:hover { 
     color: $accent; 
     border: 0; 
-    // border-color: $accent; 
   }
 }
 
@@ -386,6 +393,11 @@ strong,
 .interview strong,
 .interview .name {
   margin-left: -1.5rem; }
+
+.index-end {
+  padding: 2.25rem; 
+  color: $gray;
+}
 
 @media (max-width: $max-width + 2rem) {
   html {
@@ -434,7 +446,7 @@ strong,
 
   .column {
     max-width: 100%; }
-
+  .index-end { display: none;  }
   article {
     padding: 2.25rem 1.5rem;
     border-radius: 0;

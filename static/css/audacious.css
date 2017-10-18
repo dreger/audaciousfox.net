@@ -135,7 +135,7 @@ html {
   font-size: 12px; }
 
 body {
-  line-height: 1.7em;
+  line-height: 1.65em;
   margin: 0;
   background: #f5f6f7;
   color: #141414;
@@ -177,14 +177,14 @@ h3,
 header,
 .navigation,
 .canonical-link {
-  line-height: 1.7em;
+  line-height: 1.65em;
   text-transform: uppercase;
   letter-spacing: 0.12em; }
 
 h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  line-height: 1.7em;
+  line-height: 1.65em;
   text-transform: none;
   letter-spacing: 0px; }
 
@@ -192,7 +192,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
-  line-height: 1.7em; }
+  line-height: 1.65em; }
 
 h3 {
   font-size: 1rem;
@@ -255,7 +255,7 @@ aside {
   padding: .5rem 0 0;
   font-size: .875rem;
   color: #777;
-  line-height: 1.7em;
+  line-height: 1.65em;
   border-top: solid 2px #f5f6f7; }
 
 sup {
@@ -280,7 +280,7 @@ pre {
   border-color: #c5c6c7;
   border-style: dashed;
   padding: .25rem .5rem;
-  line-height: 1.7em; }
+  line-height: 1.65em; }
 
 pre code {
   padding: initial;
@@ -294,6 +294,7 @@ blockquote {
 blockquote strong {
   text-transform: none;
   font-size: 1rem;
+  letter-spacing: 0;
   font-weight: bold; }
 
 blockquote + blockquote {
@@ -309,7 +310,7 @@ figure {
     margin-bottom: .5rem; }
   figure figcaption {
     font-size: .875rem;
-    line-height: 1.7em;
+    line-height: 1.65em;
     color: #8a8a8a; }
 
 .header {
@@ -357,7 +358,7 @@ h1 a {
   width: 12rem;
   flex-shrink: 0;
   font-size: .875rem;
-  line-height: 1.7em;
+  line-height: 1.65em;
   padding: 2.25rem 0 2.25rem 2.25rem; }
 
 .navigation {
@@ -388,7 +389,7 @@ strong,
 .footnotes {
   font-size: .875rem;
   padding: 0;
-  line-height: 1.7em;
+  line-height: 1.65em;
   margin-top: 0rem;
   margin: 2.25rem 0;
   border-top: solid 2px #f5f6f7; }
@@ -427,7 +428,7 @@ strong,
     border: 0; }
 
 .pagination {
-  line-height: 1.7em;
+  line-height: 1.65em;
   color: #8a8a8a;
   padding-top: 4.5rem; }
   .pagination .caps {
@@ -441,6 +442,10 @@ strong,
 .interview strong,
 .interview .name {
   margin-left: -1.5rem; }
+
+.index-end {
+  padding: 2.25rem;
+  color: #8a8a8a; }
 
 @media (max-width: 54rem) {
   html {
@@ -482,6 +487,9 @@ strong,
 
   .column {
     max-width: 100%; }
+
+  .index-end {
+    display: none; }
 
   article {
     padding: 2.25rem 1.5rem;
