@@ -132,11 +132,10 @@ table {
   box-sizing: content-box; }
 
 html {
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased; }
+  font-size: 12px; }
 
 body {
-  line-height: 150%;
+  line-height: 1.7em;
   margin: 0;
   background: #f5f6f7;
   color: #141414;
@@ -178,14 +177,14 @@ h3,
 header,
 .navigation,
 .canonical-link {
-  line-height: 1.5em;
+  line-height: 1.7em;
   text-transform: uppercase;
-  letter-spacing: .08em; }
+  letter-spacing: 0.12em; }
 
 h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  line-height: 150%;
+  line-height: 1.7em;
   text-transform: none;
   letter-spacing: 0px; }
 
@@ -193,7 +192,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
-  line-height: 150%; }
+  line-height: 1.7em; }
 
 h3 {
   font-size: 1rem;
@@ -256,7 +255,7 @@ aside {
   padding: .5rem 0 0;
   font-size: .875rem;
   color: #777;
-  line-height: 1.5em;
+  line-height: 1.7em;
   border-top: solid 2px #f5f6f7; }
 
 sup {
@@ -281,7 +280,7 @@ pre {
   border-color: #c5c6c7;
   border-style: dashed;
   padding: .25rem .5rem;
-  line-height: 1.5em; }
+  line-height: 1.7em; }
 
 pre code {
   padding: initial;
@@ -310,7 +309,7 @@ figure {
     margin-bottom: .5rem; }
   figure figcaption {
     font-size: .875rem;
-    line-height: 150%;
+    line-height: 1.7em;
     color: #8a8a8a; }
 
 .header {
@@ -335,7 +334,8 @@ h1 a {
   line-height: 1em;
   font-weight: bold;
   margin-right: .5rem;
-  font-size: 1rem; }
+  font-size: 1rem;
+  letter-spacing: 0.12em; }
 
 .byline {
   line-height: 1em;
@@ -345,11 +345,6 @@ h1 a {
 
 .wrapped {
   margin: 4rem auto;
-  max-width: 34rem;
-  max-width: 28rem;
-  max-width: 36rem;
-  max-width: 40rem;
-  max-width: 60rem;
   max-width: 52rem; }
 
 .container {
@@ -362,7 +357,7 @@ h1 a {
   width: 12rem;
   flex-shrink: 0;
   font-size: .875rem;
-  line-height: 1.5em;
+  line-height: 1.7em;
   padding: 2.25rem 0 2.25rem 2.25rem; }
 
 .navigation {
@@ -381,7 +376,8 @@ strong,
 .interview .name {
   font-size: .875em;
   line-height: 1em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 0.12em; }
 
 .archive li {
   margin-bottom: 1em; }
@@ -392,7 +388,7 @@ strong,
 .footnotes {
   font-size: .875rem;
   padding: 0;
-  line-height: 150%;
+  line-height: 1.7em;
   margin-top: 0rem;
   margin: 2.25rem 0;
   border-top: solid 2px #f5f6f7; }
@@ -431,11 +427,11 @@ strong,
     border: 0; }
 
 .pagination {
-  line-height: 150%;
+  line-height: 1.7em;
   color: #8a8a8a;
   padding-top: 4.5rem; }
   .pagination .caps {
-    letter-spacing: .08em;
+    letter-spacing: 0.12em;
     padding-bottom: .5rem; }
 
 .interview h1,
@@ -506,6 +502,9 @@ strong,
     border: 0; } }
 @media (max-width: 340px) {
   html {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .by {
+    display: none; } }
 
 /*# sourceMappingURL=audacious.css.map */
