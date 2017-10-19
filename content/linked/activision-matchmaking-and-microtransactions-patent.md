@@ -14,9 +14,9 @@ link: https://www.rollingstone.com/glixel/news/how-activision-uses-matchmaking-t
 
 As pointed out by Mr. Crecente, Activision states that the technology is not currently being used in any of their games. The company, which is one of [many subsidiary video game publishers][wiki] to Activision Blizzard, contextualizes the patent as "an exploratory patent filed in 2015 by an R&D team working independently from our game studios". This, in case you need help parsing legalese, translates to, "last year our parent company [made over $3.6 billion from in-game content][vb], and we really want to sell more". 
 
-Microtransactions are a cash cow, and although Activision Blizzard isn't "currently" employing any of the manipulative methods outlined in this patent, I don't have much faith it will stay that way for long.
+Microtransactions are a cash cow, and although Activision Blizzard isn't "currently" employing any of the manipulative methods outlined in this patent, I don't have much faith it will stay that way for long, which is saddening.
 
-For the long time, my copy of a video game was the same one everyone else had. It didn't matter if you were a kid down the street or the president of Activision Blizzard; we all got the same experience. However, the day where publishers make more money from in-game content than from the game itself is coming, and the only losers will be the players. When a better experience or higher odds of winning are tied to whether you're willing to outspend everyone else, video games start to lose their unifying appeal, which is why we started playing in the first place. 
+For a long time, my copy of a video game was the same one everyone else had. It didn't matter if you were a kid down the street or the president of Activision Blizzard; we all got the same experience. However, the day where publishers make more money from in-game content than from the game itself is coming, and the only losers will be the players. When a better experience or higher odds of winning are tied to whether you're willing to outspend everyone else, video games start to lose their unifying appeal, which is why we started playing in the first place. 
 
 [glixel]: https://www.rollingstone.com/glixel/news/how-activision-uses-matchmaking-tricks-to-sell-in-game-items-w509288
 [deej]: https://twitter.com/DeeJ_BNG/status/920401730684166146
