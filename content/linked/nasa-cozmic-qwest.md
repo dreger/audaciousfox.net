@@ -4,7 +4,7 @@ date: 2017-10-11T21:23:42-04:00
 link: https://www.theverge.com/2017/10/11/16454684/nasa-video-game-cosmic-quest-errors-kennedy-center
 ---
 
-The Verge's [Brian Patrick Byrne][verge] with a bizarre story on _Cosmic Quest_, a video game in NASA’s Kennedy Space Center Visitor Complex: 
+_The Verge's_ [Brian Patrick Byrne][verge] with a bizarre story on _Cosmic Quest_, a video game in NASA’s Kennedy Space Center Visitor Complex: 
 
 > _Cosmic Quest_, developed by a gaming company called Creative Kingdoms, officially opened at the visitor complex in March 2016. The game costs $19.95, and allows players to “launch a rocket, redirect an asteroid, build a Martian habitat, and perform scientific experiments aboard the International Space Station.” But it doesn’t seem to have been properly vetted. [...]
 

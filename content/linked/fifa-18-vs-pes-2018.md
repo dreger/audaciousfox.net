@@ -4,7 +4,7 @@ date: 2017-10-18T21:25:37-04:00
 link: https://kotaku.com/fifa-18-vs-pes-2018-which-is-better-1819604440
 ---
 
-[Luke Plunkett][kotaku], Kotaku: 
+[Luke Plunkett][kotaku], _Kotaku_: 
 
 > So while it’s tempting to spend pages here banging on about the specific ways in which _PES 2018's_ mastery of the actual sport of football (as it’s played) is unmatched, or just what it is about _FIFA_ that makes it irresistible every year in spite of its glaring flaws, I’m just going to cut to the chase.
 
