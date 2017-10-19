@@ -1,5 +1,5 @@
 ---
-title: "Activision Patents Using Unbalanced Matchmaking to Promote In-Game Microtransactions"
+title: "Activision Patents Unbalanced Matchmaking to Promote In-Game Microtransactions"
 date: 2017-10-18T23:01:39-04:00
 link: https://www.rollingstone.com/glixel/news/how-activision-uses-matchmaking-tricks-to-sell-in-game-items-w509288
 ---
