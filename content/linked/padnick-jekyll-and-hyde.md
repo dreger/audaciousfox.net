@@ -9,6 +9,6 @@ Steven Padnick:
 
 > There is no Mr. Hyde.
 
-Spoilers, obviously. Do that even need said, if the principle work is more than 100 years old? 
+Spoilers, obviously. Does that even need said, if the title is more than 100 years old? 
 
 Mr. Padnick's take is different than the one I came away with post-reading, but I really enjoyed his analysis. Considering our current damp and dark October, and the fact [there's a Kindle version for just $1.99](http://a.co/hj8AxEe), it might be time to revisit Stevenson's classic. 
