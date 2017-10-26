@@ -1,7 +1,5 @@
 ---
-title: "Microsoft Has Stopped Making Kinects, But They’re Spirit Lives On in iPhone X"
-title: "Microsoft Has Stopped Making Kinects"
-title: "Microsoft Stops Making Kinects, But the Tech Lives On"
+title: "Microsoft Stops Making Kinects, but the Tech Lives On"
 date: 2017-10-25T18:48:17-04:00
 link: https://www.fastcodesign.com/90147868/exclusive-microsoft-has-stopped-manufacturing-the-kinect
 ---
