@@ -25,7 +25,7 @@
                 "author": {
                 	"name" : "{{ .Site.Author.name }}"
                 },
-                "content_html": {{ .Content | jsonify }}
+                "content_html": {{ (print .Content (partial "rss-linked-footer.html" .)) | jsonify }}
             }
         {{ end }}
     ]
