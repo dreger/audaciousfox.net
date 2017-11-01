@@ -16,6 +16,7 @@ titleCaseStyle = "AP"
 
 [author]
   name = 'K.Q. Dreger'
+  url = 'https://twitter.com/dreger'
 
 [permalinks]
   archive = '/:year/:filename'
@@ -28,3 +29,7 @@ titleCaseStyle = "AP"
 
 [params]
   icon = '&#9650;&#65038;'
+
+[outputFormats.Xml]
+  mediaType = "application/xml"
+  isPlainText = true
