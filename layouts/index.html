@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-{{ range (first 16 (where .Data.Pages "Type" "in" "archivelinked")) }}
+{{ range (first 20 (where .Data.Pages "Type" "in" "archivelinked")) }}
     {{ partial "post.html" . }}
 {{end}}
 
