@@ -3,7 +3,8 @@
 {{ `<!-- The greater fool. What kind of day has it been? Good. -->` | safeHTML }}
 
 <html lang="en">
-<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
+<head>
+  <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
   {{ if eq .Title .Site.Title }}<meta name="Description" content="Words about design, technology, and gaming. Best enjoyed with a pinch of salt and fine drink. Written by K.Q. Dreger.">{{ end }}
   <meta charset="utf-8">
   <meta name="generated" content='{{ now.Format "Jan 2, 2006 at 3:04:05 (MST)" }}'>
@@ -24,7 +25,6 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@dreger" />
   {{ end }}
-<head>
 </head>
   <body>
     <div class="wrapped">
