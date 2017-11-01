@@ -1,4 +1,3 @@
 ---
 title: Feeds
-url: /feeds/
 ---

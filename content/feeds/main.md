@@ -1,4 +1,5 @@
 ---
-title: Feeds
 url: /feeds/main.xml
+outputs:
+- xml
 ---

@@ -6,20 +6,18 @@
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, {{ .Site.Author.name }}</rights>
 {{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}    {{ range $element := first 20 (where $.Site.Pages "Type" "in" "archivelinked") }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}    {{ range $element := first 30 (where $.Site.Pages "Type" "in" "archivelinked") }}
     <item>
         <author>{{ .Site.Author.name }}</author>
       {{ if eq .Section "linked" }} 
-        <title>{{ .Title }}</title>
+        <title><![CDATA[{{ .Title }}]]></title>
         <link>{{ .Params.link }}</link>
       {{ else }}
-        <title>{{ $.Param "icon" | markdownify  }} {{ .Title }}</title>
+        <title>{{ $.Param "icon" | markdownify  }} <![CDATA[{{ .Title }}]]></title>
         <link>{{ .Permalink }}</link>
       {{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
-
       <description>
         {{ .Content | html }}
         {{ if eq .Section "linked" }}
