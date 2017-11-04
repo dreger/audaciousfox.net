@@ -6,6 +6,8 @@ link: https://www.youtube.com/watch?v=7iDB-AzS-9A
 
 The iPhone X has been out for less than a day, and Animoji [are][broadway] [already][mccracken] [a][soragon] [sensation][twitter].
 
+**Update**: [My favorite](https://twitter.com/ManxomeMia/status/926660732162154496), so far. 
+
 [broadway]: https://twitter.com/broadwaycom/status/926538905897316352
 [mccracken]: https://twitter.com/harrymccracken/status/925985945593118721
 [soragon]: https://twitter.com/soragon/status/926410670651842560
