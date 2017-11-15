@@ -316,8 +316,6 @@ figure {
 
 .header {
   font-size: 1rem;
-  display: flex;
-  align-items: baseline;
   padding: 2.25rem 2.25rem 2rem; }
 
 .header a,
@@ -335,15 +333,20 @@ h1 a {
   margin: 0;
   line-height: 1em;
   font-weight: bold;
-  margin-right: .5rem;
+  display: inline;
   font-size: 1rem;
   letter-spacing: 0.12em; }
 
 .byline {
+  display: inline;
   line-height: 1em;
   color: #8a8a8a; }
   .byline a {
     color: #8a8a8a; }
+  .byline .by {
+    display: inline; }
+  .byline .slash {
+    display: none; }
 
 .wrapped {
   margin: 4rem auto;
@@ -450,7 +453,7 @@ strong,
 
 @media (max-width: 54rem) {
   html {
-    font-size: 15px; }
+    font-size: 17px; }
 
   .wrapped {
     margin: 0 auto;
@@ -465,7 +468,7 @@ strong,
     padding: 0 1.5rem; }
 
   .title {
-    font-size: 1rem; }
+    font-size: .875rem; }
 
   .sidebar {
     flex-shrink: initial;
@@ -473,12 +476,18 @@ strong,
 
   .header,
   .sidebar {
-    padding: 1rem 1.5rem .875rem;
+    padding: 1.5rem 1.5rem .875rem;
     margin: 0 0; }
 
   .header {
-    padding-bottom: .64rem;
-    background: white; }
+    padding-bottom: 1rem;
+    background: white;
+    font-size: .875rem; }
+
+  .byline .by {
+    display: none; }
+  .byline .slash {
+    display: inline; }
 
   .navigation-jump {
     display: block;

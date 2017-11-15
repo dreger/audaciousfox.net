@@ -247,8 +247,8 @@ figure {
 
 .header {
   font-size: 1rem;
-  display: flex;
-  align-items: baseline;
+  // display: flex;
+  // align-items: baseline;
   padding: 2.25rem 2.25rem 2rem; 
 }
 
@@ -269,15 +269,19 @@ h1 {
   margin: 0;
   line-height: 1em;
   font-weight: bold; 
-  margin-right: .5rem; 
+  // margin-right: .5rem; 
+  display: inline;
   font-size: 1rem; 
   letter-spacing: $letter-spacing; 
 }
 
 .byline { 
+  display: inline;
   line-height: 1em;
   color: $gray; 
   a { color: $gray; }
+  .by { display: inline; }
+  .slash { display: none; }
 }
 
 .wrapped {
@@ -404,7 +408,7 @@ strong,
 
 @media (max-width: $max-width + 2rem) {
   html {
-    font-size: 15px; 
+    font-size: 17px; 
   }
 
   .wrapped {
@@ -423,7 +427,7 @@ strong,
   }
 
   .title {
-    font-size: 1rem; 
+    font-size: .875rem; 
   }
 
   .sidebar {  
@@ -433,13 +437,20 @@ strong,
 
   .header,
   .sidebar, {
-    padding: 1rem 1.5rem .875rem;
+    padding: 1.5rem 1.5rem .875rem;
     margin: 0 0; }
 
   .header {
-    padding-bottom: .64rem; 
+    padding-bottom: 1rem; 
     background: white; 
+    font-size: .875rem;
   }
+
+  .byline {
+    .by { display: none; }
+    .slash { display: inline; }
+  }
+  // .byline { display: block; padding-top: .5rem }
   
   .navigation-jump {
     display: block;
