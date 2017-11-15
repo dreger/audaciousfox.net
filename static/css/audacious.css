@@ -518,11 +518,5 @@ strong,
     margin-left: 0;
     width: 100%;
     border: 0; } }
-@media (max-width: 340px) {
-  html {
-    font-size: 14px; }
-
-  .by {
-    display: none; } }
 
 /*# sourceMappingURL=audacious.css.map */
