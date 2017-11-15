@@ -206,7 +206,7 @@ img {
 em figcaption {
   font-style: normal; }
 em img {
-  width: 42rem;
+  width: 40rem;
   margin: 1rem 0 1rem -2.25rem; }
 
 small {
@@ -347,13 +347,13 @@ h1 a {
 
 .wrapped {
   margin: 4rem auto;
-  max-width: 54rem; }
+  max-width: 52rem; }
 
 .container {
   display: flex; }
 
 .column {
-  max-width: 42rem; }
+  max-width: 40rem; }
 
 .sidebar {
   width: 12rem;
@@ -448,7 +448,7 @@ strong,
   padding: 2.25rem;
   color: #8a8a8a; }
 
-@media (max-width: 56rem) {
+@media (max-width: 54rem) {
   html {
     font-size: 15px; }
 
