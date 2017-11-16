@@ -3,6 +3,10 @@ title: Projects
 url: /projects/
 ---
 
+## [Web Elements of Style]({{< relref "projects_weos.md" >}})
+
+Short, practical opinions on what makes good written web markup.
+
 ## [Style Guide]({{< relref "projects_style-guide.md" >}})
 
 Audacious Fox follows the _New York Times Manual of Style_ in most cases, and our own in-house version in all others.

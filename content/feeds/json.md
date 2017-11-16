@@ -1,5 +1,5 @@
 ---
-url: /feeds/json.json
+url: /feeds/main.json
 outputs:
 - json
 ---

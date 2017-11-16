@@ -8,7 +8,7 @@ Correspondence is cheerfully received on Twitter, [@Dreger](https://twitter.com/
 
 [keybase]: https://keybase.io/dreger 
 
-Get the latest articles and links via [RSS](/feeds/main.xml) or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
+Get the latest articles and links via [RSS](/feeds/main.xml), [JSON Feed](/feeds/main.json), or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
 
 ## Style, Both Visual &amp; Written
 
@@ -24,7 +24,7 @@ This site should look good in all modern web browsers; please let me know if it 
 
 {{< figure src="/kq.jpg" title="Photo by Emily Dreger." >}}
 
-I'm a product designer, working out of Northeast Ohio. **Audacious Fox** is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
+I'm a product designer, working out of Northeast Ohio. AF is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
 
 Random tidbits I wish to impart upon you: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
 
