@@ -7,7 +7,7 @@
 
 $accent: RGBA(52, 60, 71, 1); 
 
-$sidebar-width: 12rem; 
+$sidebar-width: 14rem; 
 $column-width: 36rem; 
 $column-width: 40rem; 
 $max-width: $sidebar-width + $column-width; 
@@ -301,7 +301,6 @@ h1 {
   width: $sidebar-width; //12rem; 
   flex-shrink: 0; 
   font-size: .875rem;
-  // border-left: 2px solid; 
   line-height: $line-height;
   padding: 2.25rem 0 2.25rem 2.25rem; 
 }

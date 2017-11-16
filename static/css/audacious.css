@@ -350,7 +350,7 @@ h1 a {
 
 .wrapped {
   margin: 4rem auto;
-  max-width: 52rem; }
+  max-width: 54rem; }
 
 .container {
   display: flex; }
@@ -359,7 +359,7 @@ h1 a {
   max-width: 40rem; }
 
 .sidebar {
-  width: 12rem;
+  width: 14rem;
   flex-shrink: 0;
   font-size: .875rem;
   line-height: 1.65em;
@@ -451,7 +451,7 @@ strong,
   padding: 2.25rem;
   color: #8a8a8a; }
 
-@media (max-width: 54rem) {
+@media (max-width: 56rem) {
   html {
     font-size: 17px; }
 
