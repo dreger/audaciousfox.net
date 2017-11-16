@@ -343,10 +343,10 @@ h1 a {
   color: #8a8a8a; }
   .byline a {
     color: #8a8a8a; }
-  .byline .by {
-    display: inline; }
   .byline .slash {
     display: none; }
+  .byline .by {
+    display: inline; }
 
 .wrapped {
   margin: 4rem auto;
