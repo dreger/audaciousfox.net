@@ -47,6 +47,9 @@ Terms:
   - t: iOS
     d: "Apple's mobile operating system, which runs exclusively on iPhones and iPads."
 
+  - t: italicized blogs and publications 
+    d: _Daring Fireball, Kotaku, Pixel Envy, Polygon, Wired_ 
+
   - t: lock in
     d: Being forced to use a certain type of product.
 
@@ -60,8 +63,6 @@ Terms:
 
   - t: Note 7, Samsung
     d: "Samsung's flagship smartphone, released in 2016, that was later recalled due to safety concerns. Please note the space between 'Note' and '7,' which differs from marketing materials that use 'Note7' in their copy."
-
-  - t: Pixel Envy
 
   - t: pull quote
     d: A block of text, taken from another source.
@@ -92,8 +93,6 @@ Terms:
     d: A quintessential tool for any writer. It helps enforce a consistent standard of writing and language across multiple works.
 
   - t: tail end
-
-  - t: The Newsprint
   
   - t: TidBits
     d: A normalized capitalization of Apple news site, [TidBITS](https://tidbits.com/). (For you, NH.)  
