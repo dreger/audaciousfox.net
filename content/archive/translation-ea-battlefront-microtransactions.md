@@ -1,7 +1,6 @@
 ---
 title: "PR to English Translation of Selected Portions of EA's Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions"
 date: 2017-11-16T22:31:59-05:00
-draft: true
 ---
 
 "[An Update on Star Wars Battlefront II][ea]", from the desk of Oskar Gabrielson, GM, DICE. 
