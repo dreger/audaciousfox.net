@@ -1,5 +1,5 @@
 ---
-title: "PR to English Translation of Selected Portions of EA's Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions"
+title: "PR to English Translation For Selected Portions of EA's Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions"
 date: 2017-11-16T22:31:59-05:00
 ---
 
