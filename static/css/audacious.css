@@ -384,8 +384,13 @@ strong,
   text-transform: uppercase;
   letter-spacing: 0.12em; }
 
-.archive li {
-  margin-bottom: 1em; }
+.archive {
+  padding-left: 2.25rem;
+  font-size: .875rem; }
+  .archive a {
+    font-size: 1rem; }
+  .archive h2, .archive li {
+    color: #8a8a8a; }
 
 .archive small {
   color: #777; }

@@ -329,11 +329,18 @@ strong,
   letter-spacing: $letter-spacing; 
 }
 
-.archive li {
-  margin-bottom: 1em; }
+.archive {
+  padding-left: 2.25rem;
+  font-size: .875rem; 
+  a { font-size: 1rem; }
+  h2, li {
+    color: $gray;
+  }
+}
 
 .archive small {
-  color: $faded; }
+  color: $faded; 
+}
 
 .footnotes {
   font-size: .875rem;
