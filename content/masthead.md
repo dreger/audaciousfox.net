@@ -4,13 +4,15 @@ url: /masthead/
 ---
 Audacious Fox is written by K.Q. Dreger. 
 
-Correspondence is cheerfully received on Twitter, [@Dreger](https://twitter.com/dreger) or over email at <comments@dreger.me>. For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
+## Correspondence
+
+[@Dreger](https://twitter.com/dreger) on Twitter or <comments@dreger.me>. 
+
+For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
 
 [keybase]: https://keybase.io/dreger 
 
-Get the latest articles and links via [RSS](/feeds/main.xml), [JSON Feed](/feeds/main.json), or [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA).
-
-## Style, Both Visual &amp; Written
+## Colophon
 
 I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. 
 
@@ -24,9 +26,9 @@ This site should look good in all modern web browsers; please let me know if it 
 
 {{< figure src="/kq.jpg" title="Photo by Emily Dreger." >}}
 
-I'm a product designer, working out of Northeast Ohio. AF is run out of my own pocket and in my spare time. When I'm not writing, I'll usually be playing soccer or reading. 
+I'm a product designer, working out of Northeast Ohio. AF is run out of my own pocket and in my spare time. 
 
-Random tidbits I wish to impart upon you: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
+Random tidbits I enjoy sharing: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
 
 ## Other Writers Worth Reading
 

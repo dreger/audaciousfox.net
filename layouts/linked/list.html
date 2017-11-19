@@ -2,8 +2,11 @@
 
 <article>
 
-<h1>Archive / Linked To</h1>
-<p>Links, videos, and images I think you should see. Longer, <a href="/archive">column articles here</a>.</p>
+<h1>Archive / Linked</h1>
+<p>
+	Links to worthwhile places. 
+	Longer, <a href="/archive">column articles here</a>.
+</p>
 {{ range $index, $element := .Data.Pages.GroupByDate "January 2006" }}
 <h2>{{ .Key }}</h2>
 <ol class="archive">
