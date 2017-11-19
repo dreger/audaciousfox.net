@@ -1,5 +1,5 @@
 ---
-title: "PR to English Translation of Selected Portions of EA's Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions"
+title: "PR to English Translation For Selected Portions of EA's Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions"
 date: 2017-11-16T22:31:59-05:00
 ---
 
@@ -11,7 +11,7 @@ And a special thank you to Twitter, who last week decided to let you dweebs have
 
 > Our goal has always been to create the best possible game for all of you – devoted Star Wars fans and game players alike. 
 
-Our goal has always been to cash in hard on "Star Wars" before it inevitably becomes so diluted with spinoffs that you find yourself with reservations about buying a second BB-8 coffee mug. 
+Our goal has always been to cash in hard on "Star Wars" before it inevitably becomes so diluted with spinoffs that you find yourself with reservations about buying that second BB-8 coffee mug. 
 
 > But as we approach the worldwide launch, it's clear that many of you feel there are still challenges in the design. 
 
