@@ -319,12 +319,12 @@ figure {
   padding: 2.25rem 2.25rem 2rem; }
 
 .header a,
-.sidebar a,
+.navigation a,
 h1 a {
   border-color: transparent;
   color: #141414; }
   .header a:hover,
-  .sidebar a:hover,
+  .navigation a:hover,
   h1 a:hover {
     border-color: #141414; }
 
