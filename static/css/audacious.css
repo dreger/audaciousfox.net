@@ -319,12 +319,12 @@ figure {
   padding: 2.25rem 2.25rem 2rem; }
 
 .header a,
-.sidebar a,
+.navigation a,
 h1 a {
   border-color: transparent;
   color: #141414; }
   .header a:hover,
-  .sidebar a:hover,
+  .navigation a:hover,
   h1 a:hover {
     border-color: #141414; }
 
@@ -384,8 +384,13 @@ strong,
   text-transform: uppercase;
   letter-spacing: 0.12em; }
 
-.archive li {
-  margin-bottom: 1em; }
+.archive {
+  padding-left: 2.25rem;
+  font-size: .875rem; }
+  .archive a {
+    font-size: 1rem; }
+  .archive h2, .archive li {
+    color: #8a8a8a; }
 
 .archive small {
   color: #777; }
@@ -451,9 +456,9 @@ strong,
   padding: 2.25rem;
   color: #8a8a8a; }
 
-@media (max-width: 56rem) {
+@media (max-width: 700px) {
   html {
-    font-size: 17px; }
+    font-size: 16px; }
 
   .wrapped {
     margin: 0 auto;
