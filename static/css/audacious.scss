@@ -412,6 +412,35 @@ strong,
   color: $gray;
 }
 
+.christmas-lights {
+  margin: 0; 
+  padding: 0; 
+  justify-content: space-between; 
+  display: flex; 
+  margin-bottom: 1rem; 
+  border-top: dotted 1px $light-gray; 
+  > div {
+    height: 4px; 
+    animation: glowing 3s infinite;
+    width: 4px; 
+    border-radius: 0px; 
+    background: #e02a15; 
+    box-shadow: 0 0 3px #e02a15; 
+    &:nth-child(2n) {
+      animation: glowing 4s infinite;
+      background: #15a115;
+      box-shadow: 0 0 3px #15a115; 
+      margin-top: -.25rem;  
+    }
+  }
+}
+
+@keyframes glowing {
+  0% { opacity: 1;  }
+  50% { opacity: .5; box-shadow: 0 0 2px #ddd; }
+  100% { opacity: 1; }
+}
+
 @media (max-width: 700px) {
   html {
     font-size: 16px; 
