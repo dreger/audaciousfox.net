@@ -139,6 +139,7 @@ body {
   margin: 0;
   background: #f5f6f7;
   color: #141414;
+  font-family: Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: "Gotham SSm A", "Gotham SSm B";
   font-style: normal;
   font-weight: 400; }
@@ -374,7 +375,8 @@ strong,
   font-size: .875em;
   line-height: 1em;
   text-transform: uppercase;
-  letter-spacing: 0.12em; }
+  letter-spacing: 0.12em;
+  font-weight: 600; }
 
 .archive {
   padding-left: 2.25rem;
