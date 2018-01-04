@@ -1,7 +1,6 @@
 ---
 title: "Start With Words"
 date: 2018-01-04T18:41:59-05:00
-draft: true
 ---
 
 I start most of my interface designs in [TextEdit][]. Why? Because it forces me to focus on the words. Words are like stock in a delicious stew. If you don't have good stock, the whole meal feels off. 

@@ -1,7 +1,6 @@
 ---
 title: "TextEdit"
 date: 2015-12-14T12:44:48-05:00
-draft: true
 ---
 
 Can we take a moment to thank the folks at Apple for TextEdit? I’m serious. There is no shortage of text editors for OS X, yet I find myself continually coming back to TextEdit. It’s fast, simple, [open source][te] [^1], and every Mac has a copy preinstalled. Pick out a nice monospaced font, and I think you have a challenger for even the most minimalistic of writing interfaces.
