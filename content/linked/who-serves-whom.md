@@ -1,5 +1,5 @@
 ---
-title: "The Ethical Ambiguities and Legal Complexities of a World Run by Machines We Know Nothing About"
+title: "The Ethical Ambiguities and Legal Complexities of a World Run by Machines We Know Little About"
 date: 2018-01-15T21:22:35-05:00
 link: https://ia.net/topics/who-serves-whom/
 ---

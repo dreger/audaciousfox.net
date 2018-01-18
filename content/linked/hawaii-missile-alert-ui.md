@@ -1,5 +1,5 @@
 ---
-title: "Image of the Screen That Led to Hawaii’s Ballistic Missile Alert Error"
+title: "Image of Screen That Led to Hawaii’s Mistaken Ballistic Missile Alert"
 date: 2018-01-16T20:52:38-05:00
 link: https://mobile.twitter.com/CivilBeat/status/953127542050795520
 ---
