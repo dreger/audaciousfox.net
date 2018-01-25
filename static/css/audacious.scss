@@ -163,6 +163,7 @@ hr {
 article {
   background: $article-bg;
   position: relative;
+  border-radius: 4px; 
   margin-bottom: 1rem; 
   padding: 2rem 2.25rem 2rem;
   &:last-child { border-bottom: 0; } 
