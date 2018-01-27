@@ -1,6 +1,5 @@
 ---
-title: "Medium, Neither Rare Well Done"
-title: "Baremetrics Leaves Medium for Own Blog"
+title: "Baremetrics Leaves Medium and Returns to Self-Published Blog"
 date: 2018-01-26T23:01:55-05:00
 link: https://baremetrics.com/blog/medium-back-to-blog
 ---
