@@ -7,8 +7,8 @@
 
 $accent: RGBA(52, 60, 71, 1); 
 
-$sidebar-width: 14rem; 
-$column-width: 40rem; 
+$sidebar-width: 12rem; 
+$column-width: 38rem; 
 $max-width: $sidebar-width + $column-width; 
 
 $line-height: 1.65em; 
@@ -253,8 +253,6 @@ figure {
 
 .header {
   font-size: 1rem;
-  // display: flex;
-  // align-items: baseline;
   padding: 2.25rem 2.25rem 2rem; 
 }
 
@@ -274,9 +272,8 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   line-height: 1em;
-  font-weight: bold; 
-  // margin-right: .5rem; 
   display: inline;
+  font-weight: bold;
   font-size: 1rem; 
   letter-spacing: $letter-spacing; 
 }
@@ -403,6 +400,7 @@ strong,
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
+    font-weight: normal; 
   }
 }
 

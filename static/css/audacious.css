@@ -208,7 +208,7 @@ img {
 em figcaption {
   font-style: normal; }
 em img {
-  width: 40rem;
+  width: 38rem;
   margin: 1rem 0 1rem -2.25rem; }
 
 small {
@@ -239,7 +239,7 @@ hr {
 article {
   background: white;
   position: relative;
-  border-radius: 4px; 
+  border-radius: 4px;
   margin-bottom: 1rem;
   padding: 2rem 2.25rem 2rem; }
   article:last-child {
@@ -328,8 +328,8 @@ h1 a {
   text-transform: uppercase;
   margin: 0;
   line-height: 1em;
-  font-weight: bold;
   display: inline;
+  font-weight: bold;
   font-size: 1rem;
   letter-spacing: 0.12em; }
 
@@ -346,16 +346,16 @@ h1 a {
 
 .wrapped {
   margin: 4rem auto;
-  max-width: 54rem; }
+  max-width: 50rem; }
 
 .container {
   display: flex; }
 
 .column {
-  max-width: 40rem; }
+  max-width: 38rem; }
 
 .sidebar {
-  width: 14rem;
+  width: 12rem;
   flex-shrink: 0;
   font-size: .875rem;
   line-height: 1.65em;
@@ -439,7 +439,8 @@ strong,
   padding-top: 4.5rem; }
   .pagination .caps {
     letter-spacing: 0.12em;
-    padding-bottom: .5rem; }
+    padding-bottom: .5rem;
+    font-weight: normal; }
 
 .interview h1,
 .interview h2,
