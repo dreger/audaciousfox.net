@@ -6,7 +6,7 @@ _Editor's note (2018): Since the [original publishing](http://kqdreger.com/writi
 
 Following my post on [The Front Page]({{< relref "front-page-design.md" >}}), I had a good email conversation with my buddy, [Nick Heer](http://pxlnv.com). Our conversation brought up some more ideas regarding page design, and I wanted to expand on them here. Consider this post as part of an ongoing, public discussion and exploration of rhetorical design for the front page of a news- and journalistic-focused website.
 
-### Visitor Accessible Post Data
+## Visitor Accessible Post Data
 
 The following components can be found in nearly every text-based document (post, article, etc.) on the Internet, and they should be considered mandatory data to make available to the reader: 
 
