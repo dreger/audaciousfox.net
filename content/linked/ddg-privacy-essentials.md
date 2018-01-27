@@ -1,6 +1,6 @@
 ---
 title: "DuckDuckGo Privacy Essentials"
-date: 2018-01-26T23:31:10-05:00
+date: 2018-01-26T23:41:10-05:00
 link: https://spreadprivacy.com/privacy-simplified/
 ---
 
