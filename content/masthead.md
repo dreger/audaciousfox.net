@@ -16,7 +16,7 @@ For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
 
 I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. 
 
-Headlines and body copy are set in [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co. Previously typefaces: [Concourse](http://practicaltypography.com/concourse.html) and [Charter](http://practicaltypography.com/charter.html). 
+Headlines and body copy are set in [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co. Previous typefaces: [Concourse](http://practicaltypography.com/concourse.html) and [Charter](http://practicaltypography.com/charter.html). 
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), and the domain is registered through [Hover](http://hover.com). They've both been great, and I highly recommend their services. 
 
