@@ -16,5 +16,4 @@ Apple's visual approach to emoji is not only beautiful, but also fascinating whe
 [aqua]: https://en.wikipedia.org/wiki/Aqua_(user_interface)
 [mfm]: https://www.macintosh.fm/episodes/1
 
-<!--
-[^1]: With iOS 10, sending fewer than four emojis in an iMessage resulted in those emojis being displayed at three times the normal size. I loved this change, because we could finally see some of the exquisite details contained in each little pictogram. Personally, I wouldn't mind if they went up another size or two. -->
+<!--With iOS 10, sending fewer than four emojis in an iMessage resulted in those emojis being displayed at three times the normal size. I loved this change, because we could finally see some of the exquisite details contained in each little pictogram. Personally, I wouldn't mind if they went up another size or two. -->
