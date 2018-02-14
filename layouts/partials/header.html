@@ -37,6 +37,7 @@
   <body>
     <div class="wrapped">
       <header class="header" role="header">
+        <span class="site-icon">{{ $.Param "icon" | markdownify  }}</span>
         <h1 class="title"><a href="/">{{ .Site.Title }}</a></h1>
         <span class="byline">/ <a href="#navigation">{{ .Site.Author.name }}</a></span>
       </header>
