@@ -1,5 +1,5 @@
 ---
-title: A ‘Walden’ for the YouTube Age 
+title: A ‘Walden’ For the YouTube Age 
 link: https://www.theparisreview.org/blog/2018/02/06/walden-youtube-age/
 date: 2018-02-12T12:23:15-05:00
 ---
