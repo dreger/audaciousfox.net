@@ -26,7 +26,7 @@ Go check out [the gif][gif] of what an AMP email can do. Basically, it brings th
 
 [tc]: https://techcrunch.com/2018/02/13/amp-for-email-is-a-terrible-idea/
 
-Google being hellbent on slowly, methodically suffocating simple, durable, and universal tools like RSS and email frustrates me. Email, like plain text files, is durable. It's simple and — as anyone who's accidentally pressed send too early — it can't be changed once delivered. These are, at times, annoying attributes of email, but the alternatives would undermine its immense usefulness. 
+Google being hellbent on slowly, methodically suffocating simple, durable, and universal tools like RSS and email frustrates me. Email thrives in its lack of sophistication and — as anyone who's accidentally pressed send too early — permanence once delivered. This, at times, are annoying attributes to have, but the alternatives would undermine email's immense usefulness. 
 
 This isn't about innovation, either. AMP critics aren't against matured technologies becoming better, but you have to do it without bifurcating the core format. Additionally, if Google's concerned about the user experience of email, they already have a good initiative going: [email actions]. These are small tags in emails that allow Gmail to extract flight previews, add one-click "track this package" buttons and more to your messages. These are invisible, additive, and — frankly — convenient things to have; and all without fundamentally changing the original email. Extract all you want, but don't replace the spec. 
 
