@@ -16,7 +16,7 @@ link: https://techcrunch.com/2018/02/13/amp-for-email-is-a-terrible-idea/
 
 [amp]: https://gsuite-developers.googleblog.com/2018/02/AMP-for-email-developer-preview.html?m=1
 
-[Devin Coldewey][tc], *TechCrunch*: 
+Go check out [the gif][gif] of what an AMP email can do. Basically, it brings the interactivity of a tiny webpage to your email. [Devin Coldewey][tc], *TechCrunch*: 
 
 > The moat between communication and action is important because it makes it very clear what certain tools are capable of, which in turn lets them be trusted and used properly.
 
@@ -37,5 +37,6 @@ We haven't even talked about spam yet, either. Can you imagine *interactive* spa
 The email experience can certainly be improved, but it needs to be approached as supportive tools *around* the email message, not replacing the message entirely.  
 
 [email actions]: https://developers.google.com/gmail/markup/
+[gif]: https://4.bp.blogspot.com/-FyaSaPt35X8/WoMx9nEYkAI/AAAAAAAABtY/qQ919d_SmG89hp-yN4GAUwjmzgM8_kkZwCK4BGAYYCw/s640/GmailAMP-Pinterest-Blog-01%2B%25281%2529.gif
 
 
