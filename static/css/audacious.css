@@ -208,7 +208,7 @@ img {
 em figcaption {
   font-style: normal; }
 em img {
-  width: 38rem;
+  width: 42rem;
   margin: 1rem 0 1rem -2.25rem; }
 
 small {
@@ -346,16 +346,16 @@ h1 a {
 
 .wrapped {
   margin: 4rem auto;
-  max-width: 50rem; }
+  max-width: 58rem; }
 
 .container {
   display: flex; }
 
 .column {
-  max-width: 38rem; }
+  max-width: 42rem; }
 
 .sidebar {
-  width: 12rem;
+  width: 16rem;
   flex-shrink: 0;
   font-size: .875rem;
   line-height: 1.65em;
@@ -513,7 +513,7 @@ strong,
     box-shadow: 0 0 2px #ddd; }
   100% {
     opacity: 1; } }
-@media (max-width: 700px) {
+@media (max-width: 58rem) {
   html {
     font-size: 14px; }
 

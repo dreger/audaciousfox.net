@@ -7,8 +7,8 @@
 
 $accent: RGBA(52, 60, 71, 1); 
 
-$sidebar-width: 12rem; 
-$column-width: 38rem; 
+$sidebar-width: 16rem; 
+$column-width: 42rem; 
 $max-width: $sidebar-width + $column-width; 
 
 $line-height: 1.65em; 
@@ -482,7 +482,7 @@ strong,
   100% { opacity: 1; }
 }
 
-@media (max-width: 700px) {
+@media (max-width: $max-width) {
   html {
     font-size: 14px; 
   }
