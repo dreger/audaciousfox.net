@@ -1,9 +1,6 @@
 ---
-title: Your ‘Lite’ App Should Be the Default App
-title: These ‘Lite’ Apps Are Better Than the Real Things
-title: Making a ‘Lite’ Version of Your App Means You Blew It
-date: 2018-02-19T21:10:32-05:00
-draft: true
+title: Your ‘Lite’ App Should Be Your Only App
+date: 2018-02-20T12:10:32-05:00
 ---
 I've noticed a trend: 
 
@@ -37,11 +34,11 @@ I've noticed a trend:
 
 ---
 
-What part of being fast, data conscious, and reliable is exclusive to old devices or those on poor networks? Why does [Twitter Lite] feel more like Twitter than anything the company's done with their main website or app over the past few years? Are Facebook, Twitter, and Google truly so married to ads, analytics, and A/B testing frameworks that [their only shot][sensor tower] at making a reasonably sized, fast app is to start fresh? Will these lite variants actually stay that way, or will the bloat slowly creep back in? 
+What part of being fast, data conscious, and reliable is exclusive to old devices or those on poor networks? Why does [Twitter Lite] feel more like Twitter than anything the company's done with their main website or app over the past few years? Are Facebook, Twitter, and Google truly so married to ads, analytics, and A/B testing frameworks that their only shot at making a [reasonably sized][sensor tower], fast app is to start fresh? Will these lite variants actually stay that way, or will the bloat slowly creep back in? 
 
 Here's a thought: the lite version of your app, service, or website should be your only app, service, or website. And if you're just starting out, build the lite variant first, then stop. 
 
-I think "lite" is an appropriate moniker for what Facebook, Google, and Twitter are trying to do. Not because it's the best label for their lightweight alternatives, but because their regular offerings are morbidly obese. 
+That said, I do think "lite" is the appropriate moniker. Not because it's the best label for these lightweight alternatives, but because the regular offerings are tragically obese. 
 
 [twitter lite]: https://mobile.twitter.com
 [sensor tower]: https://sensortower.com/blog/ios-app-size-growth
