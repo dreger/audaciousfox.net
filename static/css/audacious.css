@@ -240,7 +240,7 @@ article {
   background: white;
   position: relative;
   border-radius: 4px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 2rem 2.25rem 2rem; }
   article:last-child {
     border-bottom: 0; }
@@ -292,7 +292,7 @@ pre code {
   border: 0; }
 
 blockquote {
-  padding: 0 2.25rem;
+  padding: 0 2rem;
   border-radius: 4px; }
 
 blockquote strong {
@@ -346,7 +346,7 @@ h1 a {
 
 .wrapped {
   margin: 4rem auto;
-  max-width: 58rem; }
+  max-width: 56rem; }
 
 .container {
   display: flex; }
@@ -355,7 +355,7 @@ h1 a {
   max-width: 42rem; }
 
 .sidebar {
-  width: 16rem;
+  width: 14rem;
   flex-shrink: 0;
   font-size: .875rem;
   line-height: 1.65em;
@@ -513,7 +513,7 @@ strong,
     box-shadow: 0 0 2px #ddd; }
   100% {
     opacity: 1; } }
-@media (max-width: 58rem) {
+@media (max-width: 56rem) {
   html {
     font-size: 14px; }
 
@@ -521,7 +521,7 @@ strong,
     margin: 0 auto;
     display: block;
     margin: 0 auto;
-    max-width: 32rem; }
+    max-width: 40rem; }
 
   .container {
     display: block; }

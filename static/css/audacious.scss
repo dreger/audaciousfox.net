@@ -7,7 +7,7 @@
 
 $accent: RGBA(52, 60, 71, 1); 
 
-$sidebar-width: 16rem; 
+$sidebar-width: 14rem; 
 $column-width: 42rem; 
 $max-width: $sidebar-width + $column-width; 
 
@@ -164,7 +164,7 @@ article {
   background: $article-bg;
   position: relative;
   border-radius: 4px; 
-  margin-bottom: 1rem; 
+  margin-bottom: 2rem; 
   padding: 2rem 2.25rem 2rem;
   &:last-child { border-bottom: 0; } 
 }
@@ -221,9 +221,8 @@ pre code {
 
 
 blockquote {
-  padding: 0 2.25rem;
-  border-radius: 4px;
-  // margin: 1rem auto;  
+  padding: 0 2rem;
+  border-radius: 4px; 
 }
 
 blockquote strong {
@@ -232,14 +231,6 @@ blockquote strong {
   letter-spacing: 0; 
   font-weight: bold; 
 }
-
-blockquote + blockquote {
-  // margin-top: -1rem;
-  // padding-top: 1em; 
-}
-
-// blockquote p:last-child {
-  // margin-bottom: 0; }
 
 figure {
   margin-bottom: 1.5rem; 
@@ -491,7 +482,7 @@ strong,
     margin: 0 auto;
     display: block;
     margin: 0 auto;
-    max-width: 32rem; 
+    max-width: 40rem; 
   }
 
   .container {
