@@ -515,7 +515,7 @@ strong,
     opacity: 1; } }
 @media (max-width: 56rem) {
   html {
-    font-size: 14px; }
+    font-size: 16px; }
 
   .wrapped {
     margin: 0 auto;
