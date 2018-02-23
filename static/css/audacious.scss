@@ -20,10 +20,10 @@ $link: #2164BF;
 $link: #0ed3c8; //teal
 $link: #FFDC00; 
 $link: #1968FF; //blue
-$accent: #141414; 
+$accent: #4a4b4c; 
 $faded: #777; 
-$light-gray: #d1d2d3; 
-$gray: #8a8a8a; 
+$light-gray: #e1e2e3; 
+$gray: #8a8b8c; 
 
 $bg: #f5f6f7; 
 $article-bg: white; 
@@ -104,6 +104,7 @@ h1 {
   margin-bottom: 1rem;
   line-height: $line-height; 
   text-transform: none; 
+  font-weight: bold;
   letter-spacing: 0px; 
 }
 
@@ -111,6 +112,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
+  font-weight: bold; 
   line-height: $line-height;
 }
 
