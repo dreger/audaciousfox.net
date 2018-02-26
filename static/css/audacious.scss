@@ -17,7 +17,7 @@ $letter-spacing: .08em;
 $letter-spacing: .12em; 
 
 $link: #2164BF; 
-$link: #0ed3c8; //teal
+$teal: #0ed3c8; //teal
 $link: #FFDC00; 
 $link: #1968FF; //blue
 $accent: #4a4b4c; 
@@ -468,6 +468,10 @@ strong,
   left: 3px;
   top: 0;
 }
+
+.heart-teal,
+.heart-teal:before,
+.heart-teal:after { background-color: $teal; }
 
 @keyframes glowing {
   0% { opacity: 1;  }

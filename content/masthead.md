@@ -31,21 +31,26 @@ I'm a product designer, working out of Northeast Ohio. AF is run out of my own p
 
 Random tidbits I enjoy sharing: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
 
-## Other Writers Worth Reading
+## Other Writers Worth Reading 
 
-I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. Have someone that should be on here? Drop me a note. 
+I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. Have someone that should be on here? Drop me a note. (Updated Feb. 2018)
 
 - [Jenn Schiffer](https://medium.com/@jennschiffer)
-- [Joshua Ginter](https://www.joshuaginter.com)
-- [Lara Hogan](http://larahogan.me/blog/)
+- [Lara Callender Hogan](http://larahogan.me/blog/)
+- [Shawn Blanc](https://shawnblanc.net)
 - [Una Kravets](https://una.im/archive/#💁)
+- _BirchTree_, [Matt Birchler](https://birchtree.me)
 - _Dispatches on Therapy_, [Holbemn](http://holbemn.xyz)
 - _Idle Words_, [Maciej Cegłowski](http://idlewords.com)
 - _Inessential_, [Brent Simmons](http://inessential.com)
 - _Initial Charge_, [Michael Rockwell](http://initialcharge.net)
 - _Kottke.org_, [Jason Kottke](http://kottke.org)
 - _Pixel Envy_, [Nick Heer](http://pxlnv.com)
+- _Stratechery_, [Ben Thompson](https://stratechery.com)
 - _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
+- _The Newsprint_, [Joshua Ginter](http://thenewsprint.co)
 - _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
 
-<p class="small faded">All content &copy; K.Q. Dreger.</p>
+<hr>
+
+<p><small>All content &copy; K.Q. Dreger in perpetuity.</small></p>
