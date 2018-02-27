@@ -3,9 +3,11 @@ title: Masthead
 url: /masthead/
 ---
 
-K.Q. Dreger is a scrawny, Ohio-raised farmboy who fell in love with his first computer way too early and spent the subsequent few years learning how it worked. When his parents told him to stop looking at a screen, he shifted his attention to his grandfather's heavy-as-hell Underwood typewriter and bam-bam-bam-bam-dinged a few OK stories, half a dozen letters to his family or himself, and an infinite number of [terrible first drafts](https://www.brainpickings.org/2013/11/22/bird-by-bird-anne-lamott/). He eventually got older, spent four years at college, and now lives with his wife and small dog in a two-story house where the roof occasionally leaks and there's a breeze coming through the fireplace, but the water is hot, the garage holds two cars, and there's a big enough yard for a small soccer goal, where his deteriorating skills in the sport are nonetheless practiced on warm summer nights. Somewhere along the way, probably back in high school, he wrote his first thing that wasn't complete garbage and posted it online. It was a tutorial on how to diagnose network connectivity issues with your home router. Six hours later, some cowardly anonymous jerk left a jerk(ish) comment saying how stupid they thought the post was. Two hours after that, K.Q. took down the article and deleted the blog. A number of years later, with thicker skin and a larger vocabulary, he started writing Audacious Fox. The topics shifted from router issues to whatever strikes the right tone of privacy, design, writing, or technology. The writing style is terse, sentences occasionally start with "and" even though people think you're not supposed to do that. And although the publishing schedule isn’t daily, when something new does hit [the front page](/), there’s a nonzero chance it’ll be worth your time. 
+I'm a product designer, working out of Northeast Ohio. AF is run out of my own pocket and in my spare time. 
 
-Audacious Fox will remain online forever or until the proprietor dies. Thank you for reading.
+Random tidbits I enjoy sharing: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
+
+Thank you for reading.
 
 ## Correspondence
 
@@ -27,9 +29,11 @@ This site should look good in all modern web browsers; please let me know if it 
 
 {{< figure src="/kq.jpg" title="Photo by Emily Dreger." >}}
 
-I'm a product designer, working out of Northeast Ohio. AF is run out of my own pocket and in my spare time. 
+K.Q. Dreger is a scrawny, Ohio-raised farmboy who fell in love with his first computer way too early and spent the subsequent few years learning how it worked. When his parents told him to stop looking at a screen, he shifted his attention to his grandfather's heavy-as-hell Underwood typewriter and bam-bam-bam-bam-dinged a few OK stories, half a dozen letters to his family or himself, and an infinite number of [terrible first drafts](https://www.brainpickings.org/2013/11/22/bird-by-bird-anne-lamott/). He eventually got older, spent four years at college, and now lives with his wife and small dog in a two-story house where the roof occasionally leaks and there's a breeze coming through the fireplace, but the water is hot, the garage holds two cars, and there's a big enough yard for a small soccer goal, where his deteriorating skills in the sport are nonetheless practiced on warm summer nights. Somewhere along the way, probably back in high school, he wrote his first thing that wasn't complete garbage and posted it online. It was a tutorial on how to diagnose network connectivity issues with your home router. Six hours later, some cowardly anonymous jerk left a jerk(ish) comment saying how stupid they thought the post was. Two hours after that, K.Q. took down the article and deleted the blog. A number of years later, with thicker skin and a larger vocabulary, he started writing Audacious Fox. The topics shifted from router issues to whatever strikes the right tone of privacy, design, writing, or technology. The writing style is terse, sentences occasionally start with "and" even though people think you're not supposed to do that. And although the publishing schedule isn’t daily, when something new does hit [the front page](/), there’s a nonzero chance it’ll be worth your time. Audacious Fox will remain online forever or until the the proprietor die. 
 
-Random tidbits I enjoy sharing: Energy, diction, and honesty are three great words; Have strong opinions, loosely held; Waffles are the bar by which all other breakfast foods are judged. 
+
+
+
 
 ## Other Writers Worth Reading 
 
