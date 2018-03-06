@@ -6,6 +6,6 @@ link: https://www.theverge.com/2018/3/1/17066438/strava-fitness-app-heat-map-opt
 
 Remember how Strava's anonymized heatmap [accidentally revealed the locations and layouts of U.S. military bases][af]? Well, they've pushed an update that makes your data's inclusion in their visualizations more apparent and easier to disable. Good. 
 
-Yet, these sorts of things should really be opt-in, not opt-out. I'm not against using data to do novel and interesting things, but if your company wants to display my data in some extraneous endeavor, it's on you to convince me why it's worthwhile, not me to remember to tell you to stop. 
+Yet, these sorts of programs should really be opt-in, not opt-out. I'm not against using data to do novel and interesting things, but if your company wants to display my data in some extraneous endeavor, it's on you to convince me why it's worthwhile, not me to remember to tell you to stop. 
 
 [af]: {{< relref "archive/the-privacy-we-give-away.md" >}} 
