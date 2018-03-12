@@ -36,7 +36,7 @@ There’s an additional argument, tangential and articulated by [Nick Heer][heer
 [chimero]: https://frankchimero.com/writing/everything-easy-is-hard-again/
 [heer begin]: https://pxlnv.com/linklog/everything-easy-is-hard-again/
 
-Which brings us 3.) raising the barrier to entry (e.g. requiring someone understand how to set up HTTPS before they can get a site online) irreparably harms the approachability of creating something new online. 
+Which brings us 3.) raising the barrier to entry (e.g. requiring someone understand how to set up HTTPS before they can get a site online) harms the approachability of creating something new online. 
 
 I disagree on all three arguments, but I don’t think they come from unfounded places. I also have great respect for Mr. Winer’s [contribution to the web][winer wiki]. When Mr. Winer writes, which he [does a lot][scripting], I read. 
 
