@@ -6,7 +6,9 @@ date: 2018-03-11T19:50:10-04:00
 
 Should every page you visit on the Internet be served over HTTPS? For banks and online stores, the answer is an obvious yes. But what about blogs, decades old web archives, and other bland online data? Do these documents deserve secured connections?  
 
-For the past few weeks, spurred on by Google’s move to [mark HTTP-only sites as “Not Secure” in Chrome][dreger chrome], Dave Winer has asked a similar question, and argued — among other things — that [this is a move by Google to seize control of the web][winer http attack]:
+Yes. 
+
+However, for the past few weeks, spurred on by Google’s move to [mark HTTP-only sites as “Not Secure” in Chrome][dreger chrome], Dave Winer has asked a similar question, and argued — among other things — that [this is a move by Google to seize control of the web][winer http attack]:
 
 > So now Google points a gun at the web and says "Do as we say or we'll tell users your site is not secure." What they're saying doesn't stand up to a basic bullshit-test. There's nothing insecure about my site. Okay I suppose it's *possible* you could get hurt using it, I'll grant you that. But I could get hurt getting up out of my chair and going into the kitchen to refill my coffee cup. Life is insecure. When Google says my old site is insecure what they really mean is "This is our platform now, and you do as we say or your site won't work." I don't believe for a minute that Google's motivation is protecting users. They seem to believe they can confuse users (they can) and that means they can do anything to the web they like. I suppose they can do that too. But it doesn't mean the web will cooperate. Imho, it won't.
 
