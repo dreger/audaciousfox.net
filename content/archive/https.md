@@ -1,6 +1,9 @@
 ---
 title: "HTTPS is Like Fluoride"
 title: "The Web Should Be Secured"
+title: "HTTPS and the Secure Web"
+redirect_from:
+- 2018/the-web-should-be-secured/
 date: 2018-03-11T19:50:10-04:00
 ---
 
