@@ -394,13 +394,15 @@ strong,
 
 .canonical-link {
   font-size: .875rem; 
-  line-height: 1em; 
-  color: $gray; 
-  border-color: transparent; 
   text-transform: uppercase; 
-  &:hover { 
-    color: $accent; 
-    border: 0; 
+  line-height: 1em; 
+  a {
+    color: $gray; 
+    border-color: transparent; 
+    &:hover { 
+      color: $accent; 
+      border: 0; 
+    }
   }
 }
 
