@@ -8,7 +8,7 @@
 $accent: RGBA(52, 60, 71, 1); 
 
 $sidebar-width: 16rem;   
-$column-width: 44rem; 
+$column-width: 48rem; 
 $max-width: $sidebar-width + $column-width; 
 
 $line-height: 1.65em; 
@@ -534,7 +534,6 @@ strong,
     .by { display: none; }
     .slash { display: inline; }
   }
-  // .byline { display: block; padding-top: .5rem }
   
   .navigation-jump {
     display: block;
@@ -549,7 +548,7 @@ strong,
     padding: 2.25rem 1.5rem;
     border-radius: 0;
     border-bottom: solid 4px $bg; 
-    margin: 1rem 0; 
+    margin: .5rem 0; 
   }
 
   article:first-child {
