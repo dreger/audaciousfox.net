@@ -7,8 +7,8 @@
 
 $accent: RGBA(52, 60, 71, 1); 
 
-$sidebar-width: 14rem;   
-$column-width: 42rem; 
+$sidebar-width: 16rem;   
+$column-width: 44rem; 
 $max-width: $sidebar-width + $column-width; 
 
 $line-height: 1.65em; 
@@ -165,9 +165,8 @@ hr {
 article {
   background: $article-bg;
   position: relative;
-  border-radius: 4px; 
-  margin-bottom: 2rem; 
-  padding: 2rem 2.25rem 2rem;
+  margin-bottom: .25rem; 
+  padding: 3rem;
   &:last-child { border-bottom: 0; } 
 }
 
@@ -246,7 +245,7 @@ figure {
 
 .header {
   font-size: 1rem;
-  padding: 2.25rem 2.25rem 2rem; 
+  padding: 3rem; 
 }
 
 .header,
@@ -289,16 +288,12 @@ h1 {
   display: flex;
 }
 
-.column {
-  max-width: $column-width; 
-}
-
 .sidebar {
   width: $sidebar-width; //12rem; 
   flex-shrink: 0; 
   font-size: .875rem;
   line-height: $line-height;
-  padding: 2.25rem 0 2.25rem 2.25rem; 
+  padding: 3rem; 
 }
 
 .sidebar figure {
