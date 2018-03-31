@@ -3,7 +3,7 @@ title: "MacOS Gains External GPU Support"
 date: 2018-03-31T12:08:31-04:00
 link: https://www.theverge.com/circuitbreaker/2018/3/30/17180042/macos-external-gpu-support-graphics-card
 ---
-If you have a spare few hundred dollars, a recent MacBook, and a desire to play modern video games at a decent frame rate, you can now buy an external graphics card to give your laptop a performance boost. There are, however, some asterisks. Jacob Kastrenakes, *The Verge*: 
+If you have a few hundred dollars, a recent MacBook, and a desire to play modern video games at a decent frame rate, you can now buy an external graphics card to give your laptop a performance boost. There are, however, some asterisks. Jacob Kastrenakes, *The Verge*: 
 
 > For one, only select models are officially supported. And, surprise, Apple is only supporting some of AMD's Radeon cards, which it already includes in select Macs. That doesn't strictly mean a GeForce card <em>won't</em> work --- people have gotten some to work while the feature was in beta --- but it means you're gambling a bit around whether it'll <em>continue</em> to work.
 
