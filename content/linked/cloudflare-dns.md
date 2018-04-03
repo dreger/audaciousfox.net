@@ -7,7 +7,7 @@ link: https://blog.cloudflare.com/announcing-1111/
 
 "Whenever you click on a link, send an email, open a mobile app, often one of the first things that has to happen is your device needs to look up the address of a domain." That's Matthew Prince, CEO and co-founder of Cloudflare, in his company's blog post [announcing their new public DNS service](https://blog.cloudflare.com/announcing-1111/), `1.1.1.1`. 
 
-**What is this?** `1.1.1.1` is a DNS service. A DNS service lets you enter word-based domain names (like `audaciousfox.net`) instead of the obscure and changing IP addresses of the Audacious Fox servers. Technically, you could type in either to arrive at AF, but the domain name is far easier to remember
+**What is this?** `1.1.1.1` is a DNS service. A DNS service lets you visit websites by entering word-based domain names like `audaciousfox.net` instead of an obscure (and changing) IP address. Technically, you can get to a site by typing in the domain or IP address, but the domain name is far easier to remember
 
 **Why does it matter?**
 
