@@ -1,6 +1,6 @@
 ---
 title: "Cloudflare Launches 1.1.1.1, a Privacy-First Consumer DNS Service "
-title: "Cloudflare Launches Privacy-First Consumer DNS Service "
+title: "Cloudflare Launches Privacy-First Consumer DNS Service"
 date: 2018-04-02T23:14:40-04:00
 link: https://blog.cloudflare.com/announcing-1111/
 ---
