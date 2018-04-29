@@ -55,4 +55,4 @@ I read pretty much everything these folks put out. I update this list every coup
 
 <hr>
 
-<p><small>All content &copy; K.Q. Dreger in perpetuity.</small></p>
+<p><small>All content &copy; The Audacious Company LLC.</small></p>
