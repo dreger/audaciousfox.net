@@ -1,11 +1,4 @@
 {{ partial "header.html" . }}
-<article>
-  <header class="article-header">
-    <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title | safeHTML}}</a></h1>
-  </header>
-
-  {{ .Content }}
-    
-  {{ partial "permalink-and-pagination.html" . }}
-</article>
+{{ partial "post.html" . }}
+{{ partial "pagination.html" . }}
 {{ partial "footer.html" . }}

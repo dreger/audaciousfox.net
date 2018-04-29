@@ -177,6 +177,8 @@ article p:last-child,
 article blockquote:last-child {
   margin-bottom: 0; }
 
+
+
 aside {
   width: 40%;
   float: right;
@@ -404,7 +406,8 @@ strong,
 .pagination {
   line-height: $line-height; 
   color: $gray; 
-  padding-top: 4.5rem; 
+  background: white;  
+  padding: 3rem; 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
@@ -544,11 +547,8 @@ strong,
   .column {
     max-width: 100%; }
   .index-end { display: none;  }
-  article {
+  article, .pagination {
     padding: 2.25rem 1.5rem;
-    border-radius: 0;
-    border-bottom: solid 4px $bg; 
-    margin: .5rem 0; 
   }
 
   article:first-child {

@@ -1,0 +1,9 @@
+<div class="pagination">
+	{{ if .Next }}
+  <div><div class="caps">Older</div><a href="{{.Next.Permalink}}">{{.Next.Title}}</a></div>
+{{ end }}
+{{ if .Prev }}
+  <br>
+  <div><div class="caps">Newer</div><a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a></div>
+{{ end }}
+</div>

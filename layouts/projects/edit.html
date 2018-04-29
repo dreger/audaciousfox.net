@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+<style scoped>
+  .header {
+  	display: none; 
+  }
+  h2 {
+  	margin-bottom: 5rem; 
+  	font-weight: normal; 
+  	text-align: center; 
+  }
+  .column {
+  	margin: 0 auto; 
+  }
+</style>
+
+	<h2>The Audacious Company Presents</h2>
+	
+	<div style="display: flex;">
+		<img src="/images/projects/edit.png" style="width: 217px;">
+		<div style="padding-left: 3rem; padding-top: 3rem; ">
+			{{ .Content }}
+
+			<h3>One-time $1.99</h3>
+			<img src="http://recomhub.com/blog/wp-content/uploads/2014/11/logo-app_store.png" style="width: 120px; ">
+
+		</div>
+	</div>

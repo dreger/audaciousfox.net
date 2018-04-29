@@ -1,15 +1,4 @@
 {{ partial "header.html" . }}
-
-<article>
-  <header class="article-header">
-   <h2 title="{{ title .Title }}" class="link">
-     <span class="link-target"><a href="{{ .Params.link }}" >{{ replaceRE " ([^ ]*$)" "&nbsp;$1" (title .Title) | safeHTML }}</a></span>
-   </h2>
-  </header>
-
-  {{ .Content }}
-
-  {{ partial "permalink-and-pagination.html" . }}
-</article>
-
+{{ partial "post.html" . }}
+{{ partial "pagination.html" . }}
 {{ partial "footer.html" . }}

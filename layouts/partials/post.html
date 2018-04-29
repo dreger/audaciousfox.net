@@ -8,8 +8,8 @@
       <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title | safeHTML}}</a></h1>
     {{ end }}
   </header>
-
-  {{ .Content }}
   
-  <p class="canonical-link"><a title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January" }}</a></p>
+  {{ .Content }}
+
+  <p class="canonical-link"><a title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January" }} <span class="canonical-link__year">{{ .Date.Format "2006" }}</span></a></p>
 </article>
