@@ -49,4 +49,4 @@ Constraints help create better designs. TextEdit forces me to focus on the small
 
 TextEdit (plain text mode, or `CMD + Shift + T`) is what I use, but pen and paper, Google Docs, or — yes — Sketch work equally as well. Whatever you use, start with words, and then build your design from there. 
 
-[textedit]: {{<  relref "textedit.md" >}}
+[textedit]: {{<  ref "textedit.md" >}}

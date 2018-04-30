@@ -6,4 +6,4 @@ link: https://www.creativereview.co.uk/getting-started-type-design-personal-jour
 
 Mathieu Triay, creator of that lovely Marvin Visions typeface I [pointed out a few weeks ago][visions magazine], wrote a small guide on getting started with typeface design. Fun read and plenty of visuals. 
 
-[visions magazine]: {{< relref "visions-magazine.md" >}}
+[visions magazine]: {{< ref "visions-magazine.md" >}}

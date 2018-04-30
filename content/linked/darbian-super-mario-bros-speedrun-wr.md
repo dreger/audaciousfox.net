@@ -14,4 +14,4 @@ I agree. Esports and sports are both competitive forms of entertainment, and esp
 
 [mp]: https://twitter.com/panzer/status/922281190475702272
 [afsg]: /projects/style-guide
-[ap]: {{< relref "ap-esports.md" >}}
+[ap]: {{< ref "ap-esports.md" >}}

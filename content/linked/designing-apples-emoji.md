@@ -12,7 +12,7 @@ Angela Guzman, retelling the story of her 2008 summer in Cupertino, where she an
 
 Apple's visual approach to emoji is not only beautiful, but also fascinating when you consider how flat-looking iOS and MacOS are today. In fact, if you put a designer in front of iOS for a few hours and then had them draw up a few emoji concepts, you'd probably get images with far fewer textures, no gloss, and little to no depth. But that's not what we have, and I'm glad. Additionally, I've always liked how Apple's emoji feel like a distillation of and tribute to the [original Mac OS X interface style, Aqua][aqua]. I don't necessarily miss all the realistic leather patterns and pill-filled buttons, but sometimes a little skeuomorphism goes a long way, and the current emoji feel just right.
 
-[trons]: {{< relref "a-tale-of-trons.md" >}}
+[trons]: {{< ref "a-tale-of-trons.md" >}}
 [aqua]: https://en.wikipedia.org/wiki/Aqua_(user_interface)
 [mfm]: https://www.macintosh.fm/episodes/1
 

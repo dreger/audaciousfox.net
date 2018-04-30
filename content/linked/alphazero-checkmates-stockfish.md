@@ -5,7 +5,7 @@ link: https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-1
 ---
 
 Remember how AlphaGo — Google's Go-playing AI — [went 5-0 against the reigning, 
-3-time European Go champion]({{< relref "alphago-masters-go.md" >}})? Well, Google's DeepMind team is back with AlphaZero, and it's just crushed the game of chess. Mike Klein, writing for the Chess.com company blog: 
+3-time European Go champion]({{< ref "alphago-masters-go.md" >}})? Well, Google's DeepMind team is back with AlphaZero, and it's just crushed the game of chess. Mike Klein, writing for the Chess.com company blog: 
 
 > A little more than a year after AlphaGo sensationally won against the top Go player, the artificial-intelligence program AlphaZero has obliterated the [highest-rated chess engine](http://www.computerchess.org.uk/ccrl/4040/). 
 

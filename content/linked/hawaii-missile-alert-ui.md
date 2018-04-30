@@ -12,5 +12,5 @@ Aside: Although the correction took too long to get out, I thought the [message 
 
 **Correction:** The State of Hawaii is saying the original screenshot shared with the media was only meant as an example. The actual screen can't be shared due to security concerns, but the state emergency agency has since provided a "more accurate" example, which you can see in [Marcel Honore's piece](http://www.civilbeat.org/2018/01/hawaii-distributed-phony-image-of-missile-warning-screen/) for the _Honolulu Civil Beat_. Looking at both images, and assuming they're close to the original interface, I think my comment of "incredibly misleading" still stands. 
 
-[words]: {{< relref "start-with-words.md" >}}
+[words]: {{< ref "start-with-words.md" >}}
 [nyt]: https://www.nytimes.com/2018/01/13/us/hawaii-missile.html

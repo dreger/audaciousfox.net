@@ -27,5 +27,5 @@ Since its introduction 10 years ago, the iOS Springboard has been largely unchan
 
 Have comments or questions of your own? [Let me know](/masthead).
 
-[iphone 7]: {{< relref "iphone-7.md" >}}
+[iphone 7]: {{< ref "iphone-7.md" >}}
 [rudberg]: http://blog.maxrudberg.com/post/165590234593/ui-design-for-iphone-x-bottom-elements

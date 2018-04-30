@@ -10,6 +10,6 @@ link: https://kotaku.com/fifa-18-vs-pes-2018-which-is-better-1819604440
 
 > _PES 2018_ is the better game this year because it plays a better game of football. Sorry if that sounds predictable, since that’s been the case for the last few years, but it’s the case again in 2017. 
 
-I [prefer _PES_ to _FIFA_]({{< relref "pes-vs-fifa.md" >}}), but Mr. Plunkett nails the core problems with Konami's title: clunky menus, lack of licenses, and commentary you want to turn off entirely.
+I [prefer _PES_ to _FIFA_]({{< ref "pes-vs-fifa.md" >}}), but Mr. Plunkett nails the core problems with Konami's title: clunky menus, lack of licenses, and commentary you want to turn off entirely.
 
 [kotaku]: https://kotaku.com/fifa-18-vs-pes-2018-which-is-better-1819604440

@@ -24,5 +24,5 @@ I'm not familiar enough with Bluetooth codecs (shocker) and wireless audio to kn
 [se]: https://apple.stackexchange.com/questions/282705/airpods-extremely-poor-mic-quality-on-mac
 
 [apple]: https://discussions.apple.com/message/31255072#31255072
-[my airpods]: {{< relref "airpods.md" >}}
+[my airpods]: {{< ref "airpods.md" >}}
 [firmware]: https://www.macrumors.com/2017/05/24/airpods-firmware-update/
