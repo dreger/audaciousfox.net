@@ -20,7 +20,7 @@
                 "title": "▲ {{ .Title }}",
                 {{ end }} 
           "url": "{{ .Permalink }}",
-                "date_published": "{{ .Date.Format "2006-01-02T15:04:05-0700" }}",
+                "date_published": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
                 "id": "{{ .Permalink }}",
                 "author": {
                   "name" : "{{ .Site.Author.name }}"
