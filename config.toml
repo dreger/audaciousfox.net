@@ -30,6 +30,22 @@ titleCaseStyle = "AP"
 [params]
   icon = '&#9650;&#65038;'
 
+
+[mediaTypes]
+  [mediaTypes."application/xml"]
+    suffix = "xml"
+  [mediaTypes."application/json"]
+    suffix = "json"
+
+[outputFormats.Json]
+  mediaType = "application/json"
+  baseName = "feeds/main"
+  isPlainText = false
+
 [outputFormats.Xml]
   mediaType = "application/xml"
-  isPlainText = true
+  baseName = "feeds/main"
+  isPlainText = false
+
+[outputs]
+  home = [ "HTML", "Xml", "Json" ]

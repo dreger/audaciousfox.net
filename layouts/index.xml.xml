@@ -10,10 +10,10 @@
     <item>
         <author>{{ .Site.Author.name }}</author>
       {{ if eq .Section "linked" }} 
-        <title><![CDATA[{{ .Title }}]]></title>
+        <title>{{ .Title }}</title>
         <link>{{ .Params.link }}</link>
       {{ else }}
-        <title>{{ $.Param "icon" | markdownify  }} <![CDATA[{{ .Title }}]]></title>
+        <title>{{ $.Param "icon" | markdownify  }} {{ .Title }}</title>
         <link>{{ .Permalink }}</link>
       {{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
