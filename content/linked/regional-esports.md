@@ -1,7 +1,7 @@
 ---
 title: How Esports Might Just Save America’s Malls and Movie Theaters 
 title: America’s Malls Unlock an Extra Life With Esports
-title: Esports Are Giving America’s Malls an Extra Life 
+title: Esports Are Giving America’s Malls An Extra Life 
 date: 2018-05-03T20:37:09-04:00
 link: https://www.nytimes.com/2018/05/02/style/fortnite.html
 aliases:
