@@ -9,7 +9,7 @@ Thank you for reading.
 
 ## Correspondence
 
-[@Dreger](https://twitter.com/dreger) on Twitter or <comments@dreger.me>. For sensitive messages, I'm `dreger` on Telegram and [Keybase][].
+[@Dreger](https://twitter.com/dreger) on Twitter or <comments@dreger.me>. For sensitive messages, I'm `dreger` on [Keybase][].
 
 [keybase]: https://keybase.io/dreger 
 
