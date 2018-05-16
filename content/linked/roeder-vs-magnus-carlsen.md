@@ -5,7 +5,7 @@ date: 2018-05-15T18:15:14-04:00
 link: https://fivethirtyeight.com/features/i-faced-off-against-the-worlds-best-chess-player-you-will-totally-believe-what-happened-next/
 ---
 
-Oliver Roeder, *FiveThirtyEight*, was one of 15 people who were recently invited to the United Nations for the chance to play chess against Norwegian chess grandmaster—and currently the world's number 1 ranked player—Magnus Carlsen. The result, while unsurprising, was nonetheless entertaining to read. Mr. Roeder: 
+Oliver Roeder, *FiveThirtyEight*, was one of 15 people who were recently invited to the United Nations for the chance to play chess against Norwegian chess grandmaster—and currently the world's number 1 ranked player—Magnus Carlsen. The result, while unsurprising, was nonetheless entertaining to read. Mr. Roeder (slight language warning): 
 
 > The [event](https://www.norway.no/en/missions/un/events/chess-at-un-play-world-champion-magnus-carlsen/) was a “clock simul,” short for “simultaneous exhibition with clocks,” in which each of us “challengers” sat at our own boards while Carlsen, the “exhibitor,” darted around the room, rarely taking more than a few seconds to make any move before moving on to his next victim. We each had 30 minutes to make all our moves, but Carlsen’s clocks constantly ticked away at every board, putting him at a nominal disadvantage. [...]
 
