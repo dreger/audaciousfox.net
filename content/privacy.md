@@ -18,7 +18,7 @@ As of May 2018, I do not use any analytics or aggregation services to interpret 
 
 ## Cloud.Typography
 
-*Audacious Fox* uses a webfont provided by Hoefler & Co. through a service called Cloud.typography. However, this service does not use cookies or JavaScript to serve the font files, and the only information collected by the Cloud.typography service is used to manage my billing with Hoefler & Co. For more information, you can read the terse [Cloud.typography declaration][hco], which enumerates what data they collect and why. 
+*Audacious Fox* uses a webfont provided by Hoefler & Co. through a service called Cloud.typography. However, this service does not use cookies or JavaScript to serve the font files, and the only information collected by Cloud.typography is used to manage my billing with Hoefler & Co. For more information, you can read the terse [Cloud.typography declaration][hco], which enumerates what data they collect and why. 
 
 [hco]: https://www.typography.com/home/privacy-cloud-declaration.php
 
