@@ -3,24 +3,59 @@
   .header {
   	display: none; 
   }
+  h1 {
+    font-size: 2.5rem; 
+    font-weight: 900; 
+    margin-bottom: 0;
+  }
   h2 {
-  	margin-bottom: 5rem; 
+  	margin-bottom: 3rem; 
+    font-size: 1.25rem; 
   	font-weight: normal; 
   	text-align: center; 
   }
-  .column {
-  	margin: 0 auto; 
+  .container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 1rem;
   }
+  .column {
+    width: 100%; 
+  }
+  .make-it-big {
+    font-size: 20px; 
+    line-height: 1.25em; 
+    display: flex; 
+  }
+  .right {
+    padding-top: 3rem; 
+  }
+  img {
+    max-width: 400px; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+  }
+
+  @media (max-width: 800px) {
+    .make-it-big {
+      display: block; 
+    }
+  }
+
 </style>
+
 
 	<h2>The Audacious Company Presents</h2>
 	
-	<div style="display: flex;">
-		<img src="/images/projects/edit.png" style="width: 217px;">
-		<div style="padding-left: 3rem; padding-top: 3rem; ">
-			{{ .Content }}
+  <div class="make-it-big">
+    <div class="left"><img src="/images/projects/edit.png"></div>
+    
+    <div class="right">
+      {{ .Content }}
 
-			<h3>One-time $1.99 &middot; Coming Soon</h3>
-
-		</div>
-	</div>
+      <p><strong>Coming Soon</strong></p>
+    </div>
+  </div>
