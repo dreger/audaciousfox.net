@@ -11,7 +11,7 @@ layout: edit
 
 * One sheet: come right back to what you're working on.
 * Dark mode: for when you want to write at night. 
-* One-touch select all: so you can quickly clear the page. 
+* One-touch select all: effortlessly clear the page.
 * Export: send your text to anywhere in iOS. 
 * Word/character count: know how much you've written. 
 * Pinch-to-zoom font size: just like with photos, but for text.  
