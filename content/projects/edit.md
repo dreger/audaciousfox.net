@@ -5,12 +5,12 @@ layout: edit
 
 # Edit for iOS
 
-[Edit][edit] is a super fast scratchpad for your thoughts. Think of it as a single sheet of paper, not a notebook. There's no document storage, because whatever you leave in Edit will be there when you get back. Once you're done writing, you can send or save your text to anywhere in iOS via the Share Sheet. 
+[Edit][edit] is a super fast scratchpad for your thoughts. Think of it as a single page of paper, not a notebook. There's no document storage, because whatever you leave in Edit will be there when you get back. Once you're done writing, you can send or save your text to anywhere in iOS via the Share Sheet. 
 
 ### What's in the box? 
 
 * One sheet: come right back to what you're working on.
-* Night mode: for when you want to write at night. 
+* Dark mode: for when you want to write at night. 
 * One-touch select all: so you can quickly clear the page. 
 * Export: send your text to anywhere in iOS. 
 * Word/character count: know how much you've written. 
