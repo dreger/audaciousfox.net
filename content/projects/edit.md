@@ -16,12 +16,12 @@ layout: edit
 * Word/character count: know how much you've written. 
 * Pinch-to-zoom font size: just like with photos, but for text.  
 
-### 10 years or bust
+### It'll outlive your iPhone
 
-I've intentionally kept Edit simple so it stays fast and easy to maintain. The other benefit from this simplistic approach is that Edit should continue to run without issue on iOS devices for years to come. Because of that, I'm slapping a 10-year good faith guarantee on Edit's availability. Should there ever come a time I'm unable to update Edit to run on the latest iOS update, I'll open source the code for anyone to download and run themselves. 
+I've intentionally kept Edit simple so it stays fast and easy to maintain. The other benefit of this simplicity is that Edit should continue to run without issue on iOS devices for years to come. Because of that, I'm slapping a 10-year good faith guarantee on Edit's general availability. Should there come a time over the next decade where I'm unable to update Edit to run on the latest version of iOS, I'll open source the code for anyone to download and run themselves.
 
 Happy writing,  
-K.Q. @Dreger
+[K.Q. @Dreger](https://twitter.com/dreger)
 
 ### [Visit Edit in the App Store][edit]
 
