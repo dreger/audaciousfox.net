@@ -12,6 +12,8 @@ Edit has several neat features (dark mode, pinch-to-zoom text size, word and cha
 
 Edit is available as a pre-order on the App Store for $1.99, and it also comes with a 10-year good faith guarantee, which basically means I'll work hard to keep Edit available for your next decade of iOS devices. Cool, no? 
 
+(Typography fun: I'm using the system standard San Francisco, but I've enabled a few alternative characters and numbers to give Edit a familiar but unique feel.)
+
 [Check out Edit on the App Store][edit] or [enjoy the micro-marketing page][marketing] I put together. I hope you like Edit as much as I enjoyed making it. 
 
 Happy writing. 
