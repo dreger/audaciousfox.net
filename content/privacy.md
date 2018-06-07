@@ -14,7 +14,7 @@ I do not run any third-party advertisements.
 
 ## Analytics
 
-As of May 2018, I do not use any analytics or aggregation services to interpret information sent by your browser as a way of discerning things like referrals, page views, or visitor device information. 
+I use an analytics service called [Clicky](https://clicky.com) to review how many people have visited, where they might be coming from, and what types of devices they could be using. As of June 2018, I'm looking to migrate off of Clicky and on to a service that allows for better anonymization of the data they collect. Truly, the only reason I want to know about my visitors at all is to help me understand (a) where *Audacious Fox* might be getting linked to from and (b) what sort of devices I need to consider when making design changes. I don't care about most of the other data, and — as mentioned above — I'm actively looking to move to a less accurate service. 
 
 ## Cloud.Typography
 
