@@ -3,7 +3,7 @@
   html {
     font-size: 18px;
   }
-  .header {
+  .header, .sidebar {
   	display: none; 
   }
   a { border-color: #b3b4b5; }
@@ -63,3 +63,5 @@
 {{ .Content }}
 
 <a href="https://itunes.apple.com/us/app/id1231744746"><img class="app-store" src="/images/projects/app-store.png"></a>
+
+{{ partial "footer.html" . }}
