@@ -9,6 +9,9 @@ pluralizelisttitles = false
 footnoteReturnLinkContents = '↩&#65038;'
 titleCaseStyle = "AP"
 
+[taxonomies]
+  tag = "tags"
+
 [sitemap]
   changefreq = 'monthly'
   priority = 0.5

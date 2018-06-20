@@ -2,6 +2,9 @@
 title: "Edit"
 date: 2018-06-05T19:04:48-04:00
 link: https://audaciousfox.net/projects/edit
+tags: 
+- iOS
+- Edit
 ---
 
 Just over a year ago, I started working on a small iOS app for writers. I was tired of not having a focused, single-purpose place for drafting and editing important messages, emails, and text. I hated doing those things in Messages or Mail, and I avoided Notes because what I was writing didn't need to be *stored* anywhere. All I wanted was a tasteful place to write.
