@@ -13,4 +13,4 @@ One of the more thrilling announcements at WWDC 2018 is that iOS 12 will focus h
 
 This isn't just a new-features thing — it's a security thing too. 
 
-Manufacturers are often playing a game of cat-and-mouse with exploits and hackers; every update eliminates any number of vulnerabilities, and the more nefarious folks need to start looking for alternative ways to compromise your device. However, once a device maker stops pushing out updates, it's only a matter of time before your device become susceptible.
+Manufacturers are often playing a game of cat-and-mouse with exploits and hackers; every update eliminates any number of vulnerabilities, and the more nefarious folks need to start looking for alternative ways to compromise your device. However, once a device maker stops pushing out updates, it's only a matter of time before your device becomes susceptible. 
