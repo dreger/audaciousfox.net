@@ -1,5 +1,5 @@
 ---
-title: ‘This is the kind of app that just about anyone could benefit from using’
+title: ‘This Is the Kind of App That Just About Anyone Could Benefit From Using’
 date: 2018-06-19T20:11:27-04:00
 link: https://initialcharge.net/2018/06/edit-review/
 ---
