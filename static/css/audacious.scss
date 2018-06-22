@@ -25,6 +25,8 @@ $faded: #777;
 $light-gray: #d1d2d3; 
 $gray: #8a8b8c; 
 
+$heart-color: #ef616f;
+
 $bg: #f5f6f7; 
 $article-bg: white; 
 
@@ -453,7 +455,7 @@ strong,
 }
 
 .heart {
-  background-color: red;
+  background-color: $heart-color;
   display: inline-block;
   height: 6px;
   margin: 0 3px;
@@ -466,7 +468,7 @@ strong,
 .heart:before,
 .heart:after {
   content: "";
-  background-color: red;
+  background-color: $heart-color;
   border-radius: 50%;
   height: 6px;
   position: absolute;
@@ -482,10 +484,6 @@ strong,
   left: 3px;
   top: 0;
 }
-
-.heart-teal,
-.heart-teal:before,
-.heart-teal:after { background-color: $teal; }
 
 @keyframes glowing {
   0% { opacity: 1;  }
