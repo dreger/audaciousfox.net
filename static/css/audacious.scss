@@ -9,6 +9,7 @@ $accent: RGBA(52, 60, 71, 1);
 
 $sidebar-width: 12rem;   
 $column-width: 48rem;  
+$column-width: 52rem;  
 $max-width: $sidebar-width + $column-width; 
 
 $line-height: 1.65em; 
@@ -24,8 +25,9 @@ $accent: #4a4b4c;
 $faded: #777; 
 $light-gray: #d1d2d3; 
 $gray: #8a8b8c; 
+$red: #ef616f; 
 
-$heart-color: #ef616f;
+$heart-color: $teal;
 
 $bg: #f5f6f7; 
 $article-bg: white; 
@@ -50,7 +52,6 @@ html {
 body {
   line-height: $line-height;
   margin: 0;
-  background: $bg; 
   color: $accent; 
   font-family: Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
   font-family: "Gotham SSm A", "Gotham SSm B"; 
@@ -166,8 +167,8 @@ hr {
 article {
   background: $article-bg;
   position: relative;
-  margin-bottom: .25rem; 
-  padding: 3rem;
+  // margin-bottom: .25rem; 
+  padding: 3rem 3rem 6rem;
   &:last-child { border-bottom: 0; } 
 }
 
@@ -225,8 +226,9 @@ pre code {
 
 
 blockquote {
-  padding: 0 3rem;
-  border-radius: 4px; 
+  padding: 1.5rem;
+  background: $bg; 
+  border-radius: 0 4px 4px 4px; 
 }
 
 blockquote strong {
@@ -429,29 +431,29 @@ strong,
   color: $gray;
 }
 
-.christmas-lights {
-  margin: 0; 
-  padding: 0; 
-  justify-content: space-between; 
-  display: flex; 
-  display: none; 
-  margin-bottom: 1rem; 
-  border-top: dotted 1px $light-gray; 
-  > div {
-    height: 4px; 
-    animation: glowing 3s infinite;
-    width: 4px; 
-    border-radius: 0px; 
-    background: #e02a15; 
-    box-shadow: 0 0 3px #e02a15; 
-    &:nth-child(2n) {
-      animation: glowing 4s infinite;
-      background: #15a115;
-      box-shadow: 0 0 3px #15a115; 
-      margin-top: -.25rem;  
-    }
-  }
-}
+// .christmas-lights {
+//   margin: 0; 
+//   padding: 0; 
+//   justify-content: space-between; 
+//   display: flex; 
+//   display: none; 
+//   margin-bottom: 1rem; 
+//   border-top: dotted 1px $light-gray; 
+//   > div {
+//     height: 4px; 
+//     animation: glowing 3s infinite;
+//     width: 4px; 
+//     border-radius: 0px; 
+//     background: #e02a15; 
+//     box-shadow: 0 0 3px #e02a15; 
+//     &:nth-child(2n) {
+//       animation: glowing 4s infinite;
+//       background: #15a115;
+//       box-shadow: 0 0 3px #15a115; 
+//       margin-top: -.25rem;  
+//     }
+//   }
+// }
 
 .heart {
   background-color: $heart-color;
@@ -484,12 +486,6 @@ strong,
   top: 0;
 }
 
-@keyframes glowing {
-  0% { opacity: 1;  }
-  50% { opacity: .5; box-shadow: 0 0 2px #ddd; }
-  100% { opacity: 1; }
-}
-
 @media (max-width: $max-width) {
   html {
     font-size: 14px; 
@@ -504,10 +500,6 @@ strong,
 
   .container {
     display: block; 
-  }
-
-  blockquote {
-    padding: 0 1.5rem;
   }
 
   .title {
@@ -545,9 +537,12 @@ strong,
     max-width: 100%; }
   .index-end { display: none;  }
   article, .pagination {
-    padding: 2.25rem 1.5rem;
+    padding: 2.5rem 1.5rem;
   }
 
+  article {
+    border-bottom: solid 1px $bg; 
+  }
   article:first-child {
     margin-top: 0;
   }
