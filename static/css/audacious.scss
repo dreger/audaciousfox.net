@@ -29,6 +29,7 @@ $red: #ef616f;
 
 $heart-color: $teal;
 
+$bg: #f2f3f4; 
 $bg: #f5f6f7; 
 $article-bg: white; 
 
@@ -53,7 +54,7 @@ body {
   line-height: $line-height;
   margin: 0;
   color: $accent; 
-  font-family: Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+  // font-family: Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
   font-family: "Gotham SSm A", "Gotham SSm B"; 
   font-style: normal;
   font-weight: 400;
@@ -226,7 +227,7 @@ pre code {
 
 
 blockquote {
-  padding: 1.5rem;
+  padding: 2rem 3rem;
   background: $bg; 
   border-radius: 0 4px 4px 4px; 
 }
@@ -509,6 +510,7 @@ strong,
   .sidebar {  
     flex-shrink: initial; 
     width: initial; 
+    background: $bg;
   }
 
   .header,
@@ -541,7 +543,7 @@ strong,
   }
 
   article {
-    border-bottom: solid 1px $bg; 
+    border-bottom: solid .25rem $bg; 
   }
   article:first-child {
     margin-top: 0;
