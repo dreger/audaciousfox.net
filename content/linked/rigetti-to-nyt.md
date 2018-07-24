@@ -1,5 +1,5 @@
 ---
-title: "Susan Fowler Rigetti Joins NYT Opnion as Technology Editor"
+title: "Susan Fowler Rigetti Joins NYT Opinion as Technology Editor"
 date: 2018-07-23T20:58:27-04:00
 link: https://www.nytco.com/susan-fowler-rigetti-to-join-opinion-as-technology-editor/
 ---
