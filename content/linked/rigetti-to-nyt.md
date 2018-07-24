@@ -11,6 +11,6 @@ The New York Times Company:
 
 If you've been following the technology beat for the past year, there's little chance you missed Ms. Rigetti's blog post [on her time at Uber][uber]. Her well written recounting of the toxic and inappropriate culture that permeates Uber rocked the tech world so hard that it quite simply knocked Travis Kalanick out of the CEO job. 
 
-This is a great get for the *the Times*. It also comes not long after the paper announced that *Recode* editor at large Kara Swisher would be getting her own technology opinion column in August. Elevating the reach of Ms. Swisher and Ms. Rigetti will help ensure we continue critiquing humanity, technology, and culture — which is something we need now more than ever. 
+This is a great get for *the Times*. It also comes not long after the paper announced that *Recode* editor at large Kara Swisher would be getting her own technology opinion column in August. Elevating the reach of Ms. Swisher and Ms. Rigetti will help ensure we continue critiquing humanity, technology, and culture — which is something we need now more than ever. 
 
 [uber]: https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber
