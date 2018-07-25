@@ -16,4 +16,4 @@ One final bit from Mr. Feldman's piece that caught my eye was this aside about o
 
 > Ninja, whose real name is Tyler Blevins, makes an estimated half a million dollars every month streaming *Fortnite* rounds on Twitch, a service for livestreaming video games that is owned by Amazon. 
 
-I don't know which scenario is the more astonishing: Epic making $300 million a month from a free-to-play game, or Ninja collecting $500,000 in the same amount of time for *playing* said game. 
+I don't know which scenario is more astonishing: Epic making $300 million a month from a free-to-play game, or Ninja collecting $500,000 in the same amount of time for *playing* said game. 
