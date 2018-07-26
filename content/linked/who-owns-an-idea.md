@@ -11,4 +11,4 @@ MIT postdoctoral fellow Douglas O’Reagan, writing for *Physics Today*:
 
 > This article traces changes in US law, business practices, and social expectations about research and invention in order to illuminate the history of business control over scientists’ ideas.
 
-I found this a short and fascinating look into the world of academics and scientific research. It's got me thinking too, and now I'm curious how big tech companies like Google or Apple approach this sort of "knowledge management", especially as it relates to academic- and research-driven departments like machine learning or artificial intelligence. 
+I found this a short and fascinating look into the world of academics and scientific research. It got me thinking too, and now I'm curious how big tech companies like Google or Apple approach this sort of "knowledge management", especially as it relates to academic- and research-driven departments like machine learning or artificial intelligence. 
