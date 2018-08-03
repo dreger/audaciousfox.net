@@ -1,15 +1,26 @@
 <article>       
-  <header class="article-header">
-    {{ if (eq .Section "linked") }}
+  {{ if (eq .Section "linked") }}
+    <header class="article-header">
       <h2 title="{{ .Title }}" class="link">
-        <span class="link-target"><a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a></span>
+        <span class="link-target">
+          <a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "&nbsp;$1" .Title | safeHTML }}</a>
+        </span>
       </h2> 
-    {{ else }}
+    </header>
+  {{ else }}
+    <header class="article-header">
       <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title | safeHTML}}</a></h1>
-    {{ end }}
-  </header>
+    </header>
+  {{ end }}
+  
   
   {{ .Content }}
 
-  <p class="canonical-link"><a title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January" }} <span class="canonical-link__year">{{ .Date.Format "2006" }}</span></a></p>
+<p>
+    <a class="canonical-link canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">
+      {{ .Date.Format "Monday, 2 January" }}
+      <span class="canonical-link--post">{{ .Date.Format "2006" }}</span>
+    </a>
+  </p>
+  <!-- <span class="canonical-link--post"><a class="canonical-link" title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></span> -->
 </article>

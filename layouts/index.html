@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <style scoped>
-	.canonical-link__year { display: none; }
+	.canonical-link--post { display: none; }
 </style>
 
 {{ range (first 25 (where .Data.Pages "Type" "in" "archivelinked")) }}

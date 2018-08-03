@@ -4,15 +4,15 @@
 /*
   Variables
 */
-
+ 
 $accent: RGBA(52, 60, 71, 1); 
 
 $sidebar-width: 12rem;   
-$column-width: 48rem;  
-$column-width: 52rem;  
+$column-width: 32rem;  
+$column-width: 44rem;  
 $max-width: $sidebar-width + $column-width; 
 
-$line-height: 1.65em; 
+$line-height: 1.4em; 
 $letter-spacing: .16em; 
 $letter-spacing: .08em; 
 $letter-spacing: .12em; 
@@ -33,6 +33,9 @@ $bg: #f2f3f4;
 $bg: #f5f6f7; 
 $article-bg: white; 
 
+$sans: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+$serif: "Charter", "Georgia", Times, serif; 
+
 // $bg: #141516;
 // $accent: #ccc;  
 // $article-bg: #141516; 
@@ -47,15 +50,15 @@ $article-bg: white;
   box-sizing: content-box; }
 
 html {
-  font-size: 12px; 
+  font-size: 14px; 
 }
 
 body {
   line-height: $line-height;
   margin: 0;
+  background: $bg; 
   color: $accent; 
-  // font-family: Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
-  font-family: "Gotham SSm A", "Gotham SSm B"; 
+  font-family: $serif; 
   font-style: normal;
   font-weight: 400;
 }
@@ -101,14 +104,16 @@ header,
   line-height: $line-height;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
+  text-rendering: optimizeLegibility;
+  font-family: $sans;
 }
 
 h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  line-height: $line-height; 
+  font-size: 2.25rem; 
+  margin-bottom: 1.5rem; 
+  line-height: 1.25em; 
   text-transform: none; 
-  font-weight: bold;
+  font-weight: 500;
   letter-spacing: 0px; 
 }
 
@@ -116,6 +121,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
+  font-weight: 400; 
   line-height: $line-height;
 }
 
@@ -168,8 +174,9 @@ hr {
 article {
   background: $article-bg;
   position: relative;
-  // margin-bottom: .25rem; 
-  padding: 3rem 3rem 6rem;
+  margin-bottom: .25rem; 
+  border-radius: 4px;
+  padding: 3rem 3rem;
   &:last-child { border-bottom: 0; } 
 }
 
@@ -227,8 +234,8 @@ pre code {
 
 
 blockquote {
-  padding: 1.5rem 2rem;
-  background: $bg; 
+  padding: 0 3rem;
+  font-style: italic; 
   border-radius: 0 4px 4px 4px; 
 }
 
@@ -296,6 +303,7 @@ h1 {
 
 .sidebar {
   width: $sidebar-width; //12rem; 
+  font-family: $sans; 
   flex-shrink: 0; 
   font-size: .875rem;
   line-height: $line-height;
@@ -336,9 +344,10 @@ strong,
 .interview .name {
   font-size: .875em;
   line-height: 1em;
+  font-family: $sans;
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
-  font-weight: 600; 
+  font-weight: 400; 
 }
 
 .caps {
@@ -395,17 +404,18 @@ strong,
 
 .canonical-link {
   font-size: .875rem; 
+  font-weight: 400; 
   text-transform: uppercase; 
   line-height: 1em; 
-  a {
-    color: $gray; 
-    border-color: transparent; 
-    &:hover { 
-      color: $accent; 
-      border: 0; 
-    }
+  white-space: nowrap; 
+  color: $gray; 
+  border-color: transparent; 
+  &:hover { 
+    color: $accent; 
+    border: 0; 
   }
 }
+.canonical-link--post { display: inline; }
 
 .pagination {
   line-height: $line-height; 
@@ -489,7 +499,7 @@ strong,
 
 @media (max-width: $max-width) {
   html {
-    font-size: 14px; 
+    font-size: 16px; 
   }
 
   .wrapped {
