@@ -9,18 +9,17 @@
     </header>
   {{ else }}
     <header class="article-header">
-      <h1 title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title | safeHTML}}</a></h1>
+      <h1 title="{{ .Title }}"><a href='{{ trim .Permalink "/" }}'>{{ .Title | safeHTML}}</a></h1>
     </header>
   {{ end }}
   
   
   {{ .Content }}
 
-<p>
-    <a class="canonical-link canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">
+  <p>
+    <a class="canonical-link canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ trim .RelPermalink "/" }}">
       {{ .Date.Format "Monday, 2 January" }}
       <span class="canonical-link--post">{{ .Date.Format "2006" }}</span>
     </a>
   </p>
-  <!-- <span class="canonical-link--post"><a class="canonical-link" title='Permalink for “{{ .Title }}”' href="{{ .RelPermalink }}">{{ .Date.Format "Monday, 2 January 2006" }}</a></span> -->
 </article>

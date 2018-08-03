@@ -4,7 +4,7 @@
 	.canonical-link--post { display: none; }
 </style>
 
-{{ range (first 25 (where .Data.Pages "Type" "in" "archivelinked")) }}
+{{ range (first 30 (where .Data.Pages "Type" "in" "archivelinked")) }}
     {{ partial "post.html" . }}
 {{end}}
 

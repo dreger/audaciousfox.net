@@ -3,6 +3,11 @@ title: Projects
 url: /projects/
 ---
 
+## [Edit for iOS](/projects/edit)
+
+Edit is a tasteful place to write. Think of it as a single page of paper, not a notebook. You get a single note, and whatever you leave in the app will be there when you get back. Once you’re done writing, you can send or save your text to anywhere in iOS via the Share Sheet.
+
+
 ## [Style Guide]({{< relref "projects/style-guide.md" >}})
 
 Audacious Fox follows the _New York Times Manual of Style_ in most cases, and our own in-house version in all others.
@@ -11,10 +16,9 @@ Audacious Fox follows the _New York Times Manual of Style_ in most cases, and ou
 
 iOS is the most secure out-of-the-box operating system, but there still things you can do to help protect your privacy and data. These are common-sense suggestions for doing so. -->
 
-## [Headliner]({{< relref "projects/headliner.md" >}})
+## [Headliner]({{< relref "projects/headliner.md" >}}) 
 
-Stop leaving orphaned words in your headlines. Available for Liquid and JavaScript.
+*Deprecated.* Stop leaving orphaned words in your headlines. Available for Liquid and JavaScript.
 
-[afmos]: asdf
 [ios]: /projects/basic-ios-security
 [headliner]: /projects/headliner
