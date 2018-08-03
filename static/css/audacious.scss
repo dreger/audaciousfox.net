@@ -45,6 +45,10 @@ $serif: "Charter", "Georgia", Times, serif;
   Start Styles
 */
 
+::selection {
+  background: $bg;
+}
+
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box; }
@@ -110,7 +114,7 @@ header,
 
 h1 {
   font-size: 2.25rem; 
-  margin-bottom: 1.5rem; 
+  margin-bottom: 2.25rem; 
   line-height: 1.25em; 
   text-transform: none; 
   letter-spacing: 0px; 
@@ -120,7 +124,7 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
-  font-weight: 500; 
+  
   line-height: $line-height;
 }
 
@@ -138,8 +142,10 @@ img {
 em {
   figcaption { font-style: normal; }
   img {
-    width: $column-width; 
-    margin: 1rem 0 1rem -2.25rem; 
+    width: calc(100% + 6rem);
+    margin: 1rem 0 1rem -3rem; 
+    border-top: solid $bg .5rem;
+    border-bottom: solid $bg .5rem; 
   }
 }
 
@@ -210,7 +216,8 @@ sub {
   vertical-align: sub; }
 
 code {
-  padding: 2px 4px;
+  padding: 0px 4px;
+  border-radius: 3px; 
   background: $bg; 
   font-family: monospace; 
 }
@@ -346,7 +353,7 @@ strong,
   font-family: $sans;
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 .caps {
@@ -403,7 +410,7 @@ strong,
 
 .canonical-link {
   font-size: .875rem; 
-  font-weight: 500; 
+  
   text-transform: uppercase; 
   line-height: 1em; 
   white-space: nowrap; 
@@ -424,7 +431,6 @@ strong,
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
-    font-weight: 500;
   }
 }
 
