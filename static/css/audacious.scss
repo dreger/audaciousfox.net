@@ -14,6 +14,7 @@ $column-width: 32rem;
 $column-width: 40rem;  
 $max-width: $sidebar-width + $column-width; 
 $line-height: 1.4em; 
+$line-height-header: 1.75em; 
 $letter-spacing: .12em; 
 
 // FONTS
@@ -113,7 +114,7 @@ h2,
 header,
 .navigation,
 .canonical-link {
-  line-height: $line-height;
+  line-height: $line-height-header;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
   text-rendering: optimizeLegibility;
@@ -132,8 +133,6 @@ h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1rem;
-
-  line-height: $line-height;
 }
 
 h3 {
@@ -437,6 +436,9 @@ strong,
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
   }
+}
+.pagination-older {
+  margin-bottom: 1.5rem; 
 }
 
 .interview h1,
