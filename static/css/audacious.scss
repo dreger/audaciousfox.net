@@ -507,10 +507,16 @@ strong,
   top: 0;
 }
 
+.headline-space { display: none; }
+.headline-nbsp { display: inline; }
+
 @media (max-width: $max-width) {
   html {
     font-size: 18px; 
   }
+
+  .headline-space { display: inline; }
+  .headline-nbsp { display: none; }
 
   .wrapped {
     margin: 0 auto;
@@ -521,10 +527,6 @@ strong,
 
   .container {
     display: block; 
-  }
-
-  .title {
-    font-size: .875rem; 
   }
 
   .sidebar {  
@@ -543,7 +545,9 @@ strong,
     background: white; 
     font-size: .875rem;
   }
-
+  .title { 
+    font-size: .875rem;
+  }
   .byline {
     .by { display: none; }
     .slash { display: inline; }
@@ -584,7 +588,7 @@ strong,
 
 @media (max-width: 340px) {
   html {
-    font-size: 14px; 
+    font-size: 16px; 
   }
   .by { display: none; }
 }
