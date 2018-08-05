@@ -15,7 +15,7 @@ Thank you for reading.
 
 ## Colophon
 
-I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. 
+I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a newborn in the house so my editing will be as good as I can make it at 3:00)
 
 Headlines and body copy are set in San Fransisco and [Charter](http://practicaltypography.com/charter.html) respectively. Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., and [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick. 
 
