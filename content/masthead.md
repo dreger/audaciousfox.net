@@ -19,7 +19,7 @@ I aim to write so you don't need to skim. Rigorous editing is a cornerstone of t
 
 Headlines and body copy are set in San Fransisco and [Charter](http://practicaltypography.com/charter.html) respectively. Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., and [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick. 
 
-This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any their services. 
+This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
 
 This site should look good in all modern web browsers; please let me know if it doesn't. 
 
