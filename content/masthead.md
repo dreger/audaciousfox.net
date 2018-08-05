@@ -3,9 +3,8 @@ title: Masthead
 url: /masthead/
 ---
 
-Audacious Fox is written by K.Q. Dreger. 
+Audacious Fox is written, edited, and produced by K.Q. Dreger. Thanks for reading.
 
-Thank you for reading.
 
 ## Correspondence
 
@@ -13,15 +12,6 @@ Thank you for reading.
 
 [keybase]: https://keybase.io/dreger 
 
-## Colophon
-
-I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a newborn in the house so my editing will be as good as I can make it at 3:00)
-
-Headlines and body copy are set in San Fransisco and [Charter](http://practicaltypography.com/charter.html) respectively. Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., and [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick. 
-
-This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
-
-This site should look good in all modern web browsers; please let me know if it doesn't. 
 
 ## Your Host, Briefly 
 
@@ -32,6 +22,17 @@ This site should look good in all modern web browsers; please let me know if it 
 I'm a product designer, working out of Northeast Ohio. This site is run out of my own pocket and in my spare time. What it lacks in regularity is hopefully made up for in quality. 
 
 Finally, random tidbits I enjoy sharing: energy, diction, and honesty are three great words; have strong opinions, loosely held; waffles are the bar by which all other breakfast foods are judged; and if you want to be a better writer, read everything you can. 
+
+
+## Colophon
+
+I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a newborn in the house so my editing will be as good as I can make it at 3:00)
+
+Headlines and body copy are set in San Fransisco and [Charter](http://practicaltypography.com/charter.html) respectively. Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., and [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick. 
+
+This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
+
+This site should look good in all modern web browsers; please let me know if it doesn't. 
 
 ## Other Writers Worth Reading 
 
