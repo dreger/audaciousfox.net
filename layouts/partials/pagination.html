@@ -1,8 +1,8 @@
 <div class="pagination">
 	{{ if .Next }}
-  <div class="pagination-older"><div class="caps">Older</div><a href="{{.Next.Permalink}}">{{.Next.Title}}</a></div>
+  <div class="pagination-older"><div class="caps">Older</div><a href='{{ trim .Next.Permalink "/" }}'>{{.Next.Title}}</a></div>
 {{ end }}
 {{ if .Prev }}
-  <div><div class="caps">Newer</div><a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a></div>
+  <div><div class="caps">Newer</div><a href='{{ trim .Prev.Permalink "/" }}'>{{.Prev.Title}}</a></div>
 {{ end }}
 </div>
