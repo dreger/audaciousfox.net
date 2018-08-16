@@ -4,7 +4,7 @@ date: 2018-08-16T12:03:33-04:00
 link: https://thesweetsetup.com/1password-digital-will/
 ---
 
-*The Sweet Setup Staff* (via [Michael Rockwell][mw]), on using the password manager [1Password][1p] as a digital will: 
+*The Sweet Setup* Staff (via [Michael Rockwell][mw]), on using the password manager [1Password][1p] as a digital will: 
 
 > Unlike a conventional will, this document (or database) is not as much about who gets your stuff, but more about helping your family member unwind the countless online accounts and collections of media and digital property that you have.
 
