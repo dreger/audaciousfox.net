@@ -12,7 +12,7 @@ When my mother passed away a number of years ago, handling all of the online bil
 
 Back to the linked-to piece: 1Password is my go-to recommendation whenever someone asks for a good password manager, but there's so much more it can do. The team at the *Sweet Setup* have done a great job writing up the 1Password-as-a-will angle, and they've also just [launched an entirely new 1Password course][1p tss] that goes deep on the many other ways 1Password can bring security and sanity to your digital life. There's a launch price special for $23 (cheap!), and any course purchase gets you an extended 90-day free trial of 1Password itself. It's an excellent deal. 
 
-I try not to write in absolutes, but 1Password is one of few (the only?) service that I'll happily pay for until the day I die. I really don't know how else to put it. 
+I try not to write in absolutes, but 1Password is one of few (if not the only) service that I'll happily pay for until the day I die. I really don't know how else to put it. 
 
 [1p]: https://1password.com
 [1p tss]: https://thesweetsetup.com/1password/
