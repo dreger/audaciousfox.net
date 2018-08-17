@@ -1,25 +1,20 @@
 <article>       
-  {{ if (eq .Section "linked") }}
-    <header class="article-header">
+  <header class="article-header">
+    {{ if (eq .Section "linked") }}
       <h2 title="{{ .Title }}" class="link">
         <span class="link-target">
           <a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "<span class='headline-nbsp'>&nbsp;</span><span class='headline-space'>&#32;</span>$1" .Title | safeHTML }}</a>
         </span>
       </h2> 
-    </header>
-  {{ else }}
-    <header class="article-header">
-      <h1 title="{{ .Title }}"><a href='{{ trim .Permalink "/" }}'>{{ .Title | safeHTML}}</a></h1>
-    </header>
-  {{ end }}
-  
-  
-  {{ .Content }}
+    {{ else }}
+      <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title | safeHTML}}</a></h1>
+    {{ end }}
+  </header>
 
-  <p>
-    <a class="canonical-link canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ trim .RelPermalink "/" }}">
-      {{ .Date.Format "Monday, 2 January" }}
-      <span class="canonical-link--post">{{ .Date.Format "2006" }}</span>
-    </a>
+  {{ .Content }}
+  
+  <p class="canonical-link">
+    <a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}">{{ .Date.Format "Monday, January 2" }}</a>
+    <span title="Published on" class="canonical-link--post">{{ .Date.Format "Monday, January 2, 2006" }}</span>
   </p>
 </article>

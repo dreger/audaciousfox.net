@@ -8,7 +8,7 @@ Audacious Fox is written, edited, and produced by K.Q. Dreger. Thanks for readin
 
 ## Correspondence
 
-[@Dreger](https://twitter.com/dreger) on Twitter or <comments@dreger.me>. For sensitive messages, I'm `dreger` on [Keybase][].
+[@Dreger](https://twitter.com/dreger) on Twitter or <comments@dreger.me>. Testing out Mastodon, so I'm [there too](https://mastodon.social/@dreger). For sensitive messages, I'm `dreger` on [Keybase][].
 
 [keybase]: https://keybase.io/dreger 
 
