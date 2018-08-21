@@ -1,5 +1,5 @@
 ---
-title: ‘Fortnite’ is a Runaway Success
+title: ‘Fortnite’ Is a Runaway Success
 date: 2018-07-24T20:20:02-04:00
 link: http://nymag.com/selectall/2018/07/how-fortnite-became-the-most-popular-video-game-on-earth.html
 ---
