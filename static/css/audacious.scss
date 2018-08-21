@@ -13,15 +13,17 @@ $sidebar-width: 12rem;
 $column-width: 32rem;  
 $column-width: 42rem;  
 $max-width: $sidebar-width + $column-width; 
-$line-height: 1.65em; 
+$line-height: 1.45em; 
 $letter-spacing: .12em; 
 
 // FONTS
 
-$sans: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-$serif: $sans; 
-//$serif: "Charter", "Georgia", Times, serif; 
-
+$sans: 'Concourse T3', -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; 
+$serif: 'Baskerville';
+$serif: 'Garamond', 'Baskerville', 'Athelas', "Charter", "Georgia", Times, serif; 
+$serif: 'Charter';
+$serif: 'Book An­ti­qua';
+$serif: 'Athelas', "Charter", "Georgia", Times, serif;
 
 // COLORS
 
@@ -75,12 +77,12 @@ body {
 
 a {
   color: $copy; 
-  color: $link; 
-  text-decoration: none;  
+  border-bottom: dotted 1px $gray; 
+  text-decoration: none;
+//  text-decoration: underline dotted;
+  
   &:hover { 
-    text-decoration: underline;
-//    border-bottom: solid 2px $link; 
-    // border-bottom: solid 1px $copy; 
+     border-bottom: solid 1px $copy; 
   }
 }
 
@@ -106,7 +108,7 @@ ol,
 aside,
 blockquote,
 .highlighter-rouge {
-  margin-bottom: 1.5em; 
+  margin-bottom: 1.25em; 
 }
 
 h1,
