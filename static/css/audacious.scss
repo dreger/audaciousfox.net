@@ -608,13 +608,10 @@ strong,
   html {
     font-size: 16px; 
   }
-  .header {
-  	text-align: center; 
-  }
   .byline { 
   	display: block; 
   	padding: .5rem 0; 
   }
-  .byline__slash,
-  .byline__by { display: none; }
+  .byline__slash { display: none; }
+  .byline__by { display: inline; }
 }
