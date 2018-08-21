@@ -13,7 +13,7 @@ Audacious Fox is written, edited, and produced by K.Q. Dreger. Thanks for readin
 [keybase]: https://keybase.io/dreger 
 
 
-## Your Host, Briefly 
+## Your host, briefly
 
 {{< figure src="/kq.jpg" title="Photo by Emily Dreger." >}}
 
@@ -34,7 +34,7 @@ This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain 
 
 This site should look good in all modern web browsers; please let me know if it doesn't. 
 
-## Other Writers Worth Reading 
+## Other writers worth reading 
 
 I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. Have someone that should be on here? Drop me a note. (Updated Feb. 2018)
 

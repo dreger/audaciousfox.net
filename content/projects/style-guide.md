@@ -13,7 +13,7 @@ If you run a web column, please feel free to remix or copy the contents here for
 
 If you do any sort of writing, particularly online, you should be using a style guide. Having some sort of reference for how _you_ write will help you make consistent editorial decisions, and it will help bring a level of polish to your work that many miss out on.
 
-## Style & Tone
+## Style & tone
 
 Go read "[The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style)" by Strunk & White. Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose.
 
@@ -23,7 +23,7 @@ Establish the context of a person, place, or thing without making the reader fee
 
 [esg]:http://www.economist.com/style-guide/quotes
 
-## A Note on Links
+## A note on links
 
 Links are one of the most important differentiators between paper and webpages. Links combine context and citation into one user-friendly element. Unfortunately, many links wrap the incorrect part of a sentence, which makes them feel off-putting. 
 
