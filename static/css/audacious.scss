@@ -13,14 +13,14 @@ $sidebar-width: 12rem;
 $column-width: 32rem;  
 $column-width: 42rem;  
 $max-width: $sidebar-width + $column-width; 
-$line-height: 1.4em; 
-$line-height-header: 1.75em; 
+$line-height: 1.65em; 
 $letter-spacing: .12em; 
 
 // FONTS
 
 $sans: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-$serif: "Charter", "Georgia", Times, serif; 
+$serif: $sans; 
+//$serif: "Charter", "Georgia", Times, serif; 
 
 
 // COLORS
@@ -28,18 +28,19 @@ $serif: "Charter", "Georgia", Times, serif;
 $link: #645394; // MDS Purple
 $link: #B0976D; // Old Gold
 $link: #FFDC00; // Light Orangish Red
-$link: #795AE1; // Deep Purple
 $link: #0ed3c8; // Tealicious
 $link: #FE3366; // Think Pink
-$link: #1968FF; // Bright Blue
-$link: #2164BF; // Real Blue
 $link: #ff8600; // Quantum Gold 
-$link: #FF725C; // Light Red
+$link: #795AE1; // Deep Purple
 $link: #00BBBB; // Soft Teal
+$link: #FF725C; // Light Red
+$link: #1968FF; // Bright Blue
+$link: #6B8EB7; // Jeans
 
 $copy: #4a4b4c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
 $light-gray: #c1c2c3; 
+$light-light-gray: #ddd; 
 $gray: #8a8b8c; 
 $bg: #f5f7f9; 
 $article-bg: white; 
@@ -59,7 +60,7 @@ $heart-color: $link;
   box-sizing: content-box; }
 
 html {
-  font-size: 15px; 
+  font-size: 16px; 
   text-rendering: optimizeLegibility;
 }
 
@@ -74,13 +75,12 @@ body {
 
 a {
   color: $copy; 
-  // color: $link; 
-  text-decoration: none; 
-  border-bottom: solid 1px $light-gray; 
+  color: $link; 
+  text-decoration: none;  
   &:hover { 
-    // text-decoration: underline;
+    text-decoration: underline;
+//    border-bottom: solid 2px $link; 
     // border-bottom: solid 1px $copy; 
-    border-color: $copy;  
   }
 }
 
@@ -110,10 +110,9 @@ blockquote,
 }
 
 h1,
-h2,
-header,
+.header,
 .navigation {
-  line-height: $line-height-header;
+  line-height: $line-height;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
   text-rendering: optimizeLegibility;
@@ -131,7 +130,9 @@ h1 {
 h2 {
   margin-bottom: 1rem;
   margin-top: 2.25rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  line-height: $line-height;
+  font-family: $sans;
   &.link {
     margin-top: 0; 
   }
@@ -306,6 +307,7 @@ h1 a {
   color: $gray; 
   a { color: $gray; }
 }
+.byline__slash { display: none; }
 
 .wrapped {
   margin: 4rem auto;
@@ -513,7 +515,7 @@ strong,
 
 @media (max-width: $max-width) {
   html {
-    font-size: 18px; 
+    font-size: 16px; 
   }
 
   //  Used to disable orphaned headline correction on mobile
@@ -545,15 +547,9 @@ strong,
   .header {
     padding-bottom: 1rem; 
     background: white; 
-    font-size: .875rem;
   }
-  .title { 
-    font-size: .875rem;
-  }
-  .byline {
-    .by { display: none; }
-    .slash { display: inline; }
-  }
+    .byline__by { display: none; }
+    .byline__slash { display: inline; }
   
   .navigation-jump {
     display: block;
@@ -592,5 +588,13 @@ strong,
   html {
     font-size: 16px; 
   }
-  .by { display: none; }
+  .header {
+  	text-align: center; 
+  }
+  .byline { 
+  	display: block; 
+  	padding: .5rem 0; 
+  }
+  .byline__slash,
+  .byline__by { display: none; }
 }
