@@ -18,12 +18,27 @@ $letter-spacing: .12em;
 
 // FONTS
 
+@font-face {
+    font-family: 'Concourse T3 Bold';
+    src: url('../fonts/concourse_t3_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Concourse T3';
+    src: url('../fonts/concourse_t3_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 $sans: 'Concourse T3', -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; 
+$sans-bold: 'Concourse T3 Bold', $sans; 
 $serif: 'Baskerville';
 $serif: 'Garamond', 'Baskerville', 'Athelas', "Charter", "Georgia", Times, serif; 
 $serif: 'Charter';
 $serif: 'Book An­ti­qua';
-$serif: 'Athelas', "Charter", "Georgia", Times, serif;
+$serif: 'Athelas', "Charter", "Georgia", Times, serif; 
 
 // COLORS
 
@@ -154,7 +169,9 @@ img {
 }
 
 em {
-  figcaption { font-style: normal; }
+  figcaption { 
+    font-style: normal; 
+  }
   img {
     width: calc(100% + 6rem);
     margin: 1rem 0 1rem -3rem; 
@@ -273,6 +290,7 @@ figure {
   figcaption { 
     font-size: .875rem; 
     line-height: $line-height;
+    font-family: $sans;
     color: $gray; 
   }
 }
@@ -297,7 +315,7 @@ h1 a {
   margin: 0;
   line-height: 1em;
   display: inline;
-  font-weight: bold;
+  font-family: $sans-bold; 
   font-size: 1rem; 
   letter-spacing: $letter-spacing; 
 }
@@ -358,7 +376,7 @@ strong,
 .interview .name {
   font-size: .875em;
   line-height: 1em;
-  font-family: $sans;
+  font-family: $sans-bold;
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
   font-weight: 500;
@@ -437,6 +455,7 @@ strong,
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
+    font-family: $sans;
   }
 }
 .pagination-older {
