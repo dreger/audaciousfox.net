@@ -49,10 +49,10 @@ $link: #0ed3c8; // Tealicious
 $link: #FE3366; // Think Pink
 $link: #ff8600; // Quantum Gold 
 $link: #795AE1; // Deep Purple
-$link: #6B8EB7; // Jeans
 $link: #1968FF; // Bright Blue
-$link: #FF725C; // Light Red
 $link: #00BBBB; // Soft Teal
+$link: #FF725C; // Light Red
+$link: #6B8EB7; // Jeans
 
 $copy: #4a4b4c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
@@ -368,6 +368,7 @@ h1 a {
 
 .navigation li {
   list-style: none; 
+  margin-bottom: 1rem;
 }
 
 
@@ -502,12 +503,12 @@ strong,
 .heart {
   background-color: $heart-color;
   display: inline-block;
-  height: 6px;
+  height: 7px;
   margin: 0 3px;
   position: relative;
   top: 0;
   transform: rotate(-45deg);
-  width: 6px;
+  width: 7px;
 }
 
 .heart:before,
@@ -515,9 +516,9 @@ strong,
   content: "";
   background-color: $heart-color;
   border-radius: 50%;
-  height: 6px;
+  height: 7px;
   position: absolute;
-  width: 6px;
+  width: 7px;
 }
 
 .heart:before {
@@ -535,7 +536,7 @@ strong,
 
 @media (max-width: $max-width) {
   html {
-    font-size: 16px; 
+    font-size: 17px; 
   }
 
   //  Used to disable orphaned headline correction on mobile
