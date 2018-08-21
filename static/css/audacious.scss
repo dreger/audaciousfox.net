@@ -287,7 +287,6 @@ h1 a {
   color: $copy; 
   &:hover { 
     border-color: $copy;
-    text-decoration: none; 
   }
 }
 
@@ -511,7 +510,7 @@ strong,
 }
 
 .headline-space { display: none; }
-.headline-nbsp { display: none; }
+.headline-nbsp { display: inline; }
 
 @media (max-width: $max-width) {
   html {
@@ -519,8 +518,8 @@ strong,
   }
 
   //  Used to disable orphaned headline correction on mobile
-  // .headline-space { display: inline; }
-  // .headline-nbsp { display: none; }
+  .headline-space { display: inline; }
+  .headline-nbsp { display: none; }
 
   .wrapped {
     margin: 0 auto;
