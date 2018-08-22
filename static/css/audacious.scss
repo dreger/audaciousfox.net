@@ -9,8 +9,8 @@
  
 // SPACING
 
-$sidebar-width: 24rem;   
-$column-width: 40rem;  
+$sidebar-width: 26rem;   
+$column-width: 38rem;  
 $max-width: $sidebar-width + $column-width; 
 $line-height: 1.45em; 
 $letter-spacing: .08em; 
@@ -270,7 +270,7 @@ pre code {
 
 blockquote {
   padding: 0 3rem 0 1.25rem;
-  margin-left: 0; 
+  margin-left: .25rem; 
   border-left: solid 4px $bg; 
 }
 
@@ -295,7 +295,7 @@ figure {
 
 .header {
   font-size: 1.25rem;
-  padding: 3rem; 
+  padding: 0 3rem 3rem; 
   margin-bottom: 1.5rem;
 }
 
@@ -344,7 +344,7 @@ h1 a {
   margin-top: 3rem;
   // font-size: .875rem;
   // border-top: solid 4px $bg; 
-  border-radius: 4px 4px 0 0; 
+  border-radius: 8px 8px 0 0; 
   line-height: $line-height;
   padding: 3rem; 
   & p:last-child { margin-bottom: 0; }
@@ -540,7 +540,7 @@ strong,
 
 @media (max-width: $max-width) {
   html {
-    font-size: 17px; 
+    font-size: 18px; 
   }
 
   //  Used to disable orphaned headline correction on mobile
@@ -611,16 +611,4 @@ strong,
   .wrapped { margin: 0 auto; }
     .byline__slash, .byline__about { display: none; }
 
-}
-
-@media (max-width: 340px) {
-  html {
-    font-size: 16px; 
-  }
-  .byline { 
-  	display: block; 
-  	padding: .5rem 0; 
-  }
-  .byline__slash { display: none; }
-  .byline__by { display: inline; }
 }
