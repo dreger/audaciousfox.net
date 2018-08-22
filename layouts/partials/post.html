@@ -11,10 +11,12 @@
     {{ end }}
   </header>
 
-  {{ .Content }}
-  
   <p class="canonical-link">
     <a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}">{{ .Date.Format "Monday, January 2" }}</a>
     <span title="Published on" class="canonical-link--post">{{ .Date.Format "Monday, January 2, 2006" }}</span>
   </p>
+
+  {{ .Content }}
+  
+  
 </article>
