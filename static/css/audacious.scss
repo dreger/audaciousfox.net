@@ -271,7 +271,7 @@ pre code {
 blockquote {
   padding: 0 3rem 0 1.25rem;
   margin-left: .25rem; 
-  border-left: solid 4px $bg; 
+  border-left: solid 4px darken($bg, 5%); 
 }
 
 blockquote strong {
