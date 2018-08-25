@@ -1,5 +1,5 @@
 ---
-title: Terms of Use & Privacy Policy
+title: Terms & Privacy Policy
 url: /privacy/
 ---
 
