@@ -18,5 +18,7 @@
 
   {{ .Content }}
   
-  
+  {{ if (eq .Section "archive") }}
+    <h2 style="color:#ccc;">{{ $.Param "icon" | markdownify  }}</h2>
+  {{ end }}
 </article>
