@@ -1,4 +1,10 @@
-<article>       
+<article>     
+
+<p class="canonical-link">
+    <a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "January 2, 2006" }}</time></a>
+    <span class="canonical-link--post" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, January 2, 2006" }}</time></span>
+  </p>
+
   <header class="article-header">
     {{ if (eq .Section "linked") }}
       <h2 title="{{ .Title }}" class="link">
@@ -11,12 +17,5 @@
     {{ end }}
   </header>
 
-  <p class="canonical-link">
-    <a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, January 2, 2006" }}</time></a>
-    <span class="canonical-link--post" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, January 2, 2006" }}</time></span>
-  </p>
-
   {{ .Content }}
-
-  <!-- {{ .Date.Format "Monday, January 2" }} -->
 </article>

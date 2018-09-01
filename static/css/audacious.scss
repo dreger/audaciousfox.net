@@ -13,7 +13,7 @@ $sidebar-width: 26rem;
 $sidebar-width: 0rem;   
 $column-width: 34rem;  
 $max-width: $sidebar-width + $column-width; 
-$max-width: 30rem - 3rem; 
+$max-width: 34rem - 3rem; 
 $line-height: 1.5em; 
 $letter-spacing: .08em; 
 
@@ -53,7 +53,7 @@ $link: #00BBBB; // Soft Teal
 
 $copy: #4a4b4c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
-$light-gray: #c1c2c3; 
+$light-gray: #a1a2a3; 
 $light-light-gray: #ddd; 
 $gray: #727272; 
 $bg: #f5f7f9; 
@@ -132,7 +132,7 @@ blockquote,
 
 h1 {
   font-size: 1.5rem; 
-  margin-bottom: 1rem; 
+  // margin-bottom: 1rem; 
   line-height: 1.25em; 
   text-transform: none; 
   font-weight: 900; 
@@ -140,11 +140,11 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1.25rem;
   line-height: $line-height;
-  
+  font-weight: 500; 
   &.link {
     margin-top: 0; 
   }
@@ -435,8 +435,11 @@ strong,
   // text-transform: uppercase; 
   // letter-spacing: $letter-spacing; 
   // font-size: .875rem; 
+  font-weight: 500; 
+  color: $light-gray; 
   a {
-    color: $gray; 
+  color: $light-gray; 
+
     border: 0;
   }
   a:hover { 
@@ -475,12 +478,12 @@ strong,
 .heart {
   background-color: $heart-color;
   display: inline-block;
-  height: 8px;
+  height: 7px;
   margin: 0 4px;
   position: relative;
   top: 0;
   transform: rotate(-45deg);
-  width: 8px;
+  width: 7px;
 }
 
 .heart:before,
@@ -488,18 +491,18 @@ strong,
   content: "";
   background-color: $heart-color;
   border-radius: 50%;
-  height: 8px;
+  height: 7px;
   position: absolute;
-  width: 8px;
+  width: 7px;
 }
 
 .heart:before {
-  top: -5px;
+  top: -4px;
   left: 0;
 }
 
 .heart:after {
-  left: 5px;
+  left: 4px;
   top: 0;
 }
 
