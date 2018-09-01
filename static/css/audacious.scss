@@ -74,7 +74,7 @@ $heart-color: $link;
   box-sizing: content-box; }
 
 html {
-  font-size: 15px; 
+  font-size: 14px; 
   text-rendering: optimizeLegibility;
 }
 
@@ -508,7 +508,7 @@ strong,
 
 @media (max-width: $max-width) {
   html {
-    font-size: 18px; 
+    font-size: 17px; 
   }
 
   //  Used to disable orphaned headline correction on mobile
@@ -521,14 +521,14 @@ strong,
     margin: 3rem auto 0;
     max-width: 40rem; 
   }
-  .header,
-  .sidebar, {
+
+  .sidebar {
     padding: 1.5rem 1.5rem .875rem;
     margin: 0 0; 
-  }
+  } 
 
   .header {
-    padding-bottom: 1rem; 
+    padding: 0; 
     background: white; 
   }
   
@@ -545,10 +545,12 @@ strong,
   .wrapped {
     padding: 1.5rem; 
   }
-  .header, .pagination {
+  .pagination {
     padding: 1.5rem 0;
   }
-
+  article {
+    padding: 3rem 0; 
+  }
   article:first-child {
     margin-top: 0;
   }
