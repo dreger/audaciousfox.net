@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
 
 <article>
-
 <h1>Archive / Linked</h1>
 <p>
 	Links to worthwhile places. 
@@ -11,7 +10,7 @@
 <h2>{{ .Key }}</h2>
 <ol class="archive">
   {{ range .Pages }}
-    <li value="{{ .Date.Format "2" }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title }}</a></li>
+    <li value="{{ .Date.Format "02" }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title }}</a></li>
   {{end}}
 </ol>
 {{end}}

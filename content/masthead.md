@@ -3,7 +3,11 @@ title: Masthead
 url: /masthead/
 ---
 
-Audacious Fox is written, edited, and produced by K.Q. Dreger. Thanks for reading.
+Written, edited, and produced by K.Q. Dreger. 
+
+All content &copy; The Audacious Company LLC. 
+
+Thanks for reading. ✌️
 
 
 ## Correspondence
@@ -53,7 +57,3 @@ I read pretty much everything these folks put out. I update this list every coup
 - _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
 - _The Newsprint_, [Joshua Ginter](http://thenewsprint.co)
 - _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
-
-<hr>
-
-<p><small>All content &copy; The Audacious Company LLC.</small></p>
