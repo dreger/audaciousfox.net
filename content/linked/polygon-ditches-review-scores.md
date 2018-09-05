@@ -1,5 +1,5 @@
 ---
-title: Polygon Ditches Review Scores In Favor of Curated ‘Recommends’ Labeling and Curated ‘Essentials’
+title: Polygon Ditches Review Scores In Favor of ‘Recommends’ Labeling and Curated ‘Essentials’
 date: 2018-09-04T19:47:47-04:00
 link: https://www.polygon.com/reviews/2018/9/4/17689100/polygon-reviews-no-scores
 ---
