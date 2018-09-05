@@ -51,11 +51,11 @@ $link: #6B8EB7; // Jeans
 $link: #FF725C; // Light Red
 $link: #00BBBB; // Soft Teal
 
-$copy: #4a4b4c; // Also: RGBA(52, 60, 71, 1);
+$copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
 $light-gray: #a1a2a3; 
 $light-light-gray: #ddd; 
-$gray: #727272; 
+$gray: #525252; 
 $bg: #f5f7f9; 
 $article-bg: white; 
 $heart-color: $link; 
@@ -206,8 +206,8 @@ article {
   position: relative;
   margin-bottom: .25rem; 
   background: white; 
-  padding: 5rem 0; 
-  border-bottom: solid 4px $bg; 
+  padding: 3rem 0; 
+  border-bottom: solid 2px $bg; 
   border-radius: 2px;
   &:last-child { border-bottom: 0; } 
 }
@@ -271,7 +271,7 @@ pre code {
 blockquote {
   padding: 0 2.25rem;
   color: $gray;
-  font-style: italic; 
+  // font-style: italic; 
   // margin-left: .25rem; 
   // border-left: solid 4px darken($bg, 5%); 
 }
@@ -340,7 +340,7 @@ h1 a {
   font-size: .875rem;
   border-radius: 8px 8px 0 0; 
   line-height: $line-height;
-  padding: 5rem 0 0; 
+  padding: 4rem 0 0; 
   & p:last-child { margin-bottom: 0; }
 }
 
@@ -454,8 +454,8 @@ strong,
   color: $gray; 
   border-radius: 4px;
   background: white;  
-  padding: 5rem 0; 
-  border-bottom: solid 4px $bg; 
+  padding: 3rem 0; 
+  border-bottom: solid 2px $bg; 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
@@ -526,7 +526,7 @@ strong,
   }
 
   .sidebar {
-    padding: 1.5rem 1.5rem .875rem;
+    padding: 3rem 0 1.5rem;
     margin: 0 0; 
   } 
 
@@ -549,7 +549,7 @@ strong,
     padding: 1.5rem; 
   }
   .pagination {
-    padding: 1.5rem 0;
+    padding: 3rem 0;
   }
   article {
     padding: 3rem 0; 
@@ -574,8 +574,10 @@ strong,
   }
 
 @media (max-width: 800px) {
-  .title { display: block; line-height: $line-height; }
+  .title { display: inline; line-height: $line-height; }
   .wrapped { margin: 0 auto; }
     .byline__slash, .byline__about { display: none; }
-
+}
+@media (max-width: 321px) {
+  .title { display: block; }
 }
