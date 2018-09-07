@@ -7,7 +7,9 @@ Written, edited, and produced by K.Q. Dreger.
 
 All content &copy; The Audacious Company LLC. 
 
-Thanks for reading. ✌️
+Thanks for reading. 
+
+✌️
 
 
 ## Correspondence
@@ -30,9 +32,11 @@ Finally, random tidbits I enjoy sharing: energy, diction, and honesty are three 
 
 ## Colophon
 
-I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a newborn in the house so my editing will be as good as I can make it at 3:00)
+I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a newborn in the house so my editing will only be as good as I can make it at three in the morning)
 
-Headlines and body copy are set in San Francisco and Athelas (by Veronika Burian and Jose Scaglione) respectively. Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter. 
+Headlines and body copy are set in San Francisco. 
+
+*Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
 
