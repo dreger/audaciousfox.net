@@ -5,7 +5,7 @@ link: https://www.polygon.com/reviews/2018/9/4/17689100/polygon-reviews-no-score
 ---
 
 
-Executive Editor and Co-founder at *Polygon*, Chris Plante: 
+Executive Editor and co-founder at *Polygon*, Chris Plante: 
 
 > Games have changed since we launched Polygon. We're changing with them. 
 
