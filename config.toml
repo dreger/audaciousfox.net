@@ -36,9 +36,9 @@ titleCaseStyle = "AP"
 
 [mediaTypes]
   [mediaTypes."application/xml"]
-    suffix = "xml"
+    suffixes = ["xml"]
   [mediaTypes."application/json"]
-    suffix = "json"
+    suffixes = ["json"]
 
 [outputFormats.Json]
   mediaType = "application/json"

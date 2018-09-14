@@ -26,4 +26,4 @@ Happy writing,
 [K.Q. @Dreger](https://twitter.com/dreger)
 
 [edit]: https://itunes.apple.com/us/app/id1231744746
-[af]: {{< ref "linked/edit-for-ios" >}}
+[af]: {{< ref "/linked/edit-for-ios" >}}

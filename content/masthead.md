@@ -3,11 +3,7 @@ title: Masthead
 url: /masthead/
 ---
 
-Written, edited, and produced by K.Q. Dreger. 
-
-All content &copy; The Audacious Company LLC. 
-
-Thanks for reading. 
+Written, edited, and produced by K.Q. Dreger. All content copyright The Audacious Company LLC. Thanks for reading. 
 
 ✌️
 
