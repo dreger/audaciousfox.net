@@ -3,7 +3,7 @@
 
 /*
   Copyright K.Q. Dreger
-  Update: AF 1.18
+  Update: AF 1.19
 */ 
 
  
@@ -13,7 +13,7 @@ $sidebar-width: 26rem;
 $sidebar-width: 0rem;   
 $column-width: 34rem;  
 $max-width: $sidebar-width + $column-width; 
-$max-width: 34rem - 3rem; 
+$max-width: 36rem; 
 $line-height: 1.5em; 
 $letter-spacing: .08em; 
 
@@ -53,7 +53,7 @@ $link: #00BBBB; // Soft Teal
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
-$light-gray: #a1a2a3; 
+$light-gray: #b1b2b3; 
 $light-light-gray: #ddd; 
 $gray: #525252; 
 $bg: #f5f7f9; 
@@ -119,7 +119,7 @@ ol,
 aside,
 blockquote,
 .highlighter-rouge {
-  margin-bottom: 1.25em; 
+  margin-bottom: 1em; 
 }
 
 .navigation {
@@ -131,11 +131,11 @@ blockquote,
 }
 
 h1 {
-  font-size: 1.5rem; 
-  // margin-bottom: 1rem; 
+  font-size: 2.25rem; 
+  margin-bottom: 1rem; 
   line-height: 1.25em; 
   text-transform: none; 
-  font-weight: 900; 
+  font-weight: 400; 
   letter-spacing: 0px; 
 }
 
@@ -297,7 +297,7 @@ figure {
 
 .header {
   font-size: 1.25rem;
-
+  margin-bottom: 5rem; 
 }
 
 .header a,
@@ -435,7 +435,7 @@ strong,
   // text-transform: uppercase; 
   // letter-spacing: $letter-spacing; 
   // font-size: .875rem; 
-  font-weight: 500; 
+  // font-weight: 500; 
   color: $light-gray; 
   a {
   color: $light-gray; 
@@ -450,15 +450,17 @@ strong,
 
 .pagination {
   line-height: $line-height; 
-  font-style: italic; 
+  // font-style: italic; 
   color: $gray; 
   border-radius: 4px;
   background: white;  
   padding: 3rem 0; 
+  font-weight: 500; 
   border-bottom: solid 2px $bg; 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
+    font-weight: normal;
     
   }
 }
