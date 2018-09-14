@@ -50,6 +50,7 @@ $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
 $link: #FF725C; // Light Red
 $link: #00BBBB; // Soft Teal
+$link: rgb(39, 110, 241); // BlUber
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
@@ -243,10 +244,9 @@ sub {
   vertical-align: sub; }
 
 code {
-  padding: 1px 4px;
+  padding: 2px 8px;
   font-size: .875rem; 
-  line-height: 1em; 
-  border-radius: 2px; 
+  border-radius: 10px; 
   background: darken($bg, 4%); 
   font-family: monospace; 
 }
@@ -330,6 +330,7 @@ h1 a {
 
 .wrapped {
   margin: 0 auto;
+  border-top: solid 4px $link; 
   max-width: $max-width; 
   background: white; 
   padding: 3rem; 

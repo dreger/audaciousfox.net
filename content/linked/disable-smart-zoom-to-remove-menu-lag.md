@@ -8,4 +8,8 @@ When you perform a right-click in MacOS via the trackpad — by clicking or tap
 
 [reddit]: https://www.reddit.com/r/MacOS/comments/9e01ia/til_disabling_smart_zoom_doubletap_with_two/
 
-Thankfully, I never use this zoom feature (pinch-to-zoom is more precise anyhow), and I was able to disable the gesture by going to `System Preferences > Trackpad > Scroll & Zoom` and then unchecking "Smart zoom". It's amazing how much faster my secondary click feels now — the contextual menu appears instantly. Sometimes it's the small things. 
+Thankfully, I never use this zoom feature (pinch-to-zoom is more precise anyhow), and I was able to disable the gesture by going to:
+
+`System Preferences > Trackpad > Scroll & Zoom` 
+
+and then unchecking "Smart zoom". It's amazing how much faster my secondary click feels now — the contextual menu appears instantly. Sometimes it's the small things. 
