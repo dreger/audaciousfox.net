@@ -19,19 +19,19 @@ $letter-spacing: .08em;
 
 // FONTS
 
-@font-face {
-    font-family: 'Concourse T3 Bold';
-    src: url('../fonts/concourse_t3_bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+// @font-face {
+//     font-family: 'Concourse T3 Bold';
+//     src: url('../fonts/concourse_t3_bold.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
 
-}
-@font-face {
-    font-family: 'Concourse T3';
-    src: url('../fonts/concourse_t3_regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+// }
+// @font-face {
+//     font-family: 'Concourse T3';
+//     src: url('../fonts/concourse_t3_regular.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
 $serif: "system-ui", -apple-system, Helvetica, Arial, sans-serif, 'Avenir Next', 'Rubik', "Charter", "Georgia", Times, serif; 
 $sans:  -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; 
@@ -54,7 +54,7 @@ $link: rgb(39, 110, 241); // BlUber
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
-$light-gray: #b1b2b3; 
+$light-gray: #a1a2a3; 
 $light-light-gray: #ddd; 
 $gray: #525252; 
 $bg: #f5f7f9; 
@@ -128,7 +128,6 @@ blockquote,
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
   text-rendering: optimizeLegibility;
-  
 }
 
 h1 {
@@ -141,7 +140,6 @@ h1 {
 }
 
 h2 {
-  // margin-bottom: 1rem;
   margin-top: 2.25rem;
   font-size: 1.25rem;
   line-height: $line-height;
@@ -220,8 +218,6 @@ article p:last-child,
 article blockquote:last-child {
   margin-bottom: 0; }
 
-
-
 aside {
   width: 40%;
   float: right;
@@ -252,12 +248,10 @@ code {
 }
 
 pre {
-  // overflow: scroll;
   white-space: pre-wrap;
   font-size: .875rem;
   border-width: 1px;
   background: $bg; 
-
   border-color: #c5c6c7;
   border-style: dashed;
   padding: .5rem .5rem;
@@ -267,13 +261,9 @@ pre code {
   padding: initial;
   border: 0; }
 
-
 blockquote {
   padding: 0 2.25rem;
   color: $gray;
-  // font-style: italic; 
-  // margin-left: .25rem; 
-  // border-left: solid 4px darken($bg, 5%); 
 }
 
 blockquote strong {
@@ -338,7 +328,6 @@ h1 a {
 
 
 .sidebar {
-  font-size: .875rem;
   border-radius: 8px 8px 0 0; 
   line-height: $line-height;
   padding: 4rem 0 0; 
