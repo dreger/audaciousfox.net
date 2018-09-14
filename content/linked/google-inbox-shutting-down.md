@@ -1,5 +1,5 @@
 ---
-title: "Google Inbox Shutting Down "
+title: "Google Shutting Down ‘Inbox’ Email Experiment"
 date: 2018-09-13T20:50:22-04:00
 link: https://www.theverge.com/2018/9/12/17848500/google-inbox-shut-down-sunset-snooze-email-march-2019
 ---
