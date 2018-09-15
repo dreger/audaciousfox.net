@@ -48,8 +48,8 @@ $link: #ff8600; // Quantum Gold
 $link: #795AE1; // Deep Purple
 $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
-$link: #FF725C; // Light Red
 $link: #00BBBB; // Soft Teal
+$link: #FF725C; // Light Red
 $link: rgb(39, 110, 241); // BlUber
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
@@ -92,6 +92,7 @@ body {
 a {
   color: $copy; 
   border-bottom: solid 1px $light-gray; 
+  border-bottom: 2px solid #f0f0f0;
   text-decoration: none;  
   &:hover { 
     border-bottom-color: $copy; 
@@ -144,6 +145,7 @@ h2 {
   font-size: 1.25rem;
   line-height: $line-height;
   font-weight: 500; 
+  font-weight: 900; 
   &.link {
     margin-top: 0; 
   }
@@ -197,7 +199,7 @@ hr {
   border: 0;
   border-top: 2px dashed $bg; 
   margin: 1.5rem 0;
-  display: block; 
+  display: block;  
 }
 
 article {
@@ -206,7 +208,7 @@ article {
   margin-bottom: .25rem; 
   background: white; 
   padding: 3rem 0; 
-  border-bottom: solid 2px $bg; 
+  border-bottom: solid 2px #f0f0f0; 
   border-radius: 2px;
   &:last-child { border-bottom: 0; } 
 }
@@ -320,10 +322,10 @@ h1 a {
 
 .wrapped {
   margin: 0 auto;
-  border-top: solid 4px $link; 
   max-width: $max-width; 
   background: white; 
   padding: 3rem; 
+  border-top: solid 4px $link; 
 }
 
 
@@ -420,20 +422,20 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-   
-  color: $gray; 
+  // color: $copy; 
   // text-transform: uppercase; 
   // letter-spacing: $letter-spacing; 
   // font-size: .875rem; 
-  // font-weight: 500; 
-  color: $light-gray; 
+  font-weight: 900; 
+  // color: $light-gray; 
+  opacity: .4; 
   a {
-  color: $light-gray; 
+  // color: $light-gray; 
 
     border: 0;
   }
   a:hover { 
-    color: $copy;  
+    opacity: 1;   
   }
 }
 .canonical-link--post { display: inline; }
