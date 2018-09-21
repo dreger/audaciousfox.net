@@ -49,8 +49,8 @@ $link: #795AE1; // Deep Purple
 $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
 $link: #00BBBB; // Soft Teal
-$link: #FF725C; // Light Red
 $link: rgb(39, 110, 241); // BlUber
+$link: #FF725C; // Light Red
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
@@ -325,7 +325,7 @@ h1 a {
   max-width: $max-width; 
   background: white; 
   padding: 3rem; 
-  border-top: solid 4px $link; 
+  // border-top: solid 4px $link; 
 }
 
 
