@@ -16,7 +16,7 @@ Co-founder and former CEO Kevin Bruner (he left Telltale over a year ago), [on h
 
 This news comes several months after Ms. Farokhmanesh first reported [on the turmoil inside of Telltale Games][verge tt] following their meteoric rise. Yet, a few months after Ms. Farokhmanesh's reporting, the studio announced it had (among other developments) [partnered with Netflix][tt st] to create a game adaptation of *Stranger Things*, which led me to believe things were getting a little bit better. 
 
-I really [wanted them to pull through][af tt]. Telltale Games had some of the best art- and narrative-driven games I've ever played. There was a lot of talent inside that studio, and I hope they all end up alright.  
+I really [wanted them to pull through][af tt]. Telltale had some of the best art- and narrative-driven games I've ever played. There was a lot of talent inside that studio, and I hope they all end up alright.  
 
 
 [verge tt]: https://www.theverge.com/2018/3/20/17130056/telltale-games-developer-layoffs-toxic-video-game-industry
