@@ -3,7 +3,7 @@ title: "Fixing Extremely Poor or Muffled Call Quality When Using AirPods and Mac
 date: 2017-10-23T21:38:00-04:00
 ---
 
-**The Fix:** You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to "Internal Microphone" — if you use the AirPods for both input and output, the quality will be noticeably poor and muffled. 
+**The Fix:** You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to "Internal Microphone" — if you use the AirPods for both input and output, the audio quality takes a noticeable hit. 
 
 A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them. I blamed network connectivity issues, but my problem persisted regardless of location. One day, forgetting [my much loved AirPods][my airpods] at home, audio calls sounded fine again. The AirPods were to blame. 
 
