@@ -529,6 +529,7 @@ strong,
     background: $bg; 
     border-radius: 4px; 
     padding: 1rem; 
+    a { border-color: $light-light-gray; }
   }
   .menu--visible {
     display: block; 

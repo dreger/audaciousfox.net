@@ -531,6 +531,8 @@ strong,
     background: #f5f7f9;
     border-radius: 4px;
     padding: 1rem; }
+    .menu a {
+      border-color: #ddd; }
 
   .menu--visible {
     display: block; }
