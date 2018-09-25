@@ -304,7 +304,7 @@ h1 a {
 .byline { 
   display: flex; 
   align-items: center; 
-  font-weight: 500;
+  // font-weight: 500;
   margin-bottom: 1.5rem;
 }
 .byline-name {
@@ -458,14 +458,14 @@ strong,
   // font-style: italic; 
   color: $gray; 
   border-radius: 4px;
-  font-weight: 500; 
+  // font-weight: 500; 
   background: white;  
-  font-weight: 500; 
+  // font-weight: 500; 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
   color: $light-gray; 
-    font-weight: 500;
+    // font-weight: 500;
     
   }
 }
