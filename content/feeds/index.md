@@ -1,9 +1,11 @@
 ---
-title: Feeds
+title: Syndication Feeds
 ---
 
-Audacious Fox currently provides three ways to get updates: 
+You can follow Audacious Fox in your favorite RSS/JSON feed reader or on Twitter.
 
-- [RSS](/feeds/main.xml)
-- [JSON Feed](/feeds/main.json)
-- [Twitter](https://twitter.com/audaciousfoxnet)
+## RSS: [audaciousfox.net/feeds/main.xml](/feeds/main.xml)
+
+## JSON: [audaciousfox.net/feeds/main.json](/feeds/main.json)
+
+## Twitter: [@audaciousfoxnet](https://twitter.com/audaciousfoxnet)
