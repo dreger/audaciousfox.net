@@ -9,11 +9,10 @@
  
 // SPACING
 
-$sidebar-width: 26rem;   
-$sidebar-width: 0rem;   
-$column-width: 34rem;  
-$max-width: $sidebar-width + $column-width; 
-$max-width: 36rem; 
+$article-width: 39rem; 
+$em-img-extra: 10rem; 
+$em-img-width: $article-width + $em-img-extra; 
+$sidebar-width: 300px; 
 $line-height: 1.5em; 
 $letter-spacing: .08em; 
 
@@ -167,9 +166,8 @@ em {
     font-style: normal; 
   }
   img {
-    width: calc(100% + 10rem);
+    width: $em-img-width;
     margin: 1.5rem 0; 
-    // box-shadow: 0 2px 8px rgba(200,200,200,.7); 
   }
 }
 
@@ -203,7 +201,7 @@ hr {
 article {
   background: $article-bg;
   padding:  3rem; 
-  max-width: 34rem;
+  max-width: $article-width;
 }
 
 article:first-child {
@@ -254,19 +252,20 @@ pre {
   font-size: .875rem;
   border-width: 1px;
   background: $bg; 
-  border-color: #c5c6c7;
-  border-style: dashed;
-  padding: .5rem .5rem;
+  border-radius: 4px; 
+  padding: 1.5rem;
   line-height: $line-height; }
 
 pre code {
   padding: initial;
-  border: 0; }
+  border: 0; 
+  background: transparent;
+}
 
 blockquote {
   padding: .25rem 1.5rem;
   margin-left: .25rem;
-  border-left: solid 4px $copy; 
+  border-left: solid 2px $copy; 
 }
 
 blockquote strong {
@@ -298,14 +297,18 @@ h1 a {
 }
 
 .title { 
-  font-weight: 500; 
-  margin-bottom: 3rem;
+  font-size: 1.5rem; 
+  text-transform: uppercase; 
+  letter-spacing: .08em; 
+  font-weight: 900; 
+  margin-bottom: 1.5rem; 
+  line-height: 2.25rem;
 }
 .byline { 
   display: flex; 
   align-items: center; 
   // font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .byline-name {
   text-transform: uppercase; 
@@ -339,6 +342,10 @@ h1 a {
   line-height: $line-height;
   padding: 3rem; 
   width: 300px; 
+  height: 100%; 
+  position: sticky; 
+  position: -webkit-sticky; 
+  top: 0; 
   & p:last-child { margin-bottom: 0; }
 }
 
@@ -410,7 +417,7 @@ strong,
     &:before {
       content: "Footnotes"; 
       display: none; 
-      padding: 0 .5rem; 
+      padding: 0 1rem; 
       position: relative; 
       left: -.5rem;
       border-radius: 4px;  
@@ -434,22 +441,19 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  // color: $copy; 
-  // text-transform: uppercase; 
-  // letter-spacing: $letter-spacing; 
-  // font-size: .875rem; 
-  font-weight: 900; 
-  // color: $light-gray; 
-  opacity: .4; 
-  a {
-  // color: $light-gray; 
-
-    border: 0;
-  }
-  a:hover { 
-    opacity: 1;   
-  }
+  font-weight: normal; 
+  margin-top: .25rem;
+  text-transform: uppercase; 
+  letter-spacing: .08em; 
+  font-size: .875rem; 
+  font-weight: 900;  
 }
+.canonical-link--post { opacity: .4; }
+.canonical-link--homepage { 
+  border: 0; 
+  opacity: .4; 
+}
+.canonical-link--homepage:hover { opacity: 1; }
 .canonical-link--post { display: inline; }
 
 .pagination {
@@ -516,6 +520,11 @@ strong,
 .headline-space { display: none; }
 .headline-nbsp { display: inline; }
 
+@media (max-width: 1370px) {
+  em img {
+    width: 100%; 
+  }
+}
 
 @media (max-width: 800px) {
   html {
@@ -537,6 +546,7 @@ strong,
   .sidebar {
     width: auto; 
     padding: 1rem; 
+    position: relative; 
   }
   .pagination {
     padding: 3rem 1rem; 
