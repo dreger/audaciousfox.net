@@ -11,7 +11,7 @@
 
 $line-height: 1.5em; 
 $letter-spacing: .08em; 
-$max-width: 36rem;
+$max-width: 40rem;
 
 // FONTS
 // @font-face {
@@ -34,16 +34,16 @@ $sans-bold: $sans;
 // COLORS
 
 $link: #B0976D; // Old Gold
-$link: #FFDC00; // Light Orangish Red
 $link: #0ed3c8; // Tealicious
-$link: #FE3366; // Think Pink
 $link: #795AE1; // Deep Purple
+$link: #FE3366; // Think Pink
 $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
-$link: #00BBBB; // Soft Teal
-$link: rgb(39, 110, 241); // BlUber
 $link: #ff8600; // Quantum Gold 
 $link: #645394; // MDS Purple
+$link: rgb(39, 110, 241); // BlUber
+$link: #00BBBB; // Soft Teal
+$link: #FFDC00; // Light Orangish Red
 $link: #FF725C; // Light Red
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
@@ -69,7 +69,7 @@ $heart-color: white;
   box-sizing: content-box; }
 
 html {
-  font-size: 16px; 
+  font-size: 14px; 
   text-rendering: optimizeLegibility;
 }
 
@@ -124,7 +124,7 @@ h1 {
   margin-bottom: 1.5rem; 
   line-height: 1.25em; 
   text-transform: none; 
-  font-weight: 900; 
+  font-weight: 400; 
   letter-spacing: 0px; 
   a { border: 0; }
 }
@@ -133,8 +133,7 @@ h2 {
   margin-top: 2.25rem;
   font-size: 1.25rem;
   line-height: $line-height;
-  font-weight: 500; 
-  font-weight: 900; 
+  font-weight: 400; 
   &.link {
     margin-top: 0; 
   }
@@ -186,7 +185,7 @@ li {
 hr {
   height: 1px;
   border: 0;
-  border-top: 2px dashed $bg; 
+  border-top: 2px solid $bg; 
   margin: 1.5rem 0;
   display: block;  
 }
@@ -265,8 +264,8 @@ pre code {
 
 blockquote {
   padding: .25rem 1.5rem;
-  margin-left: .25rem;
   border-left: solid 2px $copy; 
+  margin: 1.25rem 0 1.25rem .25rem; 
 }
 
 blockquote strong {
@@ -294,7 +293,7 @@ figure {
 }
 
 .title { 
-  font-weight: 900;
+  font-weight: 600;
   a { 
     border: 0;  
   }
@@ -456,7 +455,7 @@ strong,
   text-transform: uppercase; 
   letter-spacing: .08em; 
   font-size: .875rem; 
-  font-weight: 900;  
+  font-weight: 500;  
 }
 .canonical-link--post { opacity: .4; }
 .canonical-link--homepage { 

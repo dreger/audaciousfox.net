@@ -136,7 +136,7 @@ table {
   box-sizing: content-box; }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
   text-rendering: optimizeLegibility; }
 
 body {
@@ -183,7 +183,7 @@ h1 {
   margin-bottom: 1.5rem;
   line-height: 1.25em;
   text-transform: none;
-  font-weight: 900;
+  font-weight: 400;
   letter-spacing: 0px; }
   h1 a {
     border: 0; }
@@ -192,8 +192,7 @@ h2 {
   margin-top: 2.25rem;
   font-size: 1.25rem;
   line-height: 1.5em;
-  font-weight: 500;
-  font-weight: 900; }
+  font-weight: 400; }
   h2.link {
     margin-top: 0; }
 
@@ -236,7 +235,7 @@ li {
 hr {
   height: 1px;
   border: 0;
-  border-top: 2px dashed #f5f7f9;
+  border-top: 2px solid #f5f7f9;
   margin: 1.5rem 0;
   display: block; }
 
@@ -309,8 +308,8 @@ pre code {
 
 blockquote {
   padding: .25rem 1.5rem;
-  margin-left: .25rem;
-  border-left: solid 2px #3a3b3c; }
+  border-left: solid 2px #3a3b3c;
+  margin: 1.25rem 0 1.25rem .25rem; }
 
 blockquote strong {
   text-transform: none;
@@ -333,7 +332,7 @@ figure {
   align-items: center; }
 
 .title {
-  font-weight: 900; }
+  font-weight: 600; }
   .title a {
     border: 0; }
 
@@ -385,7 +384,7 @@ figure {
   display: flex;
   flex-direction: column;
   padding: 0;
-  max-width: 36rem; }
+  max-width: 40rem; }
 
 .sidebar {
   color: #525252;
@@ -475,7 +474,7 @@ strong,
   text-transform: uppercase;
   letter-spacing: .08em;
   font-size: .875rem;
-  font-weight: 900; }
+  font-weight: 500; }
 
 .canonical-link--post {
   opacity: .4; }
@@ -545,7 +544,7 @@ strong,
 .headline-nbsp {
   display: inline; }
 
-@media (max-width: 39rem) {
+@media (max-width: 43rem) {
   article,
   .pagination,
   .menu,
