@@ -275,6 +275,10 @@ blockquote strong {
   font-weight: bold; 
 }
 
+blockquote ul:last-child {
+  margin-bottom: 0; 
+}
+
 figure {
   margin-bottom: 1.5rem; 
   img { margin-bottom: .5rem; }
