@@ -3,7 +3,7 @@ title: "Customers, Not Users"
 date: 2018-10-07T10:20:44-04:00
 ---
 
-Our software isn't free. People pay to use our products. Yet, we call these people *users* in most of our copy and internal communications. Should we?
+A lot of software isn't free. Plenty of people pay to use products. Yet, we call these people *users* in most of our copy and internal communications. Should we?
 
 What if we tried calling them what they actually are: *customers*. 
 
