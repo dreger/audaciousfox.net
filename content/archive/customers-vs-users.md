@@ -1,5 +1,5 @@
 ---
-title: "Customers vs. Users"
+title: "Customers, Not Users"
 date: 2018-10-07T10:20:44-04:00
 ---
 
