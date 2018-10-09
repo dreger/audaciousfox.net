@@ -1,5 +1,5 @@
-<article>     
-<p class="canonical-link">
+<article class="article" data-canonical="{{ strings.TrimSuffix "/" .RelPermalink }}" data-title="Audacious Fox: {{ .Title }}">     
+  <p class="canonical-link">
     <a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, January 2" }}</time></a>
     <span class="canonical-link--post" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, January 2, 2006" }}</time></span>
   </p>
@@ -15,8 +15,9 @@
       <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title | safeHTML}}</a></h1>
     {{ end }}
   </header>
-
-  {{ .Content }}
+  <div class="article__content">
+    {{ .Content }}
+  </div>
 </article>
 
 <!-- <div class="article-break"></div> -->

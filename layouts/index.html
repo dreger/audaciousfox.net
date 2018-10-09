@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 
 <style scoped>
-	.canonical-link--post { display: none; }
+.canonical-link--post { display: none; }
 </style>
 
 {{ range (first 30 (where .Data.Pages "Type" "in" "archivelinked")) }}
-    {{ partial "post.html" . }}
+{{ partial "post.html" . }}
 {{end}}
 
 <article><h2>Quite the completionist. <br>Thanks for reading.<br>More? Go to <a href="/archive">the archive</a>.<br><br></h2></article>
@@ -26,5 +26,70 @@
   timeago.cancel(); // cancel real-time render for every node
 </script> 
 -->
+
+<!-- 
+<style scoped>
+.article {
+  transition: all ease-out .16s;
+}
+.active {
+  /*box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px;*/
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
+  /*border: solid 1px blue;*/
+}
+</style>
+
+<script type="text/javascript">
+  let articles = document.querySelectorAll('.article'); 
+  var articlesWithOffsets = []; 
+  let halfViewHeight = document.documentElement.clientHeight / 3; 
+
+
+  var last_known_scroll_position = 0;
+  var ticking = false;
+  var lastViewedArticle = null; 
+
+  function doSomething(scroll_pos) {
+    for (var i = articles.length; i--;) {
+      var article = articles[i]; 
+      if (isInViewport(article) && lastViewedArticle != article) {
+        lastViewedArticle = article; 
+        console.log("View: " + article.dataset.canonical);
+        document.getElementsByTagName('title')[0].innerHTML = article.dataset.title;
+        // window.history.pushState( {} , article.dataset.title, article.dataset.canonical);
+        window.history.replaceState( {} , article.dataset.title, article.dataset.canonical);
+        for (var k = articles.length; k--;) {
+          articles[k].classList.remove('active');
+        }
+        article.classList.add("active");
+        break;
+      }
+    }
+  }
+
+  var isInViewport = function (elem) {
+    var bounding = elem.getBoundingClientRect();
+    return (
+      bounding.top >= halfViewHeight &&
+      bounding.top < (halfViewHeight + 120)
+      );
+  };
+
+  window.addEventListener('scroll', function(e) {
+    last_known_scroll_position = window.scrollY;
+
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        doSomething(last_known_scroll_position);
+        ticking = false;
+      });
+
+      ticking = true;
+    }
+  });
+</script>
+ -->
+
+
 
 {{ partial "footer.html" . }}
