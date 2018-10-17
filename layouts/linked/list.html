@@ -6,14 +6,8 @@
 	Links to worthwhile places. 
 	<a href="/archive">Column articles here</a>.
 </p>
-{{ range $index, $element := .Data.Pages.GroupByDate "January 2006" }}
-<h2>{{ .Key }}</h2>
-<ol class="archive">
-  {{ range .Pages }}
-    <li value="{{ .Date.Format "02" }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title }}</a></li>
-  {{end}}
-</ol>
-{{end}}
+
+  {{ partial "archive-listing.html" . }}
 
 </article>
 

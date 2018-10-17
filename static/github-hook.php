@@ -25,5 +25,5 @@
 	 
 	// Your code here.
 	// $data = json_decode($payload);
-	exec('cd /var/www/audaciousfox.net ; git pull ; ./hugo ;', $output, $return); 
+	exec('cd /var/www/audaciousfox.net ; git pull ; ./hugo --minify ;', $output, $return); 
 ?>

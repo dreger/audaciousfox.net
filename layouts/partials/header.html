@@ -33,21 +33,18 @@
   {{ end }}
 </head>
 <body>
-  <div class="wrapped">
-    <div class="sidebar" id="navigation">
-      <header class="header" role="header">
-        <!-- <span class="site-icon">{{ $.Param "icon" | markdownify  }}</span> -->
-        <h1 class="title"><a href="/">{{ .Site.Title }}</a></h1>
-        <!-- <span class="byline">by <a href="#navigation">{{ .Site.Author.name }}</a></span> -->
-
-        <div class="byline">By 
-          <span class="byline__name">K.Q. Dreger</span>
-          <span class="byline__initials">KQD</span>
-        </div>
-
-        <a href="#menu" class="menu-toggle" title="Navigation menu toggle">•••</a>
-
-      </header>
-
+<div class="wrapper">
+  <header class="header centered" role="header">
+      <!-- <span class="site-icon">{{ $.Param "icon" | markdownify  }}</span> -->
+      <h1 class="title"><a href="/">{{ .Site.Title }}</a></h1>
+      <!-- <span class="byline">by <a href="#navigation">{{ .Site.Author.name }}</a></span> -->
+      <div class="byline">By 
+        <span class="byline__name">K.Q. Dreger</span>
+        <span class="byline__initials">KQD</span>
       </div>
-    <div class="column">
+
+      <a href="#navigation" class="header-navigation-jump" title="Navigation menu toggle">•••</a>
+    </header>
+
+  <div class="page">
+    <div class="page__column">

@@ -1,5 +1,5 @@
 ---
-title: "A Brief Explanation of How I Choose Between Buying a Physical Book or the Kindle Edition"
+title: "A Very Brief Explanation of How I Choose Between Buying a Physical Book or the Kindle Edition"
 date: 2018-10-01T21:56:13-04:00
 ---
 

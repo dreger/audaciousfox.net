@@ -11,8 +11,8 @@
 
 $line-height: 1.5em; 
 $letter-spacing: .08em; 
-$max-width: 40rem;
-
+$max-width: 56rem;
+$font-size: 14px; 
 // FONTS
 // @font-face {
 //     font-family: 'Concourse T3 Bold';
@@ -28,7 +28,7 @@ $max-width: 40rem;
 //     font-style: normal;
 // }
 
-$sans: "system-ui", -apple-system, Helvetica, Arial, sans-serif; 
+$sans: "Basier Circle", "system-ui", -apple-system, Helvetica, Arial, sans-serif; 
 $sans-bold: $sans; 
 
 // COLORS
@@ -41,10 +41,10 @@ $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
 $link: #ff8600; // Quantum Gold 
 $link: #645394; // MDS Purple
-$link: #00BBBB; // Soft Teal
-$link: #FFDC00; // Light Orangish Red
-$link: #FF725C; // Light Red
 $link: rgb(39, 110, 241); // BlUber
+$link: #FFDC00; // Light Orangish Red
+$link: #00BBBB; // Soft Teal
+$link: #FF725C; // Light Red
 
 $copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
@@ -53,7 +53,7 @@ $light-light-gray: #ddd;
 $gray: #525252; 
 $bg: #f5f7f9; 
 $article-bg: white; 
-$heart-color: white; 
+$heart-color: $link; 
 
 
 /*
@@ -69,7 +69,7 @@ $heart-color: white;
   box-sizing: content-box; }
 
 html {
-  font-size: 14px; 
+  font-size: $font-size; 
   text-rendering: optimizeLegibility;
 }
 
@@ -85,11 +85,11 @@ body {
 
 a {
   color: $copy; 
-  border-bottom: solid 1px $light-gray; 
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid rgba(0,0,0,.08);
   text-decoration: none;  
   &:hover { 
     border-bottom-color: $copy; 
+    // text-decoration: underline;
   }
 }
 
@@ -121,11 +121,12 @@ blockquote,
 
 h1 {
   font-size: 2.25rem; 
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1.25rem; 
   line-height: 1.25em; 
   text-transform: none; 
   font-weight: 400; 
-  letter-spacing: 0px; 
+  line-height: $line-height;
+  letter-spacing: -.02em; 
   a { border: 0; }
 }
 
@@ -134,6 +135,8 @@ h2 {
   font-size: 1.25rem;
   line-height: $line-height;
   font-weight: 400; 
+  // text-transform: uppercase;
+  // letter-spacing: $letter-spacing; 
   &.link {
     margin-top: 0; 
   }
@@ -171,6 +174,9 @@ ul,
 ol {
   padding-left: 1.5rem; 
   margin-bottom: 1.5rem;
+  // re: betterwebtype rythm's guide
+  padding-left: 0;
+  list-style-position: outside; 
 }
 
 ul li {
@@ -193,8 +199,8 @@ hr {
 article {
   background: $article-bg;
   padding:  3rem; 
-  border-radius: 8px; 
-  margin-bottom: 1rem;
+  // border-radius: 8px; 
+  margin-bottom: .25rem;
 }
 
 article:first-child {
@@ -203,13 +209,6 @@ article:first-child {
 article p:last-child,
 article blockquote:last-child {
   margin-bottom: 0; }
-
-.article-break {
-  display: block; 
-  height: 2px; 
-  background: $bg; 
-  width: 100%; 
-}
 
 aside {
   width: 40%;
@@ -263,9 +262,9 @@ pre code {
 }
 
 blockquote {
-  padding: .25rem 1.5rem;
-  border-left: solid 2px $copy; 
-  margin: 1.25rem 0 1.25rem .25rem; 
+  color: $gray; 
+  margin: 1.25rem; 
+  width: 80%; 
 }
 
 blockquote strong {
@@ -290,16 +289,35 @@ figure {
   }
 }
 
+// =================
+// =================// =================
+// =================
+// =================
+// =================
+// =================
+// =================
+// =================
+// =================
+// =================
+
+.wrapper {
+  max-width: $max-width; 
+  margin: 0 auto; 
+}
+
 .header {
-  padding: 0 3rem 3rem; 
-    display: flex; 
-    align-items: center; 
+  display: flex; 
+  max-width: $max-width; 
+  align-items: center; 
+  padding: 3rem; 
+  margin-top: 3rem;
 }
 
 .title { 
   font-weight: 600;
   a { 
     border: 0;  
+    color: $copy; 
   }
 }
 .byline { 
@@ -317,31 +335,11 @@ figure {
   line-height: 1rem;
 }
 
-.menu {
-  display: block; 
-  display: none;
-    background: $bg; 
-    border-radius: 8px; 
-    color: white; 
-    background: $link; 
-    margin: 3rem 0 0;
-    padding: 3rem; 
-    a { 
-      border-color: rgba(255,255,255, .4);
-      color: white;  
-      &:hover {
-        border-color: white; 
-      }
-    }
-}
-.menu--visible {
-    display: block; 
-  }
-.menu-toggle {
+.header-navigation-jump {
   opacity: .4; 
   line-height: 1em; 
-  margin-left: auto; 
-  display: block;   
+  margin-left: auto;    
+  display: none; 
   cursor: pointer; 
   border: 0; 
   &:hover {
@@ -349,24 +347,26 @@ figure {
   }
 }
 
-
-.wrapped {
-  margin: 3rem auto;
+.page {
   display: flex; 
-   flex-direction: column; 
-    padding: 0; 
-    max-width: $max-width;
 }
 
 
-.sidebar {
-  color: $gray; 
-  border-radius: 8px 8px 0 0; 
+.page__column {
+  flex: 1; 
+}
+
+
+.page__sidebar {
+  width: 12rem; 
+  padding: 3rem;
+  font-size: .875rem; 
+  flex-shrink: 0;
   line-height: $line-height;
-  padding: 0; 
-  width: auto; 
-    padding: 0; 
-    position: relative; 
+  a {
+    border-color: rgba(0,0,0,.12);
+    &:hover { border-color: $copy; }
+  }
   & p:last-child { margin-bottom: 0; }
 }
 
@@ -377,16 +377,18 @@ figure {
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
   text-rendering: optimizeLegibility;
-    list-style: none;
+  list-style: none;
   padding: 0; 
   text-transform: uppercase;
+  li {
+    list-style: none; 
+    margin-bottom: 1rem;
+  }
+  a {
+    border-color: transparent;
+    &:hover { border-color: $copy; }
+  }
 }
-.navigation li {
-  list-style: none; 
-  margin-bottom: 1rem;
-}
-
-
 
 .caps,
 strong,
@@ -404,12 +406,15 @@ strong,
 }
 
 .archive {
-  padding-left: 2.25rem;
   font-variant-numeric: tabular-nums; 
   a { font-size: 1rem; }
   li {
-    color: $gray;
   }
+}
+.archive__date {
+  color: $light-gray;
+  white-space: nowrap; 
+  font-size: .875rem; 
 }
 
 .footnotes {
@@ -418,15 +423,14 @@ strong,
   line-height: $line-height;
   margin: 2.25rem 0; 
   margin-bottom: 0; 
-  border: solid 2px $bg; 
-  background: $bg; 
-  border-radius: 4px; 
+  // background: $bg; 
+  border-top: solid 2px $bg; 
+  font-style: italic; 
   > hr { display: none; }
   ol {
-    padding-left: 2.25rem; 
-    padding-right: 2.25rem; 
-    margin: 1rem 0; 
-    a { border-color: $light-gray; }
+    padding: 1rem; 
+    margin: 0; 
+    a { border-color: rgba(0,0,0,.12); }
     &:before {
       content: "Footnotes"; 
       display: none; 
@@ -441,6 +445,7 @@ strong,
   }
   li {
     margin-bottom: 1em; 
+    &:last-child { margin-bottom: 0; }
   }
 }
 
@@ -461,11 +466,13 @@ strong,
   font-size: .875rem; 
   font-weight: 500;  
 }
-.canonical-link--post { opacity: .4; }
+.canonical-link--post,
 .canonical-link--homepage { 
-  border: 0; 
   opacity: .4; 
+  border: 0; 
+  color: $copy; 
 }
+ 
 .canonical-link--homepage:hover { opacity: 1; }
 .canonical-link--post { display: inline; }
 
@@ -473,7 +480,6 @@ strong,
   padding: 3rem; 
   line-height: $line-height; 
   color: $gray; 
-  border-radius: 8px; 
   background: white;  
   .caps {
     letter-spacing: $letter-spacing; 
@@ -497,12 +503,12 @@ strong,
 .heart {
   background-color: $heart-color;
   display: inline-block;
-  height: 7px;
+  height: 6px;
   margin: 0 4px;
   position: relative;
   top: 0;
   transform: rotate(-45deg);
-  width: 7px;
+  width: 6px;
 }
 
 .heart:before,
@@ -510,18 +516,18 @@ strong,
   content: "";
   background-color: $heart-color;
   border-radius: 50%;
-  height: 7px;
+  height: 6px;
   position: absolute;
-  width: 7px;
+  width: 6px;
 }
 
 .heart:before {
-  top: -4px;
+  top: -3px;
   left: 0;
 }
 
 .heart:after {
-  left: 4px;
+  left: 3px;
   top: 0;
 }
 
@@ -529,27 +535,40 @@ strong,
 .headline-nbsp { display: inline; }
 
 
-@media (max-width: $max-width + 3rem) {
+@media (max-width: $max-width - 6rem) {
+  html {
+    font-size: 17px; 
+  }
   article, 
   .pagination,
   .menu,
-  .header {
-    border-radius: 0; 
+  .header,
+  .page__sidebar {
     padding: 1.5rem 1rem;
   }
   .header {
     padding: 1.5rem 1rem 3rem;  
     background: white; 
+    margin-top: 0; 
   }
-  .wrapped {
+  .header-navigation-jump {
+    display: block; 
+  }
+  .wrapper {
     margin: 0 auto; 
     max-width: 100%; 
   }
-  .menu {
+  .page {
+    flex-direction: column; 
+  }
+  .page__sidebar {
+    width: 100%; 
     margin: 0; 
   }
-  article {
-    margin-bottom: .25rem; 
+  ul,
+  ol {
+    padding-left: 1.5rem;
+    list-style-position: initial;
   }
 }
 @media (max-width: 420px) {

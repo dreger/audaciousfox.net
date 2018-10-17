@@ -19,7 +19,7 @@ Additionally, Path benefited from being an attractive competitor to Facebook at 
 
 Anyhow — adieu, Path. You were the social network we needed but never deserved. 
 
-[^1]: Today, the only small (social) networks I find solace in — and enjoy, frankly — are iMessage groups and [iCloud Shared Albums]. 
+[^1]: Today, the only small (social) networks I find solace in—and enjoy, frankly—are iMessage groups and [iCloud Shared Albums]. 
 
 [icloud shared albums]: https://support.apple.com/kb/ph12068?locale=en_US
 [a better path]: {{< ref "/linked/a-better-path" >}}

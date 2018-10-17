@@ -1,0 +1,10 @@
+<div class="archive">
+  {{ range $index, $element := .Data.Pages.GroupByDate "January 2006" }}
+
+    <h2>{{ .Key }}</h2>
+
+    {{ range .Pages }}
+      <p><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title }}</a>&nbsp;&nbsp;<span class="archive__date">{{ .Date.Format "Jan. 2" }}</span></p>
+    {{end}}
+  {{end}}
+</div>
