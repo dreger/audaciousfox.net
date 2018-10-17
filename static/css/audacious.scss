@@ -9,10 +9,10 @@
  
 // SPACING
 
-$line-height: 1.5em; 
+$line-height: 1.65em; 
 $letter-spacing: .08em; 
-$max-width: 56rem;
-$font-size: 14px; 
+$max-width: 62rem;
+$font-size: 12px; 
 // FONTS
 // @font-face {
 //     font-family: 'Concourse T3 Bold';
@@ -28,8 +28,7 @@ $font-size: 14px;
 //     font-style: normal;
 // }
 
-$sans: "Basier Circle", "system-ui", -apple-system, Helvetica, Arial, sans-serif; 
-$sans-bold: $sans; 
+$sans: "Gotham SSm A", "Gotham SSm B", "system-ui", -apple-system, Helvetica, Arial, sans-serif; 
 
 // COLORS
 
@@ -46,7 +45,7 @@ $link: #FFDC00; // Light Orangish Red
 $link: #00BBBB; // Soft Teal
 $link: #FF725C; // Light Red
 
-$copy: #3a3b3c; // Also: RGBA(52, 60, 71, 1);
+$copy: #222; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
 $light-gray: #a1a2a3; 
 $light-light-gray: #ddd; 
@@ -175,8 +174,8 @@ ol {
   padding-left: 1.5rem; 
   margin-bottom: 1.5rem;
   // re: betterwebtype rythm's guide
-  padding-left: 0;
-  list-style-position: outside; 
+  // padding-left: 0;
+  // list-style-position: outside; 
 }
 
 ul li {
@@ -302,7 +301,7 @@ figure {
 
 .wrapper {
   max-width: $max-width; 
-  margin: 0 auto; 
+  margin: 0 auto 3rem; 
 }
 
 .header {
@@ -358,7 +357,7 @@ figure {
 
 
 .page__sidebar {
-  width: 12rem; 
+  width: 14rem; 
   padding: 3rem;
   font-size: .875rem; 
   flex-shrink: 0;
@@ -395,10 +394,9 @@ strong,
 .interview .name {
   font-size: .875em;
   line-height: 1em;
-  font-family: $sans-bold;
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .caps {

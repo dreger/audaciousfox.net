@@ -46,7 +46,7 @@ This site should look good in all modern web browsers; please let me know if it 
 
 ## Other writers worth reading 
 
-I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. Have someone that should be on here? Drop me a note. (Updated Feb. 2018)
+I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. (Updated Feb. 2018)
 
 - [Jenn Schiffer](https://medium.com/@jennschiffer)
 - [Lara Callender Hogan](http://larahogan.me/blog/)
@@ -63,3 +63,5 @@ I read pretty much everything these folks put out. I update this list every coup
 - _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
 - _The Newsprint_, [Joshua Ginter](http://thenewsprint.co)
 - _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
+
+Have someone that should be on here? Drop me a note.
