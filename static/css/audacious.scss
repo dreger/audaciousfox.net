@@ -124,7 +124,7 @@ h1 {
   line-height: 1.25em; 
   text-transform: none; 
   font-weight: 400; 
-  line-height: $line-height;
+  line-height: 1.4em;
   letter-spacing: -.02em; 
   a { border: 0; }
 }
@@ -535,7 +535,7 @@ strong,
 
 @media (max-width: $max-width - 6rem) {
   html {
-    font-size: 17px; 
+    font-size: 16px; 
   }
   article, 
   .pagination,
@@ -560,7 +560,7 @@ strong,
     flex-direction: column; 
   }
   .page__sidebar {
-    width: 100%; 
+    width: auto; 
     margin: 0; 
   }
   ul,
