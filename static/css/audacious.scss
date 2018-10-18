@@ -301,7 +301,8 @@ figure {
 
 .wrapper {
   max-width: $max-width; 
-  margin: 0 auto 3rem; 
+  margin: 0 auto 3rem;
+  padding: 0 1rem; 
 }
 
 .header {
@@ -533,7 +534,7 @@ strong,
 .headline-nbsp { display: inline; }
 
 
-@media (max-width: $max-width - 6rem) {
+@media (max-width: $max-width - 10rem) {
   html {
     font-size: 14px; 
   }
@@ -554,6 +555,7 @@ strong,
   }
   .wrapper {
     margin: 0 auto; 
+    padding: 0; 
     max-width: 100%; 
   }
   .page {
