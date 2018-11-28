@@ -13,21 +13,6 @@ $line-height: 1.65em;
 $letter-spacing: .08em; 
 $max-width: 62rem;
 $font-size: 12px; 
-// FONTS
-// @font-face {
-//     font-family: 'Concourse T3 Bold';
-//     src: url('../fonts/concourse_t3_bold.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-
-// }
-// @font-face {
-//     font-family: 'Concourse T3';
-//     src: url('../fonts/concourse_t3_regular.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
 $sans: "Gotham SSm A", "Gotham SSm B", "system-ui", -apple-system, Helvetica, Arial, sans-serif; 
 
 // COLORS
@@ -44,6 +29,7 @@ $link: rgb(39, 110, 241); // BlUber
 $link: #FFDC00; // Light Orangish Red
 $link: #00BBBB; // Soft Teal
 $link: #FF725C; // Light Red
+$link: #FCCA75; // Soft yellow (nice)
 
 $copy: #222; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
@@ -75,9 +61,11 @@ html {
 body {
   line-height: $line-height;
   margin: 0;
-  background: $bg; 
+  // background: $bg; 
   color: $copy; 
   font-family: $sans; 
+  // font-family: "IBM Plex Sans";
+  // font-family: "Fira Sans"; 
   font-style: normal;
   text-rendering: optimizeLegibility;
 }
@@ -85,6 +73,7 @@ body {
 a {
   color: $copy; 
   border-bottom: 2px solid rgba(0,0,0,.08);
+  border-bottom: 1px solid #FCCA75;
   text-decoration: none;  
   &:hover { 
     border-bottom-color: $copy; 
@@ -171,8 +160,9 @@ small {
 
 ul,
 ol {
-  padding-left: 1.75rem; 
+  padding-left: 1.5rem; 
   margin-bottom: 1.5rem;
+  // list-style: square outside;
   // re: betterwebtype rythm's guide
   // padding-left: 0;
   // list-style-position: outside; 
@@ -185,7 +175,9 @@ ol li {
   list-style: decimal; }
 
 li {
-  margin-bottom: .5em; }
+  margin-bottom: .5em; 
+  padding-left: .5rem; 
+}
 
 hr {
   height: 1px;
@@ -196,10 +188,12 @@ hr {
 }
 
 article {
-  background: $article-bg;
+  // background: $article-bg;
   padding:  3rem; 
   // border-radius: 8px; 
+  border-bottom: solid 1px $light-light-gray; 
   margin-bottom: .25rem;
+  &:last-child { border: 0; }
 }
 
 article:first-child {
@@ -349,11 +343,15 @@ figure {
 
 .page {
   display: flex; 
+  border-top: solid 1px $light-light-gray; 
+  border-bottom: solid 1px $light-light-gray; 
 }
 
 
 .page__column {
   flex: 1; 
+  border-left: solid 1px $light-light-gray;
+  // padding-bottom: 3rem;
 }
 
 
@@ -364,8 +362,8 @@ figure {
   flex-shrink: 0;
   line-height: $line-height;
   a {
-    border-color: rgba(0,0,0,.12);
-    &:hover { border-color: $copy; }
+    // border-color: rgba(0,0,0,.12);
+    // &:hover { border-color: $copy; }
   }
   & p:last-child { margin-bottom: 0; }
 }
@@ -479,7 +477,8 @@ strong,
   padding: 3rem; 
   line-height: $line-height; 
   color: $gray; 
-  background: white;  
+  // background: white;  
+  // border-top: solid 1px $light-light-gray; 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
@@ -547,7 +546,7 @@ strong,
   }
   .header {
     padding: 1.5rem 1rem 3rem;  
-    background: white; 
+    // background: white; 
     margin-top: 0; 
   }
   .header-navigation-jump {
@@ -560,10 +559,16 @@ strong,
   }
   .page {
     flex-direction: column; 
+    border-top: 0; 
+  }
+  .page__column { 
+    border: 0; 
+    order: 0; 
   }
   .page__sidebar {
     width: auto; 
     margin: 0; 
+    order: 1; 
   }
   ul,
   ol {
