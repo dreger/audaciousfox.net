@@ -1,7 +1,7 @@
 ---
 date: 2016-08-21T00:00:00Z
 link: http://inessential.com/2016/08/21/last_vesper_update_sync_shutting_down
-title: Pour One Out For Vesper
+title: Pour One Out for Vesper
 ---
 
 Speaking of apps that are going away, next up is Vesper, an iOS note taking app from Q Branch. Reading through the release notes, it seems Q Branch itself — comprised of well-known writer John Gruber, developer Brent Simmons, and designer Dave Wiskus — will also be shutting down within the next month.

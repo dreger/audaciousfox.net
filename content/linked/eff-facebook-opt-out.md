@@ -1,5 +1,5 @@
 ---
-title: "Instructions For Disabling Facebook’s Platform API Sharing"
+title: "Instructions for Disabling Facebook’s Platform API Sharing"
 date: 2018-03-28T19:50:50-04:00
 link: https://www.eff.org/deeplinks/2018/03/how-change-your-facebook-settings-opt-out-platform-api-sharing
 ---

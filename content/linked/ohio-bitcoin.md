@@ -1,5 +1,5 @@
 ---
-title: Ohio First State to Accept Bitcoin For Tax Payments
+title: Ohio First State to Accept Bitcoin for Tax Payments
 date: 2018-11-27T19:48:24-05:00
 link: https://techcrunch.com/2018/11/25/ohio-becomes-the-first-state-to-accept-bitcoin-for-tax-payments/amp/
 ---

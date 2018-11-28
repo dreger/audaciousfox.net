@@ -1,6 +1,6 @@
 ---
 title: Several People Are No Longer Typing
-title: Slack Leaves Medium For WordPress
+title: Slack Leaves Medium for WordPress
 date: 2018-08-21T18:23:18-04:00
 link: https://slackhq.com
 ---

@@ -1,5 +1,5 @@
 ---
-title: "The Best Text Editor For MacOS"
+title: "The Best Text Editor for MacOS"
 date: 2018-04-12T14:59:58-04:00
 link: https://thesweetsetup.com/apps/best-text-editor-macos/
 ---

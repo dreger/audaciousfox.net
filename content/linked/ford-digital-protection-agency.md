@@ -1,5 +1,5 @@
 ---
-title: "A Digital Protection Agency For the United States"
+title: "A Digital Protection Agency for the United States"
 date: 2018-03-21T23:30:35-04:00
 link: https://www.bloomberg.com/news/articles/2018-03-21/paul-ford-facebook-is-why-we-need-a-digital-protection-agency
 ---

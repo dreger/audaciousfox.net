@@ -1,5 +1,5 @@
 ---
-title: "The Best Markdown Editor For iOS"
+title: "The Best Markdown Editor for iOS"
 date: 2018-08-08T20:48:09-04:00
 link: https://thesweetsetup.com/apps/our-favorite-markdown-writing-app-for-the-iphone/
 ---

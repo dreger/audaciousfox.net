@@ -1,5 +1,5 @@
 ---
-title: "The Hunt For Red"
+title: "The Hunt for Red"
 title: "Designing the Next Billion-Dollar Color" 
 date: 2018-04-29T14:45:07-04:00
 link: https://www.bloomberg.com/features/2018-quest-for-billion-dollar-red/

@@ -1,6 +1,6 @@
 ---
 link: http://www.businesswire.com/news/home/20170413006259/en/Nintendo-Switch-Fastest-Selling-Video-Game-System-Nintendo
-title: ‘Breath of the Wild’ For Nintendo Switch Outsells Actual Switch Consoles  
+title: ‘Breath of the Wild’ for Nintendo Switch Outsells Actual Switch Consoles  
 date: 2017-04-23T14:06:00-05:00
 ---
 

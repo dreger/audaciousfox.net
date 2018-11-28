@@ -1,7 +1,7 @@
 ---
 date: 2016-02-08T00:00:00Z
 link: http://store.steampowered.com/app/383870
-title: Firewatch Launches Tomorrow on PS4, Windows, Mac, and Linux For $19.99
+title: Firewatch Launches Tomorrow on PS4, Windows, Mac, and Linux for $19.99
 ---
 
 I've been looking forward to this game for two years, and it's almost here. I'll be covering the reviews that get released today, but I'll omit anything from _my commentary or the pull-quotes_ that might spoil unreleased details about the game. 

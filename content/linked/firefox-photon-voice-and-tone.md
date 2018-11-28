@@ -1,5 +1,5 @@
 ---
-title: "Firefox UI Guidelines For Voice and Tone"
+title: "Firefox UI Guidelines for Voice and Tone"
 date: 2017-12-06T21:51:01-05:00
 link: http://design.firefox.com/photon/copy/voice-and-tone.html
 ---
