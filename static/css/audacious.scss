@@ -27,8 +27,8 @@ $link: #ff8600; // Quantum Gold
 $link: #645394; // MDS Purple
 $link: rgb(39, 110, 241); // BlUber
 $link: #FFDC00; // Light Orangish Red
-$link: #00BBBB; // Soft Teal
 $link: #FF725C; // Light Red
+$link: #00BBBB; // Soft Teal
 $link: #FCCA75; // Soft yellow (nice)
 
 $copy: #222; // Also: RGBA(52, 60, 71, 1);
@@ -73,7 +73,7 @@ body {
 a {
   color: $copy; 
   border-bottom: 2px solid rgba(0,0,0,.08);
-  border-bottom: 1px solid #FCCA75;
+  border-bottom: 1px solid $link;
   text-decoration: none;  
   &:hover { 
     border-bottom-color: $copy; 
@@ -381,6 +381,7 @@ figure {
   li {
     list-style: none; 
     margin-bottom: 1rem;
+    padding-left: 0; 
   }
   a {
     border-color: transparent;
