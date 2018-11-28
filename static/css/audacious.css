@@ -389,6 +389,7 @@ figure {
 .navigation {
   line-height: 1.65em;
   text-transform: uppercase;
+  margin-left:0;
   letter-spacing: 0.08em;
   text-rendering: optimizeLegibility;
   list-style: none;
