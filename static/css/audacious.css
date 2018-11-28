@@ -397,7 +397,8 @@ figure {
   text-transform: uppercase; }
   .navigation li {
     list-style: none;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem; 
+    margin-left:0; }
   .navigation a {
     border-color: transparent; }
     .navigation a:hover {
