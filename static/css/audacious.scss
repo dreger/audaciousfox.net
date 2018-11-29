@@ -336,6 +336,8 @@ figure {
   margin-left: auto;    
   display: none; 
   cursor: pointer; 
+  top: -2px;
+  position: relative;
   border: 0; 
   &:hover {
     opacity: 1; 
@@ -533,17 +535,17 @@ strong,
 .headline-nbsp { display: inline; }
 
 @media (max-width: $max-width + 10px) {
-  html { font-size: 20px; }
+  html { font-size: 22px; }
   .wrapper { max-width: 1000px; }
 }
 
 @media (max-width: 1010px) {
+  html { font-size: 20px; }
   .wrapper {
     margin: 0 auto; 
     padding: 0; 
     max-width: 600px; 
   }
-
   article, 
   .pagination,
   .menu,
@@ -579,7 +581,10 @@ strong,
   }
 }
 @media (max-width: 420px) {
-  html { font-size: 18px; }
+  .page__column { padding-bottom: 0; }
   .byline__name { display: none; }
   .byline__initials { display: inline; }
+}
+@media (max-width: 370px) {
+  html { font-size: 18px; }
 }
