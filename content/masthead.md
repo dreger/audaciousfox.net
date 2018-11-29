@@ -36,9 +36,9 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set in [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co. 
+Headlines and body copy are set in [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick. 
 
-*Previous typefaces: San Francisco, [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
+*Previous typefaces: [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, San Francisco, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
 
