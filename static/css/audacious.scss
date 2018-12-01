@@ -12,6 +12,7 @@
     src: url('../fonts/concourse_t3_bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap; 
 
 }
 @font-face {
@@ -19,6 +20,7 @@
     src: url('../fonts/concourse_t3_regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap; 
 }
 
  
@@ -65,7 +67,7 @@ $heart-color: $link;
 */
  
 ::selection {
-  background: darken($bg, 10%);
+  background: lighten($link, 16%);
 }
 
 * {
@@ -265,7 +267,7 @@ blockquote strong {
   text-transform: none;
   font-size: 1rem;
   letter-spacing: 0; 
-  font-weight: bold; 
+  font-family: $font-bold;
 }
 
 blockquote ul:last-child {
@@ -451,7 +453,8 @@ strong,
 
 
 .term {
-  font-weight: bold; }
+  font-family: $font-bold;
+}
 
 .interview {
   display: block;

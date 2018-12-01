@@ -29,7 +29,7 @@ K.Q. Dreger is a scrawny, Ohio-raised farm boy who fell in love with his first c
 
 Hi. I'm a product designer, working out of Northeast Ohio. This site is run out of my own pocket and in my spare time. What it lacks in regularity is hopefully made up for in quality. 
 
-I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a new baby in the house so my editing will only be as good as I can make it at midnight.)
+I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a new baby in the house so my editing will only be as good as I can make it at midnight.) I also believe that clarity of writing follows clarity of thought, which only comes after you've written multiple *terrible* first drafts. 
 
 Some random tidbits I enjoy sharing: energy, diction, and honesty are three great words; have strong opinions, loosely held; waffles are the bar by which all other breakfast foods are judged; and if you want to be a better writer, read everything you can. 
 
