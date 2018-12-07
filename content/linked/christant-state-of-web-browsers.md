@@ -7,7 +7,9 @@ title: The Dominance of Google Chrome
 Microsoft is exiting the browser engine market, and the next version of their Edge browser will be powered by Chromium; the Google-led open source web engine that powers Chrome. Ferdy Christant: 
 
 > The web now runs on a single engine. There is not a single browser with a non-Chromium engine on mobile of any significance other than Safari. Which runs webkit, kind of the same engine as Chromium, which is based on webkit.
+
 > On desktop, Edge’s departure from running their own engine, means there’s only one last man standing to counter the Chromium dominance: Firefox. Which is falling from a cliff, on its way to join the “everybody else” gang of insignificant browsers. With no serious way to truly counter it due to their near-absence on mobile, and their lack of control in pushing browser installs.
+
 > So Chromium it is. If you’re now waiting for a message of hope or a happy ending, I have none.  
 
 Go read the whole piece, because it's a terrific overview of the current browser wars (if you can even still call it that) and the future of the open web. 
