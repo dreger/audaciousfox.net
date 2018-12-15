@@ -6,9 +6,9 @@ All content copyright K.Q. Dreger in perpetuity.
 
 ---
 
-Notes on getting set up: 
+**Autopublisher**
 
-**Set up a crontab job to publish every 4 hours (useful for setting `publishDate` in the future)**
-
-* `crontab -e`
-* `0 */4 * * * /var/www/audaciousfox.net/autopublish.sh`
+* Set up a crontab job to publish every 4 hours 
+	* `crontab -e`
+	* `0 */4 * * * /var/www/audaciousfox.net/autopublish.sh`
+* Use the `publishDate` front matter to publish posts in the future
