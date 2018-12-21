@@ -29,7 +29,8 @@
 $line-height: 1.35em; 
 $letter-spacing: .08em; 
 $max-width: 1288px;
-$font-size: 24px; 
+$max-width: 53.6rem;
+$font-size: 20px; 
 
 $font-fallback: "system-ui", -apple-system, Helvetica, Arial, sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
@@ -356,7 +357,7 @@ figure {
 .page__column {
   border-left: solid 1px $light-light-gray;
   padding-bottom: 3rem;
-  width: calc(652px + 144px);
+  width: calc(27.16rem + 6rem);
 }
 
 
@@ -537,12 +538,12 @@ strong,
 .headline-space { display: none; }
 .headline-nbsp { display: inline; }
 
-@media (max-width: $max-width + 10px) {
-  html { font-size: 22px; }
-  .wrapper { max-width: 1000px; }
+@media (max-width: $max-width + .5rem) {
+  // html { font-size: 22px; }
+  .wrapper { max-width: 44rem; }
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 46rem) {
   html { font-size: 20px; }
   .wrapper {
     margin: 0 auto; 
