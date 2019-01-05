@@ -1,6 +1,6 @@
 ---
 title: "TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August"
-date: 2019-01-05T13:07:59-05:00
+date: 2019-01-05T13:03:00-05:00
 link: https://techcrunch.com/2019/01/04/tiktoks-quietly-launched-lite-app-has-reached-over-12-million-downloads-since-august/
 --- 
 
