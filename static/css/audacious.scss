@@ -27,15 +27,20 @@
 // SPACING
 
 $line-height: 1.35em; 
+$line-height: 1.4em; 
 $letter-spacing: .08em; 
 $max-width: 1288px;
 $max-width: 53.6rem;
-$font-size: 20px; 
+$font-size: 18px; 
 
-$font-fallback: "system-ui", -apple-system, Helvetica, Arial, sans-serif;
+$font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
 $font-light: "Concourse T2", concourse-regular, $font-fallback;   
-$font-regular: concourse-regular, $font-fallback;   
+$font-regular: concourse-regular, $font-fallback; 
+
+$font-bold: $font-fallback;   
+$font-light: $font-fallback;   
+$font-regular: $font-fallback;   
 
 // COLORS
 
@@ -49,8 +54,9 @@ $link: #ff8600; // Quantum Gold
 $link: #645394; // MDS Purple
 $link: rgb(39, 110, 241); // BlUber
 $link: #FFDC00; // Light Orangish Red
-$link: #FF725C; // Light Red
 $link: #00BBBB; // Soft Teal
+$link: #FF725C; // Light Red
+$link: red; // Dark red
 $link: #FCCA75; // Soft yellow (nice)
 
 $copy: #222; // Also: RGBA(52, 60, 71, 1);
@@ -86,7 +92,8 @@ body {
   color: $copy; 
   font-family: $font-regular; 
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'liga' 1;
+  // font-feature-settings: 'liga' 1;
+  font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;
 }
 
 a {
@@ -95,8 +102,9 @@ a {
   border-bottom: 1px solid $link;
   text-decoration: none;  
   &:hover { 
-    border-bottom-color: $copy; 
+    // border-bottom-color: $copy; 
     // text-decoration: underline;
+    color: $link;
   }
 }
 
@@ -106,6 +114,7 @@ em {
 
 strong {
   font-family: $font-bold;
+  font-weight: bold; 
 }
 
 h1,
@@ -149,6 +158,7 @@ h3 {
   margin-top: 2.25rem;
   margin-bottom: .5rem; 
   font-family: $font-bold; 
+  font-weight: bold;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
 }
@@ -269,6 +279,7 @@ blockquote strong {
   font-size: 1rem;
   letter-spacing: 0; 
   font-family: $font-bold;
+  font-weight: bold; 
 }
 
 blockquote ul:last-child {
@@ -312,7 +323,8 @@ figure {
 }
 
 .title { 
-  font-family: concourse-bold;
+  font-family: $font-bold;
+  font-weight: 900;
   a { 
     border: 0;  
     color: $copy; 
@@ -321,7 +333,6 @@ figure {
 .byline { 
   padding-left: .5rem; 
   opacity: .4; 
-  font-weight: 500; 
 }
 .byline__initials { display: none; }
 
@@ -358,19 +369,17 @@ figure {
   border-left: solid 1px $light-light-gray;
   padding-bottom: 3rem;
   width: calc(27.16rem + 6rem);
+  width: calc(27.16rem + 8.9rem);
 }
 
 
 .page__sidebar {
   width: 10rem; 
+  width: 11.5rem; 
   padding: 3rem;
   font-size: .875rem; 
   flex-shrink: 0;
   line-height: $line-height;
-  a {
-    // border-color: rgba(0,0,0,.12);
-    // &:hover { border-color: $copy; }
-  }
   & p:last-child { margin-bottom: 0; }
 }
 
@@ -391,7 +400,7 @@ figure {
   }
   a {
     border-color: transparent;
-    &:hover { border-color: $copy; }
+    &:hover { border: 0; }
   }
 }
 
@@ -403,6 +412,7 @@ strong,
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
   font-family: $font-bold; 
+  font-weight: bold;
 }
 
 .caps {
@@ -455,6 +465,7 @@ strong,
 
 .term {
   font-family: $font-bold;
+  font-weight: bold;
 }
 
 .interview {
@@ -468,7 +479,6 @@ strong,
   text-transform: uppercase; 
   letter-spacing: .08em; 
   font-size: .875rem; 
-  font-weight: 500;  
 }
 .canonical-link--post,
 .canonical-link--homepage { 
@@ -544,11 +554,11 @@ strong,
 }
 
 @media (max-width: 46rem) {
-  html { font-size: 20px; }
+  html { font-size: 18px; }
   .wrapper {
     margin: 0 auto; 
     padding: 0; 
-    max-width: 600px; 
+    max-width: 658px; 
   }
   article, 
   .pagination,
