@@ -45,21 +45,21 @@ $font-regular: $font-fallback;
 // COLORS
 
 $link: #B0976D; // Old Gold
-$link: #0ed3c8; // Tealicious
 $link: #795AE1; // Deep Purple
 $link: #FE3366; // Think Pink
 $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
 $link: #ff8600; // Quantum Gold 
-$link: #645394; // MDS Purple
-$link: rgb(39, 110, 241); // BlUber
 $link: #FFDC00; // Light Orangish Red
 $link: #00BBBB; // Soft Teal
 $link: #FF725C; // Light Red
 $link: red; // Dark red
-$link: #FCCA75; // Soft yellow (nice)
+$link: rgb(39, 110, 241); // BlUber
+$link: #645394; // MDS Purple
+$link: #0ed3c8; // Tealicious
+$link: #FCCA75; // AF Soft yellow (nice)
 
-$copy: #222; // Also: RGBA(52, 60, 71, 1);
+$copy: #212121; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
 $light-gray: #a1a2a3; 
 $light-light-gray: #ddd; 
@@ -154,7 +154,7 @@ h2 {
 }
 
 h3 {
-  font-size: .875rem;
+  font-size: 1rem;
   margin-top: 2.25rem;
   margin-bottom: .5rem; 
   font-family: $font-bold; 
@@ -517,12 +517,12 @@ strong,
 .heart {
   background-color: $heart-color;
   display: inline-block;
-  height: .5rem;
+  height: .62em;
   margin: 0 4px;
   position: relative;
   top: 0;
   transform: rotate(-45deg);
-  width: .5rem;
+  width: .62em;
 }
 
 .heart:before,
@@ -530,18 +530,18 @@ strong,
   content: "";
   background-color: $heart-color;
   border-radius: 50%;
-  height: .5rem;
+  height: .62em;
   position: absolute;
-  width: .5rem;
+  width: .62em;
 }
 
 .heart:before {
-  top: -.25rem;
+  top: -.31em;
   left: 0;
 }
 
 .heart:after {
-  left: .25rem;
+  left: .31em;
   top: 0;
 }
 
