@@ -3,7 +3,7 @@
 
 /*
   Copyright K.Q. Dreger
-  Update: AF 1.19
+  Update: AF 1.21
 */ 
 
 // FONTS
@@ -27,20 +27,16 @@
 // SPACING
 
 $line-height: 1.35em; 
-$line-height: 1.4em; 
 $letter-spacing: .08em; 
 $max-width: 1288px;
 $max-width: 53.6rem;
-$font-size: 18px; 
+$font-size: 20px; 
 
 $font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
 $font-light: "Concourse T2", concourse-regular, $font-fallback;   
 $font-regular: concourse-regular, $font-fallback; 
 
-$font-bold: $font-fallback;   
-$font-light: $font-fallback;   
-$font-regular: $font-fallback;   
 
 // COLORS
 
@@ -59,7 +55,7 @@ $link: #645394; // MDS Purple
 $link: #0ed3c8; // Tealicious
 $link: #FCCA75; // AF Soft yellow (nice)
 
-$copy: #212121; // Also: RGBA(52, 60, 71, 1);
+$copy: #141414; // Also: RGBA(52, 60, 71, 1);
 $faded: #777; 
 $light-gray: #a1a2a3; 
 $light-light-gray: #ddd; 
@@ -91,9 +87,11 @@ body {
   margin: 0;
   color: $copy; 
   font-family: $font-regular; 
+  font-feature-settings: 'kern' 1;
   text-rendering: optimizeLegibility;
-  // font-feature-settings: 'liga' 1;
-  font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;
+  font-feature-settings: 'liga' 1;
+  -webkit-font-smoothing: subpixel-antialiased;
+  // font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;
 }
 
 a {
@@ -102,9 +100,7 @@ a {
   border-bottom: 1px solid $link;
   text-decoration: none;  
   &:hover { 
-    // border-bottom-color: $copy; 
-    // text-decoration: underline;
-    color: $link;
+    border-bottom-color: $copy; 
   }
 }
 
@@ -114,7 +110,7 @@ em {
 
 strong {
   font-family: $font-bold;
-  font-weight: bold; 
+  // font-weight: bold; 
 }
 
 h1,
@@ -158,7 +154,7 @@ h3 {
   margin-top: 2.25rem;
   margin-bottom: .5rem; 
   font-family: $font-bold; 
-  font-weight: bold;
+  // font-weight: bold;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
 }
@@ -279,7 +275,7 @@ blockquote strong {
   font-size: 1rem;
   letter-spacing: 0; 
   font-family: $font-bold;
-  font-weight: bold; 
+  // font-weight: bold; 
 }
 
 blockquote ul:last-child {
@@ -324,7 +320,7 @@ figure {
 
 .title { 
   font-family: $font-bold;
-  font-weight: 900;
+  // font-weight: 900;
   a { 
     border: 0;  
     color: $copy; 
@@ -361,7 +357,6 @@ figure {
 .page {
   display: flex; 
   border-top: solid 1px $light-light-gray; 
-  // border-bottom: solid 1px $light-light-gray; 
 }
 
 
@@ -369,13 +364,13 @@ figure {
   border-left: solid 1px $light-light-gray;
   padding-bottom: 3rem;
   width: calc(27.16rem + 6rem);
-  width: calc(27.16rem + 8.9rem);
+  // SF-based width: calc(27.16rem + 8.9rem);
 }
 
 
 .page__sidebar {
   width: 10rem; 
-  width: 11.5rem; 
+  // SF-based width: 11.5rem; 
   padding: 3rem;
   font-size: .875rem; 
   flex-shrink: 0;
@@ -400,7 +395,7 @@ figure {
   }
   a {
     border-color: transparent;
-    &:hover { border: 0; }
+    &:hover { border-color: $copy; }
   }
 }
 
@@ -412,7 +407,7 @@ strong,
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
   font-family: $font-bold; 
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 .caps {

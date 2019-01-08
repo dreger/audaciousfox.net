@@ -36,9 +36,9 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set in San Francisco. 
+Headlines and body copy are set [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick.
 
-*Previous typefaces: [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick (a personal favorite), [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
+*Previous typefaces: San Francisco, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
 
