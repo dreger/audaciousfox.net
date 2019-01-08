@@ -6,7 +6,7 @@ All content copyright K.Q. Dreger in perpetuity.
 
 ---
 
-**Autopublisher**
+**Autopublish.sh**
 
 * Set up a crontab job to publish every 4 hours 
 	* `crontab -e`
