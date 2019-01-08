@@ -53,6 +53,7 @@ $link: red; // Dark red
 $link: rgb(39, 110, 241); // BlUber
 $link: #645394; // MDS Purple
 $link: #0ed3c8; // Tealicious
+$link: red; 
 $link: #FCCA75; // AF Soft yellow (nice)
 
 $copy: #141414; // Also: RGBA(52, 60, 71, 1);
@@ -96,8 +97,7 @@ body {
 
 a {
   color: $copy; 
-  border-bottom: 2px solid rgba(0,0,0,.08);
-  border-bottom: 1px solid $link;
+  border-bottom: 2px solid $link;
   text-decoration: none;  
   &:hover { 
     border-bottom-color: $copy; 
@@ -525,18 +525,18 @@ strong,
   content: "";
   background-color: $heart-color;
   border-radius: 50%;
-  height: .62em;
+  height: .6em;
   position: absolute;
-  width: .62em;
+  width: .6em;
 }
 
 .heart:before {
-  top: -.31em;
+  top: -.3em;
   left: 0;
 }
 
 .heart:after {
-  left: .31em;
+  left: .3em;
   top: 0;
 }
 
