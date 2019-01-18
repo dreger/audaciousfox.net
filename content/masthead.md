@@ -48,7 +48,7 @@ This site should look good in all modern web browsers; please let me know if it 
 
 I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. (Updated Feb. 2018)
 
-- [Jenn Schiffer](https://medium.com/@jennschiffer)
+- [Jenn Schiffer](http://jennmoney.biz)
 - [Lara Callender Hogan](http://larahogan.me/blog/)
 - [Shawn Blanc](https://shawnblanc.net)
 - [Una Kravets](https://una.im/archive/#💁)
@@ -59,6 +59,7 @@ I read pretty much everything these folks put out. I update this list every coup
 - _Initial Charge_, [Michael Rockwell](http://initialcharge.net)
 - _Kottke.org_, [Jason Kottke](http://kottke.org)
 - _Pixel Envy_, [Nick Heer](http://pxlnv.com)
+- _Rands in Repose_, [Michael Lopp](http://randsinrepose.com)
 - _Stratechery_, [Ben Thompson](https://stratechery.com)
 - _The Brooks Review_, [Ben Brooks](https://brooksreview.net)
 - _The Newsprint_, [Joshua Ginter](http://thenewsprint.co)
