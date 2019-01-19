@@ -30,7 +30,7 @@ $line-height: 1.35em;
 $letter-spacing: .08em; 
 $max-width: 1288px;
 $max-width: 53.6rem;
-$font-size: 20px; 
+$font-size: 22px; 
 
 $font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
@@ -42,18 +42,17 @@ $font-regular: concourse-regular, $font-fallback;
 
 $link: #B0976D; // Old Gold
 $link: #795AE1; // Deep Purple
-$link: #FE3366; // Think Pink
 $link: #1968FF; // Bright Blue
 $link: #6B8EB7; // Jeans
 $link: #ff8600; // Quantum Gold 
 $link: #FFDC00; // Light Orangish Red
 $link: #00BBBB; // Soft Teal
-$link: #FF725C; // Light Red
 $link: red; // Dark red
-$link: rgb(39, 110, 241); // BlUber
-$link: #645394; // MDS Purple
 $link: #0ed3c8; // Tealicious
-$link: red; 
+$link: #645394; // MDS Purple
+$link: rgb(39, 110, 241); // BlUber
+$link: #FF725C; // Light Red
+$link: #FE3366; // Think Pink
 $link: #FCCA75; // AF Soft yellow (nice)
 
 $copy: #141414; // Also: RGBA(52, 60, 71, 1);
@@ -135,7 +134,7 @@ h1 {
   font-size: 2.25rem; 
   font-family: $font-light; 
   margin-bottom: 1.25rem; 
-  line-height: $line-height;
+  line-height: 1.25em;
   text-transform: none; 
   a { border: 0; }
 }
@@ -317,6 +316,22 @@ figure {
   padding: 3rem; 
   margin-top: 3rem;
 }
+
+
+.logo {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background: $link url(/images/logo.svg) no-repeat center center;
+  padding: .25rem;
+  text-indent: -1000em;
+  margin-right: .5rem;
+  background-size: 60%;
+  border-radius: 100%; 
+  &:hover { opacity: .64; }
+}
+
+
 
 .title { 
   font-family: $font-bold;
@@ -549,7 +564,7 @@ strong,
 }
 
 @media (max-width: 46rem) {
-  html { font-size: 18px; }
+  html { font-size: 20px; }
   .wrapper {
     margin: 0 auto; 
     padding: 0; 
@@ -591,8 +606,8 @@ strong,
 }
 @media (max-width: 420px) {
   .page__column { padding-bottom: 0; }
-  .byline__name { display: none; }
-  .byline__initials { display: inline; }
+  // .byline__name { display: none; }
+  // .byline__initials { display: inline; }
 }
 @media (max-width: 370px) {
   html { font-size: 18px; }
