@@ -3,7 +3,7 @@ title: Masthead
 url: /masthead/
 ---
 
-Written, edited, and produced by K.Q. Dreger. 
+Audacious Fox is written, edited, and produced by K.Q. Dreger. 
 
 All content copyright The Audacious Company LLC. 
 

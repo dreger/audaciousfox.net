@@ -30,7 +30,7 @@ $line-height: 1.35em;
 $letter-spacing: .08em; 
 $max-width: 1288px;
 $max-width: 53.6rem;
-$font-size: 22px; 
+$font-size: 20px; 
 
 $font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
@@ -182,7 +182,7 @@ small {
 ul,
 ol {
   padding-left: 1.5rem; 
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 ul li {
@@ -317,7 +317,6 @@ figure {
   margin-top: 3rem;
 }
 
-
 .logo {
   display: block;
   width: 3rem;
@@ -325,7 +324,6 @@ figure {
   background: $link url(/images/logo.svg) no-repeat center center;
   padding: .25rem;
   text-indent: -1000em;
-  margin-right: .875rem;
   background-size: 60%;
   border-radius: 100%; 
   &:hover { opacity: .64; }
@@ -335,26 +333,32 @@ figure {
 
 .title { 
   font-family: $font-bold;
-  // font-weight: 900;
   a { 
     border: 0;  
     color: $copy; 
   }
 }
 .byline { 
-  // padding-left: .5rem; 
-  font-family: "SF Mono", "IBM Plex Mono", "Menlo", monospace;
-  // opacity: .4; 
+  width: 100%;
 }
-.byline__initials { display: none; }
+.byline__divider {
+  opacity: .2; 
+  padding: 0 .5rem;
+}
+.byline__name {
+  margin-right: 1rem;
+}
+.byline__year {
+  opacity: .4;
+}
 
-.title, .byline {
-  font-size: 1rem; 
+.title, .byline__name {
+  // font-size: .875rem; 
+  font-family: $font-bold;
   text-transform: uppercase; 
-  // font-family: $font-bold;
   letter-spacing: $letter-spacing; 
   margin: 0; 
-  line-height: 1rem;
+  line-height: $line-height;
 }
 
 .header-navigation-jump {
@@ -561,7 +565,6 @@ strong,
 .headline-nbsp { display: inline; }
 
 @media (max-width: $max-width + .5rem) {
-  // html { font-size: 22px; }
   .wrapper { max-width: 44rem; }
 }
 
@@ -580,12 +583,13 @@ strong,
     padding: 1.5rem 1rem;
   }
   .header {
-    padding: 1.5rem 1rem 3rem;  
+    padding: 1rem 1rem 1.5rem;  
     margin-top: 0; 
   }
   .header-navigation-jump {
     display: block; 
   }
+  .hide-on-mobile { display: none; }
   .page {
     flex-direction: column; 
     border-top: 0; 
@@ -608,7 +612,6 @@ strong,
 }
 @media (max-width: 420px) {
   .page__column { padding-bottom: 0; }
-  // .byline__name { display: none; }
   // .byline__initials { display: inline; }
 }
 @media (max-width: 370px) {

@@ -38,13 +38,16 @@
     <header class="header centered">
       <!-- <span class="site-icon">{{ $.Param "icon" | markdownify  }}</span> -->
       <h1 class="title"><a title="audacious fox logo" class="logo" href="/">{{ .Site.Title }}</a></h1>
-      <!-- <span class="byline">by <a href="#navigation">{{ .Site.Author.name }}</a></span> -->
-      <div class="byline">By 
-        <span class="byline__name">K.Q. Dreger</span>
-        <span class="byline__initials">KQD</span>
-      </div>
+      
+      <div class="byline"><span class="byline__divider">|</span>written by <a class="byline__name" href="#navigation">{{ .Site.Author.name }}</a></div>
 
-      <a href="#navigation" class="header-navigation-jump" title="Navigation menu toggle">•••</a>
+      <!-- <a href="#navigation" class="header-navigation-jump" title="Navigation menu toggle">•••</a> -->
+      
+      <!-- <br><div class="byline">Audacious Fox is a tiny column written by K.Q. Dreger</div> -->
+      <!-- <div class="byline">By 
+        <span class="byline__name">K.Q. Dreger</span>
+        <span class="byline__year">2014 – 2019</span>
+      </div> -->
     </header>
 
     <div class="page">
@@ -57,7 +60,9 @@
           <!-- <li><a href="/feeds">RSS</a></li> -->
         </ul>
 
-        <p>A tiny column on design, gaming, tech, and writing. Published from Ohio, made on a Mac. Updated multiple times a month. I do not have a newsletter. I care about <a href="/privacy">your privacy</a>.</p>
+        <br class="hide-on-mobile">
+
+        <p>Audacious Fox is a tiny column on design, gaming, tech, and writing. Published from Ohio, made on a Mac. Updated multiple times a month. I do not have a newsletter. I care about <a href="/privacy">your privacy</a>.</p>
 
         <p>Follow for updates via <a href="https://twitter.com/audaciousfoxnet">Twitter</a>, <a href="/feeds/main.xml">RSS</a>, or <a href="/feeds/main.json">JSON</a>.
         </p>
