@@ -325,7 +325,7 @@ figure {
   background: $link url(/images/logo.svg) no-repeat center center;
   padding: .25rem;
   text-indent: -1000em;
-  margin-right: .5rem;
+  margin-right: .875rem;
   background-size: 60%;
   border-radius: 100%; 
   &:hover { opacity: .64; }
@@ -342,14 +342,16 @@ figure {
   }
 }
 .byline { 
-  padding-left: .5rem; 
-  opacity: .4; 
+  // padding-left: .5rem; 
+  font-family: "SF Mono", "IBM Plex Mono", "Menlo", monospace;
+  // opacity: .4; 
 }
 .byline__initials { display: none; }
 
 .title, .byline {
   font-size: 1rem; 
-    text-transform: uppercase; 
+  text-transform: uppercase; 
+  // font-family: $font-bold;
   letter-spacing: $letter-spacing; 
   margin: 0; 
   line-height: 1rem;
