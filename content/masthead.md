@@ -36,7 +36,7 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick.
+Headlines and body copy are set in [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick.
 
 *Previous typefaces: San Francisco, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
