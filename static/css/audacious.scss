@@ -34,12 +34,10 @@ $font-size: 20px;
 
 $font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
-$font-light: "Concourse T2", concourse-regular, $font-fallback;   
 $font-regular: concourse-regular, $font-fallback; 
 
 
 // COLORS
-
 $link: #B0976D; // Old Gold
 $link: #795AE1; // Deep Purple
 $link: #1968FF; // Bright Blue
@@ -55,23 +53,40 @@ $link: #FF725C; // Light Red
 $link: #FE3366; // Think Pink
 $link: #FCCA75; // AF Soft yellow (nice)
 
-$copy: #141414; // Also: RGBA(52, 60, 71, 1);
-$faded: #777; 
-$light-gray: #a1a2a3; 
-$light-light-gray: #ddd; 
-$gray: #525252; 
-$bg: #f5f7f9; 
-$article-bg: white; 
 $heart-color: $link; 
 
 
 /*
   Start Styles
 */
+
+:root {
+  --link: #FCCA75;
+  --bg: #fff;
+  --copy: #141414;
+  --gray: #707070;
+  --light-gray: #a1a2a3; 
+  --lightest-gray: #dddddd; 
+}
  
 ::selection {
   background: lighten($link, 16%);
 }
+
+:focus {
+  outline: 3px dashed var(--link);
+  border: 0;
+}
+
+.night-theme {
+  --link: #50E3C2;
+  --bg: #191B2B;
+  --copy: #ccc;
+  --gray: rgba(255,255,255,.2);
+  --light-gray: rgba(255,255,255,.2); 
+  --lightest-gray: rgba(255,255,255,.2); 
+}
+
 
 * {
   -moz-box-sizing: content-box;
@@ -85,7 +100,8 @@ html {
 body {
   line-height: $line-height;
   margin: 0;
-  color: $copy; 
+  background: var(--bg);
+  color: var(--copy); 
   font-family: $font-regular; 
   font-feature-settings: 'kern' 1;
   text-rendering: optimizeLegibility;
@@ -95,11 +111,11 @@ body {
 }
 
 a {
-  color: $copy; 
-  border-bottom: 2px solid $link;
+  color: var(--copy); 
+  border-bottom: 2px solid var(--link);
   text-decoration: none;  
   &:hover { 
-    border-bottom-color: $copy; 
+    border-bottom-color: var(--copy); 
   }
 }
 
@@ -108,8 +124,7 @@ em {
 }
 
 strong {
-  font-family: $font-bold;
-  // font-weight: bold; 
+  font-family: $font-bold; 
 }
 
 h1,
@@ -132,7 +147,7 @@ blockquote,
 
 h1 {
   font-size: 2.25rem; 
-  font-family: $font-light; 
+  font-family: $font-regular; 
   margin-bottom: 1.25rem; 
   line-height: 1.25em;
   text-transform: none; 
@@ -153,7 +168,6 @@ h3 {
   margin-top: 2.25rem;
   margin-bottom: .5rem; 
   font-family: $font-bold; 
-  // font-weight: bold;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
 }
@@ -199,14 +213,14 @@ li {
 hr {
   height: 1px;
   border: 0;
-  border-top: 2px solid $bg; 
+  border-top: 2px solid var(--bg); 
   margin: 1.5rem 0;
   display: block;  
 }
 
 article {
   padding:  3rem; 
-  border-bottom: solid 1px $light-light-gray; 
+  border-bottom: solid 1px var(--lightest-gray); 
   margin-bottom: .25rem;
   &:last-child { border: 0; }
 }
@@ -224,9 +238,9 @@ aside {
   margin: 0 0 1.25rem 1.25rem;
   padding: .5rem 0 0;
   font-size: .875rem;
-  color: $faded;
+  color: var(--gray);
   line-height: $line-height;
-  border-top: solid 2px $bg; 
+  border-top: solid 2px var(--bg); 
 }
   aside {
     width: 100%;
@@ -250,7 +264,7 @@ code {
   display: inline-block;
   font-size: .875rem; 
   border-radius: 4px; 
-  background: $bg;
+  background: var(--bg);
   padding: 0 2px;
   font-family: "SF Mono", "IBM Plex Mono", Menlo, monospace; 
 }
@@ -258,13 +272,13 @@ code {
 pre {
   white-space: pre-wrap;
   border-radius: 4px; 
-  background: $bg;
+  background: var(--bg);
   padding: .5rem;
   line-height: $line-height; 
 }
 
 blockquote {
-  color: $gray; 
+  color: var(--gray); 
   margin: 1.25rem; 
   width: 80%; 
 }
@@ -273,8 +287,7 @@ blockquote strong {
   text-transform: none;
   font-size: 1rem;
   letter-spacing: 0; 
-  font-family: $font-bold;
-  // font-weight: bold; 
+  font-family: $font-bold; 
 }
 
 blockquote ul:last-child {
@@ -287,21 +300,10 @@ figure {
   figcaption { 
     font-size: .875rem; 
     line-height: $line-height;
-    
-    color: $gray; 
+    color: var(--gray); 
   }
 }
 
-// =================
-// =================// =================
-// =================
-// =================
-// =================
-// =================
-// =================
-// =================
-// =================
-// =================
 
 .wrapper {
   max-width: $max-width; 
@@ -321,7 +323,7 @@ figure {
   display: block;
   width: 3rem;
   height: 3rem;
-  background: $link url(/images/logo.svg) no-repeat center center;
+  background: var(--link) url(/images/logo.svg) no-repeat center center;
   padding: .25rem;
   text-indent: -1000em;
   background-size: 60%;
@@ -329,13 +331,11 @@ figure {
   &:hover { opacity: .64; }
 }
 
-
-
 .title { 
   font-family: $font-bold;
   a { 
     border: 0;  
-    color: $copy; 
+    color: var(--copy); 
   }
 }
 .byline { 
@@ -375,12 +375,12 @@ figure {
 
 .page {
   display: flex; 
-  border-top: solid 1px $light-light-gray; 
+  border-top: solid 1px var(--lightest-gray); 
 }
 
 
 .page__column {
-  border-left: solid 1px $light-light-gray;
+  border-left: solid 1px var(--lightest-gray);
   padding-bottom: 3rem;
   width: calc(27.16rem + 6rem);
   // SF-based width: calc(27.16rem + 8.9rem);
@@ -414,7 +414,7 @@ figure {
   }
   a {
     border-color: transparent;
-    &:hover { border-color: $copy; }
+    &:hover { border-color: var(--copy); }
   }
 }
 
@@ -426,7 +426,6 @@ strong,
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
   font-family: $font-bold; 
-  // font-weight: bold;
 }
 
 .caps {
@@ -440,7 +439,7 @@ strong,
   }
 }
 .archive__date {
-  color: $light-gray;
+  color: var(--gray);
   white-space: nowrap; 
   font-size: .875rem; 
 }
@@ -451,7 +450,7 @@ strong,
   line-height: $line-height;
   margin: 2.25rem 0; 
   margin-bottom: 0; 
-  border-top: solid 2px $bg; 
+  border-top: solid 2px var(--bg); 
   font-style: italic; 
   > hr { display: none; }
   ol {
@@ -465,7 +464,7 @@ strong,
       position: relative; 
       left: -.5rem;
       border-radius: 4px;  
-      color: $gray; 
+      color: var(--gray); 
       top: -.75rem; 
       background: white; 
     }
@@ -479,7 +478,6 @@ strong,
 
 .term {
   font-family: $font-bold;
-  // font-weight: bold;
 }
 
 .interview {
@@ -489,16 +487,14 @@ strong,
 
 .canonical-link {
   font-weight: normal; 
-  // margin-top: .25rem;
   text-transform: uppercase; 
   letter-spacing: .08em; 
   font-size: .875rem; 
 }
 .canonical-link--post,
-.canonical-link--homepage { 
-  opacity: .4; 
+.canonical-link--homepage {  
   border: 0; 
-  color: $copy; 
+  color: var(--gray); 
 }
  
 .canonical-link--homepage:hover { opacity: 1; }
@@ -507,16 +503,30 @@ strong,
 .pagination {
   padding: 3rem; 
   line-height: $line-height; 
-  color: $gray; 
+  color: var(--gray); 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
-    color: $light-gray; 
+    color: var(--gray); 
     font-family: $font-regular; 
   }
 }
 .pagination-older {
   margin-bottom: 1.5rem; 
+}
+
+.a11y-skip {
+  padding: .25rem 1rem;
+  background: var(--link);
+  color: white;
+  position: fixed;
+  top: -100px;
+  transition: all .2s ease-out; 
+  left: 0px;
+  right: 0px;
+  &:focus {
+    top: 0;
+  }
 }
 
 .interview h1,
