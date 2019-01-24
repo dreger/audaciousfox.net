@@ -340,10 +340,9 @@ figure {
 }
 .byline { 
   width: 100%;
-}
-.byline__divider {
-  opacity: .2; 
-  padding: 0 .5rem;
+  margin-left: .75rem; 
+  padding-left: .75rem;
+  border-left: solid 1px var(--lightest-gray);
 }
 .byline__name {
   margin-right: 1rem;
