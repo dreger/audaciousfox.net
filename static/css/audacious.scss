@@ -30,7 +30,7 @@ $line-height: 1.35em;
 $letter-spacing: .08em; 
 $max-width: 1288px;
 $max-width: 53.6rem;
-$font-size: 20px; 
+$font-size: 22px; 
 
 $font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: concourse-bold, $font-fallback;   
@@ -69,7 +69,8 @@ $heart-color: $link;
   --lightest-gray: #dddddd; 
 }
  
-::selection {
+::selection,
+code {
   background: lighten($link, 16%);
 }
 
@@ -213,8 +214,8 @@ li {
 hr {
   height: 1px;
   border: 0;
-  border-top: 2px solid var(--bg); 
-  margin: 1.5rem 0;
+  border-top: 1px dotted var(--lightest-gray);  
+  margin: 1.5rem 0; 
   display: block;  
 }
 
@@ -264,7 +265,6 @@ code {
   display: inline-block;
   font-size: .875rem; 
   border-radius: 4px; 
-  background: var(--bg);
   padding: 0 2px;
   font-family: "SF Mono", "IBM Plex Mono", Menlo, monospace; 
 }
