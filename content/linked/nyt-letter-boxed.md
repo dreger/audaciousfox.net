@@ -4,7 +4,7 @@ date: 2019-02-09T15:20:21-05:00
 link: https://www.polygon.com/2019/2/1/18205854/new-york-times-crossword-letter-boxed-puzzle-game
 ---
 
-Samit Sarkar, *Polygon*, writing about the newest word game from the Times’ Games Expansion Team: 
+Samit Sarkar, *Polygon*, writing about the newest word game from the Times’ Games Expansion Team (which I didn't know was a thing): 
 
 > *Letter Boxed* takes place around, well, a box. There are three letters on each side, and players must connect them to make words at least three letters long. Letters on the same side cannot be used consecutively, and the final letter of each word becomes the first letter of the next word. The goal is to use all 12 letters in as few words as possible. “It’s a lot faster, it’s a much quicker hit, but you can kind of keep playing that too forever,” said [Times’s Games Expansion Team Lead] Von Ehren.
 
