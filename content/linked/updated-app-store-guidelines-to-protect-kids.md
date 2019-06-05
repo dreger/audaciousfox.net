@@ -1,5 +1,5 @@
 ---
-title: "Updated App Store Review Guidelines Prohibit Apps in Kids Category From Including Ads or Analytics"
+title: "Updated App Store Review Guidelines Prohibit Apps in Kids Category From Including Third-Party Ads or Analytics"
 date: 2019-06-04T21:25:43-04:00
 link: https://developer.apple.com/news/?id=06032019j
 ---
