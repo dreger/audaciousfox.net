@@ -607,7 +607,7 @@ strong,
 
 
 @media (max-width: 36rem) {
-  html { font-size: 20px; }
+  html { font-size: 18px; }
   .wrapper {
     margin: 0 auto; 
     padding: 0; 
@@ -651,8 +651,8 @@ strong,
 }
 @media (max-width: 420px) {
   .page__column { padding-bottom: 0; }
-  // .byline__initials { display: inline; }
 }
 @media (max-width: 370px) {
   html { font-size: 18px; }
+  .byline__intro { display: none; }
 }
