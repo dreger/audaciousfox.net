@@ -48,7 +48,7 @@ $link: #00BBBB; // Soft Teal
 $link: red; // Dark red
 $link: #0ed3c8; // Tealicious
 $link: #645394; // MDS Purple
-$link: rgb(39, 110, 241); // BlUber
+$link: #276ef1; // BlUber
 $link: #FF725C; // Light Red
 $link: #FE3366; // Think Pink
 $link: #FCCA75; // AF Soft yellow (nice)
@@ -68,11 +68,12 @@ $heart-color: $link;
   --gray: #707070;
   --light-gray: #a1a2a3; 
   --lightest-gray: #dddddd; 
+  --box-shadow: rgba(100,100,100,.12);
 }
- 
+
 ::selection,
 code {
-  background: lighten($link, 16%);
+  background: lighten(#FCCA75, 16%);
 }
 
 :focus {
@@ -224,7 +225,7 @@ article {
   padding:  3rem; 
   border-bottom: solid 2px var(--bg); 
   // margin-bottom: .25rem;
-  // box-shadow: 0 2px 4px rgba(100,100,100,.12);
+  // box-shadow: 0 2px 4px var(--box-shadow);
   background: var(--bg-article);
   &:last-child { border: 0; }
 //   &:after {
@@ -350,7 +351,7 @@ figure {
   transition: ease-in all .16s;
   &:hover { 
     // opacity: .8; 
-    box-shadow: 0 0px 6px rgba(100,100,100,.12);
+    box-shadow: 0 0px 6px var(--box-shadow);
   }
 }
 
@@ -407,7 +408,7 @@ figure {
   background: var(--bg-article);
   padding-bottom: 0;
   border-radius: 4px; 
-  box-shadow: 0 0px 6px rgba(100,100,100,.12);
+  box-shadow: 0 0px 6px var(--box-shadow);
   // width: calc(27.16rem + 6rem);
   // width: calc(20rem + 6rem);
   // SF-based width: calc(27.16rem + 8.9rem);
@@ -655,4 +656,21 @@ strong,
 @media (max-width: 370px) {
   html { font-size: 18px; }
   .byline__intro { display: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --link: #276ef1;
+    --bg: #1c1c1c;
+    --bg-article: #191919; 
+    --copy: #eee;
+    --gray: #bbb;
+    --light-gray: #333; 
+    --lightest-gray: #444; 
+    --box-shadow: rgba(10,10,10,.2);
+  }
+  ::selection,
+  code {
+    background: lighten(#276ef1, 16%);
+  }
 }
