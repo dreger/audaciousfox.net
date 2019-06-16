@@ -1,0 +1,243 @@
+<!doctype html>
+
+<!-- The greater fool. What kind of day has it been? -->
+
+<html lang="en">
+<head>
+  <title>Audacious Fox: Style Guide</title>
+  <meta charset="utf-8">
+  <meta name="generated" content='Jun 16, 2019 at 6:58:50 (EDT)'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="dns-prefetch" href="//static.getclicky.com">
+  <link href="https://micro.blog/dreger" rel="me" />
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/css/audacious.css?v=20190616185850">
+  <link rel="alternate" type="application/rss+xml"  href="/feeds/main.xml" />
+  <link rel="alternate" type="application/json" href="/feeds/main.json" />
+  <meta itemprop="name" content="Audacious Fox">
+  <meta itemprop="image" content="https://audaciousfox.net/icon.png">
+  
+  
+  <meta name="Description" content="Working title: Web Elements of Style This document is both an in-progress draft of some short, practical opinions on what makes good written web markup and a personalized list of editorial decisions that are a superset of those found in the New York Times Manual of Style. The goal here is to bring a consistent voice to all the writing on this site.
+Please feel free to remix or copy the contents here for your own personal use....">
+  <meta itemprop="description" content="Working title: Web Elements of Style This document is both an in-progress draft of some short, practical opinions on what makes good written web markup and a personalized list of editorial decisions that are a superset of those found in the New York Times Manual of Style. The goal here is to bring a consistent voice to all the writing on this site.
+Please feel free to remix or copy the contents here for your own personal use....">
+  <meta property="og:title" content="Style Guide"/>
+  <meta property="og:description" content="Working title: Web Elements of Style This document is both an in-progress draft of some short, practical opinions on what makes good written web markup and a personalized list of editorial decisions that are a superset of those found in the New York Times Manual of Style. The goal here is to bring a consistent voice to all the writing on this site.
+Please feel free to remix or copy the contents here for your own personal use...."/>
+  <meta property="og:site_name" content="Audacious Fox"/>
+  <meta property="og:url" content="https://audaciousfox.net/projects/style-guide"/> 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dreger" />
+  
+
+  
+  <link rel="dns-prefetch" href="//static.getclicky.com">
+</head>
+<body>
+  <div><a class="a11y-skip" href="#page__column">Skip to main content...</a> </div>
+
+  <div class="wrapper">
+    <div class="page">
+      <main id="page__column" class="page__column">
+
+        <header class="header centered">
+          <h1 class="title"><a title="audacious fox logo" class="logo" href="/">Audacious Fox</a></h1>
+
+          <div class="byline"><span class="byline__intro">a column</span> by <a class="byline__name" href="#navigation">K.Q. Dreger</a></div>
+        </header>
+
+<article>
+
+<h1>Style Guide</h1>
+
+
+
+<h3 id="working-title-web-elements-of-style">Working title: Web Elements of Style</h3>
+
+<p>This document is both an in-progress draft of some short, practical opinions on what makes good written web markup and a personalized list of editorial decisions that are a superset of those found in the <em>New York Times Manual of Style</em>. The goal here is to bring a consistent voice to all the writing on this site.</p>
+
+<p>Please feel free to remix or copy the contents here for your own personal use. A link back to this page is appreciated, but not required. This document will continue to evolve over time, so check back occasionally.</p>
+
+<h2 id="ideology">Ideology</h2>
+
+<p>If you do any sort of writing, particularly online, you should be using a style guide. Having some sort of reference for how <em>you</em> write will help you make consistent editorial decisions, and it will help bring a level of polish to your work that many miss out on.</p>
+
+<h2 id="style-tone">Style &amp; tone</h2>
+
+<p>Go read &ldquo;<a href="https://en.wikipedia.org/wiki/The_Elements_of_Style">The Elements of Style</a>&rdquo; by Strunk &amp; White. Brevity and clarity are paramount. Try to avoid didactic language. Write with purpose.</p>
+
+<p>Establish the context of a person, place, or thing without making the reader feel stupid. Ex. &ldquo;K.Q. Dreger, a writer from Ohio, created the Audacious Fox Style Guide, a resource he hopes is copied by bloggers everywhere.&rdquo; Don&rsquo;t be a jerk. Always make it clear who and where you&rsquo;re quoting from. Quote things <em>exactly</em> as they appear.</p>
+
+<blockquote>
+<p>&ldquo;Be sparing with quotes. Direct quotes should be used when either the speaker or what he said is surprising, or when the words he used are particularly pithy or graphic. Otherwise you can probably paraphrase him more concisely.&rdquo; — <a href="http://www.economist.com/style-guide/quotes">Economist Style Guide</a></p>
+</blockquote>
+
+<h2 id="a-note-on-permalinks">A note on permalinks</h2>
+
+<p>Less is more. Strip the trailing slash and file extensions from any URLs (e.g. <code>/title</code> not <code>/title.html</code> or <code>/title/</code>) and avoid adding in extra cruft like extraneous dates or words. Keep permalinks short, but not so devoid of context that someone looking at the bare URL would struggle to identify what the linked-to content might be about.</p>
+
+<h2 id="a-note-on-links">A note on links</h2>
+
+<p>Links are one of the most important differentiators between paper and webpages. Links combine context and citation into one user-friendly element. Unfortunately, many links wrap the incorrect part of a sentence, which makes them feel off-putting.</p>
+
+<p>Generally, a link should start its anchor with the verb that immediately precedes the main subject of the linked content and continue until the end of the clause.</p>
+
+<p>✅ <a href="#">In his book on the stock market</a>, Mr. Dreger wrote about the fall of the 2008 market.</p>
+
+<p>✅ In his book on the stock market, Mr. Dreger <a href="#">wrote about the fall of the 2008 market</a></p>
+
+<p>Avoid linking to entire sentences or independent clauses. These <em>run-on</em> links are both aesthetically unappealing and sloppy markup.</p>
+
+<p>❌ <a href="#">In his book on the stock market, Mr. Dreger wrote about the fall of the 2008 market.</a></p>
+
+<p>❌ In his book on the stock market, <a href="#">Mr. Dreger wrote about the fall of the 2008 market.</a></p>
+
+<p>In certain situations, especially when linking to definitions or individual works like movies, books, or music, anchor the link as closely to the subject as possible:</p>
+
+<p>✅ While looking up dictionary terms, Mr. Dreger came across the term <a href="#">onomatopoeia</a>.</p>
+
+<p>✅ The <a href="#">reviews for &ldquo;La La Land&rdquo;</a> are out.</p>
+
+<h2 id="reference-a-z">Reference (A-Z)</h2>
+
+<div class="style-guide">
+
+  
+    <p><span class="term">apostrophes</span>. <span class="definition">Following a word that ends in an &rsquo;s,&rsquo; &ldquo;The Moss&rsquo; house.&rdquo;</span></p>
+  
+    <p><span class="term">backup (n.)</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">books</span>. <span class="definition">Titles go in quotes, with principle words capitalized.</span></p>
+  
+    <p><span class="term">back up (v.)</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">built-in</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">Buzzfeed</span>. <span class="definition">A normalized capitalization of news site <a href="https://buzzfeed.com"><em>BuzzFeed</em></a>.</span></p>
+  
+    <p><span class="term">capitalization</span>. <span class="definition"><a href="http://titlecapitalization.com">TitleCapitalization.com</a>. Capitalize all verbs, nouns and pronouns, and all words of four or more letters. The following words may be left lowercase: [a, and, as, at, but, by, en, for, if, in, of, on, or, the, to, v., vs., via].</span></p>
+  
+    <p><span class="term">commas</span>. <span class="definition">For placement of a comma with other punctuation, see Parenthesis; Quotation Marks;  use the serial comma.</span></p>
+  
+    <p><span class="term">defunct, now-</span>. <span class="definition">No longer existing or functioning.</span></p>
+  
+    <p><span class="term">esports</span>. <span class="definition">Competitive video games.</span></p>
+  
+    <p><span class="term">fine-grained (adj.)</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">full-time</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">gamification</span>. <span class="definition">To make oft mundane activities exciting and addicting by adding game-like elements.</span></p>
+  
+    <p><span class="term">go-to</span>. <span class="definition">My go-to song is &lsquo;Shake it Off&rsquo;.</span></p>
+  
+    <p><span class="term">headlines</span>. <span class="definition">Written in simple English and should be able to be read as a sentence if all words removed for copy fitting are restored. Words that would normally be italicized (titles of books, video games, etc.) should be set in apostrophes.</span></p>
+  
+    <p><span class="term">home screen</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">Internet, the</span>. <span class="definition">This term (uppercase) refers to a global system of networked devices. Use <em>the web</em> when referring to content that can be found on websites or online services.</span></p>
+  
+    <p><span class="term">iOS</span>. <span class="definition">Apple&rsquo;s mobile operating system, which runs exclusively on iPhones and iPads.</span></p>
+  
+    <p><span class="term">italicized blogs and publications</span>. <span class="definition"><em>Daring Fireball, Kotaku, Pixel Envy, Polygon, Wired.</em></span></p>
+  
+    <p><span class="term">lock in</span>. <span class="definition">Being forced to use a certain type of product.</span></p>
+  
+    <p><span class="term">long-form</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">MacOS</span>. <span class="definition">Apple&rsquo;s desktop operating system, which runs exclusively on Apple-made computers.</span></p>
+  
+    <p><span class="term">names</span>. <span class="definition">First reference. K.Q. Dreger. Subsequent references. Mr. Dreger.</span></p>
+  
+    <p><span class="term">Note 7, Samsung</span>. <span class="definition">Samsung&rsquo;s flagship smartphone, released in 2016, that was later recalled due to safety concerns. Please note the space between &lsquo;Note&rsquo; and &lsquo;7,&rsquo; which differs from marketing materials that use &lsquo;Note7&rsquo; in their copy.</span></p>
+  
+    <p><span class="term">pull quote</span>. <span class="definition">A block of text, taken from another source.</span></p>
+  
+    <p><span class="term">quotation marks</span>. <span class="definition">Any added punctuation goes outside.</span></p>
+  
+    <p><span class="term">real time</span>. <span class="definition">Two words, denoting <a href="https://en.wikipedia.org/wiki/Real-time">this</a>.</span></p>
+  
+    <p><span class="term">résumé</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">Retina</span>. <span class="definition">Apple-branded displays with very high resolution.</span></p>
+  
+    <p><span class="term">roundup</span>. <span class="definition">A collection of things.</span></p>
+  
+    <p><span class="term">siriously (exclam.)</span>. <span class="definition">To express surprise, disappointment; spoken softly under one’s breath as you stare, baffled, at a response from Siri.</span></p>
+  
+    <p><span class="term">speedrun (speedrunning, speedrunner)</span>. <span class="definition">Play-through of a video game, with the intention of completing it as fast as possible.</span></p>
+  
+    <p><span class="term">start-up</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">style guide</span>. <span class="definition">A quintessential tool for any writer. It helps enforce a consistent standard of writing and language across multiple works.</span></p>
+  
+    <p><span class="term">tail end</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">TidBits</span>. <span class="definition">A normalized capitalization of Apple news site, <a href="https://tidbits.com/">TidBITS</a>. (For you, NH.)</span></p>
+  
+    <p><span class="term">trade-off</span>. <span class="definition">A balance or compromise between two desirable yet incompatible ideas.</span></p>
+  
+    <p><span class="term">tvOS</span>. <span class="definition">Apple&rsquo;s TV operating system, which runs exclusively on Apple TV.</span></p>
+  
+    <p><span class="term">video games</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">WatchOS</span>. <span class="definition">Apple&rsquo;s mobile operating system, which runs exclusively on Apple Watch.</span></p>
+  
+    <p><span class="term">weblog</span>. <span class="definition">One word. An online blog.</span></p>
+  
+    <p><span class="term">website</span>. <span class="definition">One word. A collection of pages on the Internet.</span></p>
+  
+    <p><span class="term">well-deserved</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">wordmark</span>. <span class="definition"></span></p>
+  
+    <p><span class="term">Yahoo</span>. <span class="definition">Internet search and advertising company; to be referred to as &ldquo;Yahoo&rdquo;, without the &ldquo;!&rdquo; at the end.</span></p>
+  
+
+</div>
+
+
+
+</article>
+
+  </main>  
+  <div class="page__sidebar" id="navigation">
+    <ul class="navigation" role="navigation">
+      <li><a href="/archive">Archive</a></li>
+      <li><a href="/masthead">Masthead</a></li>
+      <li><a href="/projects/edit">Edit ($1.99)</a></li>
+      <li><a href="/projects/style-guide">Style Guide</a></li>
+      <li><a href="/masthead/#other-writers-worth-reading">Blogroll</a></li>
+      
+    </ul>
+
+    <br class="hide-on-mobile">
+
+    <p>Audacious Fox is a tiny column on design, writing, gaming, and technology. Published from Ohio, made on a Mac. Updated multiple times a month, most of the time. I do not have a newsletter. </p>
+
+    <p>I care about <a href="/privacy">your privacy</a>.</p>
+
+    <p>Follow for updates via <a href="https://twitter.com/audaciousfoxnet">Twitter</a>, <a href="/feeds/main.xml">RSS</a>, or <a href="/feeds/main.json">JSON</a>.
+    </p>
+
+    <p>Happy <span id="today">reading</span>.</p>
+
+    <p>I <span class="heart"></span>&nbsp;Emily Rose.</p>
+  </div>
+</div>  
+</div>  
+
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(101122105); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101122105ns.gif" /></p></noscript>
+<script type="text/javascript">
+  var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var date = new Date();
+  var day = date.getDay();
+  var dayName = days[day];
+  document.getElementById('today').innerText = dayName;
+</script>
+</body> 
+</html> 
