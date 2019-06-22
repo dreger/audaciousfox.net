@@ -2,6 +2,7 @@ _site
 html
 .sass-cache
 _drafts
+resources
 todo.md
 *.plist
 .DS_Store
