@@ -659,18 +659,18 @@ strong,
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --link: #276ef1;
-    --bg: #1c1c1c;
-    --bg-article: #191919; 
-    --copy: #eee;
-    --gray: #bbb;
-    --light-gray: #333; 
-    --lightest-gray: #444; 
-    --box-shadow: rgba(10,10,10,.2);
-  }
-  ::selection,
-  code {
-    background: lighten(#276ef1, 16%);
-  }
+  // :root {
+  //   --link: #276ef1;
+  //   --bg: #1c1c1c;
+  //   --bg-article: #191919; 
+  //   --copy: #eee;
+  //   --gray: #bbb;
+  //   --light-gray: #333; 
+  //   --lightest-gray: #444; 
+  //   --box-shadow: rgba(10,10,10,.2);
+  // }
+  // ::selection,
+  // code {
+  //   background: lighten(#276ef1, 16%);
+  // }
 }
