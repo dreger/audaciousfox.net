@@ -7,33 +7,73 @@
 */ 
 
 // FONTS
-@font-face {
-    font-family: 'concourse-bold';
-    src: url('../fonts/concourse_t3_bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap; 
+// @font-face {
+//     font-family: 'concourse-bold';
+//     src: url('../fonts/concourse_t3_bold.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap; 
 
+// }
+// @font-face {
+//     font-family: 'concourse-regular';
+//     src: url('../fonts/concourse_t3_regular.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap; 
+// }
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+       url("../fonts/Inter-Medium.woff") format("woff");
 }
 @font-face {
-    font-family: 'concourse-regular';
-    src: url('../fonts/concourse_t3_regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap; 
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Inter-MediumItalic.woff2") format("woff2"),
+       url("../fonts/Inter-MediumItalic.woff") format("woff");
 }
 
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+       url("../fonts/Inter-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBoldItalic.woff2") format("woff2"),
+       url("../fonts/Inter-SemiBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"),
+       url("../fonts/Inter-ExtraBold.woff") format("woff");
+}
  
 // SPACING
 
-$line-height: 1.35em; 
-$line-height: 1.45em; 
+$line-height: 1.54; 
 $letter-spacing: .04em; 
 $max-width: 53.6rem;
 $max-width: 64rem;
-$font-size: 18px; 
+$font-size: 16px; 
 
-$font-fallback: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+$font-fallback: "Inter", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: $font-fallback;   
 $font-regular:  $font-fallback; 
 
@@ -54,6 +94,7 @@ $link: #FF725C; // Light Red
 $link: #FCCA75; // AF Soft yellow (nice)
 $link: #FE3366; // Think Pink
 $link: #ffe101; // Bright yellow
+$link: #FFC200; // Good yellow
 
 $heart-color: $link; 
 
@@ -63,7 +104,7 @@ $heart-color: $link;
 */
 
 :root {
-  --link: #ffe101;
+  --link: #FFC200;
   --bg: #fff;
   --bg-article: #fff; 
   --copy: #141414;
@@ -75,7 +116,7 @@ $heart-color: $link;
 
 ::selection,
 code {
-  background: lighten(#ffe101, 16%);
+  background: lighten(#FFC200, 16%);
 }
 :focus {
   outline: 2px dashed var(--link);
@@ -108,9 +149,13 @@ body {
   color: var(--copy); 
   font-family: $font-regular; 
   font-feature-settings: 'kern' 1;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga' 1;
   -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
+  -webkit-text-size-adjust: 100%;
   // font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;
 }
 
@@ -118,6 +163,9 @@ a {
   color: var(--copy); 
   // border-bottom: 1px solid var(--light-gray);
   // text-decoration: none;  
+  // text-decoration-thickness: .125em;
+  // text-underline-offset: 1.5px;
+  text-decoration-skip-ink: auto;
   &:hover { 
     // border-bottom-color: var(--copy); 
     text-decoration-color: var(--link); 
@@ -129,7 +177,7 @@ em {
 }
 
 strong {
-  font-family: $font-bold; 
+  font-weight: 800;
 }
 
 h1,
@@ -154,7 +202,7 @@ h1 {
   font-size: 1.5rem; 
   font-family: $font-regular; 
   margin-bottom: 1.25rem; 
-  font-weight: bold;
+  font-weight: 800;
   line-height: 1.25em;
   text-transform: none; 
   a { text-decoration-color: transparent; }
@@ -163,7 +211,7 @@ h1 {
 h2 {
   margin-top: 2.25rem;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 800;
   line-height: $line-height;
   &.link {
     margin-top: 0; 
@@ -174,8 +222,8 @@ h3 {
   font-size: 1rem;
   margin-top: 2.25rem;
   margin-bottom: .5rem; 
-  font-family: $font-bold; 
-  font-weight: bold;
+  font-weight: 800;
+  font-weight: 800;
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
 }
@@ -311,7 +359,7 @@ blockquote strong {
   text-transform: none;
   font-size: 1rem;
   letter-spacing: 0; 
-  font-family: $font-bold; 
+  font-weight: 800;
 }
 
 blockquote ul:last-child {
@@ -333,7 +381,8 @@ figure {
   // max-width: $max-width; 
   // max-width: 32rem;
   max-width: calc(27.16rem + 6rem);
-  max-width: 28rem;
+  // max-width: 36rem;
+  // max-width: 26rem;
   margin: 5rem auto 0;
   padding: 0; 
 }
@@ -369,7 +418,7 @@ figure {
 .byline { 
   width: 100%;
   margin-left: .75rem; 
-  font-weight: bold;
+  font-weight: 800;
   padding-left: .75rem;
   border-left: solid 1px var(--lightest-gray);
 }
@@ -442,7 +491,7 @@ figure {
     padding-left: 0; 
   }
   a {
-    font-weight: bold;
+    font-weight: 800;
     // text-decoration-color: transparent;
     // &:hover { border-color: var(--copy); }
   }
@@ -455,7 +504,7 @@ strong,
   line-height: 1em;
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
-  font-family: $font-bold; 
+  font-weight: 800;
 }
 
 .caps {
@@ -516,7 +565,7 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  // font-weight: bold; 
+  // font-weight: 800; 
   // text-transform: uppercase; 
   // letter-spacing: .08em; 
   // font-size: .875rem; 
