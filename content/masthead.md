@@ -3,13 +3,9 @@ title: Masthead
 url: /masthead/
 ---
 
-Audacious Fox is written, edited, and produced by K.Q. Dreger. 
+Audacious Fox is written, edited, and produced by K.Q. Dreger. Published from Northeast Ohio. Thanks for reading. ✌️
 
-All content copyright The Audacious Company LLC. 
-
-Thanks for reading. 
-
-✌️
+<small>("Kyle" is fine, I just sign my name K.Q.)</small>
 
 
 ## Correspondence
@@ -21,13 +17,13 @@ Thanks for reading.
 
 ## Your host, briefly
 
-{{< figure src="/kq.jpg" title="Photo by Emily Dreger." alt="Photo of K.Q. Dreger" >}}
+{{< figure src="/kqd.jpg" title="Photo by Emily Dreger." alt="Photo of K.Q. Dreger" >}}
 
 K.Q. Dreger is a scrawny, Ohio-raised farm boy who fell in love with his first computer way too early and spent the subsequent few years learning how it worked. When his parents told him to stop looking at a screen, he shifted his attention to his grandfather's heavy-as-hell Underwood typewriter and bam-bam-bam-bam-dinged a few OK stories, half a dozen letters to his family or himself, and an infinite number of [terrible first drafts](https://www.brainpickings.org/2013/11/22/bird-by-bird-anne-lamott/). He eventually got older, spent four years at college, and now lives with his wife, son, and small dog in a two-story house where the roof occasionally leaks and there's a breeze coming through the fireplace, but the water is hot, the garage holds two cars, and there's a big enough yard for a small soccer goal where his deteriorating skills in the sport are nonetheless practiced on warm summer nights. Sometime in high school, he wrote his first thing that wasn't complete garbage and posted it online. It was a tutorial on how to diagnose network issues with your home router. Cool. Six hours later, some cowardly anonymous jerk left a comment saying how stupid they thought the post was. Two hours after that our protagonist took down the article and deleted the entire blog. A fair number of years later, with thicker skin and a larger vocabulary, KQD started writing Audacious Fox. The topics switched from router issues to equal parts privacy, design, writing, and technology. If there were a North Star for Audacious Fox it would be, "technology not rooted in humanity is useless." The writing style is terse, sentences occasionally start with "and" even though people think you're not supposed to do that. (You're totally allowed.) And although the publishing schedule isn’t daily, when something new does hit [the front page](/), there’s a nonzero chance it’ll be worth your time. Audacious Fox will remain online forever or until the the proprietor dies and the domain expires. 
 
 ### TL;DR and shifting to first person 
 
-Hi. I'm a product designer, working out of Northeast Ohio. This site is run out of my own pocket and in my spare time. What it lacks in regularity is hopefully made up for in quality. 
+This site is run out of my own pocket and in my spare time. What it lacks in regularity is hopefully made up for in quality. 
 
 I aim to write so you don't need to skim. Rigorous editing is a cornerstone of this website, and I keep an [in-house style guide](/projects/style-guide), which you’re welcome to read and remix. (On the other hand, we have a new baby in the house so my editing will only be as good as I can make it at midnight.) I also believe that clarity of writing follows clarity of thought, which only comes after you've written multiple *terrible* first drafts. 
 
@@ -36,13 +32,13 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set in [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick.
+Headlines and body copy are set in [Inter](https://rsms.me/inter/) by Rasmus Andersson
 
-*Previous typefaces: San Francisco, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
+*Previous typefaces: [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, San Francisco, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
-This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), and the SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/). I highly recommend any of their services. 
+This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/), and the site files generated are generated through [Hugo](https://gohugo.io/). I highly recommend all of the above.
 
-This site should look good in all modern web browsers; please let me know if it doesn't. 
+This site should look good in all modern web browsers—please let me know if it doesn't. 
 
 ## Other writers worth reading 
 
@@ -65,4 +61,4 @@ I read pretty much everything these folks put out. I update this list every coup
 - _The Newsprint_, [Joshua Ginter](http://thenewsprint.co)
 - _The Weekly Review_, [Chris Bowler](http://chrisbowler.com/journal)
 
-Have someone that should be on here? Drop me a note.
+I'm always looking for interesting new writers. Send me a note if someone should be on this list. 
