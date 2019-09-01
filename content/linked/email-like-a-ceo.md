@@ -8,3 +8,4 @@ Katie Notopoulos, *Buzzfeed*:
 
 > Let’s call this “boss email.” It’s defined by nearly immediate — but short and terse — replies. The classic two-word email.
 
+I used to have a "Sent from my iPhone" signature, regardless of whether I was on my phone or laptop. Helped to keep things terse. 
