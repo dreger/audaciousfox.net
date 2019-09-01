@@ -105,6 +105,7 @@ $heart-color: $link;
 
 :root {
   --link: #FFC200;
+  --font-bold: 800; 
   --bg: #fff;
   --bg-article: #fff; 
   --copy: #141414;
@@ -179,7 +180,7 @@ em {
 }
 
 strong {
-  font-weight: 800;
+  font-weight: var(--font-bold);
 }
 
 h1,
@@ -204,7 +205,7 @@ h1 {
   font-size: 2.25rem; 
   font-family: $font-regular; 
   margin-bottom: 1.25rem; 
-  font-weight: 800;
+  font-weight: var(--font-bold);
   line-height: 1.25em;
   text-transform: none; 
   a { text-decoration-color: transparent; }
@@ -213,7 +214,7 @@ h1 {
 h2 {
   margin-top: 2.25rem;
   font-size: 1.25rem;
-  font-weight: 800;
+  font-weight: var(--font-bold);
   line-height: $line-height;
   &.link {
     margin-top: 0; 
@@ -224,8 +225,8 @@ h3 {
   font-size: 1rem;
   margin-top: 2.25rem;
   margin-bottom: .5rem; 
-  font-weight: 800;
-  font-weight: 800;
+  font-weight: var(--font-bold);
+  font-weight: var(--font-bold);
   text-transform: uppercase; 
   letter-spacing: $letter-spacing; 
 }
@@ -361,7 +362,7 @@ blockquote strong {
   text-transform: none;
   font-size: 1rem;
   letter-spacing: 0; 
-  font-weight: 800;
+  font-weight: var(--font-bold);
 }
 
 blockquote ul:last-child {
@@ -420,7 +421,7 @@ figure {
 .byline { 
   width: 100%;
   margin-left: .75rem; 
-  font-weight: 800;
+  font-weight: var(--font-bold);
   padding-left: .75rem;
   border-left: solid 1px var(--lightest-gray);
 }
@@ -493,7 +494,7 @@ figure {
     padding-left: 0; 
   }
   a {
-    font-weight: 800;
+    font-weight: var(--font-bold);
     // text-decoration-color: transparent;
     // &:hover { border-color: var(--copy); }
   }
@@ -506,7 +507,7 @@ strong,
   line-height: 1em;
   text-transform: uppercase;
   letter-spacing: $letter-spacing; 
-  font-weight: 800;
+  font-weight: var(--font-bold);
 }
 
 .caps {
@@ -558,7 +559,7 @@ strong,
 
 
 .term {
-  font-family: $font-bold;
+  font-weight: var(--font-bold); 
 }
 
 .interview {
@@ -567,7 +568,7 @@ strong,
   margin-bottom: 1.5rem; }
 
 .canonical-link {
-  // font-weight: 800; 
+  // font-weight: var(--font-bold); 
   // text-transform: uppercase; 
   // letter-spacing: .08em; 
   color: var(--gray);
