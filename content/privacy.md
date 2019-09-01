@@ -26,7 +26,3 @@ I use an analytics service called [Clicky](https://clicky.com) to review how man
 ## Communications 
 
 Unless I ask you for permission, anything you email me will be kept anonymous. Speaking of, please [email me](/masthead) if you have any questions. 
-
----
-
-*Unashamedly inspired by Nick Heer's [excellent privacy page](https://pxlnv.com/privacy/) at Pixel Envy. If you're going to give your data to anyone, give it to Mr. Heer.*
