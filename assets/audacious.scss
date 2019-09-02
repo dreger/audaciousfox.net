@@ -159,18 +159,12 @@ body {
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
   -webkit-text-size-adjust: 100%;
-  // font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;
 }
 
 a {
   color: var(--copy); 
-  // border-bottom: 1px solid var(--light-gray);
-  // text-decoration: none;  
-  // text-decoration-thickness: .125em;
-  // text-underline-offset: 1.5px;
   text-decoration-skip-ink: auto;
   &:hover { 
-    // border-bottom-color: var(--copy); 
     text-decoration-color: var(--link); 
   }
 }
@@ -385,7 +379,7 @@ figure {
   // max-width: 32rem;
   // max-width: calc(27.16rem + 6rem);
   max-width: 40rem;
-  max-width: 30rem;
+  max-width: 600px;
   margin: 5rem auto 0;
   padding: 0; 
 }
