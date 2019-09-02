@@ -43,12 +43,12 @@ titleCaseStyle = "AP"
 [outputFormats.Json]
   mediaType = "application/json"
   baseName = "feeds/main"
-  isPlainText = false
+  isPlainText = true
 
 [outputFormats.Xml]
   mediaType = "application/xml"
   baseName = "feeds/main"
-  isPlainText = false
+  isPlainText = true
 
 [outputs]
   home = [ "HTML", "Xml", "Json" ]

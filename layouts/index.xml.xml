@@ -6,7 +6,7 @@
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, {{ .Site.Author.name }}</rights>
 {{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}    {{ range $element := first 30 (where $.Site.Pages "Type" "in" "archivelinked") }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}    {{ range $element := first 30 (where .Data.Pages "Type" "in" "archivelinked") }}
     <item>
         <author>{{ .Site.Author.name }}</author>
       {{ if eq .Section "linked" }} 
