@@ -32,9 +32,9 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set in [Inter](https://rsms.me/inter/) by Rasmus Andersson
+Headlines and body copy are set in [Source Serif Pro](https://fonts.adobe.com/fonts/source-serif) by Adobe.
 
-*Previous typefaces: [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, San Francisco, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
+*Previous typefaces: [Inter](https://rsms.me/inter/) by Rasmus Andersson, [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, San Francisco, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
 This site is hosted on [DigitalOcean](https://www.digitalocean.com), the domain is registered through [Hover](http://hover.com), SSL is provided by the wonderful [Let's Encrypt](https://letsencrypt.org/), and the site files generated are generated through [Hugo](https://gohugo.io/). I highly recommend all of the above.
 
