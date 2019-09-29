@@ -67,7 +67,7 @@
 
 @font-face{
   font-family: 'source-serif-pro';
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   font-display: swap;
@@ -77,7 +77,7 @@
 
 @font-face{
   font-family: 'source-serif-pro';
-  font-weight: 600;
+  font-weight: 400;
   font-style: italic;
   font-stretch: normal;
   font-display: swap;
@@ -181,7 +181,7 @@ code {
     font-family: $font-regular; 
     font-feature-settings: 'kern' 1;
     // letter-spacing: -0.011em;
-    font-weight: 600;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
     font-feature-settings: 'liga' 1;
     -webkit-font-smoothing: subpixel-antialiased;
