@@ -100,8 +100,8 @@
 $line-height: 1.375; 
 $letter-spacing: .04em; 
 $max-width: 53.6rem;
-$max-width: 64rem;
-$font-size: 16px; 
+$max-width: 37.5rem;
+$font-size: 18px; 
 
 $font-fallback: "source-serif-pro", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: $font-fallback;   
@@ -404,11 +404,7 @@ figure {
 
 
 .wrapper {
-  // max-width: $max-width; 
-  // max-width: 32rem;
-  // max-width: calc(27.16rem + 6rem);
-  max-width: 40rem;
-  max-width: 600px;
+  max-width: $max-width;
   margin: 5rem auto 0;
   padding: 0; 
 }
