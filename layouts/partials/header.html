@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   <link rel="alternate" type="application/rss+xml"  href="/feeds/main.xml" />
   <link rel="alternate" type="application/json" href="/feeds/main.json" />
+  <link rel="canonical" href="{{ strings.TrimSuffix "/" .Permalink }}" />
   <meta itemprop="name" content="Audacious Fox">
   <meta itemprop="image" content="https://audaciousfox.net/icon.png">
   {{ if eq .Title .Site.Title }}
