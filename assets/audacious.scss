@@ -65,35 +65,35 @@
 //        url("../fonts/Inter-ExtraBold.woff") format("woff");
 // }
 
-@font-face{
-  font-family: 'source-serif-pro';
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('../fonts/SourceSerifPro-Regular.otf.woff2') format('woff2'),
-  url('../fonts/SourceSerifPro-Regular.otf.woff') format('woff');
-}
+// @font-face{
+//   font-family: 'source-serif-pro';
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+//   font-display: swap;
+//   src: url('../fonts/SourceSerifPro-Regular.otf.woff2') format('woff2'),
+//   url('../fonts/SourceSerifPro-Regular.otf.woff') format('woff');
+// }
 
-@font-face{
-  font-family: 'source-serif-pro';
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('../fonts/SourceSerifPro-It.otf.woff2') format('woff2'),
-  url('../fonts/SourceSerifPro-It.otf.woff') format('woff');
-}
+// @font-face{
+//   font-family: 'source-serif-pro';
+//   font-weight: 400;
+//   font-style: italic;
+//   font-stretch: normal;
+//   font-display: swap;
+//   src: url('../fonts/SourceSerifPro-It.otf.woff2') format('woff2'),
+//   url('../fonts/SourceSerifPro-It.otf.woff') format('woff');
+// }
 
-@font-face{
-  font-family: 'source-serif-pro';
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('../fonts/SourceSerifPro-Black.otf.woff2') format('woff2'),
-  url('../fonts/SourceSerifPro-Black.otf.woff') format('woff');
-}
+// @font-face{
+//   font-family: 'source-serif-pro';
+//   font-weight: 900;
+//   font-style: normal;
+//   font-stretch: normal;
+//   font-display: swap;
+//   src: url('../fonts/SourceSerifPro-Black.otf.woff2') format('woff2'),
+//   url('../fonts/SourceSerifPro-Black.otf.woff') format('woff');
+// }
 
 // SPACING
 
@@ -178,7 +178,9 @@ code {
     margin: 0;
     background: var(--bg);
     color: var(--copy); 
-    font-family: $font-regular; 
+    font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 400;
     font-feature-settings: 'kern' 1;
     // letter-spacing: -0.011em;
     font-weight: 400;
