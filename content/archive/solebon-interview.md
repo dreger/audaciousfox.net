@@ -8,9 +8,9 @@ A couple of months ago, I noticed that iOS word game Letterpress appeared to hav
 
 ---
 
-{{% md %}}
+
 <div class='interview'>
-{{% /md %}}
+
 
 **K.Q. Dreger**: What can you tell me about the acquisition of Letterpress?
 

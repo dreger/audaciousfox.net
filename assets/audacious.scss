@@ -6,102 +6,16 @@
   Update: AF 1.21
 */ 
 
-// FONTS
-// @font-face {
-//     font-family: 'concourse-bold';
-//     src: url('../fonts/concourse_t3_bold.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-//     font-display: swap; 
-
-// }
-// @font-face {
-//     font-family: 'concourse-regular';
-//     src: url('../fonts/concourse_t3_regular.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-//     font-display: swap; 
-// }
-
-// @font-face {
-//   font-family: 'Inter';
-//   font-style:  normal;
-//   font-weight: 500;
-//   font-display: swap;
-//   src: url("../fonts/Inter-Medium.woff2") format("woff2"),
-//        url("../fonts/Inter-Medium.woff") format("woff");
-// }
-// @font-face {
-//   font-family: 'Inter';
-//   font-style:  italic;
-//   font-weight: 500;
-//   font-display: swap;
-//   src: url("../fonts/Inter-MediumItalic.woff2") format("woff2"),
-//        url("../fonts/Inter-MediumItalic.woff") format("woff");
-// }
-
-// @font-face {
-//   font-family: 'Inter';
-//   font-style:  normal;
-//   font-weight: 600;
-//   font-display: swap;
-//   src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
-//        url("../fonts/Inter-SemiBold.woff") format("woff");
-// }
-// @font-face {
-//   font-family: 'Inter';
-//   font-style:  italic;
-//   font-weight: 600;
-//   font-display: swap;
-//   src: url("../fonts/Inter-SemiBoldItalic.woff2") format("woff2"),
-//        url("../fonts/Inter-SemiBoldItalic.woff") format("woff");
-// }
-// @font-face {
-//   font-family: 'Inter';
-//   font-style:  normal;
-//   font-weight: 800;
-//   font-display: swap;
-//   src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"),
-//        url("../fonts/Inter-ExtraBold.woff") format("woff");
-// }
-
-// @font-face{
-//   font-family: 'source-serif-pro';
-//   font-weight: 400;
-//   font-style: normal;
-//   font-stretch: normal;
-//   font-display: swap;
-//   src: url('../fonts/SourceSerifPro-Regular.otf.woff2') format('woff2'),
-//   url('../fonts/SourceSerifPro-Regular.otf.woff') format('woff');
-// }
-
-// @font-face{
-//   font-family: 'source-serif-pro';
-//   font-weight: 400;
-//   font-style: italic;
-//   font-stretch: normal;
-//   font-display: swap;
-//   src: url('../fonts/SourceSerifPro-It.otf.woff2') format('woff2'),
-//   url('../fonts/SourceSerifPro-It.otf.woff') format('woff');
-// }
-
-// @font-face{
-//   font-family: 'source-serif-pro';
-//   font-weight: 900;
-//   font-style: normal;
-//   font-stretch: normal;
-//   font-display: swap;
-//   src: url('../fonts/SourceSerifPro-Black.otf.woff2') format('woff2'),
-//   url('../fonts/SourceSerifPro-Black.otf.woff') format('woff');
-// }
 
 // SPACING
 
 $line-height: 1.375; 
+$line-height: 1.6; 
 $letter-spacing: .04em; 
 $max-width: 53.6rem;
 $max-width: 37.5rem;
-$font-size: 18px; 
+$max-width: 40rem;
+$font-size: 11px; 
 
 $font-fallback: "source-serif-pro", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: $font-fallback;   
@@ -109,21 +23,7 @@ $font-regular:  $font-fallback;
 
 
 // COLORS
-$link: #B0976D; // Old Gold
-$link: #795AE1; // Deep Purple
-$link: #1968FF; // Bright Blue
-$link: #6B8EB7; // Jeans
-$link: #ff8600; // Quantum Gold 
-$link: #FFDC00; // Light Orangish Red
-$link: #00BBBB; // Soft Teal
-$link: red; // Dark red
-$link: #0ed3c8; // Tealicious
-$link: #645394; // MDS Purple
-$link: #276ef1; // BlUber
-$link: #FF725C; // Light Red
-$link: #FCCA75; // AF Soft yellow (nice)
-$link: #FE3366; // Think Pink
-$link: #ffe101; // Bright yellow
+
 $link: #FFC200; // Good yellow
 
 $heart-color: $link; 
@@ -135,7 +35,7 @@ $heart-color: $link;
 
 :root {
   --link: #FFC200;
-  --font-bold: 900; 
+  --font-bold: 500; 
   --bg: #fff;
   --bg-article: #fff; 
   --copy: #141414;
@@ -178,12 +78,13 @@ code {
     margin: 0;
     background: var(--bg);
     color: var(--copy); 
+    font-family: "Ideal Sans SSm A", "Ideal Sans SSm B";
+    font-family: "Whitney SSm A", "Whitney SSm B";
     font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 400;
-    font-feature-settings: 'kern' 1;
-    // letter-spacing: -0.011em;
+    font-style: normal;
     font-weight: 400;
+    font-feature-settings: 'kern' 1;
+    background: #f8f8f8; 
     text-rendering: optimizeLegibility;
     font-feature-settings: 'liga' 1;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -195,8 +96,11 @@ font-weight: 400;
   a {
     color: var(--copy); 
     text-decoration-skip-ink: auto;
-    &:hover { 
+    text-decoration-thickness: 1.5px; 
+    text-decoration-color: #ddd;
       text-decoration-color: var(--link); 
+    &:hover { 
+      text-decoration-color: var(--copy); 
     }
   }
 
@@ -222,13 +126,12 @@ font-weight: 400;
   aside,
   blockquote,
   .highlighter-rouge {
-    margin-bottom: 1em; 
+    margin-bottom: 1.5em; 
   }
 
 
   h1 {
-    font-size: 2.25rem; 
-    font-family: $font-regular; 
+    font-size: 2rem; 
     margin-bottom: 1.25rem; 
     font-weight: var(--font-bold);
     line-height: 1.25em;
@@ -238,6 +141,7 @@ font-weight: 400;
 
   h2 {
     margin-top: 2.25rem;
+    margin-bottom: 1rem;
     font-size: 1.25rem;
     font-weight: var(--font-bold);
     line-height: $line-height;
@@ -303,11 +207,12 @@ font-weight: 400;
         }
 
         article {
-          padding:  3rem; 
+          padding:  4rem; 
           border-bottom: solid 2px var(--bg); 
   // margin-bottom: .25rem;
   // box-shadow: 0 2px 4px var(--box-shadow);
   background: var(--bg-article);
+  border-bottom: solid 1.5px #f8f8f8;
   &:last-child { border: 0; }
 //   &:after {
 //     content: ""; 
@@ -377,10 +282,10 @@ article:first-child {
   // margin: 1.25rem 0 1.25rem 1.25rem ; 
   // width: 80%; 
   // border-radius: 4px;
-  padding: .25rem 1rem;
-  // background: lighten(#ffe101, 44%);
-  border-left: solid 2px var(--copy);
-  margin-left: .25rem;
+  padding: 1.5rem;
+  background: #f8f8f8;
+  // border-left: solid 2px var(--copy);
+  // margin-left: .25rem;
 }
 
 blockquote strong {
@@ -415,7 +320,7 @@ figure {
   display: flex; 
   max-width: $max-width; 
   align-items: center; 
-  padding: 3rem ; 
+  padding: 4rem ; 
   // font-size: .875rem;
   // text-transform: uppercase;
   // letter-spacing: $letter-spacing; 
@@ -494,7 +399,7 @@ figure {
 
 .page__sidebar {
   // SF-based width: 11.5rem; 
-  padding: 3rem;
+  padding: 4rem;
   font-size: .875rem; 
   flex-shrink: 0;
   order: 1;
@@ -609,18 +514,18 @@ strong,
 .canonical-link--post { display: inline; }
 
 .pagination {
-  padding: 3rem; 
+  padding: 4rem; 
   line-height: $line-height; 
   color: var(--gray); 
   .caps {
     letter-spacing: $letter-spacing; 
     padding-bottom: .5rem; 
     color: var(--gray); 
-    font-family: $font-regular; 
+    font-weight: var(--font-bold);
   }
 }
 .pagination-older {
-  margin-bottom: 1.5rem; 
+  margin-bottom: 2rem; 
 }
 
 .article-break {
