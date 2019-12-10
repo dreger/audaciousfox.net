@@ -12,9 +12,9 @@ Dr. Christopher B. Durr and I wanted to record a review of our Fitbit HRs, but w
 
 ---
 
-{{% md %}}
-<div class='interview'>
-{{% /md %}}
+
+<span class='interview'>
+
 
 ## August 2015
 
@@ -153,6 +153,5 @@ However, I know some companies give employees better insurance premiums for wear
 
 **Durr:** Same. I haven't taken it off for more than a day since I got it. I'd buy again. 
 
-{{% md %}}
+
 </div>
-{{% /md %}}

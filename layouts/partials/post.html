@@ -5,8 +5,8 @@
       <h2 title="{{ .Title }}" class="link">
         <span class="link-target">
           <!-- <a href="{{ .Params.link }}">{{ replaceRE " ([^ ]*$)" "<span class='headline-nbsp'>&nbsp;</span><span class='headline-space'>&#32;</span>$1" .Title | safeHTML }}</a> -->
-          <a href="{{ .Params.link }}">{{  .Title | safeHTML }}</a>
-        </span><small class="canonical-link"><a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time style="display:inline-block">{{ .Date.Format "— Jan 2" }}</time></a></small>
+          <a href="{{ .Params.link }}">{{  .Title | safeHTML }}</a>&nbsp;&nbsp;<small class="canonical-link"><a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time style="display:inline-block">{{ .Date.Format "Jan. 2" }}</time></a></small>
+        </span>
       </h2> 
     {{ else }}
       <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title | safeHTML}}</a></h1>
@@ -15,7 +15,7 @@
 
     <p class="canonical-link">
     <!-- <a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "January 2, 2006" }}</time></a> -->
-    <span class="canonical-link--post" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, January 2, 2006" }}</time></span>
+    <span class="canonical-link--post" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Monday, 2 January 2006" }}</time></span>
   </p>
 
 
