@@ -14,8 +14,8 @@ $line-height: 1.6;
 $letter-spacing: .04em; 
 $max-width: 53.6rem;
 $max-width: 37.5rem;
-$max-width: 40rem;
-$font-size: 13px; 
+$max-width: 38rem;
+$font-size: 11px; 
 
 $font-fallback: "source-serif-pro", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: $font-fallback;   
@@ -43,7 +43,7 @@ $heart-color: $link;
   --light-gray: #a1a2a3; 
   --lightest-gray: #dddddd; 
   --box-shadow: rgba(100,100,100,.12);
-  --width-column: 40rem; 
+  --width-column: 42rem; 
   --width-sidebar: 12rem;
   --content-padding: 4rem;
 }
@@ -316,9 +316,8 @@ figure {
 
 
 .wrapper {
-  max-width: $max-width;
-  max-width: var(--width-page);
   max-width: calc(3 * var(--content-padding) + var(--width-sidebar) + var(--width-column));
+  max-width: var(--width-column);
   margin: 8rem auto 0;
   padding: 0; 
 }
@@ -387,7 +386,7 @@ figure {
 
 .page {
   display: flex; 
-  flex-direction: row; 
+  flex-direction: column; 
   width: 100%; 
   // border-top: solid 1px var(--lightest-gray); 
 }
@@ -410,9 +409,9 @@ figure {
 .page__sidebar {
   padding: var(--content-padding);
   padding-right: 0; 
-  padding-top: 12rem;
+  padding-top: 4rem;
   font-size: .875rem; 
-  width: 15rem; 
+  // width: 15rem; 
   order: 1;
   line-height: $line-height;
   & p:last-child { margin-bottom: 0; }
@@ -598,7 +597,7 @@ strong,
   .headline-nbsp { display: inline; }
 
 
-  @media (max-width: 55rem) {
+  @media (max-width: 600px) {
     html { font-size: 15px; }
     .wrapper {
       margin: 0 auto; 
