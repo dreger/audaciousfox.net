@@ -9,7 +9,7 @@
         </span>
       </h2> 
     {{ else }}
-      <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title | safeHTML}}</a></h1>
+      <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title | safeHTML}}</a><small class="canonical-link">&nbsp;&nbsp;&nbsp;<time style="display:inline-block">{{ .Date.Format "Jan. 2" }}</time></small></h1>
     {{ end }}
   </header>
 
