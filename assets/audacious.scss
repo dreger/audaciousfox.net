@@ -15,7 +15,7 @@ $letter-spacing: .04em;
 $max-width: 53.6rem;
 $max-width: 37.5rem;
 $max-width: 38rem;
-$font-size: 11px; 
+$font-size: 12px; 
 
 $font-fallback: "source-serif-pro", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 $font-bold: $font-fallback;   
@@ -43,7 +43,7 @@ $heart-color: $link;
   --light-gray: #a1a2a3; 
   --lightest-gray: #dddddd; 
   --box-shadow: rgba(100,100,100,.12);
-  --width-column: 42rem; 
+  --width-column: 50rem; 
   --width-sidebar: 12rem;
   --content-padding: 4rem;
 }
@@ -89,7 +89,7 @@ code {
     font-style: normal;
     font-weight: 400;
     font-feature-settings: 'kern' 1;
-    background: #f8f8f8; 
+    // background: #f8f8f8; 
     text-rendering: optimizeLegibility;
     font-feature-settings: 'liga' 1;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -316,9 +316,9 @@ figure {
 
 
 .wrapper {
-  max-width: calc(3 * var(--content-padding) + var(--width-sidebar) + var(--width-column));
   max-width: var(--width-column);
   margin: 8rem auto 0;
+  max-width: calc(3 * var(--content-padding) + var(--width-sidebar) + var(--width-column));
   padding: 0; 
 }
 
@@ -386,7 +386,7 @@ figure {
 
 .page {
   display: flex; 
-  flex-direction: column; 
+  flex-direction: row; 
   width: 100%; 
   // border-top: solid 1px var(--lightest-gray); 
 }
@@ -597,7 +597,7 @@ strong,
   .headline-nbsp { display: inline; }
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 60rem) {
     html { font-size: 15px; }
     .wrapper {
       margin: 0 auto; 
