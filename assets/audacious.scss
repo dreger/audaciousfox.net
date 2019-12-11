@@ -317,7 +317,7 @@ figure {
 
 .wrapper {
   max-width: var(--width-column);
-  margin: 8rem auto 0;
+  margin: 8rem auto 4rem;
   max-width: calc(3 * var(--content-padding) + var(--width-sidebar) + var(--width-column));
   padding: 0; 
 }
