@@ -10,7 +10,7 @@
       "name" : "{{ .Site.Author.name }}"
     },
     "items": [
-    {{ range $i, $element := first 25 (where $.Site.Pages "Type" "in" "archivelinked") }}
+    {{ range $i, $element := first 25 (where $.Site.RegularPages "Type" "in" "archivelinked") }}
         {{ if $i }}, {{ end }}
             {
               {{ if eq .Section "linked" }} 
