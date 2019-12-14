@@ -10,7 +10,7 @@ Audacious Fox is written, edited, and produced by K.Q. Dreger. Published from No
 
 ## Correspondence
 
-[@Dreger](https://twitter.com/dreger) on Twitter or <comments@dreger.me>. [Testing out Mastodon](https://mastodon.social/@dreger), too. For sensitive messages, use `dreger` on [Keybase][].
+[@Dreger](https://twitter.com/dreger) or <comments@dreger.me>. <!-- For sensitive messages, use `dreger` on [Keybase][]. -->
 
 [keybase]: https://keybase.io/dreger 
 
@@ -19,7 +19,9 @@ Audacious Fox is written, edited, and produced by K.Q. Dreger. Published from No
 
 {{< figure src="/kqd.jpg" title="Photo by Emily Dreger." alt="Photo of K.Q. Dreger" >}}
 
-K.Q. Dreger is a scrawny, Ohio-raised farm boy who fell in love with his first computer way too early and spent the subsequent few years learning how it worked. When his parents told him to stop looking at a screen, he shifted his attention to his grandfather's heavy-as-hell Underwood typewriter and bam-bam-bam-bam-dinged a few OK stories, half a dozen letters to his family or himself, and an infinite number of [terrible first drafts](https://www.brainpickings.org/2013/11/22/bird-by-bird-anne-lamott/). He eventually got older, spent four years at college, and now lives with his wife, son, and small dog in a two-story house where the roof occasionally leaks and there's a breeze coming through the fireplace, but the water is hot, the garage holds two cars, and there's a big enough yard for a small soccer goal where his deteriorating skills in the sport are nonetheless practiced on warm summer nights. Sometime in high school, he wrote his first thing that wasn't complete garbage and posted it online. It was a tutorial on how to diagnose network issues with your home router. Cool. Six hours later, some cowardly anonymous jerk left a comment saying how stupid they thought the post was. Two hours after that our protagonist took down the article and deleted the entire blog. A fair number of years later, with thicker skin and a larger vocabulary, KQD started writing Audacious Fox. The topics switched from router issues to equal parts privacy, design, writing, and technology. If there were a North Star for Audacious Fox it would be, "technology not rooted in humanity is useless." The writing style is terse, sentences occasionally start with "and" even though people think you're not supposed to do that. (You're totally allowed.) And although the publishing schedule isn’t daily, when something new does hit [the front page](/), there’s a nonzero chance it’ll be worth your time. Audacious Fox will remain online forever or until the the proprietor dies and the domain expires. 
+K.Q. Dreger ("Kyle" is fine, he just signs his name K.Q. because his favorite authors do) is a scrawny, Ohio-raised farm boy who fell in love with his first computer way too early and spent subsequent years learning how it worked. Like really worked, on a 1s and 0s level. When his parents told him to stop looking at a screen, he shifted attention to a heavy-as-hell Underwood typewriter from his grandfather and bam-bam-bam-bam-dinged until his fingers were sore and a unrelenting drive to write had emerged. Sometime in high school, he wrote his first thing that wasn't complete garbage and posted it online. It was a tutorial on how to diagnose network issues with your home router. Cool. Six hours later, some cowardly anonymous jerk left a comment saying how stupid they thought the post was. Two hours later, the blog was deleted. Fast forward a fair number of years where with thicker skin and a larger vocabulary, a new online thing was born at Audacious Fox. The topics switched from router issues to equal parts privacy, design, writing, and technology. The writing style attempts to be terse, sentences occasionally start with "and" even though people think you're not supposed to do that. (You're totally allowed.) And although the publishing schedule isn’t daily, when something new does hit [the front page](/), there’s a nonzero chance it’ll be worth your time. Audacious Fox will remain online forever or until the the proprietor dies and the domain expires. 
+
+(The proprietor currently lives with his wife, son, and small dog in a two-story house where the roof occasionally leaks and there's a breeze coming through the fireplace, but the water is hot, the garage holds two cars, and there's a big enough yard for a small soccer goal where his deteriorating skills in the sport are nonetheless practiced on warm summer nights.)
 
 ### TL;DR and shifting to first person 
 
@@ -42,11 +44,13 @@ This site should look good in all modern web browsers—please let me know if it
 
 ## Other writers worth reading 
 
-I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. (Updated Feb. 2018)
+I read pretty much everything these folks put out. I update this list every couple of months, so check back from time to time. (Updated Dec. 2019)
 
-- [Jenn Schiffer](http://jennmoney.biz)
+- [Becky Hansmeyer](https://beckyhansmeyer.com/)
+- [Erica Sadun](https://ericasadun.com/)
 - [Lara Callender Hogan](http://larahogan.me/blog/)
 - [Shawn Blanc](https://shawnblanc.net)
+- [Susan J. Fowler](https://www.susanjfowler.com/)
 - [Una Kravets](https://una.im/archive/#💁)
 - _BirchTree_, [Matt Birchler](https://birchtree.me)
 - _Dispatches on Therapy_, [Holbemn](http://holbemn.xyz)
