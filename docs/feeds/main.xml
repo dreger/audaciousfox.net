@@ -6,7 +6,36 @@
     <atom:link href="https://audaciousfox.net/" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, K.Q. Dreger</rights>
 
-    <lastBuildDate>Mon, 02 Sep 2019 12:58:18 -0400</lastBuildDate>    
+    <lastBuildDate>Sat, 14 Dec 2019 08:30:46 -0500</lastBuildDate>    
+    <item>
+        <author>K.Q. Dreger</author>
+      
+        <title>&#9650;&#65038; Don’t Hide the Date</title>
+        <link>https://audaciousfox.net/2019/dont-hide-the-date</link>
+      
+      <pubDate>Sat, 14 Dec 2019 08:30:46 -0500</pubDate>
+      
+      <description>
+        &lt;p&gt;I&amp;rsquo;ve noticed an interesting (growing?) trend over the past few years. Some bloggers (or their designers) choose to hide &lt;em&gt;when&lt;/em&gt; a post was written. I usually see this via dates excluded from the URL and/or the page itself. Why they&amp;rsquo;re doing this, I&amp;rsquo;m not sure.&lt;/p&gt;
+
+&lt;p&gt;For URLs, I think dates are useful. Take this URL for example:&lt;/p&gt;
+
+&lt;p&gt;/2019/dont-hide-the-date&lt;/p&gt;
+
+&lt;p&gt;Just looking at it, you have a sense of when it was written and what it might be about. Instantly. That&amp;rsquo;s a good user experience.&lt;/p&gt;
+
+&lt;p&gt;(My favorite URL approach is from sites like Medium, where they opt for the questionable /title-GI83R1SH article ID at the end of their post URLs which manages to thread the needle of being both impossible to guess and devoid of any date context. I call this URL style post-modern, because what starts out understandable quickly turns convoluted.)&lt;/p&gt;
+
+&lt;p&gt;But I understand not wanting extra cruft in your URLs. Having a clean website.com/post-title structure is attractive to my inner minimalist. Going title-only also makes it easier to recall the URL of a once-visited post, since you&amp;rsquo;re more likely to guess the title of an article than the title and date.&lt;/p&gt;
+
+&lt;p&gt;Then there&amp;rsquo;s the date on the page itself. I generally see a lot of designs use the smallest type size or the faintest gray color possible—if they even include the date at all. I think that&amp;rsquo;s the wrong way to go. Whether the post is timely or timeless, dates provide a sense of place and serve as an important piece of context for your readers.&lt;/p&gt;
+
+&lt;p&gt;You don&amp;rsquo;t have to overemphasize the &lt;em&gt;when&lt;/em&gt; something was written, but please don&amp;rsquo;t leave it out completely.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
         <author>K.Q. Dreger</author>
        
@@ -819,24 +848,6 @@
 
         
           &lt;div&gt;&lt;a title=&#34;Permanent link for Ohio First State to Accept Bitcoin for Tax Payments&#34; href=&#39;https://audaciousfox.net/linked/2018/ohio-bitcoin&#39;&gt;&amp;nbsp;&amp;#9650;&amp;#65038;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-        <author>K.Q. Dreger</author>
-       
-        <title>Access by Hawkeye Labs Uses TrueDepth Camera to Navigate Webpages Via Facial Expressions</title>
-        <link>https://twitter.com/thefuturematt/status/1055139215778832384</link>
-      
-      <pubDate>Tue, 30 Oct 2018 22:02:17 -0400</pubDate>
-      
-      <description>
-        &lt;p&gt;Quite the clever utility from iOS developer (and WWDC scholarship winner) Matt Moss. Nice to see developers trying to make iOS even more accessible than what &lt;a href=&#34;https://www.apple.com/accessibility/iphone/&#34;&gt;comes in the box&lt;/a&gt;, too.&lt;/p&gt;
-
-        
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Access by Hawkeye Labs Uses TrueDepth Camera to Navigate Webpages Via Facial Expressions&#34; href=&#39;https://audaciousfox.net/linked/2018/hawkeye-access&#39;&gt;&amp;nbsp;&amp;#9650;&amp;#65038;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
