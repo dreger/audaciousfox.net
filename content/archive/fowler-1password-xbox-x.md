@@ -1,7 +1,7 @@
 ---
-title: "1Password get some funding, the next Xbox is essentially a PC, Wikipedia's founder starts a social network"
+title: "Fowler's year recap, the next Xbox is essentially a PC, Wikipedia's founder starts a social network"
 date: 2019-12-14T13:46:14-05:00
-published: true
+published: false
 ---
 
 What a week. If you haven't been keeping up Liverpool lately, they're killing it. I haven't seen them lose yet and that's something. 
