@@ -14,6 +14,20 @@
         
             {
               
+                "title": "▲ Weekend Tweaks",
+                 
+          "url": "https://audaciousfox.net/2019/forgive-the-tests/",
+                "date_published": "2019-12-14T20:44:22-05:00",
+                "id": "https://audaciousfox.net/2019/forgive-the-tests/",
+                "author": {
+                  "name" : "K.Q. Dreger"
+                },
+                "content_html": "\u003cp\u003eI\u0026rsquo;m making a handful of changes to the site today, so please forgive any RSS oddities. Thanks.\u003c/p\u003e\n\u003cdiv\u003e\u003ca title=\"Permanent link for Weekend Tweaks\" href='https://audaciousfox.net/2019/forgive-the-tests'\u003e\u0026nbsp;\u0026#9650;\u0026#65038;\u0026nbsp;\u003c/a\u003e\u003c/div\u003e\n"
+            }
+        
+        , 
+            {
+              
                 "title": "▲ Treat Customer Pain Like Debt",
                  
           "url": "https://audaciousfox.net/2019/pain-snowball-method/",
@@ -366,21 +380,6 @@
                   "name" : "K.Q. Dreger"
                 },
                 "content_html": "\u003cp\u003eI\u0026rsquo;ve recommended the code sharing/developer social network GitHub to many people (students and writers primarily), but the recommendation always came with the giant asterisk that everything you published would be public. It\u0026rsquo;s nice that\u0026rsquo;s no longer the case. GitHub becomes a far more attractive service—and stronger social network—when you can host \u003cem\u003eall\u003c/em\u003e your work there.\u003c/p\u003e\n\n\u003cp\u003eThis also makes a lot of sense for where Microsoft might want to take GitHub. The majority of GitHub\u0026rsquo;s future revenue is likely to come in the form of lucrative Enterprise accounts at large companies—something Microsoft is well positioned to push—rather than free (née \u003cem\u003epersonal\u003c/em\u003e) accounts that upgrade to paid tiers.\u003c/p\u003e\n\n\u003cp\u003e(This came at a good time for me too as I wanted to—finally—get my project files for \u003ca href=\"https://audaciousfox.net/projects/edit/\"\u003eEdit\u003c/a\u003e into their own GitHub repository. Hours after the announcement, I created a new private repository and got everything uploaded. This is going to make my development life so much better. Previously, the whole project was stuffed into a random Dropbox folder. The cobbler\u0026rsquo;s kids have no shoes, right?)\u003c/p\u003e\n\u003cdiv\u003e\u003ca title=\"Permanent link for GitHub Now Allows Free Accounts to Have Unlimited Private Repositories\" href='https://audaciousfox.net/linked/2019/github-unlimited-private-repos'\u003e\u0026nbsp;\u0026#9650;\u0026#65038;\u0026nbsp;\u003c/a\u003e\u003c/div\u003e\n"
-            }
-        
-        , 
-            {
-               
-                "title": "TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August",
-                "external_url": "https://techcrunch.com/2019/01/04/tiktoks-quietly-launched-lite-app-has-reached-over-12-million-downloads-since-august/",
-                 
-          "url": "https://audaciousfox.net/linked/2019/tiktok-lite/",
-                "date_published": "2019-01-05T13:03:00-05:00",
-                "id": "https://audaciousfox.net/linked/2019/tiktok-lite/",
-                "author": {
-                  "name" : "K.Q. Dreger"
-                },
-                "content_html": "\u003cp\u003eRings the \u003ca href=\"https://audaciousfox.net/2018/lite/\"\u003eyour \u0026lsquo;lite\u0026rsquo; app should be your only app\u003c/a\u003e bell for the millionth time.\u003c/p\u003e\n\u003cdiv\u003e\u003ca title=\"Permanent link for TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August\" href='https://audaciousfox.net/linked/2019/tiktok-lite'\u003e\u0026nbsp;\u0026#9650;\u0026#65038;\u0026nbsp;\u003c/a\u003e\u003c/div\u003e\n"
             }
         
     ]

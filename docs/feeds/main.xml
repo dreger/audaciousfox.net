@@ -6,7 +6,22 @@
     <atom:link href="https://audaciousfox.net/" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, K.Q. Dreger</rights>
 
-    <lastBuildDate>Sat, 14 Dec 2019 12:58:56 -0500</lastBuildDate>    
+    <lastBuildDate>Sat, 14 Dec 2019 20:44:22 -0500</lastBuildDate>    
+    <item>
+        <author>K.Q. Dreger</author>
+      
+        <title>&#9650;&#65038; Weekend Tweaks</title>
+        <link>https://audaciousfox.net/2019/forgive-the-tests</link>
+      
+      <pubDate>Sat, 14 Dec 2019 20:44:22 -0500</pubDate>
+      
+      <description>
+        &lt;p&gt;I&amp;rsquo;m making a handful of changes to the site today, so please forgive any RSS oddities. Thanks.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
         <author>K.Q. Dreger</author>
       
@@ -846,24 +861,6 @@
 
         
           &lt;div&gt;&lt;a title=&#34;Permanent link for Half of All Phishing Sites Now Use HTTPs&#34; href=&#39;https://audaciousfox.net/linked/2018/phishing-sites-use-https&#39;&gt;&amp;nbsp;&amp;#9650;&amp;#65038;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-        <author>K.Q. Dreger</author>
-       
-        <title>Marvin Visions, the Variable Font</title>
-        <link>https://www.readvisions.com/marvin#making-marvin-part-2</link>
-      
-      <pubDate>Tue, 04 Dec 2018 20:51:53 -0400</pubDate>
-      
-      <description>
-        &lt;p&gt;I&amp;rsquo;ve &lt;a href=&#34;https://audaciousfox.net/linked/2017/triay-on-marvin-visions/&#34;&gt;linked to Marvin Visions before&lt;/a&gt;, but I simply can&amp;rsquo;t get over how great this font looks. The latest update makes Marvin Visions available as a &lt;em&gt;variable&lt;/em&gt; font, which means you have granular control over both weight and optical size without a dramatic increase in file size. There&amp;rsquo;s a two-dimensional slider about a quarter of the way down the page if you want to see what I mean.&lt;/p&gt;
-
-        
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Marvin Visions, the Variable Font&#34; href=&#39;https://audaciousfox.net/linked/2018/marvin-visions-variable-font&#39;&gt;&amp;nbsp;&amp;#9650;&amp;#65038;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
