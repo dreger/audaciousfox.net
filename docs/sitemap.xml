@@ -3,15 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://audaciousfox.net/2019/fowler-1password-xbox-x/</loc>
+    <lastmod>2019-12-14T13:46:14-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://audaciousfox.net/archive/</loc>
-    <lastmod>2019-12-14T12:58:56-05:00</lastmod>
+    <lastmod>2019-12-14T13:46:14-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://audaciousfox.net/</loc>
-    <lastmod>2019-12-14T12:58:56-05:00</lastmod>
+    <lastmod>2019-12-14T13:46:14-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
