@@ -19,7 +19,7 @@
   --width-column: 50rem; 
   --width-sidebar: 12rem;
   --content-padding: 4rem;
-  --line-height: 1.6; 
+  --line-height: 1.5; 
   --letter-spacing: .04em; 
   --max-width: 38rem; 
   --font-size: 12px; 
@@ -36,7 +36,7 @@
 
 ::selection,
 code {
-  background: lighten(#FFC200, 16%);
+  background: #f8f8f8;
 }
 :focus {
   outline: 2px dashed var(--link);
@@ -106,7 +106,7 @@ code {
   aside,
   blockquote,
   .highlighter-rouge {
-    margin-bottom: 1.5em; 
+    margin-bottom: 1.25em; 
   }
 
 
@@ -121,9 +121,9 @@ code {
 
   h2 {
     font-size: 1.25rem;
-    margin-top: 2.25rem;
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: var(--font-bold);
     line-height: var(--line-height);
     &.link {
       margin-top: 0; 
@@ -240,7 +240,7 @@ code {
                   pre {
                     white-space: pre-wrap;
                     border-radius: 4px; 
-                    background: var(--bg);
+                    background: #f8f8f8;
                     padding: .5rem;
                     line-height: var(--line-height); 
                   }
