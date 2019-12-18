@@ -6,7 +6,34 @@
     <atom:link href="https://audaciousfox.net/" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, K.Q. Dreger</rights>
 
-    <lastBuildDate>Mon, 16 Dec 2019 20:00:47 -0500</lastBuildDate>    
+    <lastBuildDate>Tue, 17 Dec 2019 20:04:45 -0500</lastBuildDate>    
+    <item>
+        <author>K.Q. Dreger</author>
+      
+        <title>&#9650;&#65038; Indifference</title>
+        <link>https://audaciousfox.net/2019/indifference</link>
+      
+      <pubDate>Tue, 17 Dec 2019 20:04:45 -0500</pubDate>
+      
+      <description>
+        &lt;p&gt;Lately I&amp;rsquo;ve been thinking about Elie Wiesel&amp;rsquo;s quote on love and hate. &amp;ldquo;The opposite of love is not hate, it&amp;rsquo;s indifference&amp;rdquo; he says.&lt;/p&gt;
+
+&lt;p&gt;In software circles, we talk a lot about trying to create products people love. Like, really love. Love to the point you can&amp;rsquo;t wait to tell your friends. You&amp;rsquo;ve likely experienced this—an app so good you were excited to bring it into someone&amp;rsquo;s life.&lt;/p&gt;
+
+&lt;p&gt;Logically then, if the goal is Love, a product team might try hard to avoid making changes or additions that people hate. But more than hate, I think the bigger risk is making something to which people are indifferent.&lt;/p&gt;
+
+&lt;p&gt;Why not focus on hate? For starters, eliciting hate is actually quite hard to do if the product team is competent. Even talking with your customers once a week should steer you clear of danger.&lt;/p&gt;
+
+&lt;p&gt;Indifference on the other hand is a product killer. Building something that doesn&amp;rsquo;t even register an emotional response eliminates the opportunity to learn. And a product team that cannot quickly learn—and then iterate to learn again—is a team that will slowly bring growth and progress to a halt.&lt;/p&gt;
+
+&lt;p&gt;So when we think about the big risks of building products, we should consider indifference towards the top of the list. You can learn from love or hate. But the moment you sense indifference from your customers, you need to reconsider the core problem you&amp;rsquo;re trying to solve.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t, I can promise you&amp;rsquo;ll hate what happens next—even if your customers don&amp;rsquo;t care.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
         <author>K.Q. Dreger</author>
        
@@ -819,44 +846,6 @@
 
         
           &lt;div&gt;&lt;a title=&#34;Permanent link for Microsoft Edge is Coming to MacOS&#34; href=&#39;https://audaciousfox.net/linked/2018/edge-coming-to-macos&#39;&gt;&amp;nbsp;&amp;#9650;&amp;#65038;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-        <author>K.Q. Dreger</author>
-       
-        <title>The Dominance of Google Chrome</title>
-        <link>https://ferdychristant.com/the-state-of-web-browsers-f5a83a41c1cb</link>
-      
-      <pubDate>Thu, 06 Dec 2018 21:57:31 -0400</pubDate>
-      
-      <description>
-        &lt;p&gt;Microsoft is exiting the browser engine market, and the next version of their Edge browser will be powered by Chromium; the Google-led open source web engine that powers Chrome. Ferdy Christant:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The web now runs on a single engine. There is not a single browser with a non-Chromium engine on mobile of any significance other than Safari. Which runs webkit, kind of the same engine as Chromium, which is based on webkit.&lt;/p&gt;
-
-&lt;p&gt;On desktop, Edge’s departure from running their own engine, means there’s only one last man standing to counter the Chromium dominance: Firefox. Which is falling from a cliff, on its way to join the “everybody else” gang of insignificant browsers. With no serious way to truly counter it due to their near-absence on mobile, and their lack of control in pushing browser installs.&lt;/p&gt;
-
-&lt;p&gt;So Chromium it is. If you’re now waiting for a message of hope or a happy ending, I have none.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Go read the whole piece, because it&amp;rsquo;s a terrific overview of the current browser wars (if you can even still call it that) and the future of the open web.&lt;/p&gt;
-
-&lt;p&gt;I personally don&amp;rsquo;t like using Chrome, but I&amp;rsquo;m also on MacOS where Chrome isn&amp;rsquo;t what I would call the best example of a Mac app. Still, with around 70% market share and the nearest competitor only holding about 10%, Chrome doesn&amp;rsquo;t have to woo me to win.&lt;/p&gt;
-
-&lt;p&gt;And this is the crux of the issue. With Microsoft&amp;rsquo;s exit, Apple is the only company left with both the money and browser engine to push back against Google&amp;rsquo;s dominance. But as Mr. Christant points out, Safari&amp;rsquo;s market share is largely due to the popularity of iOS, and the browser often lags behind the others when it comes to updates. Apple seems content with where Safari&amp;rsquo;s at, because they don&amp;rsquo;t face any browser engine competition on iOS where &lt;em&gt;all&lt;/em&gt; browsers (Chrome, Firefox, etc.) have to use the WebKit (Safari) rendering engine.&lt;/p&gt;
-
-&lt;p&gt;Finally, as I &lt;a href=&#34;https://audaciousfox.net/2017/advertisement-farm/&#34;&gt;wrote last year&lt;/a&gt;, &amp;ldquo;Google controls the searches, the ads, and the window through which a majority of us see the internet.&amp;rdquo; With Microsoft&amp;rsquo;s adoption of Chromium, Google&amp;rsquo;s influence over how a majority of the world sees the Internet will only grow.&lt;/p&gt;
-
-&lt;p&gt;To put it another way, consider this. Last quarter, Google&amp;rsquo;s parent company Alphabet &lt;a href=&#34;https://qz.com/1437760/alphabet-q3-earnings-googles-ad-growth-is-slowing/&#34;&gt;made just under $29 billion from ad revenue&lt;/a&gt;. Alphabet&amp;rsquo;s advertising business is far and away where the company gets a majority its money. Now think of how this ad-driven, &lt;a href=&#34;https://www.apnews.com/828aefab64d4411bac257a07c1af0ecb&#34;&gt;privacy lax&lt;/a&gt; company controls the world&amp;rsquo;s most popular web browser with a near monopolistic amount of market share. Given that information, I find it hard to believe that Google will forever be an objective and faithful steward of what&amp;rsquo;s best for the web, instead of what&amp;rsquo;s best for Google—especially if their advertising chips are ever threatened. Thankfully, for us and for now, it seems like Google doesn&amp;rsquo;t have too much to worry about in that regard.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.nytimes.com/2018/09/03/business/media/amazon-digital-ads.html&#34;&gt;Oh, wait&lt;/a&gt;.&lt;/p&gt;
-
-        
-          &lt;div&gt;&lt;a title=&#34;Permanent link for The Dominance of Google Chrome&#34; href=&#39;https://audaciousfox.net/linked/2018/christant-state-of-web-browsers&#39;&gt;&amp;nbsp;&amp;#9650;&amp;#65038;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
