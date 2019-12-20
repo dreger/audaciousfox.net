@@ -9,7 +9,7 @@
 :root {
   --link: #FFC200;
   --font-normal: 400; 
-  --font-bold: 600; 
+  --font-bold: 500; 
   --bg: #fff;
   --bg-article: #fff; 
   --copy: #141414;
@@ -58,7 +58,7 @@ code {
     margin: 0;
     background: var(--bg);
     color: var(--copy); 
-    font-family: Verdana;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana;
     font-style: normal;
     font-weight: var(--font-normal);
     font-feature-settings: 'kern' 1;
@@ -111,7 +111,7 @@ code {
   h1 {
     font-size: 1.5rem; 
     margin-bottom: 1.25rem; 
-    font-weight: var(--font-normal);
+    font-weight: var(--font-bold);
     line-height: 1.25;
     text-transform: none; 
     a { text-decoration-color: transparent; }
@@ -121,7 +121,7 @@ code {
     font-size: 1.25rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    font-weight: var(--font-normal);
+    font-weight: var(--font-bold);
     line-height: var(--line-height);
     &.link {
       margin-top: 0; 
@@ -132,7 +132,7 @@ code {
     font-size: 1rem;
     margin-top: 2.25rem;
     margin-bottom: .5rem; 
-    font-weight: var(--font-normal);
+    font-weight: var(--font-bold);
     text-transform: uppercase; 
     letter-spacing: var(--letter-spacing); 
   }
@@ -375,7 +375,7 @@ figure {
     padding-left: 0; 
   }
   a {
-    // font-weight: var(--font-bold);
+    font-weight: var(--font-bold);
   }
 }
 
@@ -474,6 +474,7 @@ strong,
     color: var(--gray); 
     font-weight: var(--font-normal);
   }
+  a { font-weight: var(--font-bold); }
 }
 .pagination-older {
   margin-bottom: 2rem; 
@@ -509,12 +510,12 @@ strong,
   .heart {
     background-color: var(--link);
     display: inline-block;
-    height: .62em;
+    height: .55em;
     margin: 0 4px;
     position: relative;
     top: 0;
     transform: rotate(-45deg);
-    width: .62em;
+    width: .55em;
   }
 
   .heart:before,
@@ -522,9 +523,9 @@ strong,
     content: "";
     background-color: var(--link);
     border-radius: 50%;
-    height: .6em;
+    height: .55em;
     position: absolute;
-    width: .6em;
+    width: .55em;
   }
 
   .heart:before {
@@ -626,7 +627,7 @@ button {
   }
   }
   @media (max-width: 370px) {
-    html { font-size: 13px; }
+    html { font-size: 14px; }
     .byline__intro { display: none; }
   }
 
