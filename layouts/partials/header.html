@@ -11,8 +11,6 @@
   <link href="https://micro.blog/dreger" rel="me" />
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  {{ $style := resources.Get "audacious.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
   <link rel="alternate" type="application/rss+xml"  href="/feeds/main.xml" />
   <link rel="alternate" type="application/json" href="/feeds/main.json" />
   <link rel="canonical" href="{{ strings.TrimSuffix "/" .Permalink }}" />
@@ -36,7 +34,13 @@
 
   <!-- Prefetching -->
   <link rel="dns-prefetch" href="//static.getclicky.com">
-<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" /> -->
+
+  {{ $style := resources.Get "audacious.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <!-- {{ with resources.Get "audacious.scss" | toCSS | minify }} 
+    <style>{{ .Content | safeCSS }}</style> 
+  {{ end }} -->
 </head>
 <body>
   <div><a class="a11y-skip" href="#page__column">Skip to main content...</a> </div>

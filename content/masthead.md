@@ -34,7 +34,7 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set in [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co
+Headlines and body copy are set in [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., with a fallback to Verdana.
 
 This site is hosted on GitHub Pages, the domain is registered through [Hover](http://hover.com), and the site files are generated via  [Hugo](https://gohugo.io/). I highly recommend all of the above.
 
