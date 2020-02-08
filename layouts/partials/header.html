@@ -34,8 +34,11 @@
 
   <!-- Prefetching -->
   <link rel="dns-prefetch" href="//static.getclicky.com">
-  <link rel="dns-prefetch" href="//cloud.typography.com">
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <!-- <link rel="dns-prefetch" href="//cloud.typography.com"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap" rel="stylesheet">
+
 
   {{ $style := resources.Get "audacious.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">

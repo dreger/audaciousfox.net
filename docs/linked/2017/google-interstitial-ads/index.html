@@ -33,11 +33,14 @@
 
   
   <link rel="dns-prefetch" href="//static.getclicky.com">
-  <link rel="dns-prefetch" href="//cloud.typography.com">
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  
+  
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap" rel="stylesheet">
+
 
   
-  <link rel="stylesheet" href="https://audaciousfox.net/audacious.min.21fb2dc001b45f1c8a7b090de901f18e0af05b66a85802c07df39f7d5e0ddae7.css">
+  <link rel="stylesheet" href="https://audaciousfox.net/audacious.min.58b9512b0f53d43803d2f42c7f7a3031f25bc7b1d8b434fb0562dee114773d7f.css">
   
 </head>
 <body>
@@ -76,19 +79,15 @@
 
   <div class="article__content">
     <p>Eric Brantner, on the recent update to Google&rsquo;s page rank algorithm, which <a href="https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html">targets overly obnoxious interstitial ads on mobile</a>:</p>
-
 <blockquote>
 <p>Google is targeting what they call “problematic transitions,” and gave three specific examples of pages that would be affected. The first is pages that show a pop up that opens right after a user clicks a link or as they scroll through a page, hiding the page’s content. Also affected are pages that show an interstitial ad that must be closed out before the user gets to their desired content and pages that keep content “under the fold” with an interstitial on the top of the page. Google has noted that “small” pop ups won’t be affected by these rules, but they didn’t give any details about what specific size constitutes “small.” [&hellip;]</p>
-
+</blockquote>
+<blockquote>
 <p>Of course, there are some caveats. The new rule applies only to the first click on a page from Google. Once you’re on a web page, there are no penalties if you encounter the ads following another link.</p>
 </blockquote>
-
 <p>This change feels like a half measure. On their <a href="https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html">Webmasters Blog</a>, Google specifies they&rsquo;re only targeting (emphasis mine) &ldquo;pages where content is not easily accessible to a user <em>on the transition from</em> the mobile search results&rdquo;. Google&rsquo;s only focusing on the transition from result to page; the part of the experience most closely tied to them. This is not an attempt to purge these <em>terrible</em> fullscreen roadblocks from the web.</p>
-
 <p>To an extent, that&rsquo;s fair; Google&rsquo;s entitled to only focus on the parts of searching they can control: the results and the certain parts of the result itself. Additionally, judging from my own analytics, most Google traffic tends to read what they came for and leave. For those people, interstitial ads after the first page aren&rsquo;t an issue.</p>
-
 <p>However, if Google&rsquo;s opinion is truly that &ldquo;intrusive interstitials provide a poorer experience to users than other pages where content is immediately accessible&rdquo;, why not apply the same site-wide expectations they do for <a href="https://webmasters.googleblog.com/2014/11/helping-users-find-mobile-friendly-pages.html">mobile-friendly webpages</a>? If Google&rsquo;s crawler is smart enough to determine the difference between an interstitial ad (penalized) and one displayed for legal obligations (exempted), I think the new ranking algorithm should consider the entire site, not just the individual pages.</p>
-
 <p>Intrusive, distasteful interstitials hurt the mobile web, and Google should oppose them on principle, not passively.</p>
 
   </div>
