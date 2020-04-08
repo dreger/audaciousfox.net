@@ -72,6 +72,16 @@ code {
     text-rendering: optimizeLegibility;
     font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+-webkit-text-size-adjust: 100%;
+color: var(--text);
+font-family: var(--font-serif);
+font-weight: 400;
+margin: 0 auto;
+padding: 0;
+background: var(--faded);
+line-height: 1.4;
+text-rendering: optimizeLegibility;
   }
 
   a {
