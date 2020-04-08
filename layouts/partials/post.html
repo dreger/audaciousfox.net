@@ -4,12 +4,15 @@
     {{ if (eq .Section "linked") }}
       <h2 title="{{ .Title }}" class="link">
         <span class="link-target">
-          <a href="{{ .Params.link }}">{{  .Title | safeHTML }}</a>&nbsp;&nbsp;<small class="canonical-link"><a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "Jan.&nbsp;2"  | safeHTML }}</time></a></small>
+          <a href="{{ .Params.link }}">{{  .Title | safeHTML }}</a>
         </span>
       </h2> 
     {{ else }}
-      <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title }}</a><time class="canonical-link--homepage">&nbsp;&nbsp;<small class="canonical-link">{{ .Date.Format "Jan.&nbsp;2"  | safeHTML }}</small></time></h1>
+      <h1 title="{{ .Title }}"><a href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .Title }}</a></h1>
     {{ end }}
+
+          <p class="canonical-link"><a class="canonical-link--homepage" title='Permalink for “{{ .Title }}”' href="{{ strings.TrimSuffix "/" .RelPermalink }}"><time>{{ .Date.Format "January 2, 2006"  | safeHTML }}</time></a></p>
+
   </header>
 
     <p class="canonical-link">

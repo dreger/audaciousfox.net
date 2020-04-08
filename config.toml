@@ -23,7 +23,7 @@ titleCaseStyle = "AP"
 
 [permalinks]
   archive = '/:year/:filename'
-  linked = '/linked/:year/:filename'
+  linked = '/:year/:filename'
 
 [blackfriday]
   smartypants = true

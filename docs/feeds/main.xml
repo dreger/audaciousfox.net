@@ -6,7 +6,31 @@
     <atom:link href="https://audaciousfox.net/" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, K.Q. Dreger</rights>
 
-    <lastBuildDate>Tue, 17 Dec 2019 20:04:45 -0500</lastBuildDate>    
+    <lastBuildDate>Wed, 18 Mar 2020 11:12:48 -0400</lastBuildDate>    
+    <item>
+        <author>K.Q. Dreger</author>
+       
+        <title>Mary Dash's Guide to Plain Language</title>
+        <link>https://plainlanguage.gov/resources/articles/dash-writing-tips/</link>
+      
+      <pubDate>Wed, 18 Mar 2020 11:12:48 -0400</pubDate>
+      
+      <description>
+        &lt;p&gt;Mary Dash, Chief of the Congressional Correspondence and Quality Review Branch of the Internal Revenue Service, with some excellent tips:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid passive voice&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t use jargon&lt;/li&gt;
+&lt;li&gt;Write and speak aloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lots more in there.&lt;/p&gt;
+
+        
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Mary Dash&amp;#39;s Guide to Plain Language&#34; href=&#39;https://audaciousfox.net/2020/mary-dash-plain-language&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
         <author>K.Q. Dreger</author>
       
@@ -44,7 +68,7 @@
 &lt;p&gt;Writing is like working out—there&amp;rsquo;s no shortcut to putting in your reps.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Susan Fowler’s Year in Review&#34; href=&#39;https://audaciousfox.net/linked/2019/fowler-year-in-review&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Susan Fowler’s Year in Review&#34; href=&#39;https://audaciousfox.net/2019/fowler-year-in-review&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -151,7 +175,7 @@
 &lt;p&gt;I like to measure products against the yardstick of what they set out to do. For me, NetNewsWire scores high on all marks. It&amp;rsquo;s fast, stable, and ultimately provides a small counterargument to the notion that we &lt;em&gt;have&lt;/em&gt; to put up with website bloat, ad trackers, and algorithmically-powered social nonsense just to read the news.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for NetNewsWire 5.0 Released&#34; href=&#39;https://audaciousfox.net/linked/2019/netnewswire-5&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for NetNewsWire 5.0 Released&#34; href=&#39;https://audaciousfox.net/2019/netnewswire-5&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -173,7 +197,7 @@
 &lt;p&gt;I used to have a &amp;ldquo;Sent from my iPhone&amp;rdquo; signature, regardless of whether I was on my phone or laptop. Helped to keep things terse.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Replying to Emails Like a CEO Takes the Pain out of Writing Email&#34; href=&#39;https://audaciousfox.net/linked/2019/email-like-a-ceo&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Replying to Emails Like a CEO Takes the Pain out of Writing Email&#34; href=&#39;https://audaciousfox.net/2019/email-like-a-ceo&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -203,7 +227,7 @@
 &lt;p&gt;There are better people to explain the nuances and mess of Genius&amp;rsquo; attempted enforcement of pseudo copyright over lyrics that don&amp;rsquo;t belong to them. (As &lt;a href=&#34;https://pxlnv.com/linklog/genius-google-lyrics-ripoff/&#34;&gt;Nick Heer says&lt;/a&gt;, Genius&amp;rsquo; content is a mix of &amp;ldquo;best guess original transcription[s]&amp;rdquo; and artist-verified lyrics.) But ultimately, this points back to Google&amp;rsquo;s enormous control over the traffic, and often financial wellbeing, of sites whose content it decides to scrape and surface via Knowledge Panels or Featured Snippets.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Genius Claims to Have Proof That Google Is Lifting Lyrics for Its Search Results&#34; href=&#39;https://audaciousfox.net/linked/2019/genius-google-lyrics&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Genius Claims to Have Proof That Google Is Lifting Lyrics for Its Search Results&#34; href=&#39;https://audaciousfox.net/2019/genius-google-lyrics&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -230,7 +254,7 @@
 &lt;p&gt;I think my main takeaway, security-related at least, was how malicious attachments are still a primary vector of attack. An email containing a spreadsheet titled &amp;ldquo;donor-list.xls&amp;rdquo; will almost certainly be opened. And for folks not using a device that makes dubious &lt;code&gt;.xls&lt;/code&gt; files benign (like a Chromebook or something running iOS), then it doesn&amp;rsquo;t matter how strong your email password is—game&amp;rsquo;s over.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘What I Learned Trying To Secure Congressional Campaigns’&#34; href=&#39;https://audaciousfox.net/linked/2019/ceglowski-securing-congressional-campaigns&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘What I Learned Trying To Secure Congressional Campaigns’&#34; href=&#39;https://audaciousfox.net/2019/ceglowski-securing-congressional-campaigns&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -253,7 +277,7 @@
 &lt;p&gt;It&amp;rsquo;s taken a few years of sustained messaging and actions, but Apple&amp;rsquo;s approach to privacy now sits equal with their dedication to design in terms of why I continue to buy their products.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Updated App Store Review Guidelines Prohibit Apps in Kids Category From Including Third-Party Ads or Analytics&#34; href=&#39;https://audaciousfox.net/linked/2019/updated-app-store-guidelines-to-protect-kids&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Updated App Store Review Guidelines Prohibit Apps in Kids Category From Including Third-Party Ads or Analytics&#34; href=&#39;https://audaciousfox.net/2019/updated-app-store-guidelines-to-protect-kids&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -301,7 +325,7 @@
 &lt;p&gt;If you&amp;rsquo;re at all interested in Playdate itself (or just &lt;em&gt;really&lt;/em&gt; good web design), go check out &lt;a href=&#34;https://play.date&#34;&gt;play.date&lt;/a&gt; and sign up to be notified when the units go on sale.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Panic Announces Playdate, Their First Video Game System Set to Launch in 2020 for $149 With 12 Games That Automatically Release on a Weekly Basis&#34; href=&#39;https://audaciousfox.net/linked/2019/panic-announces-playdate&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Panic Announces Playdate, Their First Video Game System Set to Launch in 2020 for $149 With 12 Games That Automatically Release on a Weekly Basis&#34; href=&#39;https://audaciousfox.net/2019/panic-announces-playdate&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -328,7 +352,7 @@
 &lt;p&gt;Still, I&amp;rsquo;d feel better if Amazon had &lt;em&gt;less&lt;/em&gt; information about me and I was &lt;em&gt;more&lt;/em&gt; aware of when Alexa was listening. Thankfully both of these things are possible. The first is accomplished by deleting &lt;a href=&#34;http://amazon.com/alexaprivacy&#34;&gt;your own Alexa recordings&lt;/a&gt;, and the second can be done by enabling the Echo&amp;rsquo;s &amp;ldquo;Start of Request&amp;rdquo; sound, found under the Settings. I&amp;rsquo;m still not sold on the Echo Dot as a permanent fixture of our counter space, and unintentional activations are definitely something I&amp;rsquo;ll be keeping an eye on for the next few weeks.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for You’re Triggering Alexa More Often Than You Think&#34; href=&#39;https://audaciousfox.net/linked/2019/triggering-alexa-on-accident&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for You’re Triggering Alexa More Often Than You Think&#34; href=&#39;https://audaciousfox.net/2019/triggering-alexa-on-accident&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -348,7 +372,7 @@
 &lt;p&gt;Jumbo is the rare example of a truly user-focused privacy product. None of your information is slipped out the side door to sell ads, and Mr. Valade is upfront with how they plan to make money: premium features, accessible via subscription. I&amp;rsquo;m not optimistic that Jumbo will be around for the longterm—how many people will pay for something like this?—but for now consider me a fan.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Jumbo Is Your Digital Privacy Assistant&#34; href=&#39;https://audaciousfox.net/linked/2019/jumbo-privacy-assistant&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Jumbo Is Your Digital Privacy Assistant&#34; href=&#39;https://audaciousfox.net/2019/jumbo-privacy-assistant&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -373,7 +397,7 @@
 &lt;p&gt;Website design, color selections, type kerning—Mr. Butterick hits them all. But my favorite bit is his &amp;ldquo;a slice of bacon using a playground slide in an unsafe way&amp;rdquo; description of Andrew Yang&amp;rsquo;s logo. 100% spot on.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Typography 2020: A Special Listicle for America’&#34; href=&#39;https://audaciousfox.net/linked/2019/butterick-typography-2020&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Typography 2020: A Special Listicle for America’&#34; href=&#39;https://audaciousfox.net/2019/butterick-typography-2020&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -393,7 +417,7 @@
 &lt;p&gt;I had the luck to visit Notre-Dame several years ago, and it was simply awe inspiring. To see it in flames last week evoked what can only be described as a deep sense of mourning.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for The 3D Models That Will Help Rebuild Notre-Dame&#34; href=&#39;https://audaciousfox.net/linked/2019/notre-dame-assassins-creed&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for The 3D Models That Will Help Rebuild Notre-Dame&#34; href=&#39;https://audaciousfox.net/2019/notre-dame-assassins-creed&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -408,7 +432,7 @@
       <pubDate>Sat, 13 Apr 2019 12:09:19 -0400</pubDate>
       
       <description>
-        &lt;p&gt;Matthew Butterick, with some additional analysis on Laura Owen&amp;rsquo;s &lt;a href=&#34;https://audaciousfox.net/linked/2019/the-frustrating-history-of-medium/&#34;&gt;deep dive into Medium&amp;rsquo;s history&lt;/a&gt;:&lt;/p&gt;
+        &lt;p&gt;Matthew Butterick, with some additional analysis on Laura Owen&amp;rsquo;s &lt;a href=&#34;https://audaciousfox.net/2019/the-frustrating-history-of-medium/&#34;&gt;deep dive into Medium&amp;rsquo;s history&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;What stands out the most? Though Medium’s value to online publishing has remained abstract, the harm it has inflicted—especially upon the authors and publications who have been lured onto the platform (by one pivot) and then stranded (by the next)—is concrete. As writer Jaya Saxena &lt;a href=&#34;https://twitter.com/jayasax/status/994252016129101824&#34;&gt;put it&lt;/a&gt;, “every writer/cartoonist I know has had their life ruined by Medium at some point”. [&amp;hellip;]&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -417,7 +441,7 @@
 &lt;/blockquote&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Medium, Seven Years Later&#34; href=&#39;https://audaciousfox.net/linked/2019/butterick-on-mediums-history&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Medium, Seven Years Later&#34; href=&#39;https://audaciousfox.net/2019/butterick-on-mediums-history&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -440,7 +464,7 @@
 &lt;p&gt;The following ~90 events, covering seven years, contain some fun trivia you might have forgotten. Like how the White House &lt;a href=&#34;https://www.washingtonpost.com/blogs/erik-wemple/wp/2015/01/21/medium-editor-on-sotu-coup-people-are-already-here/&#34;&gt;quietly published the entirety of President Obama’s State of the Union remarks&lt;/a&gt; to Medium before the speech began. Or just how many notable publications jumped head-first into the platform, only &lt;a href=&#34;https://slate.com/technology/2018/01/a-slate-tribute-to-the-awl-and-the-hairpin.html&#34;&gt;to die later&lt;/a&gt;. Regardless, reading through the entire timeline will remind you that Medium&amp;rsquo;s current identity crisis isn&amp;rsquo;t so much a recent ailment as it is a chronic one.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for The Long, Complicated, and Extremely Frustrating History of Medium&#34; href=&#39;https://audaciousfox.net/linked/2019/the-frustrating-history-of-medium&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for The Long, Complicated, and Extremely Frustrating History of Medium&#34; href=&#39;https://audaciousfox.net/2019/the-frustrating-history-of-medium&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -463,7 +487,7 @@
 &lt;p&gt;The only caveat to &lt;em&gt;Letter Boxed&lt;/em&gt; (right now, at least) is that you need a &lt;em&gt;Times&lt;/em&gt; subscription to play. It&amp;rsquo;s not such a great game to justify a subscription if you don&amp;rsquo;t also read the paper, but it is a nice addition for current subscribers. And as &lt;em&gt;The New York Times&lt;/em&gt; continues &lt;a href=&#34;https://www.nytimes.com/2019/02/06/business/media/new-york-times-earnings-digital-subscriptions.html&#34;&gt;invest in and reap the benefits of&lt;/a&gt; its digital offerings, I&amp;rsquo;m excited to see what the Games Expansion Team works on next.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Letter Boxed’ by The New York Times&#34; href=&#39;https://audaciousfox.net/linked/2019/nyt-letter-boxed&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Letter Boxed’ by The New York Times&#34; href=&#39;https://audaciousfox.net/2019/nyt-letter-boxed&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -488,7 +512,7 @@
 &lt;p&gt;(Hat tip PDL.)&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Can a 44-Year-Old Man Cut It in the Premier League?’&#34; href=&#39;https://audaciousfox.net/linked/2019/espn-jones-everton&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Can a 44-Year-Old Man Cut It in the Premier League?’&#34; href=&#39;https://audaciousfox.net/2019/espn-jones-everton&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -522,7 +546,7 @@
 &lt;p&gt;(And now a brief primer on how ad blockers work for the non-tech savvy family members who read my site ♥. Ad blockers prevent certain webpage elements from displaying by (a) preventing your browser from talking to certain ad-related servers and (b) maintaining a custom list of elements that either you or the community at large have flagged as worth blocking. They do this by comparing requests your browser&amp;rsquo;s resource requests against a list of tens of thousands of text patterns—if a request matches one of these rules, the content is blocked.  When using an ad blocker, browsing the web should feel faster, because your browser no longer has to wait on five different ads to download or tracking scripts to execute. Take a site like &lt;em&gt;The Verge&lt;/em&gt;, the well-known tech site/advertisement billboard. Without an ad blocker installed, &lt;em&gt;The Verge&amp;rsquo;s&lt;/em&gt; homepage weighs in at 5.8 MB with over 350 network requests to (I assume) ad and tracking servers. However, if you install an ad blocker &lt;a href=&#34;https://github.com/gorhill/uBlock&#34;&gt;like uBlock Origin&lt;/a&gt;, &lt;em&gt;The Verge&amp;rsquo;s&lt;/em&gt; homepage now only weighs 4.2 MB with fewer than 50 network requests.)&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Proposed Changes to Chrome Would Hamper Ad Blockers&#34; href=&#39;https://audaciousfox.net/linked/2019/chrome-ad-blockers&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Proposed Changes to Chrome Would Hamper Ad Blockers&#34; href=&#39;https://audaciousfox.net/2019/chrome-ad-blockers&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -541,7 +565,7 @@
 &lt;p&gt;If you&amp;rsquo;re still seeing the old/current version, you can check out what&amp;rsquo;s coming by going directly to &lt;a href=&#34;https://mobile.twitter.com&#34;&gt;mobile.twitter.com&lt;/a&gt;.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Twitter Begins Rolling out ‘Lite’ Version of Website to Everyone&#34; href=&#39;https://audaciousfox.net/linked/2019/twitter-lite-rolls-out-to-everyone&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Twitter Begins Rolling out ‘Lite’ Version of Website to Everyone&#34; href=&#39;https://audaciousfox.net/2019/twitter-lite-rolls-out-to-everyone&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -572,7 +596,7 @@
 &lt;p&gt;(Once you start thinking about the digital services and apps we use as primarily chasing your attention instead of your dollars, it becomes easier to see how addictive and downright manipulating some of these user interfaces have become. But that’s for another post.)&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Netflix Says ‘Fortnite’ is a Bigger Competitor Than HBO or Hulu&#34; href=&#39;https://audaciousfox.net/linked/2019/netflix-vs-fortnite&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Netflix Says ‘Fortnite’ is a Bigger Competitor Than HBO or Hulu&#34; href=&#39;https://audaciousfox.net/2019/netflix-vs-fortnite&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -588,7 +612,7 @@
       
       <description>
         &lt;p&gt;Final nail, meet coffin.&lt;/p&gt;
-&lt;p&gt;Here with the follow-up to their &lt;a href=&#34;https://audaciousfox.net/linked/2018/signal-v-noise-leaving-medium/&#34;&gt;announcement last September&lt;/a&gt; is CTO and co-founder of Basecamp, David Heinemeier Hansson:&lt;/p&gt;
+&lt;p&gt;Here with the follow-up to their &lt;a href=&#34;https://audaciousfox.net/2018/signal-v-noise-leaving-medium/&#34;&gt;announcement last September&lt;/a&gt; is CTO and co-founder of Basecamp, David Heinemeier Hansson:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;These days Medium is focused on their membership offering, though. Trying to aggregate writing from many sources and sell a broad subscription on top of that. And it’s a neat model, and it’s wonderful to see Medium try something different. But it’s not for us, and it’s not for Signal v Noise. [&amp;hellip;]&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -604,7 +628,7 @@
 &lt;p&gt;As a side note: If you&amp;rsquo;re new to the blogging scene, welcome. There&amp;rsquo;s never been a better time to start writing your own site, nor have there been more platforms and frameworks that give &lt;em&gt;you&lt;/em&gt; control over your content and its presentation. And if you need help? &lt;a href=&#34;https://audaciousfox.net/masthead/&#34;&gt;Shoot me an email&lt;/a&gt;—I&amp;rsquo;d love to help you out.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Signal v Noise’ Officially Exits Medium&#34; href=&#39;https://audaciousfox.net/linked/2019/svn-exits-medium&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for ‘Signal v Noise’ Officially Exits Medium&#34; href=&#39;https://audaciousfox.net/2019/svn-exits-medium&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -623,7 +647,7 @@
 &lt;p&gt;(You might not recognize Doist-the-company, but you&amp;rsquo;ve probably heard of their most popular product: &lt;a href=&#34;https://todoist.com&#34;&gt;Todoist&lt;/a&gt;, the much loved cross-platform task manager.)&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Doist Switches From Medium to WordPress&#34; href=&#39;https://audaciousfox.net/linked/2019/doist-leaves-medium-for-wordpress&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Doist Switches From Medium to WordPress&#34; href=&#39;https://audaciousfox.net/2019/doist-leaves-medium-for-wordpress&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -649,7 +673,7 @@
 &lt;p&gt;(Brief primer on security keys, because I both use and recommend them: While a house key gets you into your home and a car key is required to start your vehicle—a physical Yubico security key can be a required part of your login flow for email, social media, etc. This makes those accounts almost impossible to hack, because an attacker would need your physical key. Additionally, I&amp;rsquo;ve found most people are (a) more willing to use and (b) faster to understand the concept of a physical key for your email; whereas explaining two-factor authentication codes can often take a few rounds of drawing before the idea takes.)&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Yuibco Releases Lightning Compatible Security Key for iPhone&#34; href=&#39;https://audaciousfox.net/linked/2019/yubico-lightning&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Yuibco Releases Lightning Compatible Security Key for iPhone&#34; href=&#39;https://audaciousfox.net/2019/yubico-lightning&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -669,7 +693,7 @@
 &lt;p&gt;(This came at a good time for me too as I wanted to—finally—get my project files for &lt;a href=&#34;https://audaciousfox.net/projects/edit/&#34;&gt;Edit&lt;/a&gt; into their own GitHub repository. Hours after the announcement, I created a new private repository and got everything uploaded. This is going to make my development life so much better. Previously, the whole project was stuffed into a random Dropbox folder. The cobbler&amp;rsquo;s kids have no shoes, right?)&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for GitHub Now Allows Free Accounts to Have Unlimited Private Repositories&#34; href=&#39;https://audaciousfox.net/linked/2019/github-unlimited-private-repos&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for GitHub Now Allows Free Accounts to Have Unlimited Private Repositories&#34; href=&#39;https://audaciousfox.net/2019/github-unlimited-private-repos&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -687,7 +711,7 @@
         &lt;p&gt;Rings the &lt;a href=&#34;https://audaciousfox.net/2018/lite/&#34;&gt;your &amp;lsquo;lite&amp;rsquo; app should be your only app&lt;/a&gt; bell for the millionth time.&lt;/p&gt;
 
         
-          &lt;div&gt;&lt;a title=&#34;Permanent link for TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August&#34; href=&#39;https://audaciousfox.net/linked/2019/tiktok-lite&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a title=&#34;Permanent link for TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August&#34; href=&#39;https://audaciousfox.net/2019/tiktok-lite&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
@@ -716,29 +740,6 @@
 &lt;p&gt;(It&amp;rsquo;s worth noting that, sometimes, UI copy might not be the best way to convey a concept. Complex instructions might be better explained visually. Consider the context of what you&amp;rsquo;re trying to explain. Dates, durations, or similar concepts can benefit from a graphical aid.)&lt;/p&gt;
 &lt;p&gt;In most cases of bad copy, the solution is simple. Imagine a customer is in front of you, and then rewrite the copy as though you were delivering the instructions audibly. Next, take what you&amp;rsquo;ve written and try to say it in half the words—remove anything that isn&amp;rsquo;t necessary. Finally, read what you have aloud to someone else. Cut and rewrite based on their feedback.&lt;/p&gt;
 &lt;p&gt;This process can take longer than you think. Make sure to budget time for copy revisions just as you would mockups. Going through three, five, or 10 drafts of important language isn&amp;rsquo;t a bad thing if 10,000 people are going to read the result.&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-        <author>K.Q. Dreger</author>
-       
-        <title>Microsoft Edge is Coming to MacOS</title>
-        <link>https://www.theverge.com/2018/12/6/18128648/microsoft-edge-chrome-chromium-browser-changes</link>
-      
-      <pubDate>Thu, 06 Dec 2018 22:20:31 -0400</pubDate>
-      
-      <description>
-        &lt;p&gt;Tom Warren, &lt;em&gt;The Verge&lt;/em&gt;, on the news that not only is Microsoft &lt;a href=&#34;https://audaciousfox.net/linked/2018/christant-state-of-web-browsers/&#34;&gt;rebuilding Edge on Chromium&lt;/a&gt;, but they&amp;rsquo;re also bringing it to the Mac:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A lot of web developers use a Mac to develop and test sites, but Edge doesn’t exist there, and it’s currently difficult to test Microsoft’s web rendering engine on a Mac without dual booting Windows. Microsoft is now bringing Edge to the Mac. We understand it’s not a move designed to grab more market share specifically; it’s more about making it easier for developers to test Edge. Microsoft hasn’t committed to a specific date for Edge on the Mac, but we expect to see it later next year.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I sort of get the argument here, and I&amp;rsquo;m not against more browsers on MacOS, but (at least for the foreseeable future) any websites that work in Chrome should also work in the built-on-Chromium Edge. You likely won&amp;rsquo;t need to test a site in both browsers because they&amp;rsquo;re—largely—using the same engine.&lt;/p&gt;
-&lt;p&gt;(Fun fact: it&amp;rsquo;s been 15 years since Microsoft &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_Explorer_for_Mac&#34;&gt;stopped developing Internet Explorer for Mac&lt;/a&gt;.)&lt;/p&gt;
-
-        
-          &lt;div&gt;&lt;a title=&#34;Permanent link for Microsoft Edge is Coming to MacOS&#34; href=&#39;https://audaciousfox.net/linked/2018/edge-coming-to-macos&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>
