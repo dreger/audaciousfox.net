@@ -4,14 +4,21 @@
   
   <url>
     <loc>https://audaciousfox.net/</loc>
-    <lastmod>2020-03-18T11:12:48-04:00</lastmod>
+    <lastmod>2020-04-09T20:19:13-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://audaciousfox.net/2020/google-rebrands-hangouts/</loc>
+    <lastmod>2020-04-09T20:19:13-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://audaciousfox.net/linked/</loc>
-    <lastmod>2020-03-18T11:12:48-04:00</lastmod>
+    <lastmod>2020-04-09T20:19:13-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

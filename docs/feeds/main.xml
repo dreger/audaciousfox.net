@@ -6,7 +6,35 @@
     <atom:link href="https://audaciousfox.net/" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, K.Q. Dreger</rights>
 
-    <lastBuildDate>Wed, 18 Mar 2020 11:12:48 -0400</lastBuildDate>    
+    <lastBuildDate>Thu, 09 Apr 2020 20:19:13 -0400</lastBuildDate>    
+    <item>
+        <author>K.Q. Dreger</author>
+       
+        <title>Google Spins the Wheel on What to Call Hangouts, Again</title>
+        <link>https://www.theverge.com/2020/4/9/21215588/google-chat-hangouts-meet-g-suite-name-change-rebranding</link>
+      
+      <pubDate>Thu, 09 Apr 2020 20:19:13 -0400</pubDate>
+      
+      <description>
+        &lt;p&gt;Nick Stat, &lt;em&gt;The Verge&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google has officially removed the Hangouts brand from its enterprise G Suite offering with the rebranding of Hangouts Chat as Google Chat, the company confirmed to &lt;em&gt;The Verge&lt;/em&gt; on Thursday. The rebranding follows a similar name change, &lt;a href=&#34;https://www.theverge.com/2020/4/8/21214059/google-hangouts-meet-rebrand-video-chat-conferencing&#34;&gt;confirmed yesterday&lt;/a&gt;, from the companion videoconferencing app Hangouts Meet to Google Meet.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This latest modification was first hinted at by an &lt;a href=&#34;https://support.google.com/a/table/7539891?hl=en&#34;&gt;updated G Suite support document&lt;/a&gt; listing the Google Chat name alongside Google Meet. Of course, this version of Chat is not to be confused with the &lt;em&gt;other&lt;/em&gt; version of Chat, the name Google inexplicably gave its &lt;a href=&#34;https://www.theverge.com/2019/11/14/20964477/googles-rcs-chat-android-rollout-us-ccmi-texting-sms&#34;&gt;relatively new RCS-based Android messaging protocol&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As for the Hangouts brand, it will continue to live on as the name of the consumer chat app that Google spun out of its shutdown social network Google+ back in 2013 as a spiritual successor to Gchat. “There will be no changes to the consumer (classic) version of Hangouts,” a Google spokesperson tells &lt;em&gt;The Verge&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Who thought changing the &lt;em&gt;recognized&lt;/em&gt; name of a product currently experiencing unprecedented demand was a good idea? Not that this will hurt their SEO, mind you.&lt;/p&gt;
+
+        
+          &lt;div&gt;&lt;a title=&#34;Permanent link for Google Spins the Wheel on What to Call Hangouts, Again&#34; href=&#39;https://audaciousfox.net/2020/google-rebrands-hangouts&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
         <author>K.Q. Dreger</author>
        
@@ -117,7 +145,6 @@
       
       <description>
         &lt;p&gt;I was on a run and thinking about Maslow&amp;rsquo;s hierarchy of needs and how a force ranked list of needs could apply to product teams. Here&amp;rsquo;s my attempt. Let’s walk through the levels:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/assets/images/pyramid.jpg&#34;&gt;&lt;img src=&#34;https://dreger.me/assets/images/pyramid.jpg&#34; alt=&#34;pyramid of needs&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;level-one-talk-with-your-customers-daily&#34;&gt;Level one: talk with your customers daily.&lt;/h2&gt;
 &lt;p&gt;You simply won’t have enough information to make good product decisions if you&amp;rsquo;re not talking with your customers every day. Call them. Email them. Ask them what they like, what they don&amp;rsquo;t like, what they wish your product could do, where they&amp;rsquo;re indifferent. Would they recommend your product to someone else? Who? Why not?&lt;/p&gt;
 &lt;h2 id=&#34;level-two-build-and-share-prototypes&#34;&gt;Level two: build and share prototypes.&lt;/h2&gt;
@@ -712,34 +739,6 @@
 
         
           &lt;div&gt;&lt;a title=&#34;Permanent link for TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August&#34; href=&#39;https://audaciousfox.net/2019/tiktok-lite&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-        <author>K.Q. Dreger</author>
-      
-        <title>▲︎ ‘Nobody Reads’</title>
-        <link>https://audaciousfox.net/2018/nobody-reads</link>
-      
-      <pubDate>Thu, 27 Dec 2018 12:35:36 -0500</pubDate>
-      
-      <description>
-        &lt;p&gt;This is the excuse I hear when product people are disappointed that customers missed some important piece of information conveyed through UI copy. The more important the information missed, the stronger the sentiment that Nobody Reads.&lt;/p&gt;
-&lt;p&gt;But this is like when someone truncates Winston Churchill&amp;rsquo;s quote on democracy. It&amp;rsquo;s more likely you&amp;rsquo;ve heard this bit:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;democracy is the worst form of Government&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Than how it finishes:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;except all those other forms that have been tried from time to time.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Similarly, Nobody Reads&amp;hellip; Bad Copy. If nobody is reading your copy, it means you need to work on the text &lt;em&gt;more&lt;/em&gt; so the reader can work less.&lt;/p&gt;
-&lt;p&gt;Generally, the following attributes contribute to bad copy: too long, filled with jargon, without actionable steps, visually unfriendly.&lt;/p&gt;
-&lt;p&gt;(It&amp;rsquo;s worth noting that, sometimes, UI copy might not be the best way to convey a concept. Complex instructions might be better explained visually. Consider the context of what you&amp;rsquo;re trying to explain. Dates, durations, or similar concepts can benefit from a graphical aid.)&lt;/p&gt;
-&lt;p&gt;In most cases of bad copy, the solution is simple. Imagine a customer is in front of you, and then rewrite the copy as though you were delivering the instructions audibly. Next, take what you&amp;rsquo;ve written and try to say it in half the words—remove anything that isn&amp;rsquo;t necessary. Finally, read what you have aloud to someone else. Cut and rewrite based on their feedback.&lt;/p&gt;
-&lt;p&gt;This process can take longer than you think. Make sure to budget time for copy revisions just as you would mockups. Going through three, five, or 10 drafts of important language isn&amp;rsquo;t a bad thing if 10,000 people are going to read the result.&lt;/p&gt;
 
         
       </description>

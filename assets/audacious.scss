@@ -266,16 +266,16 @@ text-rendering: optimizeLegibility;
                   }
 
 blockquote {
-  // color: var(--gray); 
-  // margin: 1.25rem 0 1.25rem 1.25rem ; 
-  // width: 80%; 
-  // border-radius: 0 12px 12px 12px;
-  // padding: 1.5rem;
-  // background: #f8f8f8;
-
+  padding: .5rem 1rem;
   border-left: solid 3px var(--copy);
   margin-left: .25rem;
+  margin-bottom: 0; 
 }
+
+blockquote + p {
+  margin-top: 1.25rem 
+}
+
 
 blockquote strong {
   text-transform: none;
