@@ -9,22 +9,24 @@
 :root {
   --link: #FFC200;
   --font-normal: 400; 
-  --font-bold: 900; 
+  --font-bold: 600; 
   --bg: #fff;
   --bg-article: #fff; 
-  --copy: #141414;
+  --copy: #333;
+  --copy-headings: #141414;
   --gray: #707070;
   --light-gray: #a1a1a1; 
   --lightest-gray: #dddddd; 
   --box-shadow: rgba(100,100,100,.12);
   --width-column: 34rem; 
+  --width-column: 30rem; 
   --width-sidebar: 10rem;
   --content-padding: 3rem;
   --line-height: 1.4; 
   --letter-spacing: .04em; 
-  --font-size: 20px; 
-  --font-serif: -apple-system, 'Georgia', serif;
-  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-size: 14px; 
+  --font-serif: 'Space Mono', 'Georgia', serif;
+  --font-sans: "Space Mono", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   
 }
 .night-theme {
@@ -74,7 +76,6 @@ code {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: subpixel-antialiased;
 -webkit-text-size-adjust: 100%;
-color: var(--text);
 font-family: var(--font-serif);
 font-weight: 400;
 margin: 0 auto;
@@ -87,7 +88,7 @@ text-rendering: optimizeLegibility;
   a {
     color: var(--copy); 
     text-decoration-skip-ink: auto;
-    text-decoration-thickness: 2px; 
+    text-decoration-thickness: 1.5px; 
     text-decoration-color: #ddd;
     text-decoration-color: var(--link); 
     &:hover { 
@@ -122,16 +123,17 @@ text-rendering: optimizeLegibility;
 
   h1, h2, h3 { 
   font-family: var(--font);
-  font-weight: normal;
+  font-weight: var(--font-bold);
   line-height: 1.2; 
   font-family: var(--font-sans); 
+  color: var(--copy-headings); 
 }
 
 
   h1 {
     font-size: 1.75rem; 
     margin-bottom: .5rem; 
-    font-weight: var(--font-bold);
+    font-weight: normal; 
     line-height: 1.1;
     text-transform: none; 
     a { text-decoration-color: transparent; }
@@ -141,7 +143,7 @@ text-rendering: optimizeLegibility;
     font-size: 1.25rem;
     margin-top: 2.5rem;
     margin-bottom: .5rem;
-    font-weight: var(--font-bold);
+    font-weight: normal;
     line-height: var(--line-height);
     &.link {
       margin-top: 0; 
@@ -205,11 +207,9 @@ text-rendering: optimizeLegibility;
 
         article {
           padding:  var(--content-padding); 
-          background-color: #faf8f7; 
+          // background-color: #faf8f7; 
           border-bottom: solid 2px var(--bg); 
           margin-bottom: .5rem;
-          border-radius: 16px; 
-          // background: var(--bg-article);
           border-bottom: solid 2px #f8f8f8;
           &:last-child { border: 0; }
         }
@@ -267,7 +267,7 @@ text-rendering: optimizeLegibility;
 
 blockquote {
   padding: .5rem 1rem;
-  border-left: solid 3px var(--copy);
+  border-left: solid 1.5px var(--lightest-gray);
   margin-left: .25rem;
   margin-bottom: 0; 
 }
@@ -357,7 +357,7 @@ figure {
 
 .page {
   display: flex; 
-  flex-direction: row; 
+  flex-direction: column; 
   width: 100%; 
 }
 
@@ -380,7 +380,7 @@ figure {
   padding: var(--content-padding);
   padding-right: 0; 
   padding-top: 4rem;
-  font-size: .875rem; 
+  // font-size: .875rem; 
   // width: 15rem; 
   order: 1;
   line-height: var(--line-height);
@@ -587,7 +587,7 @@ button {
 }
 
   @media (max-width: 60rem) {
-    html { font-size: 18px; }
+    html { font-size: 16px; }
     .wrapper {
       margin: 0 auto; 
       padding: .25rem; 

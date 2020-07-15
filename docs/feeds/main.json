@@ -14,6 +14,21 @@
         
             {
                
+                "title": "On Having Full RSS Feeds",
+                "external_url": "https://zacs.site/blog/maybe-a-good-idead.html",
+                 
+          "url": "https://audaciousfox.net/2020/full-rss-feeds/",
+                "date_published": "2020-04-15T20:18:33-04:00",
+                "id": "https://audaciousfox.net/2020/full-rss-feeds/",
+                "author": {
+                  "name" : "K.Q. Dreger"
+                },
+                "content_html": "\u003cp\u003eKev Quirk \u003ca href=\"https://kevq.uk/why-having-a-full-post-rss-feed-is-a-good-idea/\"\u003ethinks having a non-truncated RSS feed is a good idea\u003c/a\u003e. I agree. So does Zac Szewczyk\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWhenever I find a new writer, I go through everything they have ever written — turns out, good writers write good things often; this helps me find great works from their past. RSS feeds with, say, the site’s ten most recent posts make this much harder than ones with every article in them, so when I restarted this site, I took the latter route. Over a thousand posts would make my feed a hefty __ MB, though, so truncating the individual posts allowed me to strike a nice balance between the two.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eWait, how many people have their \u003cem\u003eentire\u003c/em\u003e site\u0026rsquo;s archive available through the RSS feed? I\u0026rsquo;ve only ever seen sites with the most recent 20-40 articles at max.\u003c/p\u003e\n\u003cdiv\u003e\u003ca title=\"Permanent link for On Having Full RSS Feeds\" href='https://audaciousfox.net/2020/full-rss-feeds'\u003e\u0026nbsp;▲︎\u0026nbsp;\u003c/a\u003e\u003c/div\u003e\n"
+            }
+        
+        , 
+            {
+               
                 "title": "Google Spins the Wheel on What to Call Hangouts, Again",
                 "external_url": "https://www.theverge.com/2020/4/9/21215588/google-chat-hangouts-meet-g-suite-name-change-rebranding",
                  
@@ -364,21 +379,6 @@
                   "name" : "K.Q. Dreger"
                 },
                 "content_html": "\u003cp\u003eTwitter\u0026rsquo;s calling it the \u0026ldquo;new twitter.com\u0026rdquo;, but this update \u003ca href=\"https://blog.twitter.com/en_us/topics/product/2017/introducing-twitter-lite.html\"\u003eis clearly the lite variant\u003c/a\u003e of their website that mobile users have been using for over a year. Good on them for pushing this out to everyone—I\u0026rsquo;ve found it to be significantly faster and nicer to use than the normal site. It\u0026rsquo;s also (\u003ca href=\"https://www.theverge.com/2018/2/16/17021960/twitter-mac-desktop-app-discontinued-support-ending\"\u003esadly\u003c/a\u003e) the best official way to use Twitter on your Mac.\u003c/p\u003e\n\u003cp\u003eIf you\u0026rsquo;re still seeing the old/current version, you can check out what\u0026rsquo;s coming by going directly to \u003ca href=\"https://mobile.twitter.com\"\u003emobile.twitter.com\u003c/a\u003e.\u003c/p\u003e\n\u003cdiv\u003e\u003ca title=\"Permanent link for Twitter Begins Rolling out ‘Lite’ Version of Website to Everyone\" href='https://audaciousfox.net/2019/twitter-lite-rolls-out-to-everyone'\u003e\u0026nbsp;▲︎\u0026nbsp;\u003c/a\u003e\u003c/div\u003e\n"
-            }
-        
-        , 
-            {
-               
-                "title": "Netflix Says ‘Fortnite’ is a Bigger Competitor Than HBO or Hulu",
-                "external_url": "https://www.polygon.com/2019/1/17/18187400/netflix-vs-fortnite-hbo-hulu-competition",
-                 
-          "url": "https://audaciousfox.net/2019/netflix-vs-fortnite/",
-                "date_published": "2019-01-22T22:51:32-05:00",
-                "id": "https://audaciousfox.net/2019/netflix-vs-fortnite/",
-                "author": {
-                  "name" : "K.Q. Dreger"
-                },
-                "content_html": "\u003cp\u003eMatt Patches, \u003cem\u003ePolygon\u003c/em\u003e, reporting on Netflix\u0026rsquo;s latest quarterly earnings report:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[\u0026hellip;] Netflix estimated that it commands 10 percent of television screen time in the U.S., and slightly less than that for total mobile screen time. In other countries, the percentages are lower due to \u0026ldquo;lower penetration of our service.\u0026rdquo; The reason, Netflix said, isn\u0026rsquo;t because of obvious streaming competition, but of online platforms and video games.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u0026ldquo;We compete with (and lose to) \u003ca href=\"https://www.polygon.com/game/fortnite/2417\"\u003e\u003cem\u003eFortnite\u003c/em\u003e\u003c/a\u003e more than HBO,\u0026rdquo; the report indicated. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eBy the end of 2018, Netflix claimed nearly 139 million paying memberships worldwide. Meanwhile, in November 2018, Epic reported that its blockbuster battle royale game commanded \u003ca href=\"https://www.bloomberg.com/news/articles/2018-11-26/fortnite-now-has-200-million-players-up-60-from-the-last-count\"\u003eupwards of 200 million\u003c/a\u003e registered users. In its quarterly report, Netflix made clear that \u0026ldquo;consumer screen time\u0026rdquo; is its most valuable metric, and that \u003cem\u003eFortnite\u003c/em\u003e — just one of endless options for plugged-in audiences \u0026ndash; offers the stiffest competition.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThat \u003cem\u003eFortnite\u003c/em\u003e impacts Netflix more than HBO should be a clear indicator as to why Netflix expects to \u003ca href=\"https://variety.com/2019/digital/news/netflix-content-spending-2019-15-billion-1203112090/\"\u003espend almost $15 billion on content this year\u003c/a\u003e. Netflix isn\u0026rsquo;t competing with HBO because HBO also makes content, Netflix competes with HBO because when you\u0026rsquo;re watching HBO you\u0026rsquo;re not watching Netflix. Sure, you could be paying for both, but once the attention scales tip too far in one direction, people begin to wonder if they really need that extra monthly subscription. Where attention goes, money follows.\u003c/p\u003e\n\u003cp\u003eThis is why features like \u003ca href=\"https://support.apple.com/en-us/HT208982\"\u003eScreen Time on iOS\u003c/a\u003e are so interesting to me\u0026ndash;they provide cold, hard numbers as to where I\u0026rsquo;m actually spending my time. Like Mint or \u003ca href=\"https://www.youneedabudget.com\"\u003eYNAB\u003c/a\u003e for your minutes. An attention budget.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s not just screen things, either. Netflix shows, Facebook status updates, \u003cem\u003eFortnite\u003c/em\u003e matches, wood carving, genoise sponge cake baking are all\u0026ndash;in some manner\u0026ndash;competing for your attention. \u003ca href=\"https://en.wikipedia.org/wiki/Attention_economy\"\u003eThe attention economy\u003c/a\u003e posits that as content becomes increasingly available, attention (read: time) becomes a scarce commodity. If 200 million people started regularly baking genoise in the evenings instead of watching Netflix, you can bet we\u0026rsquo;d hear Reed Hastings say \u0026ldquo;sponge cakes\u0026rdquo; in the next quarterly report.\u003c/p\u003e\n\u003cp\u003e(Once you start thinking about the digital services and apps we use as primarily chasing your attention instead of your dollars, it becomes easier to see how addictive and downright manipulating some of these user interfaces have become. But that’s for another post.)\u003c/p\u003e\n\u003cdiv\u003e\u003ca title=\"Permanent link for Netflix Says ‘Fortnite’ is a Bigger Competitor Than HBO or Hulu\" href='https://audaciousfox.net/2019/netflix-vs-fortnite'\u003e\u0026nbsp;▲︎\u0026nbsp;\u003c/a\u003e\u003c/div\u003e\n"
             }
         
     ]

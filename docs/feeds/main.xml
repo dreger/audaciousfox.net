@@ -6,7 +6,29 @@
     <atom:link href="https://audaciousfox.net/" rel="self" type="application/rss+xml"/>
     <rights>Copyright ©, K.Q. Dreger</rights>
 
-    <lastBuildDate>Thu, 09 Apr 2020 20:19:13 -0400</lastBuildDate>    
+    <lastBuildDate>Wed, 15 Apr 2020 20:18:33 -0400</lastBuildDate>    
+    <item>
+        <author>K.Q. Dreger</author>
+       
+        <title>On Having Full RSS Feeds</title>
+        <link>https://zacs.site/blog/maybe-a-good-idead.html</link>
+      
+      <pubDate>Wed, 15 Apr 2020 20:18:33 -0400</pubDate>
+      
+      <description>
+        &lt;p&gt;Kev Quirk &lt;a href=&#34;https://kevq.uk/why-having-a-full-post-rss-feed-is-a-good-idea/&#34;&gt;thinks having a non-truncated RSS feed is a good idea&lt;/a&gt;. I agree. So does Zac Szewczyk&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Whenever I find a new writer, I go through everything they have ever written — turns out, good writers write good things often; this helps me find great works from their past. RSS feeds with, say, the site’s ten most recent posts make this much harder than ones with every article in them, so when I restarted this site, I took the latter route. Over a thousand posts would make my feed a hefty __ MB, though, so truncating the individual posts allowed me to strike a nice balance between the two.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Wait, how many people have their &lt;em&gt;entire&lt;/em&gt; site&amp;rsquo;s archive available through the RSS feed? I&amp;rsquo;ve only ever seen sites with the most recent 20-40 articles at max.&lt;/p&gt;
+
+        
+          &lt;div&gt;&lt;a title=&#34;Permanent link for On Having Full RSS Feeds&#34; href=&#39;https://audaciousfox.net/2020/full-rss-feeds&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
         <author>K.Q. Dreger</author>
        
@@ -721,24 +743,6 @@
 
         
           &lt;div&gt;&lt;a title=&#34;Permanent link for GitHub Now Allows Free Accounts to Have Unlimited Private Repositories&#34; href=&#39;https://audaciousfox.net/2019/github-unlimited-private-repos&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-        <author>K.Q. Dreger</author>
-       
-        <title>TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August</title>
-        <link>https://techcrunch.com/2019/01/04/tiktoks-quietly-launched-lite-app-has-reached-over-12-million-downloads-since-august/</link>
-      
-      <pubDate>Sat, 05 Jan 2019 13:03:00 -0500</pubDate>
-      
-      <description>
-        &lt;p&gt;Rings the &lt;a href=&#34;https://audaciousfox.net/2018/lite/&#34;&gt;your &amp;lsquo;lite&amp;rsquo; app should be your only app&lt;/a&gt; bell for the millionth time.&lt;/p&gt;
-
-        
-          &lt;div&gt;&lt;a title=&#34;Permanent link for TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August&#34; href=&#39;https://audaciousfox.net/2019/tiktok-lite&#39;&gt;&amp;nbsp;▲︎&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
 
         
       </description>

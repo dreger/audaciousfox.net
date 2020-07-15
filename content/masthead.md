@@ -34,14 +34,14 @@ Some random tidbits I enjoy sharing: energy, diction, and honesty are three grea
 
 ## Colophon
 
-Headlines and body copy are set in [IBM Plex Mono](https://en.wikipedia.org/wiki/IBM_Plex) by Mike Abbink and Bold Monday. 
+Headlines and body copy are set in [Space Mono by Colophon Foundry](https://fonts.google.com/specimen/Space+Mono).  
 
 This site is hosted on GitHub Pages, the domain is registered through [Hover](http://hover.com), and the site files are generated via  [Hugo](https://gohugo.io/). I highly recommend all of the above.
 
 This site should look good in all modern web browsers—please let me know if it doesn't. 
 
 
-*Previous typefaces:  [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., [Source Serif Pro](https://fonts.adobe.com/fonts/source-serif) by Adobe, [Inter](https://rsms.me/inter/) by Rasmus Andersson, [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, San Francisco, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
+*Previous typefaces: [IBM Plex Mono](https://en.wikipedia.org/wiki/IBM_Plex) by Mike Abbink and Bold Monday, [Gotham](https://www.typography.com/fonts/gotham/overview/) by Hoefler &amp; Co., [Source Serif Pro](https://fonts.adobe.com/fonts/source-serif) by Adobe, [Inter](https://rsms.me/inter/) by Rasmus Andersson, [Concourse](http://practicaltypography.com/concourse.html) by Matthew Butterick, San Francisco, Athelas by Veronika Burian and Jose Scaglione, and [Charter](http://practicaltypography.com/charter.html) by Matthew Carter.*
 
 *Previous stack: Custom nginx setup hosted on [DigitalOcean](https://www.digitalocean.com) with SSL provided by the wonderful [Let's Encrypt](https://letsencrypt.org/).*
 
