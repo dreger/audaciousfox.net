@@ -1,9 +1,9 @@
 {{ $redirect_url := "" }}
 
 {{ if (eq .Section "linked") }}
-	{{ $redirect_url = replaceRE "2020|2019|2018|2017|2016" "links$1" .RelPermalink }}
+	{{ $redirect_url = replaceRE "2020|2019|2018|2017|2016|2015|2014|2013|2012|2011|2010|2009" "links$1" .RelPermalink }}
 {{ else }}
-	{{ $redirect_url = replaceRE "2020|2019|2018|2017|2016" "notes$1" .RelPermalink }}
+	{{ $redirect_url = replaceRE "2020|2019|2018|2017|2016|2015|2014|2013|2012|2011|2010|2009" "notes$1" .RelPermalink }}
 {{ end }}
 
 {{ $base := "https://audacious.blog" }}
