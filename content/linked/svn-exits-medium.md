@@ -20,4 +20,4 @@ Unfortunately, Basecamp wasn't able to export any of the comments on their old p
 
 As far as traditional blogs swinging "back into style", I do hope that's the case. Most of my favorite, non-news Internet content is the work of around 20 different writers, programmers, designers, and thinkers that I've stumbled across and subscribed to over the years. I list a few of my favorites [over here](https://audaciousfox.net/masthead#other-writers-worth-reading). 
 
-As a side note: If you're new to the blogging scene, welcome. There's never been a better time to start writing your own site, nor have there been more platforms and frameworks that give *you* control over your content and its presentation. And if you need help? [Shoot me an email]({{< ref "/masthead.md" >}})—I'd love to help you out. 
+As a side note: If you're new to the blogging scene, welcome. There's never been a better time to start writing your own site, nor have there been more platforms and frameworks that give *you* control over your content and its presentation. And if you need help? [Shoot me an email](/)—I'd love to help you out. 

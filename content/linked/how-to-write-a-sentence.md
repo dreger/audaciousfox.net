@@ -10,4 +10,3 @@ Author Joe Moran had quite a long-winded piece in *The Guardian* about writing, 
 
 I'm all for excellent technical writing (see [my style guide]), but most of the writings I consider *great* have an almost lyrical quality to them. 
 
-[my style guide]: {{< ref "/projects/style-guide.md" >}}
