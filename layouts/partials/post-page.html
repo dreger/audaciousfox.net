@@ -6,17 +6,17 @@
 	{{ $redirect_url = replaceRE "2020|2019|2018|2017|2016|2015|2014|2013|2012|2011|2010|2009" "notes$1" .RelPermalink }}
 {{ end }}
 
-{{ $base := "https://audacious.blog" }}
 
+{{ $base := "https://audacious.blog" }}
 
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ $base }}{{ $redirect_url }}</title>
-    <link rel="canonical" href="{{ $base }}{{ $redirect_url }}"/>
-    <meta name="robots" content="noindex">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="refresh" content="0; url={{ $base }}{{ $redirect_url }}"/>
+    <title>{{ $base }}{{ .RelPermalink }}</title>
+    <link rel='canonical' href='{{ $base }}{{ strings.TrimSuffix "/" .RelPermalink }}'/>
+    <meta name='robots' content='noindex'>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
+    <meta http-equiv='refresh' content='0; url={{ $base }}{{ strings.TrimSuffix "/" .RelPermalink }}'/>
   </head>
 </html>
 

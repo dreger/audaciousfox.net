@@ -4,13 +4,12 @@
 .canonical-link--post { display: none; }
 </style>
 
-<article><h2>Dropping the fox. Now found at <a href="https://audacious.blog">Audacious.blog &rarr;</a></h2>
-	</article>
-<!-- 
+<!-- <article><h2>Dropping the fox. Now found at <a href="https://audacious.blog">Audacious.blog &rarr;</a></h2></article> -->
+
 {{ range (first 30 (where .Site.RegularPages "Type" "in" "archivelinked")) }}
 {{ partial "post.html" . }}
 {{end}}
- -->
+
 <!-- <article>Quite the completionist. Thanks for reading ✌️</article> -->
 
 <!-- {{ partial "footer.html" . }} -->
